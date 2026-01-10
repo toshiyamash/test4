@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2025-2</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2025年</p>
+      <p><span class="bold">問題2</span>&emsp;現在の行政組織に関する次の記述のうち、<span class="bold">最も不適当な</span>ものはどれか．                
+      <p><span class="bold">（1）</span>消防法は，総務省が所管している．
+      <p><span class="bold">（2）</span>廃棄物の処理及び清掃に関する法律(以下「廃棄物処理法」という．) は，厚生労働省が所管している．
+      <p><span class="bold">（3）</span>下水道法は，国土交通省と環境省が所管している．
+      <p><span class="bold">（4）</span>建築基準法は，国土交通省が所管している．
+      <p><span class="bold">（5）</span>旅館業法は，厚生労働省が所管している．
+    </div>
+
+    <div id="tab2">
+      <p>2025年</p>
+      <p class="bold">問題2&emsp;正解（2）&emsp;頻出度AAA
+      <p>廃棄物処理法を所管するのは環境省である（<span class="bold">2025-2-1表</span>参照）．
+      <table>
+          <caption>2025-2-1表 よく出題される所管法令</caption>
+          <tr>
+              <td>厚生労働省</td>
+              <td>建築物における衛生的環境の確保に関する法律<br>
+                  地域保健法<br>
+                  興行場法&emsp;旅館業法</span>&emsp;公衆浴場法</span>&emsp;食品衛生法</span><br>
+                  理容師法&emsp;クリーニング業法</span><br>
+                  労働基準法&emsp;労働安全衛生法</span><br>
+                  感染症の予防及び感染症の患者に対する医療に関する法律
+              </td>
+          </tr>
+          <tr>
+              <td>環境省</td>
+              <td>環境基本法<br>
+                  大気汚染防止法&emsp;水質汚濁防止法</span>&emsp;悪臭防止法</span>&emsp;騒音規制法</span><br>
+                  土壌汚染対策法<br>
+                  <span class="underln">廃棄物の処理及び清掃に関する法律</span><br>
+                  水道法&emsp;下水道法&emsp;浄化槽法
+              </td>
+          </tr>
+          <tr>
+              <td>国土交通省</td>
+              <td>建築基準法&emsp;建築士法</span>&emsp;都市計画法</span><br>
+                  水道法&emsp;下水道法&emsp;浄化槽法
+              </td>
+          </tr>
+          <tr>
+              <td>総務省</td>
+              <td>消防法</td>
+          </tr>
+          <tr>
+              <td>文部科学省</td>
+              <td>学校教育法&emsp;学校保健安全法</span>
+              </td>
+          </tr>
+      </table>
+      <p>水道法，下水道法，浄化槽法は，環境省が水質・衛生関係を所管し，それ以外を国土交通省が所管している．
+    </div>
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-3.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-1.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

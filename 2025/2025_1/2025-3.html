@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2025-3</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2025年</p>
+      <p><span class="bold">問題3</span>　建築物における衛生的環境の確保に関する法律(以下「建築物衛生法」という．) に関する次の記述のうち，<span class="bold">誤っている</span>ものはどれか．                
+      <p><span class="bold">（1）</span>建築物衛生法は，建築物の維持管理面について規制を行っている．
+      <p><span class="bold">（2）</span>建築物衛生法に基づく事業の登録に関する事務は，都道府県知事が行う．
+      <p><span class="bold">（3）</span>特定建築物以外の建築物であっても，多数の者が使用し，又は利用する建築物については，建築物環境衛生管理基準に従って維持管理をするように努めなければならない．
+      <p><span class="bold">（4）</span>建築物環境衛生管理技術者に，建築物環境衛生管理基準の遵守を義務付けている．
+      <p><span class="bold">（5）</span>特定建築物の所有者等には，所有者以外に，特定建築物の全部の管理について権原を有する者が含まれる．
+    </div>
+
+    <div id="tab2">
+      <p>2025年</p>
+      <p class="bold">問題3　正解（4）　頻出度AAA
+      <p>ビル管理法第4条により，建築物環境衛生管理基準の遵守を義務付けられているのは，「特定建築物の所有者，占有者等の管理権原者」である．
+    </div>
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-4.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-2.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+    #tabss {
+    /* 画面の右下に固定 */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    
+    /* 他の要素より前面に表示 */
+    z-index: 9999;
+    
+    /* 大きさの調整（必要に応じて） */
+    /* width: 300px;
+    max-width: 90vw; */    
+    }
+
+    /* コンテンツ部分が長くなった場合にスクロールできるようにする */
+    .ui-tabs-panel {
+      max-height: 600px;
+      overflow-y: auto;
+    }
+
+    /* ▼次問・前問・問題選択ボタン */
+    #buttons {
+    /* 画面の右下に固定 */
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    
+    /* 他の要素より前面に表示 */
+    z-index: 9999;
+    }
+
+    /* 太字 */
+    .bold{
+      font-weight: bold;          
+    }
+    /* 問題文選択肢中つなぎ線 */ 
+    .connectLine{         
+      text-decoration-line: line-through;
+    }
+
+    /* table関係 */ 
+    table {
+    width: 100%;
+    /* table-layout: fixed; */
+    border-collapse:  collapse;     /* セルの線を重ねる */
+    }
+    caption {
+      font-weight: bold;
+    }
+    table.auto-layout {
+    table-layout: auto;
+    }
+    th,td {
+    border: solid 1px;              /* 枠線指定 */
+    padding: 5px;                   /* セル内余白 */
+    }
+    td.divider {
+    width: 1px;          /* 幅を1pxに固定 */
+    padding: 0;          /* 余白を完全に排除 */
+    background-color: #ccc; /* 線の色（グレーなど） */
+    }
+    .tdVertical{                   /* 表内縦書き */   
+    /* vertical-align:middle; */
+    writing-mode: vertical-lr;  
+    }
+    tr>*:empty{       /* tableの空白のセルに斜線↗（to left top）をひく https://csshtml.work/table-shasen/ */
+    background-image: linear-gradient(to left top, transparent calc(50% - 0.5px), #999 50%, #999 calc(50% + 0.5px), transparent calc(50% + 1px)) !important;
+    }
+
+    /* 一般装飾 */
+    .underln {
+    text-decoration: underline red;
+    text-underline-offset:0.2em;
+    }
+
+    /* マージン（下）調整 */
+    .mb-5  { margin-bottom: 5px; }
+    .mb-10 { margin-bottom: 10px; }
+    .mb-20 { margin-bottom: 20px; }
+
+    /* 選択ボタンの装飾 */
+    .btn-outline {
+    background-color: transparent; /* 背景を透明に */
+    color: #007bff;                /* 文字色を青に */
+    border: 2px solid #007bff;    /* 枠線を青に */
+    }
+
+    .btn-outline:hover {
+    background-color: #007bff;    /* ホバーで塗りつぶす */
+    color: white;
+    }
+
+
+
+
