@@ -78,9 +78,15 @@
     .mb-10 { margin-bottom: 10px; }
     .mb-20 { margin-bottom: 20px; }
 
+     /* マージン（左）調整 */
+    .ml-10 { margin-left: 10px; }
+    .ml-30 { margin-left: 30px; }
+    .ml-50 { margin-left: 50px; }
+    
+
     /* 選択ボタンの装飾 */
     .btn-outline {
-    background-color: transparent; /* 背景を透明に */
+    background-color: white; /* 背景を透明に */
     color: #007bff;                /* 文字色を青に */
     border: 2px solid #007bff;    /* 枠線を青に */
     }
@@ -90,6 +96,32 @@
     color: white;
     }
 
+    /* 索引用（要素を1〜5列に整列させる） */
+    .grid-container {
+      display: grid;
+      /* 基本は1列（スマホ用） */
+      grid-template-columns: 1fr; 
+      gap: 15px;
+    }
 
+    .textcenter{
+      text-align: center;      
+    }
+
+    /* .item {
+      background: #f0f0f0;
+      border: 1px solid #ccc;
+      padding: 5px;
+      text-align: center;
+      border-radius: 8px;
+    } */
+
+    /* 画面が広くなったら自動計算に切り替える */
+    @media (min-width: 400px) {
+      .grid-container {
+        /* 最小幅18%にすれば、最大5列程度に収まります */
+        grid-template-columns: repeat(auto-fit, minmax(18%, 1fr));
+      }
+    }
 
 
