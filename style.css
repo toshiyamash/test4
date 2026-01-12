@@ -1,4 +1,6 @@
-    #tabss {
+
+/* タブ機能関係 */
+  #tabss {
     /* 画面の右下に固定 */
     position: fixed;
     right: 20px;
@@ -18,7 +20,7 @@
       overflow-y: auto;
     }
 
-    /* ▼次問・前問・問題選択ボタン */
+/* 次問・前問ボタン関係 */
     #buttons {
     /* 画面の右下に固定 */
     position: fixed;
@@ -29,10 +31,6 @@
     z-index: 9999;
     }
 
-    /* 太字 */
-    .bold{
-      font-weight: bold;          
-    }
     /* 問題文選択肢中つなぎ線 */ 
     .connectLine{         
       text-decoration-line: line-through;
@@ -67,24 +65,7 @@
     background-image: linear-gradient(to left top, transparent calc(50% - 0.5px), #999 50%, #999 calc(50% + 0.5px), transparent calc(50% + 1px)) !important;
     }
 
-    /* 一般装飾 */
-    .underln {
-    text-decoration: underline red;
-    text-underline-offset:0.2em;
-    }
-
-    /* マージン（下）調整 */
-    .mb-5  { margin-bottom: 5px; }
-    .mb-10 { margin-bottom: 10px; }
-    .mb-20 { margin-bottom: 20px; }
-
-     /* マージン（左）調整 */
-    .ml-10 { margin-left: 10px; }
-    .ml-30 { margin-left: 30px; }
-    .ml-50 { margin-left: 50px; }
-    
-
-    /* 選択ボタンの装飾 */
+/* ホーム，テーマ，索引ボタン関係 */
     .btn-outline {
     background-color: white; /* 背景を透明に */
     color: #007bff;                /* 文字色を青に */
@@ -96,25 +77,14 @@
     color: white;
     }
 
-    /* 索引用（要素を1〜5列に整列させる） */
+/* 索引ページ用（要素を1〜5列に整列させる） */
+  /*要素を1〜5列に整列させる*/
     .grid-container {
       display: grid;
       /* 基本は1列（スマホ用） */
       grid-template-columns: 1fr; 
       gap: 15px;
     }
-
-    .textcenter{
-      text-align: center;      
-    }
-
-    /* .item {
-      background: #f0f0f0;
-      border: 1px solid #ccc;
-      padding: 5px;
-      text-align: center;
-      border-radius: 8px;
-    } */
 
     /* 画面が広くなったら自動計算に切り替える */
     @media (min-width: 400px) {
@@ -124,4 +94,38 @@
       }
     }
 
+/* 一般装飾 */
 
+    /* 赤下線 */
+    .underln {
+    text-decoration: underline red;
+    text-underline-offset:0.2em;
+    }
+
+    /* テキストセンター */
+    .textcenter{
+      text-align: center;      
+    }
+
+    /* 太字 */
+    .bold{
+      font-weight: bold;          
+    }
+
+    /* マージン（下）調整 */
+    .mb-5  { margin-bottom: 5px; }
+    .mb-10 { margin-bottom: 10px; }
+    .mb-20 { margin-bottom: 20px; }
+
+     /* マージン（左）調整 */
+    .ml-10 { margin-left: 10px; }
+    .ml-30 { margin-left: 30px; }
+    .ml-50 { margin-left: 50px; }
+
+    /* リンク元の色 */
+    a {
+      color: #007bff; /* 青色 */
+    }    
+    a:visited {
+      color: #007bff; /* 訪問後も青色のままにする */
+    }

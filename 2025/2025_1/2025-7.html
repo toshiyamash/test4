@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2025-7</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2025年</p>
+        <p><span class="bold">問題7</span>&emsp;建築物環境衛生管理基準に基づく飲料水の衛生上必要な措置に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+        <p><span class="bold">（1）</span>水道事業者が供給する水(水道水) を直結給水により，特定建築物内に飲料水として供給する場合であっても，当該特定建築物の維持管理権原者が定期の水質検査を行う必要がある．
+        <p><span class="bold">（2）</span>水道水を特定建築物内の貯水槽に貯留して供給する場合，貯水槽以降の飲料水の管理責任者は，当該特定建築物の維持管理権原者である．
+        <p><span class="bold">（3）</span>供給する水が人の健康を害するおそれがあると知ったときは，直ちに給水を停止し，かつ，その水を使用することが危険である旨を関係者に周知する．
+        <p><span class="bold">（4）</span>飲用目的だけでなく，炊事用など，人の生活の用に供する水も，水道法で定める水質基準に適合する水を供給することが必要である．
+        <p><span class="bold">（5）</span>水道水以外の井水等を飲用目的で使用する場合，給水栓における遊離残留塩素の保持が必要である．                     
+    </div>
+
+    <div id="tab2">
+      <p>2025年</p>
+        <p class="bold">問題7&emsp;正解（1）&emsp;頻出度AAA
+        <p>ビル管理法では，直結給水，すなわち水道法第3条のいう「給水装置<sup>※</sup>」のみによって水道水を供給する場合は，水質基準の定期検査ならびに残留塩素の検査は必要ない（ビル管理法施行令第2条第二号のイ）．
+        <br>※給水装置：この法律において「給水装置」とは、需要者に水を供給するために水道事業者の施設した配水管から分岐して設けられた給水管及びこれに直結する給水用具をいう（水道法第3条第9項）。
+        <br><span class="bold">-(2)</span>にあるとおり，貯水槽を設けると，それ以降の飲料水の管理責任者は，当該特定建築物の維持管理権原者となって，水質基準の定期検査ならびに残留塩素の検査が必要となってくる．
+    </div>
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-8.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-6.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
