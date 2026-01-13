@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2025-13</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題13</span>&emsp;地域保健法に基づく保健所の事業として，<span class="bold">最も適当な</span>ものは次のうちどれか．
+        <p><span class="bold">（1）</span>生活保護に関する事項
+        <p><span class="bold">（2）</span>人口動態統計に関する事項
+        <p><span class="bold">（3）</span>介護認定に関する事項
+        <p><span class="bold">（4）</span>身体障害者に対する援護に関する事項
+        <p><span class="bold">（5）</span>児童虐待の防止に関する事項
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題13&emsp;正解（2）&emsp;頻出度AAA</span>
+        <p><span class="bold">-(2) </span>の，「人口動態統計に関する事項」が正しい．
+        <p>地域保健法第6条の定める保健所の業務は次のとおり．
+        <p>保健所は，次に掲げる事項につき，企画，調整，指導及びこれらに必要な事業を行う．
+        <p>1．地域保健に関する思想の普及及び向上に関する事項
+        <p>2．人口動態統計その他地域保健に係る統計に関する事項
+        <p>3．栄養の改善及び食品衛生に関する事項
+        <p>4．住宅，水道，下水道，廃棄物の処理，清掃その他の環境の衛生に関する事項
+        <p>5．医事及び薬事に関する事項
+        <p>6．保健師に関する事項
+        <p>7．公共医療事業の向上及び増進に関する事項
+        <p>8．母性及び乳幼児並びに老人の保健に関する事項
+        <p>9．歯科保健に関する事項
+        <p>10．精神保健に関する事項
+        <p>11．治療方法が確立していない疾病その他の特殊の疾病により長期に療養を必要とする者の保健に関する事項
+        <p>12．エイズ，結核，性病，伝染病その他の疾病の予防に関する事項
+        <p>13．衛生上の試験及び検査に関する事項
+        <p>14．その他地域住民の健康の保持及び増進に関する事項
+        <p><span class="bold">-(1) </span>生活保護に関する事項は，都道府県，区市町村の福祉事務所の担当．
+        <p><span class="bold">-(2) </span>介護認定は区市町村に設置される介護認定審査会．
+        <p><span class="bold">-(4) </span>身体障害者に対する援護に関する事項を担当するのは，区市町村役場．
+        <p><span class="bold">-(5) </span>児童虐待の防止に関する事項は，都道府県，区市町村の児童相談所が担当している．
+        <p>他に，「国民健康保険に関わる業務」がよく出題されるが，これは区市町村役場の業務．
+        <br>また，「労働者の衛生」，「労働衛生に関する業務」などが出題されるが，「労働」と付くと，自治体の機関である保健所の出る幕はなくなり，国の機関である労働基準監督署や都道府県労働局の管轄となる（労働衛生行政は中央・地方を通じて一元的に国の機関が直接行政を行っている）．
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-14.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-12.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

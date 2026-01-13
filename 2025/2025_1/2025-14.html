@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2025-14</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題14</span>&emsp;学校保健安全法に規定されている学校薬剤師の職務として，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+        <p><span class="bold">（1）</span>学校安全計画の立案への参与
+        <p><span class="bold">（2）</span>水泳プールの水質検査
+        <p><span class="bold">（3）</span>健康診断
+        <p><span class="bold">（4）</span>学校における毒物及び劇物の管理に関する指導
+        <p><span class="bold">（5）</span>教室の空気に関する検査
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題14&emsp;正解（3）&emsp;頻出度AAA</span>
+        <p>「健康診断」に従事するのは，学校医の職務である．学校医と学校薬剤師の職務の条文を次に挙げる．
+        <p>学校保健安全法施行規則 第二十二条&emsp;学校医の職務執行の準則は，次の各号に掲げるとおりとする．
+        <p>一&emsp;学校保健計画及び学校安全計画の立案に参与すること．
+        <p>二&emsp;学校の環境衛生の維持及び改善に関し，学校薬剤師と協力して，必要な指導及び助言を行うこと．
+        <p>三&emsp;法第八条の健康相談に従事すること．
+        <p>四&emsp;法第九条の保健指導に従事すること．
+        <p>五&emsp;法第十三条の健康診断<sup>※1</sup>に従事すること．
+        <p>六&emsp;法第十四条の疾病の予防処置に従事すること．（以下略）
+        <p>第二十四条&emsp;学校薬剤師の職務執行の準則は，次の各号に掲げるとおりとする．
+        <p>一&emsp;学校保健計画及び学校安全計画の立案に参与すること．
+        <p>二&emsp;第一条の環境衛生検査<sup>※2</sup>に従事すること．
+        <p>三&emsp;学校の環境衛生の維持及び改善に関し，必要な指導及び助言を行うこと．
+        <p>四&emsp;法第八条の健康相談に従事すること．
+        <p>五&emsp;法第九条の保健指導に従事すること．
+        <p>六&emsp;学校において使用する医薬品，毒物，劇物並びに保健管理に必要な用具及び材料の管理に関し必要な指導及び助言を行い，及びこれらのものについて必要に応じ試験，検査又は鑑定を行うこと．（以下略）
+        <p>※1 健康診断は，健康診断票の作成も含めて，医業として医師の独占業務である（頻出）．
+        <p>※2 薬剤師の職務である環境衛生検査には，二酸化炭素の濃度などの空気環境や，プールの水質，騒音，照度，ねずみの生息状況などが含まれる（文部科学大臣が定める<a href="https://www.mext.go.jp/content/20240401-mxt_kenshoku-100000613_2.pdf" target="_blank" rel="noopener noreferrer">学校環境衛生基準</a>参照）．                
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-15.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-13.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

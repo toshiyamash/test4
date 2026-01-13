@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2025-16</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題16</span>&emsp;次のア～オの生活衛生関係営業のうち，施設の閉設又は営業に当たって許可を要しないものの組合せとして，<span class="bold">正しい</span>ものはどれか．
+        <p>ア&emsp;旅館
+        <p>イ&emsp;美容所
+        <p>ウ&emsp;公衆浴場
+        <p>エ&emsp;クリーニング所
+        <p>オ&emsp;映画館
+        <p><span class="bold">（1）</span>アとイ
+        <p><span class="bold">（2）</span>アとウ
+        <p><span class="bold">（3）</span>イとエ
+        <p><span class="bold">（4）</span>ウとオ
+        <p><span class="bold">（5）</span>工とオ
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題16&emsp;正解（3）&emsp;頻出度AAA</span>
+        <p>イの美容所とエのクリーニング所は届け出制である．
+        <p>生活衛生関係営業は，それぞれの法律で許可のいるものと事前に届け出なければならないものに大別される．
+        <p>許可制の法律：興行場法，旅館業法，興行場法等
+        <p>届け出制の法律：理容師法，美容師法，クリーニング業法
+        <p>理容所，美容所，クリーニング所の営業の届け出は，それぞれの所在地の都道府県知事，保健所を設置する市の市長又は特別区の区長に対して行い，検査に合格したあとでなければ営業を開始することはできない．
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-17.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-15.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

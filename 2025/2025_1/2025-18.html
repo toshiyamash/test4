@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2025-18</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題18</span>&emsp;水質汚濁防止法の目的に関する次の条文の<span class="whiteFrame">&emsp;　　</span>内に入る語句の組合せとして，<span class="bold">正しい</span>ものはどれか．
+        <p>「この法律は，工場及び事業場から公共用水域に排出される水の排出及び地下に浸透する水の浸透を規制するとともに，<span class="whiteFrame">　ア　</span>の実施を推進すること等によって，公共用水域及び地下水の水質の汚濁の防止を図り，もって国民の健康を保護するとともに<span class="whiteFrame">　イ　</span>し，並びに工場及び事業場から排出される汚水及び廃液に関して人の健康に係る被害が生じた場合における<span class="whiteFrame">　ウ　</span>について定めることもこより，被害者の保護を図ることを目的とする．」
+        <p><span style="margin-left: 4.5rem;">ア</span><span style="margin-left: 8rem;">イ</span><span style="margin-left: 9.5rem;">ウ</span></p>
+        <p><span class="bold">（1）</span>生活排水対策<span class="connectLine">　　　</span>生活環境を保全<span class="connectLine">　　　</span>事業者の損害賠償の責任
+        <p><span class="bold">（2）</span>下水対策<span class="connectLine">　　　　　</span>生活環境を保全<span class="connectLine">　　　</span>緊急時の措置
+        <p><span class="bold">（3）</span>生活排水対策<span class="connectLine">　　　</span>生活環境を保全<span class="connectLine">　　　</span>緊急時の措置
+        <p><span class="bold">（4）</span>下水対策<span class="connectLine">　　　　　</span>衛生水準を維持<span class="connectLine">　　　</span>緊急時の措置
+        <p><span class="bold">（5）</span>生活排水対策<span class="connectLine">　　　</span>衛生水準を維持<span class="connectLine">　　　</span>事業者の損害賠償の責任
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題18&emsp;正解（1）&emsp;頻出度AAA</span>
+        <p>水質汚濁防止法&emsp;第一条&emsp;（目的）
+        <br>この法律は，工場及び事業場から公共用水域に排出される水の排出及び地下に浸透する水の浸透を規制するとともに，<span class="underln">生活排水対策</span>の実施を推進すること等によつて，公共用水域及び地下水の水質の汚濁（水質以外の水の状態が悪化することを含む．以下同じ．）の防止を図り，もつて国民の健康を保護するとともに<span class="underln">生活環境を保全</span>し，並びに工場及び事業場から排出される汚水及び廃液に関して人の健康に係る被害が生じた場合における<span class="underln">事業者の損害賠償の責任</span>について定めることにより，被害者の保護を図ることを目的とする．        
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-19.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-17.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

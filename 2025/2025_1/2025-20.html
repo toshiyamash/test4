@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2025-20</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題20</span>&emsp;次の国際的合意のうち，主として廃棄物対策に<span class="bold">関する</span>ものはどれか．
+        <p><span class="bold">（1）</span>京都議定書
+        <p><span class="bold">（2）</span>ラムサール条約
+        <p><span class="bold">（3）</span>バーゼル条約
+        <p><span class="bold">（4）</span>モントリオール議定書
+        <p><span class="bold">（5）</span>ワシントン条約
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題20&emsp;正解（3）&emsp;頻出度AAA</span>
+        <p>バーゼル条約の正式名称は，「有害廃棄物の国境を越える移動及びその処分の規制に関するバーゼル条約」という．我が国は1993年に批准した．
+        <p><span class="bold">-(1) </span>京都議定書：1997年に京都で開かれたCOP3で採択され、先進国に温室効果ガス排出削減の法的拘束力のある数値目標を課した．
+        <p><span class="bold">-(2) </span>ラムサール条約：特に水鳥の生息地として国際的に重要な湿地に関する条約
+        <p><span class="bold">-(4) </span>オゾン層を破壊する物質に関するモントリオール議定書&emsp;
+        <p><span class="bold">-(5) </span>ワシントン条約：絶滅のおそれのある野生動植物の種の国際取引に関する条約
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='../2025_2/2025-21.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-19.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

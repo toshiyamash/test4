@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2025-21</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題21</span>&emsp;健康に影響を与える環境要因のうち，化学的要因として<span class="bold">最も不適当な</span>ものは次のうちどれか。                
+        <p><span class="bold">（1）</span>酸素
+        <p><span class="bold">（2）</span>硫黄酸化物
+        <p><span class="bold">（3）</span>オゾン
+        <p><span class="bold">（4）</span>し尿
+        <p><span class="bold">（5）</span>超音波
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題21&emsp;正解（5）&emsp;頻出度AAA
+        <p>超音波は物理的要因に分類される（<span class="bold">2025-21-1表</span>参照）．
+        <table>
+            <caption class="bold ">2025-21-1表&emsp;健康に影響を与える項境要因&emsp;</span></caption>
+            <tr>
+                <td nowrap>物理的要因</td>
+                <td>気候，温度，湿度，気流，気圧，熱，光，放射線，音，<span class="underln">超音波</span>，振動等</td>
+            </tr>
+            <tr>
+                <td>化学的要因</td>
+                <td>空気，酸素，二酸化炭素，窒素，一酸化炭素，オゾン，硫黄酸化物，粉じん，水，し尿，廃棄物等</td>
+            </tr>
+            <tr>
+                <td>生物的要因</td>
+                <td>植物，ウイルス，リケッチア，細菌，寄生虫，昆虫，ネズミ，その他の動物等</td>
+            </tr>
+            <tr>
+                <td>社会的要因</td>
+                <td>文化，産業，教育，医療，福祉，行政，経済，交通，情報，宗教等</td>
+            </tr>
+        </table>
+        <p>オゾンが物理的要因としてよく出題されるが，化学的要因である．
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-22.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../2025_1/2025-20.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
