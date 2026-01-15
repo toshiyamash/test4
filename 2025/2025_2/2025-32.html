@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-32</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題31</span>&emsp;空気汚染物質とその健康障害との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．               
+        <p><span class="bold">問題32</span>&emsp;ホルムアルデヒドに関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．               
+        <p><span class="bold">（1）</span>常温では気体として存在する．
+        <p><span class="bold">（2）</span>水に溶けにくい．
+        <p><span class="bold">（3）</span>可燃性である．
+        <p><span class="bold">（4）</span>建築基準法により，含有建材の使用が制限されている．
+        <p><span class="bold">（5）</span>粘膜に対する刺激が強い．
+     </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題32&emsp;正解（2）&emsp;頻出度AAA</span>
+        <p>ホルムアルデヒド（HCHO）は，水やアルコール等に溶けやすく，35～38％水溶液はホルマリンと呼ばれている．
+        <p>ホルムアルデヒドは還元性<sup>※</sup>が強く，人の粘膜に対する刺激性が強い．人間にとって毒性が高く，発がん性が確認されている．
+        <p>※ 酸化・還元反応：酸素を与える，又は電子を奪う反応を酸化，その逆，酸素を奪う（電子を与える）反応を還元反応と言う．</span>
+        <p>ホルムアルデヒドは，沸点−19.3℃の有機化合物で，刺激臭を有し，常温では可燃性の無色の気体である．
+        <p>合板やフローリング等に使用される尿素系（ユリア樹脂系），メラミン系，フェノール系等の合成樹脂や接着剤，消毒剤，化粧品，洗剤，防腐剤等の原料として広い分野で使用されている（国内生産量は年間100万t以上）．これ等の建材等から発生したホルムアルデヒドがシックハウス症候群の原因の1つと言われる．建築基準法によってホルムアルデヒドを含む建材の使用が制限されている．
+        <p>ホルムアルデヒドはたばこ煙や，燃焼排気中にも含まれる．
+        <p>ホルムアルデヒドは，光化学反応によって生成される光化学スモッグの1つである．
+        <p>ホルムアルデヒドは，ビル管理法では0.1mg/m<sup>3</sup>以下，飲料水の水質基準では0.08mg/L以下と基準値が定められているが，環境基本法の環境基準や水質汚濁防止法の有害物質には含まれていない．
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-33.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-31.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

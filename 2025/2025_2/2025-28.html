@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-28</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題28</span>&emsp;ヒトの発がんに関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか。                
+        <p><span class="bold">（1）</span>ヒトのがんの3分の2以上は，食事や喫煙等の生活環境に関わる要因が原因とされる．
+        <p><span class="bold">（2）</span>日光を浴びることが，発がんの原因となることがある．
+        <p><span class="bold">（3）</span>細胞の増殖を促進する物質は，イニシエータである．
+        <p><span class="bold">（4）</span>発がん促進因子を減らし，抑制因子を増やすことにより，発がんリスクを低下させることができる．
+        <p><span class="bold">（5）</span>建築物の空気中に存在しうる発がん物質からの<ruby>曝<rt>ばく</rt></ruby>露を抑えることは，がんの一次予防となる．
+     </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題28&emsp;正解（3）&emsp;頻出度AAA
+        <p>細胞の増殖を促進する物質はプロモータである．
+        <p>最初に遺伝子DNAに傷をつけて変異を起こさせる物質をイニシエータ（initiator：創始者，発起人，起爆剤などの意）といい，プロモータ（promoter：興行主，促進者）は細胞の増殖を促進したり，活性酸素を増大させてがん化を促進する物質などをいう．
+        <p><span class="bold">-(1) </span>ヒトの発がん要因（<span class="bold">2025-28-1図</span>参照）．
+        <div class="imgcap">2025-28-1図&emsp;ヒトの発がん要因</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/images_2/ヒトの発がん要因.svg" alt="ヒトの発がん要因">
+        </div>
+        <p class="imgcr">出典 公益財団法人日本建築衛生管理教育センター<br>新建築物の環境衛生管理第2版第1刷 中巻52頁 図4-3-2(2)        
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-29.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-27.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

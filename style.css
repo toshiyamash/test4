@@ -16,8 +16,26 @@
 
     /* コンテンツ部分が長くなった場合にスクロールできるようにする */
     .ui-tabs-panel {
-      max-height: 600px;
+      max-height: 1000px;
       overflow-y: auto;
+    }
+
+    /* コンテンツ部分の背景色設定 */
+    #tab1{
+      background-color:rgb(247, 246, 189);
+    }
+    #tab2{
+      background-color:rgb(182, 213, 248);
+    }
+
+    /* 索引の背景色設定 */
+    .sakuinn-bgc{
+      background-color:rgb(250, 210, 223);
+    }
+
+    /* テーマ学習の背景色設定 */
+    .theme-bgc{
+      background-color:rgb(245, 238, 138);
     }
 
 /* 次問・前問ボタン関係 */
@@ -76,6 +94,30 @@
     }
     tr>*:empty{       /* tableの空白のセルに斜線↗（to left top）をひく https://csshtml.work/table-shasen/ */
     background-image: linear-gradient(to left top, transparent calc(50% - 0.5px), #999 50%, #999 calc(50% + 0.5px), transparent calc(50% + 1px)) !important;
+    }
+
+/* 画像関係 */
+  .imgcontainer {
+    display: flex;
+    justify-content: center; /* 左右の中央 */
+    /* align-items: center;     /* 上下の中央 */
+    /* height: 300px;           /* 高さを指定すると上下中央がわかりやすい */
+    /* border: 1px solid #ccc; */ 
+  }  
+  img {
+    max-width: 100%;         /* 親より大きくならないように */
+    height: auto;
+  }
+   /* 画像キャプション */
+    .imgcap {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 1rem; 
+    }
+    /* 画像コピーライト */
+    .imgcr {
+      text-align: center;
+      font-size: 0.75rem;
     }
 
 /* ホーム，テーマ，索引ボタン関係 */

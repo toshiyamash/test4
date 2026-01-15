@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2025-22</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題22</span>&emsp;生体の恒常性(ホメオスタシス) 等に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか。                
+        <p><span class="bold">（1）</span>外部環境の変化に対し，内部環境を一定の水準に保つ仕組みを，恒常性という．
+        <p><span class="bold">（2）</span>恒常性は，主に神経系，内分泌系，免疫系の機能によって維持されている．
+        <p><span class="bold">（3）</span>生体に刺激が加えられると，生体内に変化が生じ，適応しようとする反応が非特異的に生じる．
+        <p><span class="bold">（4）</span>外部からの刺激は，受容器で受容されて各調節中枢に伝達され，その後，効果器に興奮が伝えられて反応が起こる．
+        <p><span class="bold">（5）</span>放熱機能は，発汗，呼吸，皮下組織の熱遮断，基礎代謝の増進により行われる．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題22&emsp;正解（5）&emsp;頻出度AAA
+        <p>皮下組織の熱遮断によって放熱機能は妨げられ，基礎代謝の増進は，放熱機能ではなくて，産熱機能に属する現象である．
+        <p>生体の恒常性の代表的な現象の一つである，体温の維持，すなわち核心温を37℃前後に保つのは，体内での産熱と体外への放熱の機能のバランスによる．
+        <p>産熱機能の制御は，基礎代謝の増減（夏低く，冬は体温維持のため高い．変動幅は10％程度）や，低温<ruby>曝<rt>ばく</rt></ruby>露時における産熱の増進による．
+        <p>放熱機能は，発汗，呼吸，血液循環，皮下組織の熱遮断等によって調節されている．
+        <p>人体からの熱の放散は，対流，放射，伝導，蒸発の物理的過程からなるが，最終的に皮膚表面からの熱放散と呼吸に伴う熱放散となる．ここで，次の血流による熱放散の制御が大きな意味をもつ．
+        <br>人体内部の熱は，血流によって皮膚表面近くまで運ばれるものと，皮膚表面まで筋肉等の組織中を熱伝導で皮膚表面へ伝わるものがある．熱量的には血流によるものが多く，皮膚血管の働きにより熱放散が制御される．すなわち，暑いときには皮膚血管は拡張し，血液が体表面を流れることとなり，熱放散が促進される．さらに，汗腺へ水を補給し，皮膚面からの発汗による蒸発を増加させる働きも担う．寒いときには皮膚血管は収縮し血流が激減する結果，熱放散が抑制される．
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-23.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-21.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

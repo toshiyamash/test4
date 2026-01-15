@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-27</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題27</span>&emsp;アレルギーに関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか。                
+        <p><span class="bold">（1）</span>学校保健安全法において，ダニ又はダニアレルゲンに関する基準が定められている．
+        <p><span class="bold">（2）</span>建築物衛生の観点から，換気や清掃等の対策が重要である．
+        <p><span class="bold">（3）</span>アレルゲンの同定は，症状発生の予防，治療の上で重要である．
+        <p><span class="bold">（4）</span>アレルゲンは，免疫グロブリンと呼ばれるたん白質である．
+        <p><span class="bold">（5）</span>国民の5割程度が，何らかのアレルギー疾患に<ruby>罹<rt>り</rt></ruby>患しているとされる．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題27&emsp;正解（4）&emsp;頻出度AAA
+        <p>免疫グロブリンはアレルゲン(抗原)ではない．抗体である．
+        <p>ある個体に特定の抗原（体内に侵入した異物＝アレルゲン）によって，その抗原に特異的に結合（攻撃）する抗体（免疫グロブリン</span>と呼ばれる蛋白質）やリンパ球（白血球の一種）が体内に生じる．これを抗原抗体反応あるいは免疫反応という．そのうち人に有害な免疫反応をアレルギーと呼んでいる（<span class="bold">2025-27-1図</span>参照）．
+        <div class="imgcap">2025-27-1図&emsp;アレルギー発症のメカニズム</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/images_2/アレルギー発症のメカニズム.svg" alt="アレルギー発症のメカニズム">
+        </div>
+        <p>抗原との二次接触でアレルゲンが肥満細胞に結合し，さらに抗体（IgE，免疫グロブリンE）が結合すると，肥満細胞からヒスタミン等の化学伝達物質が放出される．それらの化学伝達物質は，血管の透過性を増し，気管支壁にある平滑筋を収縮させ，気管支の内腔に分泌される粘液を増加させ，白血球を集める作用がある．アレルギー性鼻炎で鼻汁やくしゃみが出たり，気管支<ruby>喘息<rt>ぜんそく</rt></ruby>で呼吸困難発作が起きるのは，この反応による．
+        <p><span class="bold">-(1) </span><a href="https://www.mext.go.jp/content/20240401-mxt_kenshoku-100000613_2.pdf" target="_blank" rel="noopener noreferrer">学校環境衛生基準</a>のダニ又はダニアレルゲンの基準は，「100 匹/㎡以下又はこれと同等のアレルゲン量以下であること」． 
+        <p><span class="bold">-(2) </span>気管支喘息の原因となるアレルゲンは，室内に存在するハウスダストである。空気中に浮遊しているハウスダストのうちアレルゲンの主要なものはヒョウヒダニ類のダニアレルゲンである．ダニは，高温多湿になる夏に多いので，アレルゲンはダニの死骸や糞等が蓄積される秋に最大になると考えられる。ダニ，カビ，花粉アレルゲンは粒子状物質としてみた場合，その大部分は数μm以上の大 きいもので，エアフィルタによる除去が有効であると考えられている。 
+        <p><span class="bold">-(3) </span>アレルゲン同定の方法の1つに，皮内テストがある．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-28.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-26.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-30</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題30</span>&emsp;労働安全衛生法に関する次の文章の<span class="whiteFrame">　　　</span>内に入る数値として，<span class="bold">正しい</span>ものはどれか。                
+        <p>労働安全衛生法に基づく酸素欠乏症等防止規則(酸欠則) では，空気中の酸素濃度が<span class="whiteFrame">　　　</span>%未満である状態を酸素欠乏と定義している．
+        <p><span class="bold">（1）</span>20
+        <p><span class="bold">（2）</span>18
+        <p><span class="bold">（3）</span>16
+        <p><span class="bold">（4）</span>14
+        <p><span class="bold">（5）</span>10
+     </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題30&emsp;正解（2）&emsp;頻出度AAA
+        <p>「酸素欠乏」とは，酸素濃度が18％未満である状態をいう（<a href="https://laws.e-gov.go.jp/law/347M50002000042" target="_blank" rel="noopener noreferrer">酸素欠乏症等防止規則</a>第2条一）．
+        <p>ちなみに，清浄空気の酸素濃度は約21％である．
+        <p>ちなみに，「酸素欠乏等」とは，前号に該当する状態又は空気中の硫化水素の濃度が100万分の10を超える状態をいう（同規則第2条二）．
+        <p>酸素欠乏の症状は<span class="bold">2025-30-1表</span>参照．                
+        <table>
+            <caption class="bold ">2025-30-1表&emsp;酸素濃度の影響</span></caption>
+            <tr>
+                <td class="textCenter">濃度［％］</td>
+                <td class="textCenter">症状</td>
+            </tr>
+            <tr>
+                <td class="textCenter">17～16</td>
+                <td>呼吸・脈拍増加，めまい</td>
+            </tr>
+            <tr>
+                <td class="textCenter">15～14</td>
+                <td>労働困難になる．注意力・判断力の低下．頭痛</td>
+            </tr>
+            <tr>
+                <td class="textCenter">11～10</td>
+                <td>呼吸困難となり，眠気を催し，動作が鈍くなる．</td>
+            </tr>
+            <tr>
+                <td class="textCenter">10以下</td>
+                <td>意識障害，けいれんが生じる．</td>
+            </tr>
+            <tr>
+                <td class="textCenter">7～6</td>
+                <td>顔色が悪く，口唇は青紫色になり，感覚鈍重となり，知覚を失う．意識喪失</td>
+            </tr>
+            <tr>
+                <td class="textCenter">4以下</td>
+                <td>40秒以内に知覚を失い，卒倒する．意識喪失．即死の危険</td>
+            </tr>
+        </table>
+        <p>人体の臓器で，酸素欠乏に対して最も敏感なのは脳である．
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-31.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-29.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
