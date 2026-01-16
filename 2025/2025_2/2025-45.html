@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-45</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題45</span>&emsp;5%溶液として市販されている次亜塩素酸ナトリウム50mLを水50Lに加えた場合，この溶液の次亜塩素酸ナトリウム濃度に<span class="bold">最も近い</span>ものは次のうちどれか．
+        <p><span class="bold">（1）</span>25mg/L
+        <p><span class="bold">（2）</span>50mg/L
+        <p><span class="bold">（3）</span>100mg/L
+        <p><span class="bold">（4）</span>500mg/L
+        <p><span class="bold">（5）</span>1,000mg/L
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題45&emsp;正解（2）&emsp;頻出度AAA</span>
+        <p>次亜塩素酸ナトリウムの正味の量は50mLの5%，すなわち2.5mLである．2.5mLは2,500mgとみなしてよいので，水50Lで希釈すれば，2,500÷50＝50mg/Lの濃度となる． 
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='../2025_3/2025-46.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-44.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

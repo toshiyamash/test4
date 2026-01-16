@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-43</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題43</span>&emsp;クリプトスポリジウム症に関する次の記述のうち，<span class="bold">最も適当な</span>ものはどれか．
+        <p><span class="bold">（1）</span>病原体は，細菌である．
+        <p><span class="bold">（2）</span>病原体は，ヒトや哺乳動物の消化管で増殖する．
+        <p><span class="bold">（3）</span>病原体は，水道水の塩素消毒で死滅する．
+        <p><span class="bold">（4）</span>水道におけるクリプトスポリジウム等対策指針では，レベル1が最もリスクが高い．
+        <p><span class="bold">（5）</span>下痢症状は，一般的に1～2日で消失する．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題43&emsp;正解（2）&emsp;頻出度AAA</span>
+        <p><span class="bold">-(2) </span>が正しい．
+        <br>クリプトスポリジウム症は人畜共通性の消化器感染症で，感染症法で五類感染症に指定されている．
+        <br>病原体のクリプトスポリジウムは大きさ 4～6μm の原虫である．
+        <p>クリプトスポリジウムは，塩素消毒のバクテリア不活化の指標であるCT値<sup>※</sup>が7,000前後（大腸菌は0.03～0.05）で，塩素消毒は無効である．
+        <br>※&nbsp;CT値はバクテリアが不活化する薬剤への感受性の指標である．
+        <br>CT値の定義（C：濃度✕T：不活化する時間）から，消毒剤の濃度と接触時間の関係は反比例する（濃度が濃ければ短時間で不活化する）．
+        <br>一般の大腸菌のCT値が0.04程度なのに対して，クリプトスポリジウムのCT値は7,000前後である．ビル管理法の飲料水の残留塩素の平時の管理基準0.1mg/Lで計算すると，一般の大腸菌が，0.4分（0.04÷0.1）で不活化するのに対して，クリプトスポリジウムは，70,000分=48日強なので，クリプトスポリジウムに塩素消毒はほとんど効かない．
+        <p>クリプトスポリジウム症は感染した哺乳類の糞便が感染源となり，汚染された水道を通して感染が拡大する．
+        <p>潜伏期間は2～5日で，発症は急性で，おびただしい水様の下痢，腹部けいれんを起こす．症状は一般的に1～2週間続き，その後軽減する．特定の環境下では，2～6ヵ月間感染力を維持する．
+        <p>クリプトスポリジウムによる汚染の恐れがある場合は指標菌（大腸菌及び嫌気性芽胞菌）の検査を実施する．
+        <p>予防対策としては，クリプトスポリジウムを除去できる設備の設置，もしくは，クリプトスポリジウムによって汚染される恐れのない水源へ変更をする．
+        <p><span class="bold">-(4) </span>厚生労働省・<a href="https://www.mhlw.go.jp/content/10900000/000513605.pdf#:~:text=２．水道原水に係る" target="_blank" rel="noopener noreferrer">水道におけるクリプトスポリジウム等対策指針</a>によれば，最もリスクが高いのはレベル4である．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-44.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-42.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

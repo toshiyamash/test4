@@ -20,19 +20,18 @@
       overflow-y: auto;
     }
 
+/* バックグラウンド彩色関係 */
     /* コンテンツ部分の背景色設定 */
     #tab1{
       background-color:rgb(247, 246, 189);
     }
     #tab2{
-      background-color:rgb(182, 213, 248);
+      background-color:rgb(220, 236, 255);
     }
-
     /* 索引の背景色設定 */
     .sakuinn-bgc{
       background-color:rgb(250, 210, 223);
     }
-
     /* テーマ学習の背景色設定 */
     .theme-bgc{
       background-color:rgb(245, 238, 138);
@@ -114,8 +113,8 @@
       font-weight: bold;
       margin-bottom: 1rem; 
     }
-    /* 画像コピーライト */
-    .imgcr {
+    /* 出典 */
+    .source {
       text-align: center;
       font-size: 0.75rem;
     }

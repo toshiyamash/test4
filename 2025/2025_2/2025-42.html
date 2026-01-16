@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-42</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題42</span>&emsp;水系感染症の病原体として，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+        <p><span class="bold">（1）</span>ポリオウイルス
+        <p><span class="bold">（2）</span>A型肝炎ウイルス
+        <p><span class="bold">（3）</span>コクサッキーウイルス
+        <p><span class="bold">（4）</span>パラチフス菌
+        <p><span class="bold">（5）</span>RSウイルス
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題42&emsp;正解（5）&emsp;頻出度AAA</span>
+        <p>RSウイルス感染症の感染経路は，RSウイルスに感染した人の咳やくしゃみなどによる飛沫感染と，ウイルスの付着した手指や物などを介した接触感染であって，水系感染症ではない．
+        <br>RSウイルス感染症は，RSウイルスの感染による急性の呼吸器感染症で，乳幼児に多い．五類感染症である．
+        <p>代表的な水系感染症とその病原体を<span class="bold">2025-42表</span>に示す．                
+        <table>
+            <tbody>
+                <caption class="bold">2025-42-1表&emsp;水系感染症</span></caption>
+                <tr>
+                    <td class="textcenter">病原体</td>
+                    <td class="textcenter">感染症</td>
+                </tr>
+                <tr>
+                    <td>細菌</td>
+                    <td>三類感染症<br>
+                    （コレラ，細菌性赤痢，腸管出血性大腸菌感染症，腸チフス，パラチフス）
+                    </td>
+                </tr>
+                <tr>
+                    <td>ウイルス</td>
+                    <td>A型肝炎ウイルス，急性灰白髄炎（ポリオ），ノロウイルス，ロタウイルス
+                    </td>
+                </tr>
+                <tr>
+                    <td>原虫</td>
+                    <td>アメーバ赤痢，クリプトスポリジウム症等</td>
+                </tr>
+            </tbody>
+        </table>        
+        <p><span class="bold">-(3) </span>コクサッキーウイルスは，子どもを中心に，主に夏に流行する手足口病の病原体．感染経路は飛沫感染，接触感染，糞便に汚染されたプールなどを介した感染が考えられる．手足口病は五類感染症である．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-43.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-41.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
