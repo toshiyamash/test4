@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-48</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題48</span>&emsp;下の図は，外壁の断面図上に，冬期暖房時の壁内定常温度分布を示している．この図に関する次の記述のうち，<span class="bold">最も適当な</span>ものはどれか．
+        <br>
+        <br>
+        <div class="imgcontainer">
+            <img src="../../images/image_3/2025-48問題添付図.svg" alt="2025-48問題添付図">
+        </div>
+        <br>
+        <p><span class="bold">（1）</span>温度分布はAとなり，壁内結露の防止のためにアに防湿層を設けることは有効である．
+        <p><span class="bold">（2）</span>温度分布はBとなり，壁内結露の防止のためにウに防湿層を設けることは有効である．
+        <p><span class="bold">（3）</span>温度分布はCとなり，壁内結露の防止のためにイに防湿層を設けることは有効である．
+        <p><span class="bold">（4）</span>温度分布はAとなり，壁内結露の防止のためにイに防湿層を設けることは有効である．
+        <p><span class="bold">（5）</span>温度分布はCとなり，壁内結露の防止のためにウに防湿層を設けることは有効である．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題48&emsp;正解（4）&emsp;頻出度AAA</span>
+        <p>断熱材の内部では温度勾配は急になるので温度分布はAとなる（<span class="bold">2025-48-1図</span>参照）．
+        <div class="imgcap">2025-48-1図&emsp;熱伝導と温度勾配</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/image_3/熱伝導と温度勾配.svg" alt="熱伝導と温度勾配">
+        </div>
+        <br>
+        <p class=" ">防湿については，冬期暖房時なので，室内の方が高温高湿度で水蒸気圧が高いと考えられる．
+        <p>防湿層は断熱材を挟んで水蒸気圧が高い側に入れるのが内部結露防止の原則なので，イに入れるのが正しい（ウでも可．<span class="bold">2025-48-2図</span>参照）．
+        <div class="imgcap">2025-48-2図&emsp;内部結露防止のための防湿層の位置</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/image_3/内部結露防止のための防湿層の位置.svg" alt="内部結露防止のための防湿層の位置">
+        </div>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-49.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-47.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

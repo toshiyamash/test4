@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.1 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-50</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題50</span>&emsp;熱放射に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+        <p><span class="bold">（1）</span>常温物体から射出される電磁波は，波長が10μm付近の赤外線が主体である．
+        <p><span class="bold">（2）</span>黒色ペイントは，光ったアルミ<ruby>箔<rt>はく</rt></ruby>より長波長放射率が大きい．
+        <p><span class="bold">（3）</span>熱放射の近似的な取扱いでは，室内壁面温度の代わりに室内の空気温度が用いられる．
+        <p><span class="bold">（4）</span>光ったアルミ箔は，酸化した亜鉛鉄板より日射吸収率が大きい．
+        <p><span class="bold">（5）</span>放射熱伝達率は，放射のやりとりをする各面の長波長放射率の積に比例する．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題50&emsp;正解（4）&emsp;頻出度AAA</span>
+        <p>日射吸収率は，酸化した亜鉛鉄板の方が光ったアルミ箔より大きい．
+        <p>すべての物体はその表面温度と表面特性に応じた大きさと波長の電磁波を射出すると同時に他の物体からの電磁波を吸収している．物体の表面間を電磁波によって伝わる熱の移動を「放射」という．
+        <p>常温物体からの放射は波長が10μm付近の赤外線が主体であり，長波長放射と呼ばれる．長波長放射・吸収では，放射エネルギーに関するキルヒホッフの法則により，同一温度の物体間では放射率と吸収率は等しくなるが，可視光の占める割合が多い太陽の日射吸収率は，吸収する物体表面の色が関係してくる．白っぽい物体は日射を反射してしまうからである（<span class="bold">2025-50-1表</span>参照）．                
+        <table>
+            <caption class="bold">2025-50-1表&emsp;長波長放射率と日射吸収率</span></caption>
+            <tr>
+                <td class="textcenter">建材の例</td>
+                <td class="textcenter" width="30%">長波長放射率</td>
+                <td class="textcenter" width="30%">日射吸収率</td>
+            </tr>
+            <tr>
+                <td>白色プラスター</td>
+                <td class="textcenter">0.9</td>
+                <td class="textcenter">0.1</td>
+            </tr>
+            <tr>
+                <td>白色ペイント</td>
+                <td class="textcenter">0.9</td>
+                <td class="textcenter">0.2</td>
+            </tr>
+            <tr>
+                <td>アスファルト</td>
+                <td class="textcenter">0.9</td>
+                <td class="textcenter">0.9</td>
+            </tr>
+            <tr>
+                <td>黒色ペイント</td>
+                <td class="textcenter">0.9</td>
+                <td class="textcenter">0.9</td>
+            </tr>
+            <tr>
+                <td>光ったアルミ箔</td>
+                <td class="textcenter">0.1未満</td>
+                <td class="textcenter">0.1</td>
+            </tr>
+            <tr>
+                <td>新しい亜鉛鉄板</td>
+                <td class="textcenter">0.2</td>
+                <td class="textcenter">0.7</td>
+            </tr>
+            <tr>
+                <td>酸化した亜鉛鉄板</td>
+                <td class="textcenter">0.3</td>
+                <td class="textcenter">0.8</td>
+            </tr>
+            <tr>
+                <td>松板</td>
+                <td class="textcenter">0.6</td>
+                <td class="textcenter">0.9</td>
+            </tr>
+        </table>
+        <p><span class="bold">-(3)</span>，<span class="bold">-(5)</span>絶対温度&nbsp;\( T\)［K］の物体表面から射出される単位面積当たりの放射熱流&nbsp;\( q \)［W/m<sup>2</sup>］は次式の通り\( T\)［K］の4乗に比例する（シュテファン・ボルツマンの法則）．\( \sigma \)（シグマ）はシュテファン・ボルツマン定数という定数である．
+        <p class="textcenter">
+            \[ q=\epsilon \sigma T~4 \]           
+        </p>
+        <p>\( \epsilon \)（イプシロン）は放射率と呼ばれ物体表面の特性値であり，完全黒体という理想的な仮想物体で1.0，通常の物体では0.1～0.9の値をとる．
+        <p>2つの壁sとrの間の放射による熱流量はそれぞれの放射量と吸収量の差分となって，次式で表される．
+        <p class="textcenter">
+            \[ q=\epsilon_r \sigma (T_r^4-T_s^4) \]           
+        </p>
+        <p>熱放射の近似的な取扱いでは，絶対温度の代わりに摂氏温度を用い，上式を簡略化した次の放射熱伝達式が用いられる．
+        <p class="textcenter">
+            \[ q=\alpha_r(\theta_r-\theta_a) \]           
+        </p>
+        <p>ただし，\( \alpha_r \)：放射熱伝達率［W/(m<sup>2</sup>･K)］，\( \theta_r \)：壁表面温度［℃］，\( \theta_a \)：空気温度［℃］．               
+        <br>室内の放射率が0.9程度で，常温とすれば&nbsp;\( \alpha_r \)=4.5W/(m<sup>2</sup>･K)程度となる．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-51.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-49.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

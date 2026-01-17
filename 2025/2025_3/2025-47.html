@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-47</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題47</span>&emsp;熱伝導率が1.6W/(m･K) のコンクリートでできた厚さ16cmの外壁があるとする．
+        <p>外壁の外気側と室内側の熱伝達抵抗がそれぞれ0.05m<sup>2</sup>･K/W ，0.1m<sup>2</sup>･K/Wであるとすると，この外壁の熱貫流抵抗として，<span class="bold">正しい</span>ものは次のうちどれか．
+        <p><span class="bold">（1）</span>0.25m<sup>2</sup>･K/W
+        <p><span class="bold">（2）</span>4.0m<sup>2</sup>･K/W
+        <p><span class="bold">（3）</span>10m<sup>2</sup>･K/W
+        <p><span class="bold">（4）</span>20m<sup>2</sup>･K/W
+        <p><span class="bold">（5）</span>30m<sup>2</sup>･K/W
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題47&emsp;正解（1）&emsp;頻出度AAA</span>
+        <p>壁の熱貫流抵抗は次式で求めることができる．
+        <p class="textcenter">
+            \[ \text{熱貫流抵抗}=\text{外気側の熱伝達抵抗}+\text{壁の熱伝導抵抗}+\text{室内側の熱伝達抵抗} \]           
+        </p>
+        <p>また，式中の壁の熱伝導抵抗は，\(\displaystyle \frac{\text{壁の厚さ}}{\text{壁の熱伝導率}}\)，で求めることができる．
+        <p>与えられた数値を代入して，
+        <p>求める熱貫流抵抗＝0.05＋0.16/1.6＋0.1＝0.05＋0.1＋0.1＝0.25m<sup>2</sup>･K/W
+        <p>熱貫流抵抗の逆数（1/熱貫流抵抗）を熱貫流率という．<a href="../../2025/2025_3/2025-46.html" target="_blank" rel="noopener noreferrer">前問</a>の貫流熱流は，熱貫流率×壁の内外温度差，で求めることができる．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-48.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-46.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
