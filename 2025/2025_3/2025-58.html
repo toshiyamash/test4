@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.1 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-58</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2025年</p>
+      <p><span class="bold">問題58</span>&emsp;浮遊粒子の動力学的性質を表す次のア～エのうち，粒径が大きくなると数値が大きくなるものの組合せとして，<span class="bold">最も適当な</span>ものはどれか．
+      <p>&emsp;ア&emsp;終末沈降速度
+      <p>&emsp;イ&emsp;拡散係数
+      <p>&emsp;ウ&emsp;気流に平行な垂直面への沈着速度
+      <p>&emsp;エ&emsp;粒子径を代表長さとしたレイノルズ数
+      <p><span class="bold">（1）</span>アとイ
+      <p><span class="bold">（2）</span>アとウ
+      <p><span class="bold">（3）</span>アとエ
+      <p><span class="bold">（4）</span>イとエ
+      <p><span class="bold">（5）</span>ウとエ
+    </div>
+
+    <div id="tab2">
+      <p>2025年</p>
+      <p class="bold">問題58&emsp;正解（2）&emsp;頻出度AAA</span>
+      <p>アの「終末沈降速度」とエの「レイノルズ数」が，粒径が大きくなると数値が大きくなる．
+      <p>浮遊粒子は，様々な力が作用して，空気中を運動する．浮遊粒子の運動と粒径の関係等を<span class="bold">2025-58-1表</span>にまとめた．                
+      <table>
+        <tbody>
+        <caption class="bold">2025-58-1表&emsp;浮遊粒子の運動</span></caption>
+          <tr>
+          <td width="30%">粒子が気体から受ける流体抵抗力</td>
+          <td>流体抵抗力はレイノルズ数によっても異なる．</td>
+          <td width="25%">粒子の投影面積，流体密度に比例，相対速度の2乗に比例</td>
+          </tr>
+          <tr>
+          <td nowrap>重力による
+          <br>終末沈降速度</td>
+          <td>球形粒子に流体抵抗力と重力が作用する場合，定常状態では，最終的に一定速度で沈降するようになる．この速度を終末沈降速度という．</td>
+          <td>粒径の2乗に比例</td>
+          </tr>
+          <tr>
+          <td>静電界中の移動速度<br><br>電気移動度</td>
+          <td>水平方向に電界がかけられた空間で，球形粒子が電荷を持っていると，水平方向にクーロン力が働き移動する．定常状態ではクーロン力と流体抵抗とが釣り合い，一定の移動速度となる．<br>
+          移動速度を電界強度で除したものを電気移動度といい，電界中の粒子の移動しやすさを表す．</td>
+          <td>粒径に反比例</td>
+          </tr>
+          <tr>
+          <td>拡散係数</td>
+          <td rowspan="2">空気分子のブラウン運動により，粒子は拡散に関するフィックの法則に従い流体中に拡散していく．フィックの法則に用いられる粒子の拡散係数は粒径に反比例し，結果として，拡散の速度は粒径に反比例する．すなわち，小さな粒子はブラウン運動による移動量が大きく，よく拡散する．</td>
+          <td>粒径に反比例</td>
+          </tr>
+          <tr>
+          <td>ブラウン運動による移動量</td>
+          <td>粒径が小さいほど大きくなる．</td>
+          </tr>
+          <tr>
+          <td> 流れに平行な平面への沈着速度</td>
+          <td>浮遊粒子の単位時間当たりの，壁などへの沈着量を気中濃度で除した値を沈着速度という．<br>拡散により小粒径の粒子の沈着速度が大きい．</td>
+          <td>粒径が小さいほど沈着速度は大きくなる．</td>
+          </tr>
+          <tr>
+          <td>流れに垂直な平面への沈着速度</td>
+          <td>流れに垂直な面は，重力と慣性力により大粒径の粒子，拡散により小粒径の粒子の沈着速度が大きい．</td>
+          <td>どちらともいえない．</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&emsp;</p>
+      <p>レイノルズ数（&nbsp;\( Re \)&nbsp;数）は，流体の中で働く慣性力と粘性力の比（慣性力/粘性力）を表す無次元数である．浮遊粒子が気体から流体抵抗力を受ける際の&nbsp;\( Re \)&nbsp;数は次式で表され，粒径に比例することがわかる．
+      <p class="textcenter">
+          \[ R_e=\frac{\rho v_r d_p}{\mu} = \frac{v_r d_p}{\nu} \]           
+      </p>
+      <p>ただし，&nbsp;\( \rho \)&nbsp;：流体密度［kg/m<sup>3</sup>］，&nbsp;\( v_r \)&nbsp;：粒子と流体の相対速度［m/s］</sup>，&nbsp;\( d_p \)&nbsp;：粒径［m</sup>］，&nbsp;\( \mu \)&nbsp;：気体の粘度</span>［Pa･s］，&nbsp;\( \nu \)&nbsp;：気体の動粘度（&nbsp;\( =\mu / \rho \)&nbsp;）［m<sup>2</sup>/s］．
+      <p>&nbsp;\( Re \)&nbsp;数は流れの性質を決定する重要な指標であり，値が小さい場合は滑らかに流れる層流，大きい場合は不規則に変動する乱流になる．
+      <p>模型による風洞実験では，&nbsp;\( Re \)&nbsp;数を用いて，実物に対する気流状況を再現することができる（レイノルズの相似則）．
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-59.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-57.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

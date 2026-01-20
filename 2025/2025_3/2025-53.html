@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.1 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-53</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題53</span>　室内気流に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+        <p><span class="bold">（1）</span>置換換気は，室温よりやや低温の空気を床面付近に供給し，天井面付近で排気する方式である．
+        <p><span class="bold">（2）</span>ドラフトによる不快感は，気流の速度，気流変動の大きさ，空気温度の影響を受ける．
+        <p><span class="bold">（3）</span>天井面に沿った噴流の到達距離は，自由噴流の場合よりも短くなる．
+        <p><span class="bold">（4）</span>吹出しの影響は遠方まで及ぶのに対し，吸込みの影響は吸込口付近に限定される．
+        <p><span class="bold">（5）</span>気流性状から見た換気方式は，混合方式と一方向方式の二つに大別される．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題53　正解（3）　頻出度AAA</span>
+        <p>吹出し口からの自由噴流は，周囲の空気を巻き込むことによってエネルギーを失い，拡散しながら減速していく．吹出し口の近くに吹き出し方向と平行な天井や壁などがあると，周囲の空気を巻き込む量が減るので，<span class="underln">到達距離が長くなる</span>（その極端な場合がダクトである）．
+        <p><span class="bold">-(1)</span>，<span class="bold">-(5)</span>換気方式は混合方式（取り入れた清浄空気を室内空気と混合し，余剰空気を排気する）と，一方向方式（清浄空気をピストンのように一方向の流れとなるように室内に供給し，室内汚染物質を拡散させることなく，そのまま排気口へ押し出す方式）に大別される．その 1 つである置換換気方式は，低温空気が室の底部に滞留する傾向を利用した換気方式で，室温よりやや低温の新鮮空気を床面下部より低速で供給し，室上部から排出する．半導体のクリーンルーム等で採用される．
+        <p><span class="bold">-(2)</span>不快感を与える局所気流をドラフト（draft：通風）という．冷たい壁や隙間風によって生じるドラフトをコールドドラフトという．換気では，ドラフトが生じないように計画・調整する．
+        <p><span class="bold">-(4) </span>吸込み気流には吹出し気流のような指向性がなく，吸込み口全面から均一に吸い込む一様流となる．又，吸込み口に近い領域を除き，点状の吸込み（点源吸込み）とみなせるので，吸込み気流速度は吸込み口からの距離の2乗に反比例して急速に減衰する．したがって吹出しに比べて吸込み気流の周囲への影響は吸込み口付近に限定される．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-54.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-52.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

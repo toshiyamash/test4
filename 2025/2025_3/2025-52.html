@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.1 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-52</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題52</span>&emsp;下の図は，冷房時の各種吹出方式による室内気流を示したものである．一般的に，冷房時に好ましい方式の室内気流の組合せとして，<span class="bold">最も適当な</span>ものは次のうちどれか．
+        <div class="imgcontainer">
+            <img src="../../images/image_3/2025-52問題添付図1.svg" alt="2025-52問題添付図">
+        </div>
+        <p><span class="bold">（1）</span> AとC
+        <p><span class="bold">（2）</span> BとD
+        <p><span class="bold">（3）</span> AとD
+        <p><span class="bold">（4）</span> BとC
+        <p><span class="bold">（5）</span> CとD
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題52&emsp;正解（1）&emsp;頻出度AAA</span>
+        <p>冷房時は，天井から水平に吹出すか，側壁の上部から水平に吹出すのが良い．
+        <p>基本は，暖かい空気は軽いので上昇して天井近くで滞留し，重たい冷たい空気は下降して床付近に滞留しやすいということである．したがって，室内気流分布の状態を決める主要な要因は，吹出し空気の温度，さらに吹出し方向，速度，吹出し口の位置・形状である．
+        <p>不快な局部気流のことをドラフト（draft）といい，冷たい壁付近などで，自然対流によって生じる下降流や隙間風が原因のドラフトのことをコールドドラフトという．
+        <p>コールドドラフトや空気の滞留域が生じないように調整する（<span class="bold">2025-52-1表</span>参照）．                
+        <table>
+            <caption class="bold">2025-52-1表&emsp;室内気流分布（滞留域，ドラフト）</span></caption>
+            <tbody>
+                <tr>
+                    <td class="textcenter" width="20%">吹出口の位置，吹出し方向</td>
+                    <td class="textcenter" width="40%">冷房時</td>
+                    <td class="textcenter" width="40%">暖房時</td>
+                </tr>
+                <tr>
+                    <td>側壁上部からの水平吹出し</td>
+                    <td>冷房時に吹出し速度を適切に選べば，噴流が対向壁まで到達し良好な温度分布が形成される．<br>
+                    速度が大きすぎるとドラフト，弱すぎると天井面の途中で冷気が剥離して降下しドラフトとなる場合がある．</td>
+                    <td>居住域に滞留域が生じて上下温度差が大きくなり，壁からのコールドドラフトを生じやすい．</td>
+                </tr>
+                <tr>
+                    <td>側壁下部からの水平吹出し</td>
+                    <td>冷房時には床面に沿って噴流が拡がり，上部に滞留域が発生する．</td>
+                    <td>吹出し速度が十分大きいと，噴流の方向に沿ってドラフトが生じる場合があるが，上下温度差は小さくなる．</td>
+                </tr>
+                <tr>
+                    <td>天井中央付近からの水平吹出し</td>
+                    <td>冷房時は一様な温度分布が形成され，特にアネモ型吹出口では，拡散性が強いのでドラフトの問題は生じにくい．</td>
+                    <td>暖房に用いると，室中央部に滞留域が生じ上下温度差が大きくなりがちである．</td>
+                </tr>
+                <tr>
+                    <td>天井中央付近からの下向き吹出し</td>
+                    <td>冷房時は冷気が床面付近に拡散し，上部に滞留域が生じる．</td>
+                    <td>居住域部分に一部速度の速い領域が生じるが，温度分布は一様となりやすい．吹出し速度が小さく，噴流が床面に到達しない場合は，噴流下部が停滞し大きな上下温度差が形成される．</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-53.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-51.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

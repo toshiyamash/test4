@@ -74,6 +74,7 @@
     }
     caption {
       font-weight: bold;
+      margin-bottom: 0.75rem; 
     }
     table.auto-layout {
     table-layout: auto;
@@ -111,7 +112,7 @@
     .imgcap {
       text-align: center;
       font-weight: bold;
-      margin-bottom: 1rem; 
+      margin-bottom: 0.75rem; 
     }
     /* 出典 */
     .source {

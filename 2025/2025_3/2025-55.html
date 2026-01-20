@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.1 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-55</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題55</span>&emsp;室内汚染物質の特性を表すア～エの記述のうち，オゾンの特性を表すものの組合せとして，<span class="bold">最も適当な</span>ものは次のうちどれか．
+        <p>&emsp;ア&emsp;常温で特異な刺激臭をもつ不安定な気体である．
+        <p>&emsp;イ&emsp;室内における発生源は，コピー機，レーザプリンタ等である．
+        <p>&emsp;ウ&emsp;大気における発生源は，火山や森林火災である．
+        <p>&emsp;エ&emsp;比較的低分子の有機物質である．
+        <p><span class="bold">（1）</span>アとイ
+        <p><span class="bold">（2）</span>アとウ
+        <p><span class="bold">（3）</span>イとウ
+        <p><span class="bold">（4）</span>イとエ
+        <p><span class="bold">（5）</span>ウとエ
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題55&emsp;正解（1）&emsp;頻出度AAA</span>
+        <p>オゾンはフッ素の次に酸化力の強い物質で，人に対して毒性が高く，オゾン濃度が0.3～0.5ppm程度になると肺や気道粘膜を刺激しはじめる．
+        <p>オゾンは光化学オキシダントの主成分であり，独特な刺激臭を持った青い色を呈する気体で水に溶けにくく肺の奥まで侵入し呼吸器に影響をおよぼし，肺気腫の原因となる．<br>
+        <p>オゾン（O<sub>3</sub>）は大気中の酸素分子（O<sub>2</sub>）から，太陽光などに含まれる紫外線の高エネルギーによる光化学反応によって生じる（可視光や赤外線の低レベルのエネルギーでは発生しない）．
+        <p>落雷の放電にともなう紫外線でもオゾンは発生するが，人間の環境に影響する大部分のオゾンは下式の通り自動車やその他の燃焼過程の排気ガス中に含まれている炭化水素と窒素酸化物の光化学反応の結果として生成される．
+        <p class="textcenter">
+            \[ {\rm NO_2 + h\nu ^\ast \to O + NO} \] 
+            \[ {\rm O + O_2 \to O_3}\]          
+        </p>
+        <p>※&nbsp;\({\rm h\nu} \)：紫外線（のエネルギー）
+        <p>この後，オゾンは最初の反応で発生した一酸化窒素と反応して二酸化窒素と酸素分子に戻るが，
+        <p class="textcenter">
+            \[ {\rm O_3 + NO \to NO_2 + O_2} \]
+        <p>周囲に炭化水素が存在すると，一酸化窒素はそちらに奪われてしまうため，オゾンが蓄積し高濃度となる．
+        <p>室内のオゾン量に重要な影響を与えそうな発生源は，コロナ放電による紫外線を伴うコピー機，レーザープリンタ，静電式空気清浄機である．
+        <p>オゾンは炭素を含まないので有機物ではなく無機物である．有機物は炭素を含み燃やすと炭になる．ただし，炭素を含んでも，二酸化炭素 （CO<sub>2</sub>​），一酸化炭素 (CO)，ダイヤモンド・黒鉛（炭素の単体），炭酸カルシウム（CaCO<sub>3</sub>）などは有機物ではない．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-56.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-54.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
