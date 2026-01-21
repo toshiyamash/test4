@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-65</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題65</span>　ヒートポンプに関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+        <p><span class="bold">（1）</span>電動機駆動ヒートポンプは，電動冷凍機とボイラを組み合わせる熱源方式に比べて夏期と冬期の使用電力量の差を小さくできる．
+        <p><span class="bold">（2）</span>水熱源方式は，河川水や下水の熱などの未利用エネルギーの活用に適している．
+        <p><span class="bold">（3）</span>空気熱源方式の一般的な採熱源は，外気である．
+        <p><span class="bold">（4）</span>ガスエンジン駆動方式は，エンジン排熱を有効利用することで，寒冷地における暖房熱源に適している．
+        <p><span class="bold">（5）</span>空気熱源方式と水熱源方式を比較したとき，現在の主流は水熱源方式である．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題65　正解（5）　頻出度AAA</span>
+        <p>ヒートポンプは，冷媒の蒸発温度の高い水熱源の方がCOP（成績係数）はよいが，普及しているのは立地の制約の少ない空気熱源方式である．
+        <p>ヒートポンプは蒸気圧縮式冷凍機の凝縮器の放熱を温熱の熱源とする．
+        <p>冷暖房兼用のヒートポンプ型パッケージ型空調機の構成図を<span class="bold">2025-65-1図</span>に示す．
+        <div class="imgcap">2025-65-1図&emsp;ヒートポンプ型パッケージ型空調機の構成図</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/image_3/ヒートポンプ型パッケージ型空調機の構成図.svg" alt="ヒートポンプ型パッケージ型空調機の構成図">
+        </div>
+        <p>ヒートポンプ型では，冷媒の流れを四方弁で切替え，室外機，室内機の熱交換器（冷媒コイル）が，蒸発器⇔凝縮器と役割をチェンジする（詳しいメカニズムが知りたければ，次の動画が面白い）．<br>
+            <a href="https://www.youtube.com/watch?v=aAz4Z9W6gk0?mute=1" target="_blank" rel="noopener noreferrer">エアコン工事 ひでさんエアテクチャンネル・エアコンバラした【四方弁編😅】</a>
+        <br>注意！動画再生時にいきなり音声が出ることがあります．
+        <!-- <div  class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aAz4Z9W6gk0?si=CIFabN4phlsZvr5B&mute=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>                     -->
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-66.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-64.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

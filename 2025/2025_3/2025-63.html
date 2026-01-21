@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-63</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題63</span>&emsp;中央方式の空気調和設備に関する次の記述のうち，<span class="bold">最も不適当</span>ものはどれか．
+        <p><span class="bold">（1）</span>ダクト併用ファンコイルユニット方式では，単一ダクト方式に比べ，空調機の大容量化が必要となる．
+        <p><span class="bold">（2）</span>変風量単一ダクト方式では，熱負荷に応じて給気風量を可変とするため，外気導入量も変動する．
+        <p><span class="bold">（3）</span>マルチゾーン空調方式では，1台の空調機で複数ゾーンの温湿度調整を行う．
+        <p><span class="bold">（4）</span>定風量単一ダクト方式では，熱負荷の変動に対して給気温度を可変とすることで対応する．
+        <p><span class="bold">（5）</span>放射冷暖房は，単独設置では新鮮外気の導入と室内空気循環による除じん機能をもたない．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題63&emsp;正解（1）&emsp;頻出度AAA</span>
+        <p>ダクト併用ファンコイルユニット方式（<span class="bold">2025-63-1図</span>）では，定風量単一ダクト方式などの空調機と比べて<span class="underln">少容量化が可能</span>である．
+        <div class="imgcap">2025-63-1図&emsp;ダクト併用ファンコイルユニット方式</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/image_3/ダクト併用ファンコイルユニット方式.svg" alt="ダクト併用ファンコイルユニット方式">
+        </div>
+        <p>インテリア部分を定風量単一ダクト方式，熱負荷の多い各室ペリメータ部分にファンコイルユニットを配置する組み合わせ方式．
+        <br>この方式は，熱負荷が多く変動も大きい外周部を効率の良い水(ファンコイル)で処理するため，負荷変動の少ない内部負荷相当の空調機，ダクトでよく，省スペース性に優れるため採用例が多い．ホテル・病院に多用されている．
+        <br>ファンコイルは利用者が吹出し温度や風量を調節可能で，個別制御性を高めている．四管式ファンコイルユニット方式では，各ユニットごとに冷水，温水を選択して冷暖房を行うことが可能でさらに個別制御性に優れる．
+        <br>ペリメータゾーンとインテリアゾーンの間で混合損失が発生し，対策が必要となるケースもある．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-64.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-62.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
