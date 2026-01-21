@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="70.62413mm"
-   height="72.868332mm"
-   viewBox="0 0 70.624131 72.868332"
+   width="100.52488mm"
+   height="115.70268mm"
+   viewBox="0 0 100.52488 115.70268"
    version="1.1"
    id="svg5"
-   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
-   sodipodi:docname="2023-70-6ヒートポンプ型パッケージ型空調機の構成図.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   sodipodi:docname="ヒートポンプ型パッケージ型空調機の構成図.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,11 +24,11 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.5287038"
-     inkscape:cx="275.72379"
-     inkscape:cy="126.9049"
+     inkscape:zoom="3.0574076"
+     inkscape:cx="162.39248"
+     inkscape:cy="89.291333"
      inkscape:window-width="1920"
-     inkscape:window-height="968"
+     inkscape:window-height="973"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -39,8 +39,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid861"
-       originx="-44.229099"
-       originy="-76.072907"
+       originx="-44.2291"
+       originy="-33.238559"
        spacingy="1"
        spacingx="1"
        units="mm"
@@ -54,7 +54,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(-44.229097,-76.072909)">
+     transform="translate(-44.229097,-33.23856)">
     <image
        width="110.06667"
        height="50.535416"
@@ -69,30 +69,31 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-44.229097,-76.072909)">
+     transform="translate(-44.229097,-33.23856)">
     <path
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 67.494701,93.66955 6.425153,1.667481 v 1.407414 l -6.425152,1.896951 z"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.47635;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 81.170972,61.179071 10.202064,2.64768 v 2.234737 l -10.202063,3.01204 z"
        id="path896"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 68.596157,93.929617 v -2.20291 H 64.618681 V 87.13731 h 3.059597 c 0.857772,-0.19211 1.058959,-1.655905 0.122384,-2.2641 h -8.566871 v 2.876021 1.285031 l -0.795495,0.458938 1.896951,0.703707 -1.835759,0.734303 1.835759,0.856689 -1.805164,0.856687 1.74397,0.703706 -1.805161,0.703708 1.866354,0.764898 -1.896951,0.642516 1.162648,0.67311 V 100.11 h 6.914682 m 2.552885,0 h 21.556742 v -4.099859 l -0.948474,-0.673111 1.774565,-0.642516 -1.682778,-0.703707 1.713373,-0.795494 -1.652182,-0.734303 1.713375,-0.673111 -1.835757,-0.795496 1.774564,-0.795496 -1.713373,-0.673111 0.856687,-0.367151 V 87.014927 H 70.187147 c -1.003244,-0.458208 -0.765429,-1.894405 0,-2.20291 h 2.631252 v 10.341438"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.47635;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 82.919899,61.592014 V 58.094162 H 76.604335 V 50.80697 h 4.858126 c 1.361998,-0.305038 1.681449,-2.629299 0.194325,-3.595011 H 68.054033 v 4.566639 2.040413 l -1.263113,0.728717 3.01204,1.117369 -2.914877,1.16595 2.914877,1.360278 -2.866297,1.360275 2.769131,1.117367 -2.866292,1.11737 2.963457,1.21453 -3.01204,1.020208 1.84609,1.068785 v 6.315565 h 10.979354 m 4.053553,0 H 117.8984 v -6.509888 l -1.50601,-1.068788 2.81771,-1.020207 -2.67197,-1.117369 2.72055,-1.263111 -2.62339,-1.16595 2.72055,-1.068787 -2.91487,-1.263114 2.81771,-1.263114 -2.72055,-1.068788 1.36027,-0.582974 V 50.612646 H 85.446124 c -1.592983,-0.727557 -1.215373,-3.007997 0,-3.497851 h 4.177987 v 16.420468"
        id="path1442"
        sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccc" />
     <circle
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.316468;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.502498;stroke-miterlimit:4;stroke-dasharray:none"
        id="path2815"
-       cx="68.986259"
-       cy="85.99762"
-       r="1.6057034" />
+       cx="83.539314"
+       cy="48.997334"
+       r="2.5495875" />
     <path
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 66.548076,99.259614 v 1.730766 l 2.552885,-1.687496 -0.01082,1.698316 z"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.47635;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 79.66789,70.055154 v 2.748166 l 4.053553,-2.67946 -0.01718,2.696641 z"
        id="path3329"
        sodipodi:nodetypes="ccccc" />
     <g
-       id="g4096">
+       id="g4096"
+       transform="matrix(1.5878322,0,0,1.5878322,-25.999287,-87.552455)">
       <path
          style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 61.691106,92.455528 -0.270433,-3.007212 c 0.244793,-0.52885 0.4802,-0.445407 0.68149,0 z"
@@ -106,7 +107,7 @@
     </g>
     <g
        id="g4102"
-       transform="translate(26.826923)">
+       transform="matrix(1.5878322,0,0,1.5878322,16.597365,-87.552455)">
       <path
          style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 61.691106,92.455528 -0.270433,-3.007212 c 0.244793,-0.52885 0.4802,-0.445407 0.68149,0 z"
@@ -119,19 +120,19 @@
          sodipodi:nodetypes="cccc" />
     </g>
     <rect
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.47635;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4126"
-       width="17.697115"
-       height="22.716345"
-       x="57.46154"
-       y="80.91346" />
+       width="28.100048"
+       height="36.069744"
+       x="65.239998"
+       y="40.924541" />
     <rect
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.47635;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4128"
-       width="6.8365388"
-       height="19.254808"
-       x="86.0625"
-       y="83.942307" />
+       width="10.855276"
+       height="30.573404"
+       x="110.65352"
+       y="45.733841" />
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-miterlimit:4;stroke-dasharray:none"
@@ -147,9 +148,8 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 301.43174,336.52354 0,-3.85268 3.33652,1.92634 z"
-       transform="matrix(0.26458333,0,0,0.26458333,0.25961539,-1.5144231)"
-       inkscape:transform-center-x="-0.14713028"
-       inkscape:transform-center-y="-1.115324e-06" />
+       transform="matrix(0.42011393,0,0,0.42011393,-25.587061,-89.957105)"
+       inkscape:transform-center-x="-0.23361945" />
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-miterlimit:4;stroke-dasharray:none"
@@ -165,9 +165,8 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 301.43174,336.52354 0,-3.85268 3.33652,1.92634 z"
-       transform="matrix(-0.26458333,0,0,0.26458333,160.80003,11.552885)"
-       inkscape:transform-center-x="0.14713137"
-       inkscape:transform-center-y="-1.115324e-06" />
+       transform="matrix(-0.42011393,0,0,0.42011393,229.32418,-69.208412)"
+       inkscape:transform-center-x="0.2336168" />
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-miterlimit:4;stroke-dasharray:none"
@@ -183,9 +182,9 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 301.43174,336.52354 0,-3.85268 3.33652,1.92634 z"
-       transform="matrix(0,-0.26458333,-0.26458333,0,161.31926,171.38942)"
-       inkscape:transform-center-x="-5.3838406e-06"
-       inkscape:transform-center-y="-0.14713024" />
+       transform="matrix(0,-0.42011393,-0.42011393,0,230.14863,184.58518)"
+       inkscape:transform-center-x="-1.1423469e-05"
+       inkscape:transform-center-y="-0.23362097" />
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-miterlimit:4;stroke-dasharray:none"
@@ -201,39 +200,39 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 301.43174,336.52354 0,-3.85268 3.33652,1.92634 z"
-       transform="matrix(0,0.26458333,-0.26458333,0,153.1593,9.1750798)"
-       inkscape:transform-center-x="-5.3838406e-06"
-       inkscape:transform-center-y="0.14713024" />
+       transform="matrix(0,0.42011393,-0.42011393,0,217.19198,-72.983968)"
+       inkscape:transform-center-x="-8.4912309e-06"
+       inkscape:transform-center-y="0.23361934" />
     <path
        id="path4515"
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.288731;stroke-miterlimit:4;stroke-dasharray:none"
-       inkscape:transform-center-x="-0.6162834"
-       inkscape:transform-center-y="-1.5842395e-06"
-       d="m 99.886856,89.954774 v 1.063491 h -2.32447 v 2.610487 h 2.32447 v 0.971668 l 3.697704,-2.323082 z" />
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.458456;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:transform-center-x="-0.97855436"
+       inkscape:transform-center-y="-2.6624688e-06"
+       d="m 132.60428,55.28063 v 1.688645 h -3.69087 v 4.145016 h 3.69087 v 1.542845 l 5.87133,-3.688664 z" />
     <path
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 67.481266,132.85916 6.42515,1.66748 v 1.40741 l -6.42515,1.89695 z"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.47635;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 81.149639,123.40559 10.20206,2.64768 v 2.23473 l -10.20206,3.01204 z"
        id="path4882"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 69.055076,139.29961 h 21.55674 v -4.09986 l -0.94847,-0.67311 1.77456,-0.64252 -1.68278,-0.70371 1.71338,-0.79549 -1.65219,-0.7343 1.71338,-0.67311 -1.83576,-0.7955 1.77457,-0.7955 -1.71338,-0.67311 0.85669,-0.36715 v -2.14172 h -20.4381 m 0,-2.20291 h 2.63125 v 10.34144 m -6.30278,4.95655 h -6.91468 v -3.97748 l -1.16265,-0.67311 1.89695,-0.64252 -1.86635,-0.76489 1.80516,-0.70371 -1.74397,-0.70371 1.80517,-0.85668 -1.83576,-0.85669 1.83576,-0.73431 -1.89696,-0.7037 0.7955,-0.45894 v -1.28503 -2.87602 h 8.56687 c 1.09544,1.0294 1.74167,0.48658 2.38649,-0.0612 m -1.59099,9.11759 v -2.20291 h -3.97748 v -4.58939 h 3.0596 c 1.12594,-1.05458 1.83688,-0.65665 2.50887,-0.12239"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.47635;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 83.648585,133.63195 h 34.228485 v -6.50989 l -1.50601,-1.06879 2.8177,-1.02021 -2.67197,-1.11737 2.72056,-1.26311 -2.6234,-1.16594 2.72056,-1.06879 -2.91488,-1.26312 2.81772,-1.26312 -2.72056,-1.06879 1.36028,-0.58297 v -3.40069 H 85.424798 m 0,-3.49785 h 4.177983 v 16.42047 m -10.007757,7.87017 H 68.615673 v -6.31557 l -1.846093,-1.06879 3.012038,-1.02021 -2.96345,-1.21452 2.866291,-1.11737 -2.769132,-1.11738 2.866307,-1.36026 -2.914879,-1.36028 2.914879,-1.16596 -3.012054,-1.11736 1.26312,-0.72872 v -2.04041 -4.56664 h 13.602752 c 1.739375,1.63452 2.76548,0.77261 3.789346,-0.0972 m -2.526225,14.4772 v -3.49785 h -6.315571 v -7.28718 h 4.858131 c 1.787804,-1.6745 2.916658,-1.04265 3.983665,-0.19434"
        id="path4884"
        sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccc" />
     <circle
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.316468;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.502498;stroke-miterlimit:4;stroke-dasharray:none"
        id="circle4886"
-       cx="68.972801"
-       cy="125.18723"
-       r="1.6057034" />
+       cx="83.517944"
+       cy="111.22386"
+       r="2.5495875" />
     <path
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 66.534636,138.44922 v 1.73077 l 2.55289,-1.6875 -0.0108,1.69832 z"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.47635;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 79.64655,132.28167 v 2.74817 l 4.05356,-2.67946 -0.01715,2.69664 z"
        id="path4888"
        sodipodi:nodetypes="ccccc" />
     <g
        id="g4894"
-       transform="translate(-0.01344209,39.189607)">
+       transform="matrix(1.5878322,0,0,1.5878322,-26.02063,-25.325936)">
       <path
          style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 61.691106,92.455528 -0.270433,-3.007212 c 0.244793,-0.52885 0.4802,-0.445407 0.68149,0 z"
@@ -247,7 +246,7 @@
     </g>
     <g
        id="g4900"
-       transform="translate(26.813481,39.189607)">
+       transform="matrix(1.5878322,0,0,1.5878322,16.576021,-25.325936)">
       <path
          style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 61.691106,92.455528 -0.270433,-3.007212 c 0.244793,-0.52885 0.4802,-0.445407 0.68149,0 z"
@@ -260,19 +259,19 @@
          sodipodi:nodetypes="cccc" />
     </g>
     <rect
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.47635;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4902"
-       width="17.697115"
-       height="22.716345"
-       x="57.448097"
-       y="120.10307" />
+       width="28.100048"
+       height="36.069744"
+       x="65.218651"
+       y="103.15107" />
     <rect
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.47635;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4904"
-       width="6.8365388"
-       height="19.254808"
-       x="86.049034"
-       y="123.13191" />
+       width="10.855276"
+       height="30.573404"
+       x="110.63214"
+       y="107.96036" />
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-miterlimit:4;stroke-dasharray:none"
@@ -288,9 +287,8 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 301.43174,336.52354 0,-3.85268 3.33652,1.92634 z"
-       transform="matrix(0.26458333,0,0,0.26458333,0.24617386,37.675184)"
-       inkscape:transform-center-x="-0.14713028"
-       inkscape:transform-center-y="-1.115324e-06" />
+       transform="matrix(0.42011393,0,0,0.42011393,-25.608404,-27.730585)"
+       inkscape:transform-center-x="-0.23361934" />
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-miterlimit:4;stroke-dasharray:none"
@@ -306,9 +304,8 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 301.43174,336.52354 0,-3.85268 3.33652,1.92634 z"
-       transform="matrix(-0.26458333,0,0,0.26458333,160.7866,50.742492)"
-       inkscape:transform-center-x="0.14713137"
-       inkscape:transform-center-y="-1.115324e-06" />
+       transform="matrix(-0.42011393,0,0,0.42011393,229.30285,-6.9818931)"
+       inkscape:transform-center-x="0.23362222" />
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-miterlimit:4;stroke-dasharray:none"
@@ -324,9 +321,9 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 301.43174,336.52354 0,-3.85268 3.33652,1.92634 z"
-       transform="matrix(0,-0.26458333,-0.26458333,0,161.30583,210.57903)"
-       inkscape:transform-center-x="-5.3838406e-06"
-       inkscape:transform-center-y="-0.14713024" />
+       transform="matrix(0,-0.42011393,-0.42011393,0,230.1273,246.81171)"
+       inkscape:transform-center-x="-6.0096336e-06"
+       inkscape:transform-center-y="-0.23361481" />
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-miterlimit:4;stroke-dasharray:none"
@@ -342,90 +339,90 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m 301.43174,336.52354 0,-3.85268 3.33652,1.92634 z"
-       transform="matrix(0,0.26458333,-0.26458333,0,153.14587,48.364687)"
-       inkscape:transform-center-x="-5.3838406e-06"
-       inkscape:transform-center-y="0.14713024" />
+       transform="matrix(0,0.42011393,-0.42011393,0,217.17065,-10.757448)"
+       inkscape:transform-center-x="-3.0773955e-06"
+       inkscape:transform-center-y="0.23361995" />
     <path
        id="path4914"
-       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:0.288731;stroke-miterlimit:4;stroke-dasharray:none"
-       inkscape:transform-center-x="-0.6162834"
-       inkscape:transform-center-y="-1.5842395e-06"
-       d="m 100.47919,129.14438 v 1.06349 h -2.324474 v 2.61049 h 2.324474 v 0.97167 l 3.6977,-2.32309 z" />
+       style="opacity:1;fill:#cccccc;stroke:#000000;stroke-width:0.458456;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:transform-center-x="-0.97855373"
+       inkscape:transform-center-y="-1.3292294e-06"
+       d="m 133.5448,117.50715 v 1.68864 h -3.69087 v 4.14502 h 3.69087 v 1.54285 l 5.87133,-3.68868 z" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-44.229097,-76.072909)">
+     transform="translate(-44.229097,-33.23856)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-       x="61.906773"
-       y="78.446396"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.48121px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.420113"
+       x="72.175896"
+       y="38.598248"
        id="text1711"><tspan
          sodipodi:role="line"
          id="tspan1709"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="61.906773"
-         y="78.446396">室外機</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.48121px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.420113"
+         x="72.175896"
+         y="38.598248">室外機</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="61.90015"
-       y="83.738983"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="97.757401"
+       y="37.375656"
        id="text9947"><tspan
          sodipodi:role="line"
          id="tspan9945"
-         style="stroke-width:0.264583"
-         x="61.90015"
-         y="83.738983">四方弁</tspan></text>
+         style="stroke-width:0.420113"
+         x="97.757401"
+         y="37.375656">四方弁</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="59.282684"
-       y="106.82935"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="68.131668"
+       y="82.074631"
        id="text11671"><tspan
          sodipodi:role="line"
          id="tspan11669"
-         style="stroke-width:0.264583"
-         x="59.282684"
-         y="106.82935">膨張弁</tspan></text>
+         style="stroke-width:0.420113"
+         x="68.131668"
+         y="82.074631">膨張弁</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="76.457146"
-       y="92.787971"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="95.401833"
+       y="59.779274"
        id="text12239"><tspan
          sodipodi:role="line"
          id="tspan12237"
-         style="stroke-width:0.264583"
-         x="76.457146"
-         y="92.787971">圧縮機</tspan></text>
+         style="stroke-width:0.420113"
+         x="95.401833"
+         y="59.779274">圧縮機</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="77.512253"
-       y="85.428299"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="97.077164"
+       y="48.093346"
        id="text13277"><tspan
          sodipodi:role="line"
          id="tspan13275"
-         style="stroke-width:0.264583"
-         x="77.512253"
-         y="85.428299">冷媒</tspan></text>
+         style="stroke-width:0.420113"
+         x="97.077164"
+         y="48.093346">冷媒</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="85.280594"
-       y="81.80661"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="109.2896"
+       y="43.077019"
        id="text13857"><tspan
          sodipodi:role="line"
          id="tspan13855"
-         style="stroke-width:0.264583"
-         x="85.280594"
-         y="81.80661">室内機</tspan></text>
+         style="stroke-width:0.420113"
+         x="109.2896"
+         y="43.077019">室内機</tspan></text>
     <g
        id="g31815"
-       transform="translate(3.7569992,-0.917879)">
+       transform="matrix(1.5878322,0,0,1.5878322,-20.033802,-89.009893)">
       <text
          xml:space="preserve"
          style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
@@ -451,26 +448,26 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="104.77628"
-       y="130.97751"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="140.36787"
+       y="120.41785"
        id="text20717"><tspan
          sodipodi:role="line"
          id="tspan20715"
-         style="stroke-width:0.264583"
-         x="104.77628"
-         y="130.97751">冷</tspan></text>
+         style="stroke-width:0.420113"
+         x="140.36787"
+         y="120.41785">冷</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="104.80386"
-       y="133.79234"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="140.41167"
+       y="124.88734"
        id="text21953"><tspan
          sodipodi:role="line"
          id="tspan21951"
-         style="stroke-width:0.264583"
-         x="104.80386"
-         y="133.79234">風</tspan></text>
+         style="stroke-width:0.420113"
+         x="140.41167"
+         y="124.88734">風</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
@@ -484,7 +481,7 @@
          y="96.230766" /></text>
     <g
        id="g31809"
-       transform="translate(-0.5625,-0.04326923)">
+       transform="matrix(1.5878322,0,0,1.5878322,-26.892442,-87.621159)">
       <text
          xml:space="preserve"
          style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
@@ -520,17 +517,17 @@
            y="97.096153">ァ</tspan></text>
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 63.555295,104.08042 2.809581,-2.94575"
+       style="fill:none;stroke:#000000;stroke-width:0.158783;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 74.915856,77.709785 4.461143,-4.677356"
        id="path31604"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 76.197115,92.16346 -3.201924,3.894232"
+       style="fill:none;stroke:#000000;stroke-width:0.158783;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 94.988945,58.787653 89.904827,64.97104"
        id="path31719" />
     <g
        id="g41810"
-       transform="translate(-0.3671516)">
+       transform="matrix(1.5878322,0,0,1.5878322,-26.582262,-87.552455)">
       <text
          xml:space="preserve"
          style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
@@ -567,106 +564,106 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="93.657745"
-       y="90.349892"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="122.71349"
+       y="55.908012"
        id="text36839"><tspan
          sodipodi:role="line"
          id="tspan36837"
-         style="stroke-width:0.264583"
-         x="93.657745"
-         y="90.349892">凝</tspan></text>
+         style="stroke-width:0.420113"
+         x="122.71349"
+         y="55.908012">凝</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="93.657745"
-       y="93.225914"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="122.71349"
+       y="60.474651"
        id="text36843"><tspan
          sodipodi:role="line"
          id="tspan36841"
-         style="stroke-width:0.264583"
-         x="93.657745"
-         y="93.225914">縮</tspan></text>
+         style="stroke-width:0.420113"
+         x="122.71349"
+         y="60.474651">縮</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="93.652237"
-       y="96.330948"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="122.70475"
+       y="65.404922"
        id="text36847"><tspan
          sodipodi:role="line"
          id="tspan36845"
-         style="stroke-width:0.264583"
-         x="93.652237"
-         y="96.330948">器</tspan></text>
+         style="stroke-width:0.420113"
+         x="122.70475"
+         y="65.404922">器</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="53.35778"
-       y="129.53951"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="58.723915"
+       y="118.13454"
        id="text39859"><tspan
          sodipodi:role="line"
          id="tspan39857"
-         style="stroke-width:0.264583"
-         x="53.35778"
-         y="129.53951">凝</tspan></text>
+         style="stroke-width:0.420113"
+         x="58.723915"
+         y="118.13454">凝</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="53.35778"
-       y="132.41553"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="58.723915"
+       y="122.70118"
        id="text39863"><tspan
          sodipodi:role="line"
          id="tspan39861"
-         style="stroke-width:0.264583"
-         x="53.35778"
-         y="132.41553">縮</tspan></text>
+         style="stroke-width:0.420113"
+         x="58.723915"
+         y="122.70118">縮</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="53.352264"
-       y="135.39075"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="58.715157"
+       y="127.42533"
        id="text39867"><tspan
          sodipodi:role="line"
          id="tspan39865"
-         style="stroke-width:0.264583"
-         x="53.352264"
-         y="135.39075">器</tspan></text>
+         style="stroke-width:0.420113"
+         x="58.715157"
+         y="127.42533">器</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="94.0877"
-       y="129.53951"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="123.39619"
+       y="118.13454"
        id="text39873"><tspan
          sodipodi:role="line"
          id="tspan39871"
-         style="stroke-width:0.264583"
-         x="94.0877"
-         y="129.53951">蒸</tspan></text>
+         style="stroke-width:0.420113"
+         x="123.39619"
+         y="118.13454">蒸</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="94.0877"
-       y="132.41553"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="123.39619"
+       y="122.70118"
        id="text39877"><tspan
          sodipodi:role="line"
          id="tspan39875"
-         style="stroke-width:0.264583"
-         x="94.0877"
-         y="132.41553">発</tspan></text>
+         style="stroke-width:0.420113"
+         x="123.39619"
+         y="122.70118">発</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:2.82223px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-       x="94.082191"
-       y="135.39075"
+       style="font-size:4.48123px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.420113"
+       x="123.38744"
+       y="127.42533"
        id="text39881"><tspan
          sodipodi:role="line"
          id="tspan39879"
-         style="stroke-width:0.264583"
-         x="94.082191"
-         y="135.39075">器</tspan></text>
+         style="stroke-width:0.420113"
+         x="123.38744"
+         y="127.42533">器</tspan></text>
     <g
        id="g1"
-       transform="translate(-10.548915,-1.6029417)">
+       transform="matrix(1.5878322,0,0,1.5878322,-42.749193,-90.097657)">
       <rect
          style="fill:#1a1a1a;stroke:#000000;stroke-width:0.225026;stroke-dasharray:none"
          id="rect1"
@@ -688,7 +685,7 @@
     </g>
     <g
        id="g2"
-       transform="translate(-10.548915,37.589056)">
+       transform="matrix(1.5878322,0,0,1.5878322,-42.749193,-27.867342)">
       <rect
          style="fill:#1a1a1a;stroke:#000000;stroke-width:0.225026;stroke-dasharray:none"
          id="rect2"
@@ -709,12 +706,18 @@
            y="110.36387">冷房運転</tspan></text>
     </g>
     <path
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.001;stroke-dasharray:none"
-       d="m 44.471496,105.09191 -0.241899,11.01454"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.00158783;stroke-dasharray:none"
+       d="M 44.613986,79.315862 44.229891,96.805103"
        id="path2" />
     <path
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.001;stroke-dasharray:none"
-       d="m 114.85273,106.02126 -0.21704,12.16094"
-       id="path3" />
+       style="fill:#000000;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       d="M 97.445077,37.871751 85.86368,45.569633"
+       id="path1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.230387;stroke-dasharray:none"
+       d="m 85.55087,44.908671 -0.479292,1.266609 1.321767,-0.207601 z"
+       id="path3"
+       sodipodi:nodetypes="cccc" />
   </g>
 </svg>
