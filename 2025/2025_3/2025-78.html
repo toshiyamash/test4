@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-78</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題78</span>&emsp;環境要素などの測定に関する次の記述のうち，<span class="bold">不適当な</span>ものはどれか．
+        <p><span class="bold">（1）</span>温度の測定には，液体の容積膨張を利用する方法がある．
+        <p><span class="bold">（2）</span>風速の測定には，センサーの球体部の冷却力と気流速度との関係を利用する方法がある．
+        <p><span class="bold">（3）</span>相対湿度の測定には，金属の線膨張を利用する方法がある．
+        <p><span class="bold">（4）</span>風速の測定には，ベルヌーイの定理を利用する方法がある．
+        <p><span class="bold">（5）</span>風量の測定には，オリフィスを利用する方法がある．
+     </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題78&emsp;正解（3）&emsp;頻出度AAA</span>
+        <p>金属は湿度では膨張しない．毛髪の伸縮を利用する自記毛髪湿度計（<span class="bold">2025-78-1図</span>）がある．自記毛髪湿度計は，構造上振動の影響を受けやすく，また，極端な低湿度，高湿度の環境で利用するのは適当でない．
+        <div class="imgcap">2025-78-1図&emsp;自記毛髪湿度計</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/image_3/自記毛髪湿度計.svg" alt="自記毛髪湿度計.svg">
+        </div>
+        <p class="source">出典&emsp;株式会社佐藤計量器製作所</span><br>
+            https://www.sksato.co.jp/7210-00/
+        <p><span class="bold">-(1)</span>液体の容積膨張を利用する方法としては，棒状温度計（アルコール温度計）が代表格である．
+        <p><span class="bold">-(2)</span> に該当するのはカタ計（<span class="bold">2025-78-2図</span>）である．大きな球部を有するアルコール温度計で，普通用と高温用があるが前者では管部に38～35℃の標線が刻まれている．
+        <p>温浴によってカタ計を温めた後水分を拭き取り，気流に当てて38～35℃にアルコールが降下する時間を測定する．1つ1つのカタ計に固有なカタ係数（上部安全球に刻印されている）と降下時間から気流速度を計算する．
+        <p>カタ計は方向不定の微風速測定に適している．
+        <p>球部がぬれたままだとその蒸発熱により計算した気流に誤差を生じる（過大となる）．
+        <div class="imgcap">2025-78-2図&emsp;カタ計</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/image_3/カタ計.svg" alt="カタ計">
+        </div>
+        <p>&emsp;</p>
+        <p><span class="bold">-(4)</span>ベルヌーイの定理から動圧＋静圧＝全圧である．ピトー管（<span class="bold">2025-78-3図</span>）では，静圧と全圧の差から動圧を求める
+        ことができる．
+        <div class="imgcap">2025-78-3図&emsp;ピトー管</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/image_3/ピトー管.svg" alt="ピトー管">
+        </div>
+        <p>&emsp;</p>
+        <p>ピトー管の全圧測定口では流速\(v=0 \ {\rm m/s}\)(よどみ点という)となって動圧は全て静圧に変換している．
+        <p>動圧を\(q\)［Pa］とすれば，ベルヌーイの定理から，
+        <p class="textcenter">
+            \[ q=\frac{\rho}{2} v^2 = 0.6 \times v^2\]   
+            <br>（&nbsp;\(\because \rho {\rm 空気の密度=1.2kg/}m^3\)&nbsp;）     
+        </p>
+        <p>これから
+        <p class="textcenter">
+            \[ v=\sqrt{\frac{q}{0.6} }{\rm ［m/s］}\]           
+        </p>
+        <p>ピトー管はダクト内などの風速を測定するのに利用される．室内の風速など微風の測定には適さない．
+        <p><span class="bold">-(5)</span>流体が流れている管路にオリフィス（穴の空いた板）などを入れて流れを絞ると，その前後に差圧が発生する（<span class="bold">2025-78-4図</span>参照）．
+        <div class="imgcap">2025-78-4図&emsp;オリフィスによる差圧</span></div>
+                <div class="imgcontainer">
+            <img src="../../images/image_3/オリフィスによる差圧.svg" alt="オリフィスによる差圧">
+        </div>
+        <p>&emsp;</p>
+        <p>この差圧は，ベルヌーイの定理により，流量\(Q\)［m<sup>3</sup>/s］と次式の関係がある．
+        <p class="textcenter">
+            \[ Q=60\alpha A \sqrt{\frac{2}{\rho}} \varDelta P \]           
+        </p>
+        <p>ただし，\(\alpha\)：流量係数，\(A\)：開口面積［m<sup>2</sup>］，\(\rho\)：流体の密度［kg/m<sup>3</sup>］，\(\varDelta P\) ：差圧［Pa］ ．                                
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-79.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-77.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
