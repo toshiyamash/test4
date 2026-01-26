@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-83</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題83</span>&emsp;遮音に関する次の記述のうち，<span class="bold">不適当な</span>ものはどれか．
+        <p><span class="bold">（1）</span>遮音とは，壁などで音を遮断して透過する音のエネルギーを小さくすることである．
+        <p><span class="bold">（2）</span>複数の断面仕様の異なる部材で構成される壁の透過性能は，総合透過損失で評価する．
+        <p><span class="bold">（3）</span>複層壁の場合，共鳴によって音が透過することがある．
+        <p><span class="bold">（4）</span>コインシデンス効果が生じると，壁体の透過損失は減少する．
+        <p><span class="bold">（5）</span>床衝撃音に対する遮音等級のLr値は，値が大きい方が，遮音性能が高いことを表す．
+     </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題83&emsp;正解（5）&emsp;頻出度AAA</span>
+        <p>床の遮音性能は，重量床衝撃音，軽量床衝撃音とも，Lr値で評価する．Lr値は，JISで定められた方法で一定の床に衝撃を与え，下階で騒音を測定するので（<span class="bold">2025-83-1図</span>参照），その値が小さいほうが遮音性能が高い（一方，壁の遮音性能を示すDr値は，音源室と受音室の差を図るので，大きい方が遮音性能が高い）．
+        <div class="imgcap">2025-83-1図&emsp;床衝撃音発生装置</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/image_3/床衝撃音発生装置.svg" alt="床衝撃音発生装置">
+        </div>
+        <p class="source">出典&emsp;</span>一般財団法人 日本建築総合試験所 わかりやすい試験シリーズ 音―3 建物の床衝撃音遮断性能試験<br>
+        https://www.hisaka.co.jp/phe/workbook/first_period02.htmlを基に作成
+        <p><span class="bold">-(1)</span>壁などで音を遮断して，透過する音のエネルギーを小さくすることは「遮音」である．その実体は「吸収」と「反射」である（<span class="bold">2025-83-2図</span>参照）．
+        <div class="imgcap">2025-83-2図&emsp;音の反射，吸収，透過</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/image_3/音の反射，吸収，透過.svg" alt="音の反射，吸収，透過">
+        </div>
+        <p>上図で，\(I_i=I_r+I_a+I_t\)
+        <p>ただし，\(I_i\)：入射音の強さ，\(I_r\)：反射音の強さ，\(I_a\)：吸収の強さ，\(I_t\)：透過音の強さ（単位は全て［W/m<sup>2</sup>]）．
+        <p>壁の遮音性能は次式の透過損失値\(TL\)［dB］で表される．
+        <p class="textcenter">
+            \[ TL=10 \log _{10} \frac{I_i}{I_t}\]           
+        </p>
+        <p><span class="bold">-(2)</span>隔壁が複数の材料や断面仕様の異なる部位で構成される場合は，透過損失（\(TL\)）は，各構成部材による部位の平均値を用いるようにする．透過損失の最も大きい構成材の値を用いると，隔壁の遮音性能を過大に見積もることになる．
+        <p><span class="bold">-(3) </span>二重壁や複層ガラスなど空気層をもつ二重壁構造では，板状の壁材に対して空気層がばねとして働くことで特定の周波数で共鳴が生じ，その周辺の周波数で音波が透過しやすくなり遮音性能が大きく低下する現象が生じる。この現象を共鳴透過現象といい低音域で発生することが多い．
+        <p><span class="bold">-(4) </span>ある屈曲振動数をもった壁に，一定の振動数の音波が，一定の角度で壁面に入射すると，音圧の疎密に対応して壁面に屈曲波が生じ，その振動により音を放射し，あたかも音が透過するようにみえる現象が生じる．この現象はコインシデンス（振動数の一致）効果といわれ，壁面の透過損失を著しく低下させることになる．
+        <br>壁材料の屈曲振動数は一般的に大きいので，コインシデンス効果は高音域で発生する．                               
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-84.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-82.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

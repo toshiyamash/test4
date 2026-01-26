@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-84</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題84</span>&emsp;床衝撃音に関する次の文章の<span class="whiteFrame">　　　</span>内に入る語句の組合せとして，<span class="bold">適当な</span>ものはどれか．
+        <p>重量床衝撃音は，<span class="whiteFrame">　ア　</span>ときに発生し，衝撃音は<span class="whiteFrame">　イ　</span>に主な成分を含む．対策としては<span class="whiteFrame">　ウ　</span>が効果的である．
+        <p><span style="margin-left: 7rem;">ア</span><span style="margin-left: 12rem;">イ</span><span style="margin-left: 8rem;">ウ</span></p>
+        <p><span class="bold">（1）</span>人が床上で飛び跳ねたりした<span class="connectLine">　　　</span>高周波数域<span class="connectLine">　　　</span>柔らかい床仕上げ材
+        <p><span class="bold">（2）</span>人が床上で飛び跳ねたりした<span class="connectLine">　　　</span>低周波数域<span class="connectLine">　　　</span>柔らかい床仕上げ材
+        <p><span class="bold">（3）</span>人が床上で飛び跳ねたりした<span class="connectLine">　　　</span>低周波数域<span class="connectLine">　　　</span>床躯体構造の質量増加
+        <p><span class="bold">（4）</span>テーブルを引きずったりした<span class="connectLine">　　　</span>高周波数域<span class="connectLine">　　　</span>柔らかい床仕上げ材
+        <p><span class="bold">（5）</span>テーブルを引きずったりした<span class="connectLine">　　　</span>低周波数域<span class="connectLine">　　　</span>床躯体構造の質量増加
+     </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題84&emsp;正解（3）&emsp;頻出度AAA</span>
+        <p>重量床衝撃音は，<span class="underln">人が床上で飛び跳ねたりした</span>ときに発生し，衝撃音は<span class="underln">低周波数域</span>に主な成分を含む．対策としては<span class="underln">床躯体構造の質量増加</span>が効果的である（<span class="bold">2025-84-1表</span>参照）．                
+        <table>
+            <caption class="bold">2025-84-1表&emsp;重量床衝撃音と軽量床衝撃音</span></caption>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="textcenter" width="20%">発生原因</td>
+                <td class="textcenter">特徴</td>
+                <td class="textcenter">対策</td>
+            </tr>
+            <tr>
+                <td nowrap>重量床衝撃音　</td>
+                <td>人が床上で飛び跳ねたり，重い荷物を移動した場合</td>
+                <td>衝撃音は，低周波数域に主な成分を含む．<br>
+                衝撃源が重くて柔らかく，衝撃力が大きいため，カーペットや畳，フローリング等の床仕上げ材は，床衝撃時に圧密されて硬くなってしまう</td>
+                <td>対策方法として，コンクリート床スラブの厚さを20cm以上とする，曲げ剛性を高めるためにボイドスラブ(中空スラブ)28cm厚以上とする．</td>
+            </tr>
+            <tr>
+                <td>軽量床衝撃音　</td>
+                <td>床上にナイフやフォークを落としたり，テーブルを引きずった時</td>
+                <td>衝撃音は，高周波数域に主な成分を含む．<br>
+                音源となる物の落下による衝撃力が小さく，衝撃源が硬い．</td>
+                <td>床仕上げ材の弾性が大きく影響する．<br>
+                厚めのカーペットを敷くことが有効な対策となる．</td>
+            </tr>
+        </table>                               
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-85.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-83.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

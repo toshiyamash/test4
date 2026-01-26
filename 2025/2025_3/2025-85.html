@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-85</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題85</span>&emsp;音圧レベル80dBの音源室と，面積10m<sup>2</sup>の隔壁で仕切られた等価吸音面積（吸音力）20m<sup>2</sup>の受音室の平均音圧レベルを40dB にしたい．このとき，隔壁の音響透過損失として確保すべき値に<span class="bold">最も近い</span>ものは次のうちどれか．</p>
+        <p>なお，音源室と受音室の音圧レベルには以下の関係がある．
+         <p class="textcenter">
+            \[ L_1-L_2=TL+10\log_{10} \frac{A_2}{S_w}\]           
+        </p>
+        <p>ただし，\(L_1\)，\(L_2\)は音源室，受音室の平均音圧レベル[dB]，\(A_2\)は受音室の等価吸音面積[m<sup>2</sup>]，\(S_w\)は音の透過する隔壁の面積[m<sup>2</sup>]，\(TL\)は隔壁の音響透過損失[dB]を表す．
+        <p>\( \log_{10}2=0.3010\)，\( \log_{10}3=0.4771\)とする．
+        <p><span class="bold">（1）</span>37dB
+        <p><span class="bold">（2）</span>38dB
+        <p><span class="bold">（3）</span>39dB
+        <p><span class="bold">（4）</span>40dB
+        <p><span class="bold">（5）</span>43dB
+     </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題85&emsp;正解（1）&emsp;頻出度AAA</span>
+        <p>与えられた式に与えられた数値を代入して，
+        <p class="textcenter">
+            \[ 80-40=TL+10\log_{10}\frac{20}{10} \]
+            \begin{align}
+            TL&=40-10\log_{10}2 \notag\\[5pt]
+            &=40-3.010\\[5pt]
+            &\doteqdot 37 {\rm dB} \notag
+            \end{align}
+        </p>
+        <p>与えられた式が示すように，2室の隔壁の遮音能力（2室間の音圧レベルの差）は，隔壁の透過損失及び面積，受音室の等価吸音面積が関係することとなり，音源室の吸音性や音源の音響出力等は関係しない．又，隔壁が複数の材料や断面仕様の異なる部位で構成される場合は，式中の\(TL\)は，各構成部材による部位の平均値を用いるようにする（透過損失の最も大きい構成材の値を用いると，隔壁の遮音性能を過大に見積もることになる）．
+        <p>37dBは石膏ボード＋吸音材などで可能な透過損失値である．                              
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-86.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-84.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
