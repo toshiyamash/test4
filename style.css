@@ -200,3 +200,12 @@
     a:visited {
       color: #007bff; /* 訪問後も青色のままにする */
     }
+
+    /* 注意書き，強調で行を囲む枠 */
+    .box {
+    border: 1px solid #333; /* 線の太さ・種類・色 */
+    padding: 20px;          /* 枠の内側の余白（重要！） */
+    margin: 10px 0;         /* 枠の外側の余白 */
+    border-radius: 5px;     /* 角を少し丸くすると柔らかい印象に */
+    background-color: #f9f9f9; /* 背景色を薄く付けると見やすい */
+  }

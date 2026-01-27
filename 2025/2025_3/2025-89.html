@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-89</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題89</span>&emsp;地表における直射日光による法線面照度が80,000lxのとき，直射日光による水平面照度として，<span class="bold">最も近い</span>ものは次のうちどれか．ただし，このときの太陽高度は45度である．</p>
+        <p><span class="bold">（1）</span>40,000&nbsp;lx
+        <p><span class="bold">（2）</span>56,000&nbsp;lx
+        <p><span class="bold">（3）</span>70,000&nbsp;lx
+        <p><span class="bold">（4）</span>80,000&nbsp;lx
+        <p><span class="bold">（5）</span>113,000&nbsp;lx
+     </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題89&emsp;正解（2）&emsp;頻出度AAA</span>
+        <p>問題を図示すると，<span class="bold">2025-89-1図</span>のとおり．
+        <div class="imgcap">2025-89-1図&emsp;直射日光による水平面照度</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/image_3/2025-89-1直射日光による水平面照度.svg" alt="2025-89-1直射日光による水平面照度">
+        </div>
+        <p>&emsp;</p>
+        <p>地上での法線面照度を\(E_n\)［lx］，太陽高度を\(H\)［度］水平面照度を\(E_h\)［lx］とすれば次式が成り立つ．
+        <div class="textcenter">
+            \begin{align}
+            E_h&=E_n \times \sin H \notag\\[5pt]
+            &=80\ 000　\times \sin 45^{\circ} \notag \\[5pt]
+            &=80\ 000 \times \frac{1}{\sqrt{2}} \notag \\[5pt]
+            &=80\ 000 \times 0.71 \notag \\[5pt]
+            &\doteqdot 56\ 000 \ {\rm lx} \notag
+            \end{align}
+        </div>
+        <br>
+        <div class="box">
+            <p class="textcenter">覚えておけば役に立つかもしれない三角関数の値
+            <div class="textcenter">
+                \begin{align}
+                &\cos 30^{\circ}=\sin 60^{\circ} = \sqrt{\frac{3}{2}} = 0.87 \notag\\[5pt]
+                &\cos 45^{\circ}=\sin 45^{\circ} = \frac{1}{\sqrt{2}} = 0.71 \notag\\[5pt]
+                &\cos 60^{\circ}=\sin 30^{\circ} = \frac{1}{2} = 0.5 \notag
+                \end{align}
+            </div>                
+        </div>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-90.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-88.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
