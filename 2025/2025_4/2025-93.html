@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-93</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題93</span>&emsp;建築物の建築計画及び建築士法に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>一級建築士は，建築士法に基づき，国土交通大臣の免許を受けて得られる資格である．
+        <p><span class="bold">（2）</span>二級建築士は，建築士法に基づき，都道府県知事の免許を受けて得られる資格である．
+        <p><span class="bold">（3）</span>建築設備士は，建築基準法の適合チェックが義務付けられている建築物に関与しなければならない．
+        <p><span class="bold">（4）</span>貸事務所における収益部分の床面積を延べ面積で除したものを，レンタブル比という．
+        <p><span class="bold">（5）</span>工事監理とは，その者の責任において，工事を設計図書と照合し確認することである．
+     </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題93&emsp;正解（3）&emsp;頻出度AA</span>
+        <p><span class="bold">-(3) </span>は，「建築設備士」→「設備設計一級建築士」が正しい．
+        <p>設備設計一級建築士による適合チェックが義務付けられているのは，階数が3以上で床面積の合計が5,000m<sup>2</sup>を超える建築物である．
+        <p>建築設備士は2,000m<sup>2</sup>～5,000m<sup>2</sup>を担当する別の資格で，「建築士は，延べ面積が2,000m<sup>2</sup>を超える建築物の建築設備に係る設計又は工事監理を行う場合においては，建築設備土の意見を聴くよう努めなければならない」（同法第18条第4号）．
+        <p>設備設計一級建築士，建築設備士ともに建築士法に基づく国家資格である．
+        <p><span class="bold">-(1)</span>，<span class="bold">-(2) </span>一級建築士免許は大臣免許である．二級建築士，木造建築士は都道府県知事免許である（資格としてはいずれも国家資格）．規模，構造，用途で一級建築士，二級建築士，木造建築士が設計・工事監理できる建築物が規定されている（建築士でなくても設計・工事監理できる建築物もある）．
+        <p><span class="bold">-(4)</span>一般的にレンタブル比（収益部分の面積／延床面積✕100［％］）は，建物全体で65〜75%が必要とされている．
+        <p><span class="bold">-(5)</span>工事監理は設計者がやると規定されているわけではないが，建築主の依頼で設計者がやることが多い．
+        <br>建築士法によれば，『この法律で「工事監理」とは，その者の責任において，工事を設計図書と照合し，それが設計図書のとおりに実施されているかいないかを確認することをいう．』（第2条第8号）．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-94.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-92.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
