@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-95</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題95</span>&emsp;鉄筋コンクリート構造の建築物の用途のうち，法定耐用年数が<span class="bold">短い順に並んでいる</span>ものは次のうちどれか．</p>
+        <p><span style="margin-left: 3rem;">短い</span><span style="margin-left: 19rem;">長い</span></p>
+        <p><span class="bold">（1）</span>店　　舗　＜　公衆浴場　＜　住　　宅　＜　事&nbsp;務&nbsp;所
+        <p><span class="bold">（2）</span>店　　舗　＜　公衆浴場　＜　事&nbsp;務&nbsp;所&nbsp;　＜　住&nbsp;&nbsp;&nbsp;　宅
+        <p><span class="bold">（3）</span>店　　舗　＜　事&nbsp;務&nbsp;所&nbsp;　＜　住　　宅　＜　公衆浴場
+        <p><span class="bold">（4）</span>公衆浴場　＜　店　　舗　＜　事&nbsp;務&nbsp;所&nbsp;　＜　住&nbsp;&nbsp;&nbsp;　宅
+        <p><span class="bold">（5）</span>公衆浴場　＜　店　　舗　＜　住　　宅　＜　事&nbsp;務&nbsp;所
+     </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題95&emsp;正解（5）&emsp;頻出度AA</span>
+        <p>鉄筋コンクリート造の公衆浴場の法定耐用年数は31年，店舗39年，住宅47年，事務所50年である（<span class="bold">2025-95-1表</span>参照）．
+        <table>
+            <caption class="bold">2025-95-1表&emsp;鉄筋コンクリート造建物の法定耐用年数</span></caption>
+            <thead>
+                <tr>
+                    <th>建物の用途</th>
+                    <th>法定耐用年数</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="textcenter">事務所用</td>
+                    <td class="textcenter">50年</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">住宅用</td>
+                    <td class="textcenter">47年</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">店舗用</td>
+                    <td class="textcenter">39年</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">公衆浴場</td>
+                    <td class="textcenter">31年</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>法定耐用年数とは
+        <p>建物などの減価償却資産の取得に要した金額は，取得した時に全額必要経費になるのではなく，その資産の使用可能期間の全期間にわたり分割して必要経費としていくべきものとされ，この使用可能期間に当たるものとして法定耐用年数が，<a href="https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/pdf/2100_01.pdf" target="_blank" rel="noopener noreferrer">財務省「減価償却資産の耐用年数等に関する省令」に定められている．</a> 例えば，木造住宅は22年であるが，木造の事務所は24年，RC，SRC構造の場合は事務所ビルで50年，店舗で39年，又，S造の場合は骨格材の厚みでその法定耐用年数は異なってくる．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-96.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-94.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
