@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-101</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題101</span>&emsp;建築物の防火対策と避難計画に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>火災の早期発見のため，自動火災報知機などを設置する．
+        <p><span class="bold">（2）</span>火災の拡大防止のため，特定防火設備で区画化して防火区画を作る．
+        <p><span class="bold">（3）</span>避難の原則として，二方向以上の避難経路を確保する．
+        <p><span class="bold">（4）</span>劇場，集会場等における客室からの出口の戸は，内開きとする．
+        <p><span class="bold">（5）</span>避難動線は，日常動線と一致させる計画が望ましい．
+      </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題101&emsp;正解（4）&emsp;頻出度AAA</span>
+        <p>建築基準法施行令第118条（客席からの出口の戸）&emsp;劇場，映画館，演芸場，観覧場，公会堂又は集会場における客席からの出口の戸は，<span class="underln">内開きとしてはならない</span>． 
+        <br>1903年のアメリカのイロコイ劇場火災事故では，出口の戸が内開きだったために逃げようと殺到した観客で戸が塞がれ，逃げ遅れた602人が死亡した（アメリカ史上最大の火災死亡事故）．この事故をきっかけに，防火や避難に関する法律が世界中で見直され，劇場などの出口扉は外開きにすることが義務付けられるようになった．
+        <p><span class="bold">-(2)</span>特定防火設備：両面60分の遮炎性能を有する防火設備（建築基準法施行令第112条）．因みに，「防火設備」は，両面20分の遮炎性能を有する防火設備（同第110条の3）．
+        <p><span class="bold">-(3)</span>雪隠詰めを避けるため，避難階段や非常用エレベータは場所的に集中して設置することを禁止する規定がある．
+        <p><span class="bold">-(5)</span>非常時でも多くの人が既知の経路を使用しようとする人間心理に配慮して，避難動線は日常動線と一致させる計画が望ましい．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-102.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-100.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-105</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題105</span>&emsp;建築物の管理及び空調技術に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>クール・ヒートトレンチシステムとは，外気と地盤の温度差を利用して外気負荷の削減を図る手法である．
+        <p><span class="bold">（2）</span>ナイトパージとは，夜間の外気を取り入れることで，空調機の冷房負荷を削減するものである．
+        <p><span class="bold">（3）</span>放射空調は，温度ムラによる不快感が起こりにくい．
+        <p><span class="bold">（4）</span>BCPとは，設備の経年劣化に対する保全計画のことである．
+        <p><span class="bold">（5）</span>ファシリティマネージメントは，コストと品質の最適化バランスを目的としている．
+      </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題105&emsp;正解（4）&emsp;頻出度AAA</span>
+        <p>BCP（Business Continuity Plan：事業継続計画）は，「企業が自然災害，大火災，テロ攻撃などの緊急事態に遭遇した場合において，事業資産の損害を最小限にとどめつつ，中核となる事業の継続あるいは早期復旧を可能とするために，平常時に行うべき活動や緊急時における事業継続のための方法，手段などを取り決めておく計画のことです．」（中小企業庁）．
+        <p><span class="bold">-(1)</span>クール・ヒートトレンチシステムは，地中熱の一つの利用方法で，室内へ導入する外気を地中梁スペース等の地下の空間（クール・ヒートトレンチ(地下溝)という）に流通させて加温，若しくは冷却する．年間を通じて安定した温度の地中を低速で外気を通過させ，夏期は温度を下げ，冬期は温度を上げて施設内に吹き出す仕組みである（次のサイト参照&emsp;<a href="https://www.mext.go.jp/component/b_menu/shingi/giji/__icsFiles/afieldfile/2014/03/31/1346035_3.pdf" target="_blank" rel="noopener noreferrer">文部科学省：地中熱利用設備</a>）．
+        <p><span class="bold">-(2) </span>ナイトパージ（英：night purge 夜間換気）  
+        <p><span class="bold">-(3)</span>放射空調：配管を床・壁・天井に埋設し，冷温水を通す方式が一般的である．これによって床・壁・天井の表面を冷却・加熱して，人体との間で，熱放射により直接冷暖房を行う．放射空調は，温度むらによる不快感が起こりにくい．
+        <p><span class="bold">-(5)</span>ファシリティマネージメントとは，企業・団体等が組織活動のために施設とその環境を総合的に企画，管理，活用する経営活動のことで，その目的は，基本的にはトレードオフの関係にある，施設とその環境構築にかかるコストとその品質の最適化バランスを求めることにある．
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='../2025_5/2025-106.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-104.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
