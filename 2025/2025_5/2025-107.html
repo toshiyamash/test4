@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-107</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題107</span>&emsp;給水及び排水に関する用語とその説明との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</p>
+        <p><span class="bold">（1）</span>阻集器<span class="connectLine">　　　　　　　</span>排水管を閉塞する異物を分離・収集するための設備
+        <p><span class="bold">（2）</span>逃し通気管<span class="connectLine">　　　　　</span>排水系統内の下水ガスによる臭気を除去するための管
+        <p><span class="bold">（3）</span>膨張管<span class="connectLine">　　　　　　　</span>給湯配管系統の安全装置
+        <p><span class="bold">（4）</span>水封式トラップ<span class="connectLine">　　　</span>封水によって排水管内の悪臭などが室内に侵入することを防止する装置
+        <p><span class="bold">（5）</span>FRP<span class="connectLine">　　　　　　　　　</span>ガラス繊維で補強したプラスチック
+      </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題107&emsp;正解（2）&emsp;頻出度AAA</span>
+        <p>逃し通気管は，排水通気両系統間の空気の流通を円滑にするために設ける通気管である（<span class="bold">2025-107-1図</span>参照）．
+        <p>通気管の主な目的は，排水による排水管内の圧力の変動を緩和して，排水をスムースに排出すること，並びにトラップの封水の保護である．排水管内の換気も通気管を設ける目的の一つであるが，臭気除去を目的とする通気管などない．
+        <div class="imgcap">2025-107-1図&emsp;逃し通気管</span></div>
+        <div class="imgcontainer">
+            <img src="../../images/image_5/逃し通気管.svg" alt="逃し通気管">
+        </div>
+        <p><span class="bold">-(5) </span>FRP：Fiber Reinforced Plastics．FRP製の貯水槽が普及している．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-108.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-106.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

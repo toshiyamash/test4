@@ -108,7 +108,22 @@
     max-width: 100%;         /* 親より大きくならないように */
     height: auto;
   }
-   /* 画像キャプション */
+
+/* 要素を横並びにする */
+  .container {
+    display: flex;       /* これだけで横並びになります */
+    justify-content: center; /* 左右の中央 */
+    gap: 10px;          /* 要素同士の隙間（便利！） */
+  }
+  .item {
+      flex: 1;            /* 均等な幅にする設定 */
+      /* background-color: #f0f0f0; */
+      padding: 20px;
+      /* border: 1px solid #ccc; */
+      text-align: center;
+    }
+
+    /* 画像キャプション */
     .imgcap {
       text-align: center;
       font-weight: bold;
