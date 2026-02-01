@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-117</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題117</span>&emsp;次のポンプの点検項目のうち，点検頻度を一般に<span class="bold">6か月に1回程度としている</span>ものはどれか．</p>
+        <p><span class="bold"></span>（1）吐出側の圧力
+        <p><span class="bold"></span>（2）ポンプと電動機の<ruby>芯<rt>しん</rt></ruby>狂い
+        <p><span class="bold"></span>（3）振動・騒音
+        <p><span class="bold"></span>（4）電流値
+        <p><span class="bold"></span>（5）軸受温度
+      </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題117&emsp;正解（2）&emsp;頻出度AAA</span>
+        <p>ポンプと電動機の<ruby>芯<rt>しん</rt></ruby>狂いの点検が6か月に1回程度である．
+        <p>主な給水ポンプの点検は，<span class="bold">2025-117-1表</span>ならびに下記参照．                
+        <table>
+            <caption class="bold">2025-117-1表&emsp;給水ポンプの点検</span></caption>
+            <tbody>
+                <tr>
+                    <td width="20%">毎日行うもの</td>
+                    <td>吸込み圧力，吐出し圧力，軸受温度，軸受部の漏水量，電流値と電圧，騒音・振動</td>
+                </tr>
+                <tr>
+                    <td>毎月</td>
+                    <td>電動機の絶縁抵抗，各部の温度測定</td>
+                </tr>
+                <tr>
+                    <td>6カ月に1回</td>
+                    <td>電動機とポンプの芯の狂い，基礎の点検，清掃</td>
+                </tr>
+                <tr>
+                    <td>3～5年に1回</td>
+                    <td>分解点検</td>
+                </tr>
+            </tbody>
+        </table>        
+        <p>1．吸込側の圧力計が振れている場合は空気を吸込んでいるか，吸込配管の詰まりが考えられる．
+        <br>2．吐出側の圧力計が振れている場合はポンプ内か吐出配管の詰まりが考えられる．
+        <br>3．電流値が定格値より大きい場合やメータの針が振れるのはポンプ内の片当たり，異物の噛み込みがある．
+        <br>4．軸受部はグランドパッキンから0.5cm<sup>3</sup>/s程度の水滴が連続的に滴下しているのがよい．
+        <br>5．絶縁抵抗が1MΩに満たない場合は早期の絶縁劣化が考えられるのでそのまま使用してはならない．
+        <br>6．軸受温度は周囲温度＋40℃以下，軸受部は60℃以下，電動機は周囲温度＋50℃以下であればよい．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-118.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-116.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

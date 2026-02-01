@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-119</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題119</span>&emsp;給湯設備に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold"></span>（1）</span>業務用<ruby>厨<rt>ちゅう</rt></ruby>房など連続的に湯を使用する給湯枝管には，返湯管を設けない場合が多い．
+        <p><span class="bold"></span>（2）</span>貯湯槽の容量が小さいと，加熱装置の発停が多くなる．
+        <p><span class="bold"></span>（3）</span>エネルギーと水の節約を図るため，湯と水を別々の水栓から出さずに混合水栓を使用する．
+        <p><span class="bold"></span>（4）</span>中央式給湯方式の循環ポンプは，給湯主管に設置する．
+        <p><span class="bold"></span>（5）</span>加熱装置から逃し管を立ち上げる場合は，水を供給する高置水槽の水面よりも高く立ち上げる．
+      </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題119&emsp;正解（4）&emsp;頻出度AAA</span>
+        <p>給湯配管が長い中央式給湯方式で返湯管及び給湯循環ポンプを設けて湯を強制循環させるのは，末端の給湯栓でも，栓を開けると直ぐに熱い湯が出るようにするためであるが，この加熱のための循環量はわずかで良いので，循環ポンプは小さな容量のもので十分であり，このような小さい容量のポンプを給湯管に設けると，給湯ピーク時にポンプの羽根車を給湯によって強制的に回転させて故障につながるので，<span class="underln">給湯循環ポンプは必ず返湯管に設ける</span>．
+        <p><span class="bold">-(1)</span>連続的にお湯を使い続けるのであれば返湯管を設ける必要性は低い．
+        <p><span class="bold">-(2)</span>給湯装置の容量には加熱能力と貯湯容量とがあり，一方を大きくすれば他方を小さくすることができる．貯湯槽の容量が小さいと加熱装置に発停が多くなり，大きいと発停が少なくなる．貯湯槽の容量は通常，ピーク時の必要容量の1～2時間分を目安に，加熱能力とのバランスから決定する．
+        <p><span class="bold">-(3) </span>湯と水を別の水栓にすると，適温適量を得るのに時間が掛かりエネルギーを無駄にする．混合水栓の利用が省エネとなる．
+        <p><span class="bold">-(5) </span>温度によって比重の違う「逃し管の湯」（わずかに軽い）と「補給水管の水」（わずかに重い）を重量的にバランスさせ，逃し管から湯が流れ出ないようにするために，逃し管は補給水槽の水面より高く立ち上げる（<span class="bold">2025-119-1図</span>参照）．
+        <div class="imgcap">2025-119-1図&emsp;逃し管の立上げ高さ</span></div>
+        <div class="container">
+            <img src="../../images/image_5/逃し管の立上げ高さ.svg" alt="逃し管の立上げ高さ">
+        </div>
+        <p>立上げ高さは次式によって求めることができる．
+        <p class="textcenter">
+            \[ h \gt \frac{\rho_c}{\rho_h} \times H \]           
+        </p>
+        <p>ただし，\(h\)：求める逃し管の補給水槽の水面から立上げ高さ［m］，\(\rho_c\)：水の密度［kg/m<sup>3</sup>］，\(\rho_h\)：湯の密度［kg/m<sup>3</sup>］，\(H\)：補給水槽水面から加熱装置の最低部までの高さ［m］． 
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-120.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-118.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

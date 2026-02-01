@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-121</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題121</span>　給湯設備における水の性質に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>4℃以上の水は，温度が高くなると密度は小さくなる．
+        <p><span class="bold">（2）</span>配管内の水中における気体の溶解度は，水温の上昇により増加する．
+        <p><span class="bold">（3）</span>15℃における水の比熱は，4186kJ/(kg･℃ ) である．
+        <p><span class="bold">（4）</span>水中に溶存している空気は，配管内の圧力が高いと分離されにくい．
+        <p><span class="bold">（5）</span>水温が高いほど，金属腐食速度が速くなる．
+      </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題121　正解（2）　頻出度AAA</span>
+        <p>配管内の水中における気体の溶解度は，水温の上昇により減少する．
+        <p>溶ける気体の物質量&nbsp;\(n\)&nbsp;は，ボイル・シャルルの法則，\(PV=n{\rm R} T\)から，\( n=\displaystyle \frac{PV}{{\rm R} T} \)となって，温度\(T\)に反比例する傾向がある(\({\rm R}\)は気体定数)．すなわち，配管内の水中における気体の溶解度は，水温の上昇により減少する． 
+        <p><span class="bold">-(1) </span>水は3.984℃で最大密度999.97495kg/m<sup>3</sup>を示す．それよりも温度が下がっても，上がっても密度は小さくなる．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-122.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-120.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -96,14 +96,6 @@
     background-image: linear-gradient(to left top, transparent calc(50% - 0.5px), #999 50%, #999 calc(50% + 0.5px), transparent calc(50% + 1px)) !important;
     }
 
-/* 画像関係 */
-  .imgcontainer {
-    display: flex;
-    justify-content: center; /* 左右の中央 */
-    /* align-items: center;     /* 上下の中央 */
-    /* height: 300px;           /* 高さを指定すると上下中央がわかりやすい */
-    /* border: 1px solid #ccc; */ 
-  }  
   img {
     max-width: 100%;         /* 親より大きくならないように */
     height: auto;
@@ -113,12 +105,12 @@
   .container {
     display: flex;       /* これだけで横並びになります */
     justify-content: center; /* 左右の中央 */
-    gap: 10px;          /* 要素同士の隙間（便利！） */
+    gap: 5px;          /* 要素同士の隙間（便利！） */
   }
   .item {
       flex: 1;            /* 均等な幅にする設定 */
       /* background-color: #f0f0f0; */
-      padding: 20px;
+      padding: 10px;
       /* border: 1px solid #ccc; */
       text-align: center;
     }
