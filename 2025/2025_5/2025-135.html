@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-135</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題135</span>&emsp;排水設備の保守管理の内容とその実施頻度との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</p>
+        <p><span class="bold">（1）</span>グリース阻集器の，槽内の底及び壁面に付着したグリースの清掃<span class="connectLine">　　　</span>1か月に1回
+        <p><span class="bold">（2）</span>排水ポンプの絶縁抵抗の測定<span class="connectLine">　　　　　　　　　　　　　　　　　　　</span>3か月に1回
+        <p><span class="bold">（3）</span>排水槽の清掃<span class="connectLine">　　　　　　　　　　　　　　　　　　　　　　　　　　</span>6か月以内に1回
+        <p><span class="bold">（4）</span>排水ポンプのメカニカルシールの交換<span class="connectLine">　　　　　　　　　　　　　　　</span>1～2年に1回
+        <p><span class="bold">（5）</span>通気管の点検<span class="connectLine">　　　　　　　　　　　　　　　　　　　　　　　　　　</span>1年に1回
+      </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題135&emsp;正解（2）&emsp;頻出度AAA</span>
+        <p>絶縁抵抗の測定は，1カ月に1回以上，定期に行う（<span class="bold">2025-135-1表</span>参照）．                
+        <table>
+            <tbody>
+                <caption class="bold">2025-135-1表&emsp;排水ポンプの定期点検</span></caption>
+                <tr>
+                    <td>日常点検</td>
+                    <td>吐出し圧力，揚水量，電流値，騒音，振動等の異常の有無を確認する．</td>
+                </tr>
+                <tr>
+                    <td>1カ月に1回</td>
+                    <td>絶縁抵抗の測定を行い，1MΩ以上あるか確認する．</td>
+                </tr>
+                <tr>
+                    <td>6カ月～1年に1回</td>
+                    <td>水中ポンプのメカニカルシール部のオイル交換</td>
+                </tr>
+                <tr>
+                    <td>1～2年に1回</td>
+                    <td>メカニカルシールの交換</td>
+                </tr>
+                <tr>
+                    <td>3～5年に1回</td>
+                    <td>オーバホール</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><span class="bold">-(1) </span>グリース阻集器の維持管理については<span class="bold">2025-135-2表</span>参照．
+        <table>
+            <tbody>
+                <caption class="bold">2025-135-2表&emsp;グリース阻集器の清掃</span></caption>
+                <tr>
+                    <td>ストレーナーのちゅう芥</td>
+                    <td>毎日除去</td>
+                </tr>
+                <tr>
+                    <td>グリース</td>
+                    <td>7～10日に1度除去・清掃</td>
+                </tr>
+                <tr>
+                    <td>槽内の底，壁面，トラップ等に付着したグリースや蓄積物</td>
+                    <td>1カ月に1回程度高圧洗浄器にて洗浄・バキュームによる引き出し</td>
+                </tr>
+                <tr>
+                    <td>トラップの清掃</td>
+                    <td>2カ月に1回</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>掃除後は内部の仕切板などを正しく装着し，機能の維持を図る．
+        <br>バキュームによって引き出されたグリースや蓄積物は産業廃棄物となる．                
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-136.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-134.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
