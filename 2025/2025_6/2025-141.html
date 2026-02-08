@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-141</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題141</span>&emsp;建築物衛生法における清掃の目的に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>人体に害を与えるような汚染物質を人間の活動空間から排除し，衛生的な環境を確保することである．
+        <p><span class="bold">（2）</span>きれいさや快適さを維持することである．
+        <p><span class="bold">（3）</span>物の機能を回復させたり，長持ちさせたりすることである．
+        <p><span class="bold">（4）</span>汚染物質を適切に除去することで，事故や設備の不具合を未然に防止し，安全を確保することである．
+        <p><span class="bold">（5）</span>建築物の用途によらず，清掃目的の重点の置き方は同じである．
+</div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題141&emsp;正解（5）&emsp;頻出度AA</span>
+        <p>ビル管理法は特定建築物の維持管理に関し環境衛生上必要な事項等を定める法律であるから，ビル管理法の定める清掃の目的は，一言で言えば「特定建築物の境衛生上良好な状態を維持すること」であるが，より具体的にはビル管理法関連の厚生労働省の通知「建築物における維持管理マニュアルについて」に示された同マニュアルの「清掃の管理」に次の通り書かれている．
+        <p>『清掃は、人の健康を守る「衛生性」、人に快適さを与える「美観」、建築物の機能を長持ちさせる「保全性」、建築物各室の安全を確保する「安全性」の維持を目的として、建築物内の汚れやほこり等の異物を取り除くとともに、廃棄物を収集し、廃棄物保管場所まで運搬する維持管理業務である。また、清掃は、ほこりによるアレルギー性疾患並びにねずみ等衛生動物や害虫の発生・生息を防ぐとともに、ウイルスや微生物等による感染症を防ぐ役割も果たしている。』   
+        <p>したがって<span class="bold">-(1) </span>〜<span class="bold">-(4) </span>は正しい．これらの清掃目的のうち，あえて優先順位をつければ，①衛生的環境の確保，②安全性の確保，③快適さの維持，④保全の向上，⑤美観の維持となるが，商業施設などでは④の美観の維持により重点が置かれ，オフィスでは③の快適さの維持が特に求められるなど，建物の用途によって清掃目的の重点の置き方は異なると考えられる．
+        <p>ビル管理法を始め，建築物における維持管理マニュアルなど関連法令，告示，通知等の全文は厚生労働省のサイト，<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000132645.html" target="_blank" rel="noopener noreferrer">建築物衛生のページ</a>から観ることができる．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-142.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../2025_5/2025-140.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

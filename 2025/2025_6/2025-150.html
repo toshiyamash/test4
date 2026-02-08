@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-150</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題150</span>&emsp;弾性床材の特徴と維持管理に関する次の記述のうち，<span class="bold">最も適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>クッション性に優れるコルク床は，弾性床材に分類される．
+        <p><span class="bold">（2）</span>リノリウム床材のフロアポリツシュは，アルカリ性の剥離剤で除去する．
+        <p><span class="bold">（3）</span>床維持剤を塗布することで，土砂やほこり除去の作業頻度を減らすことができる．
+        <p><span class="bold">（4）</span>塩化ビニルシートは，床維持剤の密着性に優れる．
+        <p><span class="bold">（5）</span>塩化ビニル系床材は，耐薬品性や耐水性に富む．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題150&emsp;正解（5）&emsp;頻出度AAA</span>
+        <p>塩化ビニル系床材は，耐薬品性や耐水性に富む．
+        <p>弾性床材については<span class="bold">2025-150-1表</span>参照．
+        <table>
+            <tbody>
+                <caption class="bold">2025-150-1表&emsp;弾性床材　</span></caption>
+                <tr>
+                    <td class="textcenter">種類</td>
+                    <td class="textcenter">組成</td>
+                    <td width="50%" class="textcenter">特徴</td>
+                </tr>
+                <tr>
+                    <td>リノリウム　<br>
+                        リノタイル</td>
+                    <td>材料は天然素材である．麻布・紙（基材），コルク木粉，炭酸カルシウム，亜麻仁油，顔料</td>
+                    <td>抗菌性がある．多孔質，アルカリ性洗剤・水に弱い．
+                    <br>剥離剤により簡単に色抜け，変色，風合いの低下が起きる．</td>
+                </tr>
+                <tr>
+                    <td nowrap>アスファルトタイル</td>
+                    <td>アスファルト，炭酸カルシウム，クマロン樹脂，顔料</td>
+                    <td>耐水性あり．
+                    <br>耐溶剤性に乏しい．</td>
+                </tr>
+                <tr>
+                    <td>ゴムタイル<br>
+                        ゴムシート</td>
+                    <td>天然ゴム，合成ゴム，炭酸カルシウム，陶土，加硫剤，顔料，酸化防止剤</td>
+                    <td>耐摩耗性に優れる．
+                    <br>溶剤・強アルカリ性洗剤に影響される．剥離剤により黄変．</td>
+                </tr>
+                <tr>
+                    <td>塩化ビニル系床材　<br>
+                        塩化ビニルタイル<br>
+                        塩化ビニルシート</td>
+                    <td>塩化ビニル＝酢酸ビニル共重合樹脂，可塑剤，炭酸カルシウム，安定剤，顔料</td>
+                    <td>剥離剤・洗剤に対して耐性が大きく，耐水性にも富む．
+                    <br>可塑剤によって床維持剤の密着不良が起きやすい．
+                    <br>床維持剤塗布の要らない製品が開発されている．</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><span class="bold">-(1)</span>コルク床は木質系床材に分類される．
+        <p><span class="bold">-(3)</span>弾性床材に塗布する床維持剤は，床の美観を高め，汚れがつきにくい，付着した汚れが除去しやすい等の効果があるが，土砂・ほこりで傷つきやすい．歩行頻度が多い箇所では，土砂・ほこりを放置させない日常清掃と，定期的な部分手入れが必須である．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-151.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-149.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

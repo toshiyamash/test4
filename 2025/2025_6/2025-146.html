@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-146</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題146</span>&emsp;作業改善を進める上で有効な改善手法の一つである問題解決の手順(QCストーリー) について，<span class="bold">最も不適当な</span>ものは次のうちどれか．</p>
+        <p><span class="bold">（1）</span>現状の把握
+        <p><span class="bold">（2）</span>目標の設定
+        <p><span class="bold">（3）</span>活動計画の作成
+        <p><span class="bold">（4）</span>要因の解析
+        <p><span class="bold">（5）</span>仕様変更の要望
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題146&emsp;正解（5）&emsp;頻出度A</span>
+        <p>改善手法の一つである「QCストーリー」の手順は次の通り（公益財団法人日本建築衛生管理教育センター「新建築物の環境衛生管理第2版第1刷」下巻37頁）．
+        <p>手順1&emsp;テーマの選定・理由(問題点の洗い出し、絞込み、事実による確認、活動の狙いを確認、テーマ名の決定)
+        <br>手順2&emsp;現状の把握(現状をありのままに把握。問題の悪さを浮きぼりにする)
+        <br>手順3&emsp;目標の設定(目標の設定)
+        <br>手順4&emsp;活動計画の作成
+        <br>手順5&emsp;要因の解析(要因の抽出、要因の絞込み、要因の検証)
+        <br>手順6&emsp;対策の検討と実施(対策立案、対策の実施)
+        <br>手順7&emsp;効果の確認(有形効果の把握、無形効果の把握)
+        <br>手順8&emsp;標準化と管理の定着(標準化、管理の定着)
+        <br>手順9&emsp;反省と今後の進め方(活動の反省、今後の計画)
+        <p>QCストーリーには，問題解決型，課題達成型，未然防止型などの種類があり，本問は問題解決型に関する出題なので，仕様の変更などは想定されない．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-147.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-145.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
