@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-156</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題156</span>&emsp;建築物の衛生管理と消毒に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>清掃により，ほこり，汚れ，廃棄物，汚物等を除去することは，消毒の前処理として重要な作業である．
+        <p><span class="bold">（2）</span>清掃における衛生管理の基本はゾーニング管理であり，使用する清掃用具を分けて作業する．
+        <p><span class="bold">（3）</span>ノロウイルスは，汚染された食品及び<ruby>糞<rt>ふん</rt></ruby>便や<ruby>嘔<rt>おう</rt></ruby>吐物を介して感染する．
+        <p><span class="bold">（4）</span>ノロウイルス感染により嘔吐したと思われた場合，嘔吐物をぬぐいとり，その部分を含む広い範囲を消毒する．
+        <p><span class="bold">（5）</span>ノロウイルスに対する消毒効果が高い消毒薬として，第四級アンモニウム塩がある．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題156&emsp;正解（5）&emsp;頻出度AAA</span>
+        <p>ノロウイルスは，エンベロープ（脂質の袋状の膜）で覆われたコロナウイルスなどと違って，タンパク質で覆われているので，脂質を溶かすアルコールや第四級アンモニウム塩（逆性石鹸）はあまり効果がない．ウイルスを完全に失活化するには，次亜塩素酸ナトリウムによる消毒か，十分な加熱を行う．
+        <p><span class="bold">-(2)</span>清掃におけるゾーニング管理とは、施設内を衛生リスクや汚染度に応じて「清潔」「汚染」などの区域（ゾーン）に分け、作業者の動線や資機材の使用を厳格に区別し，汚染エリアから清潔エリアへの病原体や異物の持ち込み（交差汚染）を防ぎ、感染防止や衛生管理の目的を達成するための基本的な手法である．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-157.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-155.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-154</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題154</span>　床以外の清掃作業に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>照明器具は，ほこりが付着しやすいが日常で清掃する必要はない．
+        <p><span class="bold">（2）</span>玄関ホールのフロアマットの管理の良し悪しは，建築物全体に影響する．
+        <p><span class="bold">（3）</span> トイレは，汚れや材質が多様なので，それらに適した作業方法と清掃用資材を選択する．
+        <p><span class="bold">（4）</span>階段の壁面は，他の場所より，ほこりの付着度合いが高い．
+        <p><span class="bold">（5）</span>エレベーターは，狭小空間なので土砂の持ち込みやほこりの付着は少ない．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題154　正解（5）　頻出度AAA</span>
+        <p>『エレベーターの作業は，美観の向上はもちろんであるが，扉溝の詰まり等，事故につながる要因を取り除き，安全運行が図れるようにすることが重要である．
+        <br>エレベーターは土砂等の持込みもあり，狭小空間を一度に多数の人たちが利用するため，床面は常に負荷(体重)がかかり摩耗しやすい．また， 操作盤や扉等は，手垢が付着して汚れやすく，不快感を与えるので注意が必要である．』（公益財団法人日本建築衛生管理教育センター「新建築物の環境衛生管理第2版第1刷」下巻81頁）．
+        <p><span class="bold">-(1) </span>照明器具は，年1～2回の定期清掃を実施するのが普通である．
+        <p><span class="bold">-(2) </span>床の汚れ，傷は外部から持ち込まれた土砂とその上を歩行することによる摩耗が主な原因である．玄関ホールに数歩分の長さのフロアマットを置き，その除じんを計画的に行うことは，土砂の持ち込み防止に対する効果が高い．
+        <p><span class="bold">-(4) </span>階段は吹き抜けなので，煙突効果によって建築物内のほこりが集中しやすく，その壁面は他の場所よりほこりの付着度合が高い．（頻出）
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-155.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-153.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
