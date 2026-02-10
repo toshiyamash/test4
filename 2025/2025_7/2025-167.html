@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-167</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題167</span>　蚊の調査法に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>成虫の調査法として，ドライアイスを誘引源としたトラップを用いる方法がある．
+        <p><span class="bold">（2）</span>捕虫網を用いたスウィーピング法は，ヒトスジシマカ成虫の調査に適している．
+        <p><span class="bold">（3）</span>オビトラップは，産卵にきた雌成虫を誘引し，産下された卵を採取するトラップである．
+        <p><span class="bold">（4）</span>幼虫の調査は，<ruby>柄杓<rt>ひしゃく</rt></ruby>などで水域の表面を一定回数すくい取る方法で行う．
+        <p><span class="bold">（5）</span>屋外における調査では，ハエ取りリボンやゴキブリ用粘着トラップを長期間吊るす方法が効果的である．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題167　正解（5）　頻出度AAA</span>
+        <p>屋外では，ハエ取りリボンやゴキブリ用粘着トラップで蚊の成虫を捉えることは難しい．排水槽など密閉空間で成虫蚊の発生状況調査に用いる．
+        <p><span class="bold">-(1) </span>蚊のサーベイランス調査（感染症媒介蚊の調査）では，ドライアイスや炭酸ガスボンベを誘引源とするCDCライトトラップ（蚊捕獲器）が用いられる．
+        <p><span class="bold">-(2) </span>スウィーピング　英&nbsp;sweeping：掃く，すくい取る．昆虫採集では，捕虫ネットを振って，植物の先端についた昆虫を捕らえることをいう．
+        <p><span class="bold">-(3) </span>オビトラップは，蚊が水面付近に卵を産みつける習性を利用したもので，小さなバケツに水と白色の紙（オビ）を入れる．そこに産みつけられた卵と，水中にふ化した幼虫の数や種別を調査する（<span class="bold">2025-167-1 図</span>参照）．
+        <div class="imgcap">2025-167-1図&emsp;オビトラップによる蚊の卵調査</span></div>
+        <div class="container">
+            <img src="../../images/image_7/オビトラップ.svg" alt="">
+        </div>
+        <p class="source">出典 名古屋市<br>https://www.city.nagoya.jp/kenkofukushi/eisei/1015269/1015270/1015275/1015283.html       
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-168.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-166.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
