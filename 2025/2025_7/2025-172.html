@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2025-172</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2025年</p>
+        <p><span class="bold">問題172</span>　昆虫の体の特徴や生活史に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>昆虫の体全体を覆う表皮は，外骨格と呼ばれる．
+        <p><span class="bold">（2）</span>休眠の誘導と覚醒は，ホルモンによって制御されている．
+        <p><span class="bold">（3）</span>1年間に1世代出現する昆虫を，一化性の昆虫という．
+        <p><span class="bold">（4）</span><ruby>蛹<rt>さなぎ</rt></ruby>の時期をもたない昆虫を，完全変態の昆虫と呼ぶ．
+        <p><span class="bold">（5）</span>幼虫から蛹になることを，<ruby>蛹<rt>よう</rt></ruby>化という．
+    </div>
+
+    <div id="tab2">
+        <p>2025年</p>
+        <p class="bold">問題172　正解（4）　頻出度A</span>
+        <p>ゴキブリのように</span><ruby>蛹<rt>さなぎ</rt></ruby>の時期をもたない昆虫は，<span class="underln">不完全変態</span>の昆虫と呼ぶ．
+        <p><span class="bold">-(1) </span>外骨格はキチン質でできた硬い殻でできている．
+        <p><span class="bold">-(3) </span>「一化性」に対して，1年間に2世代出現する昆虫は，「二化性」，複数世代出現する昆虫は「多化性」昆虫と呼ぶ．
+        <p><span class="bold">-(5)</span>完全変態の昆虫の生活史は，産卵→卵→孵化→幼虫→脱皮→蛹化→蛹→羽化→成虫→交尾→産卵・・・を繰り返す（<span class="bold">2025-172-1 図</span>参照）．
+        <div class="imgcap">2025-172-1図&emsp;完全変態の昆虫の生活史</span></div>
+        <div class="container">
+            <img src="../../images/image_7/完全変態の昆虫の生活史.svg" alt="完全変態の昆虫の生活史">
+        </div>
+        <p class="source">出典　公益社団法人 日本建築衛生管理教育センター<br>「新建築物の環境衛生管理第2版第1刷」下巻202頁 図8-2-2(2)</p>
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2025-173.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2025-171.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
