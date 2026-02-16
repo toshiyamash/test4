@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-1</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題1</span>&emsp;世界保健機関（WHO）憲章の前文に述べられている健康の定義に関する次の文章の<span class="whiteFrame">　　　</span>内に入る
+        語句の組合せとして、<span class="bold">最も適当な</span>ものはどれか．</span>                
+        <p>健康とは完全な肉体的、精神的及び<span class="whiteFrame">　ア　</span>福祉の状態にあり、単に疾病又は病弱の存在しないことではない．
+        到達しうる最高水準の健康を享有することは、人種、<span class="whiteFrame">　イ　</span>、政治的信念又は<span class="whiteFrame">　ウ　</span>若しくは社会的条件の差別なしに
+        万人の有する基本的権利の一つである．
+        <p><span style="margin-left: 3.5rem;">ア</span><span style="margin-left: 4.5rem;">イ</span><span style="margin-left: 4.5rem;">ウ</span></p>
+        <p><span class="bold">（1）</span>社会的<span class="connectLine">　　　</span>性別<span class="connectLine">　　　</span>経済的
+        <p><span class="bold">（2）</span>地域的<span class="connectLine">　　　</span>宗教<span class="connectLine">　　　</span>文化的
+        <p><span class="bold">（3）</span>社会的<span class="connectLine">　　　</span>宗教<span class="connectLine">　　　</span>経済的
+        <p><span class="bold">（4）</span>地域的<span class="connectLine">　　　</span>性別<span class="connectLine">　　　</span>文化的
+        <p><span class="bold">（5）</span>社会的<span class="connectLine">　　　</span>性別<span class="connectLine">　　　</span>文化的
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題1&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>WHO 憲章の原文（英語）の該当箇所は，「social」，「religion」，「economic」なので，「社会的」，「宗教」，「経済的」が正しい．
+        <p>CONSTITUTION OF THE WORLD HEALTH ORGANIZATION<br>
+        Health is a state of complete physical, mental and <span class="underln">social</span> well-being and not merely the absence of disease orinfirmity.<br>
+        The enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being without distinction of race, <span class="underln">religion</span>, political belief, <span class="underln">economic</span> or social condition.</p>
+        <audio src="../../sounds/CONSTITUTION OF THE WORLD HEALTH ORGANIZATION.mp3" controls>
+          あなたのブラウザはaudio要素をサポートしていません。
+        </audio>
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-2.html'">次問へ</button>
+      <!-- <button type="button" class="btn-outline" onclick="location.href='2024-167.html'">前問へ</button> -->
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
