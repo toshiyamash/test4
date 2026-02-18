@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-19</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題19</span>&emsp;健康増進法に定める受動喫煙防止対策における施設とその対応との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span>
+        <p><span class="bold">（1）</span>学校<span class="connectLine">　　　　　　　　</span>敷地内禁煙
+        <p><span class="bold">（2）</span>病院<span class="connectLine">　　　　　　　　</span>敷地内禁煙
+        <p><span class="bold">（3）</span>行政機関の庁舎<span class="connectLine">　　　</span>原則屋内禁煙
+        <p><span class="bold">（4）</span>事務所<span class="connectLine">　　　　　　　</span>原則屋内禁煙
+        <p><span class="bold">（5）</span>ホテル・旅館<span class="connectLine">　　　　</span>原則屋内禁煙
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題19&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>行政機関の庁舎は第一種特定施設であるから，敷地内禁煙である（<span class="bold">2024-19-1表</span>参照）．
+        <table>
+            <caption>2024-19-1表　特定施設（受動喫煙防止）</caption>
+            <tr>
+                <td>第一種特定施設</td>
+                <td>学校，病院，児童福祉施設
+                    <br>国及び地方公共団体の行政機関の事務処理のための庁舎
+                </td>
+                <td>特定屋外喫煙場所以外の敷地内禁煙</td>
+            </tr>
+            <tr>
+                <td>第二種特定施設</td>
+                <td>第一種以外の施設</td>
+                <td>喫煙専用室以外の屋内禁煙（住居，旅館の客室を除く）</td>
+            </tr>                    
+        </table>
+        <p>受動喫煙防止の規定を破った喫煙者，放置した施設管理権原者には罰則が科せられる．                
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-20.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-18.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
