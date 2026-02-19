@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-23</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題23</span>&emsp;環境衛生に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>許容限界とは，生物が耐えきれなくなるストレス強度の限界のことである．
+        <p><span class="bold">（2）</span>許容濃度を守ることにより，ほとんどすべての労働者に，健康上の悪い影響は見られないとされている．
+        <p><span class="bold">（3）</span>有害物による，がんなどを除く特定の反応については，曝露量が増加すると陽性者は直線的に増加する．
+        <p><span class="bold">（4）</span>有害物の負荷量と個体レベルにおける障害などの程度の関係を，量－影響関係と呼ぶ．
+        <p><span class="bold">（5）</span>学校における環境衛生の基準は，学校保健安全法で定められている．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題23&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>題意のような「量－反応関係」では，曝露量と陽性者の数はS字状の曲線を描くことが知られている（<span class="bold">2024-23-1 図</span>，<span class="bold">2024-23-1表</span>参照）．
+        <div class="imgcap">2024-23-1図　量－反応関係</div>
+        <div class="container">
+            <img src="../../images/image_2/量ー反応関係.svg" alt="量ー反応関係">
+        </div><br>
+        <table>
+            <caption class="bold">2024-23-1表&emsp;「量－反応関係」と「量－影響関係」</span></caption>
+            <tr>
+                <td style="width: 20%;">量－反応関係　</td>
+                <td style="width: 18%;">集団レベル</td>
+                <td style="width: 62%;">環境条件が厳しくなると，集団の中では，影響を受ける人の割合が増えてくる．</td>
+            </tr>
+            <tr>
+                <td>量－影響関係　</td>
+                <td>個体レベル</td>
+                <td>個体に対する有害物の影響は，その有害物の量（負荷量）が増えるにつれて個体内部での恒常性が保たれなくなり，最終的には死に至る．</td>
+            </tr>
+        </table><br>
+        <p><span class="bold">-(1)</span>リスク管理では，許容限界（値）に安全係数を乗じて許容水準（目標値：許容濃度等）とする．
+        <p><span class="bold">-(2)</span>許容濃度の定義：許容濃度とは，労働者が 1 日 8 時間，週間40時間程度，肉体的に激しくない労働強度で有害物質に曝露される場合に，当該有害物質の平均曝露濃度がこの数値以下であれば，ほとんどすべての労働者に健康上の悪い影響が見られないと判断される濃度である（(公社)日本産業衛生学会</span>・<a href="https://www.sanei.or.jp/files/topics/oels/oel_2024.pdf#:~:text=許容濃度とは，" target="_blank" rel="noopener noreferrer">許容濃度等の勧告（2024年度）</a>より）．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-24.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-22.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

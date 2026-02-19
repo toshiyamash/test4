@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を0.9倍（90%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-26</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題26</span>&emsp;熱中症に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>熱けいれんは，高ナトリウム血症による筋肉のけいれんである．
+        <p><span class="bold">（2）</span>熱射病は，体温上昇による中枢神経系機能の異常である．
+        <p><span class="bold">（3）</span>熱失神（熱虚脱）は，皮膚血管の拡張に伴う血圧低下による一過性の意識消失である．
+        <p><span class="bold">（4）</span>皮膚疾患や重度の日焼けのときには発汗作用は低下するので，注意が必要である．
+        <p><span class="bold">（5）</span>熱射病の治療においては，冷やしすぎに注意する必要がある．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題26&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>熱けいれんは，発汗の後に大量の水分を摂取して，低ナトリウム血症（塩分濃度の低下）による筋肉のけいれんが起こった状態である(<span class="bold">2024-26-1表</span>参照)．                
+        <table>
+        <tbody>
+            <caption class="bold">2024-26-1表&emsp;熱中症　</span></caption>
+            <tr>
+                <td class="textcenter" colspan="2">分類</td>
+                <td class="textcenter">意味</td>
+            </tr>
+            <tr>
+                <td  class="textcenter" colspan="2">熱中症</td>
+                <td>高温・暑熱障害による疾病・症状の総称</td>
+            </tr>
+            <tr>
+                <td class="tdVertical textcenter" rowspan="2">軽症</td>
+                <td nowrap>熱失神（熱虚脱）　</td>
+                <td>頭<ruby>頚<rt>けい</rt></ruby>部が直射日光などにさらされたことにより，<ruby>末梢<rt>まっしょう</rt></ruby>血管の拡張，血圧低下，脳血流が減少して起こる一過性の意識消失</td>
+            </tr>
+            <tr>
+                <td>熱けいれん　</td>
+                <td>発汗の後に大量の水分を摂取して，低ナトリウム血症（塩分濃度の低下）による筋肉のけいれんが起こった状態</td>
+            </tr>
+            <tr>
+                <td class="tdVertical textcenter">中等症</td>
+                <td>熱疲労　</td>
+                <td>大量の発汗で脱水状態となり，細胞外液の浸透圧が増加し，細胞内の水分が移動，減少する．全身的な循環不全による重要諸臓器の機能低下によって，全身倦怠感，脱力，めまい，頭痛，吐気，下痢などの症状が現れる．</td>
+            </tr>
+            <tr>
+                <td class="tdVertical textcenter">重症</td>
+                <td>熱射病　</td>
+                <td>体温上昇のため中枢神経機能が異常をきたした状態．<br>熱射病の治療は，全身の冷却が第一であるが冷やし過ぎには十分に注意する．</td>
+            </tr>
+            <tr>
+                <td class="textcenter" colspan="2">日射病　</td>
+                <td>上記の中で太陽光が原因で起こるもの</td>
+            </tr>
+        </tbody>
+        </table>
+        <p>皮膚疾患や重度の日焼けのときには発汗作用は低下するので，特に熱中症には注意が必要である．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-27.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-25.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
