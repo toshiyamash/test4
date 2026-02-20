@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を0.9倍（90%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-35</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題35</span>&emsp;騒音とその影響に関する次の記述のうち，<span class="bold"> 最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>騒音の測定において用いられるA特性は，人の耳の感度に近い特性を組み込んでいるものである．
+        <p><span class="bold">（2）</span>事務室の騒音レベルは，一般に50～60dBである．
+        <p><span class="bold">（3）</span>騒音性難聴の初期の特徴は，4,000Hz付近の音に対する聴力低下である．
+        <p><span class="bold">（4）</span>騒音による永久性の聴力障害がほとんど起こらないのは，1 日の曝露騒音として等価騒音レベルが85dB以下のときである．
+        <p><span class="bold">（5）</span>血圧の上昇は，騒音による健康影響の一つとして知られている．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題35&emsp;正解（4）&emsp;頻出度AA</span></p>
+        <p>WHOの環境騒音ガイドラインでは，一般の環境騒音では，1日の曝露騒音として24時間等価騒音レベル（LAeq24h）<sup>※</sup>が70dB未満であれば，騒音による永久性の聴力障害はほとんど起こらないとされている．
+        <br>※ 24 時間等価騒音レベル（LAeq24h）：24時間にわたって時間的に変動する騒音レベルをエネルギー的に等価な定常騒音レベルで表した量．
+        <p><span class="bold">-(1) </span>A特性音圧レベル
+        <p>音の物理的な強さは音の伝わる方向に対して垂直な単位面積を単位時間に通過する音のエネルギーなので，単位はW（ワット）/m<sup>2</sup>である．人間の耳の可聴範囲はエネルギー的には約10<sup>-12</sup>W/m<sup>2</sup>から最大10<sup>2</sup>W/m<sup>2</sup>であって，その範囲は14桁に及ぶ．
+        <p>ある基準値との比の対数をとって量を表示することをレベル表示（デシベル尺度）という．
+        <p>考察の対象とする量が数十桁にわたり，そのままでは扱いにくい場合にレベル表示が用いられる．これを音に用いて，音響工学では音のパワーレベルを次のように定義している．
+        <div class="textcenter">
+          \[L_i=10\log_{10}\frac{I}{I_0}\]            
+        </div>
+        <p>ただし，\(L_i\)：音の強さのレベル［dB］，\(I\)：音の強さ［W/m<sup>2</sup>］，\(I_0\)：基準の音の強さ（10<sup>-12</sup>W/m<sup>2</sup>）．
+        <p>上記の可聴範囲（10<sup>-12</sup>W/m<sup>2</sup>～最大10<sup>2</sup>W/m<sup>2</sup>）をレベル表示すると，
+        <div class="textcenter">
+          \begin{align}
+          L_i{\rm （最小）} & = 10\log_{10} \frac{I}{I_0} \notag\\[5pt]
+          &=10\log_{10} \frac{10^{-12}}{10^{-12}} \notag\\[5pt]
+          &=10\log_{10}1=0\ {\rm dB} \notag
+          \end{align}
+        </div><br>
+        <div class="textcenter">
+          \begin{align}
+          L_i{\rm （最大）} & = 10\log_{10} \frac{I}{I_0} \notag\\[5pt]
+          &=10\log_{10} \frac{10^2}{10^{-12}} \notag\\[5pt]
+          &=10\log_{10}10^{14}=140\ {\rm dB} \notag
+          \end{align}
+        </div>
+        <p>レベル表示により，最小と最大値で10<sup>12</sup>～10<sup>2</sup>と14桁もの開きがあったものが0～140dBと3桁で表現できることになる．
+        <p>実際に音の強さを測定する場合は，エネルギーを直接測定することが難しいので，音圧\(p\)［Pa］を測定する．
+        <p>音の強さは，空気の密度を\(\rho\)：［kg/m<sup>3</sup>］，音速を\(c\)：とすると，次式で表される．
+        <div class="textcenter">
+          \[I=\frac{p^2}{\rho c}\]              
+        </div>
+        <p>すなわち，音の強さは，音圧の2乗に比例するので，音圧レベルを次のように定義すると，同じ音に対して強さのレベルと音圧レベルが一致することになる．
+        <div class="textcenter">
+          \begin{align}
+          L_p & = 10\log_{10} \left (\frac{p}{p_0} \right) \notag\\[5pt]
+          &=2 \times \log_{10} \frac{p}{p_0} \notag\\[5pt]
+          &=20\log_{10} \frac{p}{p_0} \notag
+          \end{align}
+        </div>
+        <p>ただし，\(L_p\)：音圧レベル［dB］，\(p\)：音圧［Pa］，\(p_0\)：基準の音圧（2×10<sup>-5</sup>Pa=基準の音の強さ10<sup>-12</sup>W/m<sup>2</sup>に相当）．
+        <p>例えば2Paの音圧レベルは，
+        <div class="textcenter">
+          \begin{align}
+          &20\log_{10} \frac{2}{2 \times 10^{-5}} \notag\\[5pt]
+          &=20 \times \log_{10}10^5 \notag\\[5pt]
+          &=20\times 5 =100\ {\rm dB} \notag
+          \end{align}
+        </div>
+        <p>さらに，この音圧レベルを，人の聴覚の周波数特性をあらわした等ラウドネス曲線（<span class="bold">2024-35-1図</span>）によって補正した音圧レベルをA特性音圧レベルといい，単なる音圧レベルと区別するために，単位に［dB(A)］を用いる．騒音計のA特性音圧レンジで計測した騒音レベル［dB(A)］は騒音の評価の基本となる．
+        <div class="imgcap">2024-35-1図&emsp;等ラウドネス曲線</span></div>
+        <div class="container">
+            <img src="../../images/image_2/等ラウドネス曲線.svg" alt="等ラウドネス曲線">
+        </div>
+        <p><span class="bold">-(2) </span>騒音による聴取妨害に関して，SN比<sup>※</sup>が10～20dBあれば十分な文書了解度が得られる．普通の会話の音声レベルは距離1mで約55～60dB(A)程度であるから，騒音のレベルは40～50dB(A)程度に抑える必要がある．社団法人ニューオフィス推進協議会の提唱する「ニューオフィスミニマム(これからのオフィスで満たすことが望ましい基準)」ではオフィスの暗騒音を45dB(A)程度(以下)と定めている．
+        <br>※ SN比とは信号の強さS［W]と雑音強さN［W］の比率で，次式で求める．
+        <div class="textcenter">
+          \[{\rm SN比}=10\log_{10} \left(\frac{{\rm S}}{{\rm N}} \right) = 10\log_{10}{\rm S}-10\log_{10}{\rm N} \ {\rm ［dB］}\]
+        </div>
+        <p><span class="bold">-(3) </span>騒音性難聴の初期の特徴は，通常，約4,000Hz付近での聴力低下である．
+        <p>縦軸に聴力レベル，横軸に周波数をとってグラフ（オージオグラム）で騒音性難聴が疑われる患者の聴力を調べると，5番目のcの音（4,186Hz，日本式の音名でいうと五点ハの音）付近の聴力が低下し，グラフにくぼみ（ディップ）ができることから初期の騒音性難聴の特徴を c<sup>5</sup>ディップの発生という（<span class="bold">2024-35-2図</span>参照）．
+        <div class="imgcap">2024-35-2図&emsp;c<sup>5</sup>ディップの発生</span></div>
+        <div class="container">
+            <img src="../../images/image_2/c5ディップの発生.svg" alt="c5ディップの発生">
+        </div>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-36.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-34.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

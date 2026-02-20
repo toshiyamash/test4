@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を0.9倍（90%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-27</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題27</span>&emsp;低温障害に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>しもやけ（凍瘡）は，低温により，体の一部が凍ってしまったものである．
+        <p><span class="bold">（2）</span>5℃以下の水に突然漬かると，5～15分間で生命にかかわる低体温症を生じる可能性がある．
+        <p><span class="bold">（3）</span>天候により，気温が13～16℃程度でも低体温症となることがある．
+        <p><span class="bold">（4）</span>低体温症が進行すると震えは止まる．
+        <p><span class="bold">（5）</span>低体温症の診断は直腸温の測定により行う．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題27&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>低温により，体の一部が凍ってしまうのは，凍傷である．組織の壊死をもたらす．凍瘡（しもやけ）は，繰り返し冷気に暴露されることによって，痒み，痛み，皮膚の変色，水疱などの症状を示す．
+        <p><span class="bold">-(4) </span>低体温症初期では激しい身体の震えを伴うことがあるが，さらに体温低下が進むと震えも止まり，意識混濁，昏睡状態となり，ついには心肺停止となる．体温 31℃で死亡の可能性があり，28℃以下ではその可能性が極めて高くなる．
+        <p><span class="bold">-(5) </span>人間の重要な臓器のある頭部や体幹の温度は環境条件にかかわらず約 37℃で一定の狭い範囲に保たれている．このように，外気温が変動しても影響を受けにくい身体内部を核心部といい，その温度を核心温という．体温とは普通この核心温を言う．それに対して外気温の変動を大きく受ける部分を外層部といい，その温度を外層温という．
+        直腸温は核心温に最も近い．
+        <p><span class="bold">2024-27-1図</span>は，周囲の気温と人体各部の温度を示したグラフである．気温が下がると核心温を代表する直腸の温度と，身体表層部の顔，手足の温度の差が大きくなることが分かる．
+        <div class="imgcap">2024-27-1図&emsp;気温と人体各部の温度</span></div>
+        <div class="container">
+            <img src="../../images/image_2/気温と人体各部の温度.svg" alt="気温と人体各部の温度">
+        </div>
+        <p class="source">出典 公益財団法人日本建築衛生管理教育センター<br>新建築物の環境衛生管理H31.3.31第1版第1刷 中12 図4-2-1(1)        
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-28.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-26.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
