@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="102.94386mm"
-   height="115.85902mm"
-   viewBox="0 0 102.94385 115.85903"
+   width="146.61586mm"
+   height="73.409607mm"
+   viewBox="0 0 146.61584 73.409614"
    version="1.1"
    id="svg5"
    inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
-   sodipodi:docname="熱伝導と温度勾配.svg"
+   sodipodi:docname="熱伝導率と温度勾配.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.5287038"
-     inkscape:cx="107.93458"
-     inkscape:cy="288.47969"
+     inkscape:zoom="1.0809568"
+     inkscape:cx="219.2502"
+     inkscape:cy="24.977871"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -43,8 +43,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid861"
-       originx="-70.6524"
-       originy="-79.741517"
+       originx="-76.217529"
+       originy="-124.06008"
        spacingy="1"
        spacingx="1"
        units="mm"
@@ -58,7 +58,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(-70.652413,-79.741519)">
+     transform="translate(-76.217543,-124.06008)">
     <image
        width="66.410416"
        height="79.375"
@@ -73,582 +73,586 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-70.652413,-79.741519)" />
+     transform="translate(-76.217543,-124.06008)" />
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-70.652413,-79.741519)">
-    <g
-       id="g1"
-       transform="matrix(1.3395925,0,0,1.3395925,-23.993026,2.6675829)">
-      <path
-         style="opacity:1;fill:#ececec;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 82.211538,92.596154 V 118.03846"
-         id="path918" />
-      <path
-         style="opacity:1;fill:#ececec;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 100.90385,92.596154 V 118.03846"
-         id="path1363" />
-      <path
-         style="opacity:1;fill:#ececec;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 82.211538,92.596154 V 118.03846"
-         id="path1445" />
-      <path
-         style="opacity:1;fill:#ececec;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 100.90385,92.596154 V 118.03846"
-         id="path1447" />
-      <rect
-         style="opacity:0.356459;fill:#e6e6e6;stroke:none;stroke-width:0.1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         id="rect1471"
-         width="18.346155"
-         height="25.572115"
-         x="82.471153"
-         y="92.509613" />
-      <path
-         style="opacity:1;fill:#ececec;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 120.11081,92.596154 V 118.03846"
-         id="path1695" />
-      <path
-         style="opacity:1;fill:#ececec;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 138.80312,92.596154 V 118.03846"
-         id="path1697" />
-      <path
-         style="opacity:1;fill:#ececec;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 120.11081,92.596154 V 118.03846"
-         id="path1699" />
-      <path
-         style="opacity:1;fill:#ececec;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 138.80312,92.596154 V 118.03846"
-         id="path1701" />
-      <rect
-         style="opacity:0.356459;fill:#e6e6e6;stroke:none;stroke-width:0.1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         id="rect1703"
-         width="18.346155"
-         height="25.572115"
-         x="120.37042"
-         y="92.509613" />
-      <path
-         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 82.211538,95.884615 100.81731,115.00961"
-         id="path1738" />
-      <path
-         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.4;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 120.37042,109.81731 18.34616,5.10577"
-         id="path2169" />
-      <path
-         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 82.168268,119.98558 v 1.73077"
-         id="path2171" />
-      <path
-         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 100.90385,119.98558 v 1.73077"
-         id="path2253" />
-      <path
-         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 82.990384,120.89567 h 6.079328 m 3.829327,0 h 7.269231"
-         id="path2288"
-         sodipodi:nodetypes="cccc" />
-      <path
-         sodipodi:type="star"
-         style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         id="path2312"
-         inkscape:flatsided="true"
-         sodipodi:sides="3"
-         sodipodi:cx="347.35312"
-         sodipodi:cy="462.23804"
-         sodipodi:r1="1.3184795"
-         sodipodi:r2="0.65923971"
-         sodipodi:arg1="1.0516502"
-         sodipodi:arg2="2.0988478"
-         inkscape:rounded="0"
-         inkscape:randomized="0"
-         d="m 348.00727,463.3828 -1.97262,-1.15063 1.98279,-1.13302 z"
-         transform="matrix(0.32599572,0,0,0.2491385,-30.045623,5.7330226)"
-         inkscape:transform-center-x="0.10662468"
-         inkscape:transform-center-y="0.00072903414" />
-      <path
-         sodipodi:type="star"
-         style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         id="path2496"
-         inkscape:flatsided="true"
-         sodipodi:sides="3"
-         sodipodi:cx="347.35312"
-         sodipodi:cy="462.23804"
-         sodipodi:r1="1.3184795"
-         sodipodi:r2="0.65923971"
-         sodipodi:arg1="1.0516502"
-         sodipodi:arg2="2.0988478"
-         inkscape:rounded="0"
-         inkscape:randomized="0"
-         d="m 348.00727,463.3828 -1.97262,-1.15063 1.98279,-1.13302 z"
-         transform="matrix(-0.32599572,0,0,0.2491385,213.16361,5.7330226)"
-         inkscape:transform-center-x="-0.10661981"
-         inkscape:transform-center-y="0.00072903414" />
-      <path
-         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 120.15408,119.98558 v 1.73077"
-         id="path86114" />
-      <path
-         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 138.88966,119.98558 v 1.73077"
-         id="path86116" />
-      <path
-         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 120.97619,120.89567 h 6.07933 m 3.82933,0 h 7.26923"
-         id="path86118"
-         sodipodi:nodetypes="cccc" />
-      <path
-         sodipodi:type="star"
-         style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         id="path86120"
-         inkscape:flatsided="true"
-         sodipodi:sides="3"
-         sodipodi:cx="347.35312"
-         sodipodi:cy="462.23804"
-         sodipodi:r1="1.3184795"
-         sodipodi:r2="0.65923971"
-         sodipodi:arg1="1.0516502"
-         sodipodi:arg2="2.0988478"
-         inkscape:rounded="0"
-         inkscape:randomized="0"
-         d="m 348.00727,463.3828 -1.97262,-1.15063 1.98279,-1.13302 z"
-         transform="matrix(0.32599572,0,0,0.2491385,7.9401857,5.7330226)"
-         inkscape:transform-center-x="0.10662468"
-         inkscape:transform-center-y="0.00072903414" />
-      <path
-         sodipodi:type="star"
-         style="opacity:1;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         id="path86122"
-         inkscape:flatsided="true"
-         sodipodi:sides="3"
-         sodipodi:cx="347.35312"
-         sodipodi:cy="462.23804"
-         sodipodi:r1="1.3184795"
-         sodipodi:r2="0.65923971"
-         sodipodi:arg1="1.0516502"
-         sodipodi:arg2="2.0988478"
-         inkscape:rounded="0"
-         inkscape:randomized="0"
-         d="m 348.00727,463.3828 -1.97262,-1.15063 1.98279,-1.13302 z"
-         transform="matrix(-0.32599572,0,0,0.2491385,251.14942,5.7330226)"
-         inkscape:transform-center-x="-0.10661981"
-         inkscape:transform-center-y="0.00072903414" />
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="101.24025"
-         y="78.53492"
-         id="text6911"><tspan
-           sodipodi:role="line"
-           id="tspan6909"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="101.24025"
-           y="78.53492">Δx</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="101.24025"
-         y="78.53492"
-         id="text16061"
-         inkscape:transform-center-y="4.4134615"><tspan
-           sodipodi:role="line"
-           id="tspan16059"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="101.24025"
-           y="78.53492">Δx</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="101.24025"
-         y="74.640686"
-         id="text16065"
-         inkscape:transform-center-y="4.4134615"><tspan
-           sodipodi:role="line"
-           id="tspan16063"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="101.24025"
-           y="74.640686">Δθ</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.264583"
-         x="115.60563"
-         y="78.837807"
-         id="text22731"><tspan
-           sodipodi:role="line"
-           id="tspan22729"
-           style="stroke-width:0.264583"
-           x="115.60563"
-           y="78.837807">δ</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.264583"
-         x="112.18736"
-         y="73.797577"
-         id="text24011"><tspan
-           sodipodi:role="line"
-           id="tspan24009"
-           style="stroke-width:0.264583"
-           x="112.18736"
-           y="73.797577">θ<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.06375px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+     transform="translate(-76.217543,-124.06008)">
+    <path
+       style="fill:#ececec;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 86.136934,126.7087 v 34.08232"
+       id="path918" />
+    <path
+       style="fill:#ececec;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 111.17701,126.7087 v 34.08232"
+       id="path1363" />
+    <path
+       style="fill:#ececec;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 86.136934,126.7087 v 34.08232"
+       id="path1445" />
+    <path
+       style="fill:#ececec;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 111.17701,126.7087 v 34.08232"
+       id="path1447" />
+    <rect
+       style="opacity:0.356459;fill:#e6e6e6;stroke:none;stroke-width:0.133959;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1471"
+       width="24.576372"
+       height="34.256214"
+       x="86.484711"
+       y="126.59277" />
+    <path
+       style="fill:#ececec;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 136.90651,126.7087 v 34.08232"
+       id="path1695" />
+    <path
+       style="fill:#ececec;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 161.94659,126.7087 v 34.08232"
+       id="path1697" />
+    <path
+       style="fill:#ececec;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 136.90651,126.7087 v 34.08232"
+       id="path1699" />
+    <path
+       style="fill:#ececec;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 161.94659,126.7087 v 34.08232"
+       id="path1701" />
+    <rect
+       style="opacity:0.356459;fill:#e6e6e6;stroke:none;stroke-width:0.133959;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1703"
+       width="24.576372"
+       height="34.256214"
+       x="137.25429"
+       y="126.59277" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.535837;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 86.136934,131.11389 24.924156,25.6197"
+       id="path1738" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.535837;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 137.25429,149.77803 24.57637,6.83965"
+       id="path2169" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 86.07897,163.39937 v 2.31852"
+       id="path2171" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 111.17701,163.39937 v 2.31852"
+       id="path2253" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 87.18027,164.61852 h 8.143822 m 5.129738,0 h 9.73781"
+       id="path2288"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2312"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="347.35312"
+       sodipodi:cy="462.23804"
+       sodipodi:r1="1.3184795"
+       sodipodi:r2="0.65923971"
+       sodipodi:arg1="1.0516502"
+       sodipodi:arg2="2.0988478"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 348.00727,463.3828 -1.97262,-1.15063 1.98279,-1.13302 z"
+       transform="matrix(0.43670142,0,0,0.33374407,-64.241917,10.347497)"
+       inkscape:transform-center-x="0.10662468"
+       inkscape:transform-center-y="0.00072903414" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2496"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="347.35312"
+       sodipodi:cy="462.23804"
+       sodipodi:r1="1.3184795"
+       sodipodi:r2="0.65923971"
+       sodipodi:arg1="1.0516502"
+       sodipodi:arg2="2.0988478"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 348.00727,463.3828 -1.97262,-1.15063 1.98279,-1.13302 z"
+       transform="matrix(-0.43670142,0,0,0.33374407,261.55935,10.347497)"
+       inkscape:transform-center-x="-0.10661981"
+       inkscape:transform-center-y="0.00072903414" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 136.96448,163.39937 v 2.31852"
+       id="path86114" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 162.06252,163.39937 v 2.31852"
+       id="path86116" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 138.06577,164.61852 h 8.14383 m 5.12974,0 h 9.7378"
+       id="path86118"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path86120"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="347.35312"
+       sodipodi:cy="462.23804"
+       sodipodi:r1="1.3184795"
+       sodipodi:r2="0.65923971"
+       sodipodi:arg1="1.0516502"
+       sodipodi:arg2="2.0988478"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 348.00727,463.3828 -1.97262,-1.15063 1.98279,-1.13302 z"
+       transform="matrix(0.43670142,0,0,0.33374407,-13.356413,10.347497)"
+       inkscape:transform-center-x="0.10662468"
+       inkscape:transform-center-y="0.00072903414" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path86122"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="347.35312"
+       sodipodi:cy="462.23804"
+       sodipodi:r1="1.3184795"
+       sodipodi:r2="0.65923971"
+       sodipodi:arg1="1.0516502"
+       sodipodi:arg2="2.0988478"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 348.00727,463.3828 -1.97262,-1.15063 1.98279,-1.13302 z"
+       transform="matrix(-0.43670142,0,0,0.33374407,312.44485,10.347497)"
+       inkscape:transform-center-x="-0.10661981"
+       inkscape:transform-center-y="0.00072903414" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="185.05797"
+       y="167.10617"
+       id="text6911"><tspan
+         sodipodi:role="line"
+         id="tspan6909"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="185.05797"
+         y="167.10617">Δx</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="185.05797"
+       y="167.10617"
+       id="text16061"
+       inkscape:transform-center-y="4.4134615"><tspan
+         sodipodi:role="line"
+         id="tspan16059"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="185.05797"
+         y="167.10617">Δx</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="185.05797"
+       y="161.88948"
+       id="text16065"
+       inkscape:transform-center-y="4.4134615"><tspan
+         sodipodi:role="line"
+         id="tspan16063"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="185.05797"
+         y="161.88948">Δθ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
+       x="204.30173"
+       y="167.51189"
+       id="text22731"><tspan
+         sodipodi:role="line"
+         id="tspan22729"
+         style="stroke-width:0.354433"
+         x="204.30173"
+         y="167.51189">δ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
+       x="199.72263"
+       y="160.76004"
+       id="text24011"><tspan
+         sodipodi:role="line"
+         id="tspan24009"
+         style="stroke-width:0.354433"
+         x="199.72263"
+         y="160.76004">θ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.354433"
    id="tspan24903">1</tspan><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
    id="tspan34013">―</tspan>θ<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.06375px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.354433"
    id="tspan25677">2</tspan></tspan></text>
-      <path
-         style="fill:#000000;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 100.33159,75.506081 h 5.92788"
-         id="path35976" />
-      <path
-         style="fill:#000000;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 111.53832,75.462811 H 123.6537"
-         id="path36068"
-         sodipodi:nodetypes="cc" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="107.47102"
-         y="76.631081"
-         id="text37546"><tspan
-           sodipodi:role="line"
-           id="tspan37544"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="107.47102"
-           y="76.631081">＝</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;stroke-width:0.264583"
-         x="87.431435"
-         y="62.128464"
-         id="text39558"><tspan
-           sodipodi:role="line"
-           id="tspan39556"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="87.431435"
-           y="62.128464">局所的温度勾配</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="119.59383"
-         y="63.866657"
-         id="text44572"><tspan
-           sodipodi:role="line"
-           id="tspan44570"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="119.59383"
-           y="63.866657">Δx</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="119.59383"
-         y="63.866657"
-         id="text44576"
-         inkscape:transform-center-y="4.4134615"><tspan
-           sodipodi:role="line"
-           id="tspan44574"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="119.59383"
-           y="63.866657">Δx</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="119.59383"
-         y="59.97242"
-         id="text44580"
-         inkscape:transform-center-y="4.4134615"><tspan
-           sodipodi:role="line"
-           id="tspan44578"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="119.59383"
-           y="59.97242">Δθ</tspan></text>
-      <path
-         style="fill:#000000;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="m 118.68517,60.837812 h 5.92788"
-         id="path44582" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="114.79093"
-         y="61.962814"
-         id="text44586"><tspan
-           sodipodi:role="line"
-           id="tspan44584"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="114.79093"
-           y="61.962814">＝</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;stroke-width:0.264583"
-         x="87.749168"
-         y="68.72023"
-         id="text45536"><tspan
-           sodipodi:role="line"
-           id="tspan45534"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="87.749168"
-           y="68.72023">均質な材料では</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.264583"
-         x="90.08654"
-         y="121.80289"
-         id="text57120"><tspan
-           sodipodi:role="line"
-           id="tspan57118"
-           style="stroke-width:0.264583"
-           x="90.08654"
-           y="121.80289">δ</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.264583"
-         x="78.317314"
-         y="97.528839"
-         id="text58070"><tspan
-           sodipodi:role="line"
-           id="tspan58068"
-           style="stroke-width:0.264583"
-           x="78.317314"
-           y="97.528839">θ<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.06375px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 183.84074,163.04876 h 7.94094"
+       id="path35976" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 198.85319,162.9908 h 16.22967"
+       id="path36068"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="193.40466"
+       y="164.55579"
+       id="text37546"><tspan
+         sodipodi:role="line"
+         id="tspan37544"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="193.40466"
+         y="164.55579">＝</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;stroke-width:0.354433"
+       x="173.65805"
+       y="141.2119"
+       id="text39558"><tspan
+         sodipodi:role="line"
+         id="tspan39556"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="173.65805"
+         y="141.2119">局所的温度勾配</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="213.07104"
+       y="143.54037"
+       id="text44572"><tspan
+         sodipodi:role="line"
+         id="tspan44570"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="213.07104"
+         y="143.54037">Δx</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="213.07104"
+       y="143.54037"
+       id="text44576"
+       inkscape:transform-center-y="4.4134615"><tspan
+         sodipodi:role="line"
+         id="tspan44574"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="213.07104"
+         y="143.54037">Δx</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="213.07104"
+       y="138.32368"
+       id="text44580"
+       inkscape:transform-center-y="4.4134615"><tspan
+         sodipodi:role="line"
+         id="tspan44578"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="213.07104"
+         y="138.32368">Δθ</tspan></text>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 211.8538,139.48297 h 7.94094"
+       id="path44582" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="206.63712"
+       y="140.98999"
+       id="text44586"><tspan
+         sodipodi:role="line"
+         id="tspan44584"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="206.63712"
+         y="140.98999">＝</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;stroke-width:0.354433"
+       x="174.08368"
+       y="151.75555"
+       id="text45536"><tspan
+         sodipodi:role="line"
+         id="tspan45534"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="174.08368"
+         y="151.75555">均質な材料では</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
+       x="96.686226"
+       y="165.83382"
+       id="text57120"><tspan
+         sodipodi:role="line"
+         id="tspan57118"
+         style="stroke-width:0.354433"
+         x="96.686226"
+         y="165.83382">δ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
+       x="80.920258"
+       y="133.31648"
+       id="text58070"><tspan
+         sodipodi:role="line"
+         id="tspan58068"
+         style="stroke-width:0.354433"
+         x="80.920258"
+         y="133.31648">θ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.354433"
    id="tspan59532">1</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.264583"
-         x="101.42308"
-         y="116.30769"
-         id="text66016"><tspan
-           sodipodi:role="line"
-           id="tspan66014"
-           style="stroke-width:0.264583"
-           x="101.42308"
-           y="116.30769">θ<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.06375px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
+       x="111.87257"
+       y="158.4725"
+       id="text66016"><tspan
+         sodipodi:role="line"
+         id="tspan66014"
+         style="stroke-width:0.354433"
+         x="111.87257"
+         y="158.4725">θ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.354433"
    id="tspan66012">2</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="76.870956"
-         y="105.14423"
-         id="text68914"><tspan
-           sodipodi:role="line"
-           id="tspan68912"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="76.870956"
-           y="105.14423">温</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="76.846153"
-         y="109.64423"
-         id="text69490"><tspan
-           sodipodi:role="line"
-           id="tspan69488"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="76.846153"
-           y="109.64423">度</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="81.966019"
-         y="134.47"
-         id="text81751"><tspan
-           sodipodi:role="line"
-           id="tspan81749"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="81.966019"
-           y="134.47">温度勾配：大</tspan></text>
-      <rect
-         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         id="rect83810"
-         width="14.353209"
-         height="4.5707603"
-         x="82.359909"
-         y="139.35286" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="84.764305"
-         y="142.73859"
-         id="text85178"><tspan
-           sodipodi:role="line"
-           id="tspan85176"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="84.764305"
-           y="142.73859">断熱材</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.264583"
-         x="128.07234"
-         y="121.80289"
-         id="text86126"><tspan
-           sodipodi:role="line"
-           id="tspan86124"
-           style="stroke-width:0.264583"
-           x="128.07234"
-           y="121.80289">δ</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="120.26437"
-         y="134.48149"
-         id="text86142"><tspan
-           sodipodi:role="line"
-           id="tspan86140"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="120.26437"
-           y="134.48149">温度勾配：小</tspan></text>
-      <rect
-         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         id="rect86144"
-         width="23.154461"
-         height="4.51794"
-         x="117.92195"
-         y="139.37927" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="120.72315"
-         y="142.75008"
-         id="text86148"><tspan
-           sodipodi:role="line"
-           id="tspan86146"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="120.72315"
-           y="142.75008">一般の建材</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.264583"
-         x="116.21658"
-         y="110.68269"
-         id="text91520"><tspan
-           sodipodi:role="line"
-           id="tspan91518"
-           style="stroke-width:0.264583"
-           x="116.21658"
-           y="110.68269">θ<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.06375px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="78.982727"
+       y="143.51801"
+       id="text68914"><tspan
+         sodipodi:role="line"
+         id="tspan68912"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="78.982727"
+         y="143.51801">温</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="78.949501"
+       y="149.54617"
+       id="text69490"><tspan
+         sodipodi:role="line"
+         id="tspan69488"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="78.949501"
+         y="149.54617">度</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="85.808037"
+       y="182.80258"
+       id="text81751"><tspan
+         sodipodi:role="line"
+         id="tspan81749"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="85.808037"
+         y="182.80258">温度勾配：大</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.267918;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect83810"
+       width="19.227451"
+       height="6.1229563"
+       x="86.335693"
+       y="189.34363" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="89.556602"
+       y="193.87912"
+       id="text85178"><tspan
+         sodipodi:role="line"
+         id="tspan85176"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="89.556602"
+         y="193.87912">断熱材</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
+       x="147.57172"
+       y="165.83382"
+       id="text86126"><tspan
+         sodipodi:role="line"
+         id="tspan86124"
+         style="stroke-width:0.354433"
+         x="147.57172"
+         y="165.83382">δ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="137.11223"
+       y="182.81798"
+       id="text86142"><tspan
+         sodipodi:role="line"
+         id="tspan86140"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="137.11223"
+         y="182.81798">温度勾配：小</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.267918;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect86144"
+       width="31.017542"
+       height="6.0521984"
+       x="133.97433"
+       y="189.37901" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="137.72681"
+       y="193.89452"
+       id="text86148"><tspan
+         sodipodi:role="line"
+         id="tspan86146"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="137.72681"
+         y="193.89452">一般の建材</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
+       x="131.68983"
+       y="150.93729"
+       id="text91520"><tspan
+         sodipodi:role="line"
+         id="tspan91518"
+         style="stroke-width:0.354433"
+         x="131.68983"
+         y="150.93729">θ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.354433"
    id="tspan91516">1</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.264583"
-         x="139.75505"
-         y="115.61539"
-         id="text91526"><tspan
-           sodipodi:role="line"
-           id="tspan91524"
-           style="stroke-width:0.264583"
-           x="139.75505"
-           y="115.61539">θ<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.06375px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
+       x="163.22179"
+       y="157.54509"
+       id="text91526"><tspan
+         sodipodi:role="line"
+         id="tspan91524"
+         style="stroke-width:0.354433"
+         x="163.22179"
+         y="157.54509">θ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.354433"
    id="tspan91522">2　　</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="96.480637"
-         y="86.798073"
-         id="text48360"><tspan
-           sodipodi:role="line"
-           id="tspan48358"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="96.480637"
-           y="86.798073">熱流</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.264583"
-         x="103.57679"
-         y="86.798073"
-         id="text56628"><tspan
-           sodipodi:role="line"
-           id="tspan56626"
-           style="stroke-width:0.264583"
-           x="103.57679"
-           y="86.798073">q</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="107.47102"
-         y="86.79808"
-         id="text57100"><tspan
-           sodipodi:role="line"
-           id="tspan57098"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="107.47102"
-           y="86.79808">＝λ<tspan
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="178.68202"
+       y="179.39925"
+       id="text48360"><tspan
+         sodipodi:role="line"
+         id="tspan48358"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="178.68202"
+         y="179.39925">熱流</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
+       x="189.4118"
+       y="178.90971"
+       id="text56628"><tspan
+         sodipodi:role="line"
+         id="tspan56626"
+         style="stroke-width:0.354433"
+         x="189.4118"
+         y="178.90971">q</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="193.40466"
+       y="179.39926"
+       id="text57100"><tspan
+         sodipodi:role="line"
+         id="tspan57098"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="193.40466"
+         y="179.39926">＝λ<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
    id="tspan100621" /></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.264583"
-         x="118.8347"
-         y="88.882423"
-         id="text98508"><tspan
-           sodipodi:role="line"
-           id="tspan98506"
-           style="stroke-width:0.264583"
-           x="118.8347"
-           y="88.882423">δ</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:italic;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.264583"
-         x="114.9269"
-         y="83.71981"
-         id="text98518"><tspan
-           sodipodi:role="line"
-           id="tspan98516"
-           style="stroke-width:0.264583"
-           x="114.9269"
-           y="83.71981">θ<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.06375px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
+       x="208.62737"
+       y="182.19142"
+       id="text98508"><tspan
+         sodipodi:role="line"
+         id="tspan98506"
+         style="stroke-width:0.354433"
+         x="208.62737"
+         y="182.19142">δ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
+       x="203.3925"
+       y="175.27563"
+       id="text98518"><tspan
+         sodipodi:role="line"
+         id="tspan98516"
+         style="stroke-width:0.354433"
+         x="203.3925"
+         y="175.27563">θ<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.354433"
    id="tspan98510">1</tspan><tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
    id="tspan98512">―</tspan>θ<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.06375px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.354433"
    id="tspan98514">2</tspan></tspan></text>
-      <path
-         style="fill:#000000;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 114.52262,85.629806 H 125.9037"
-         id="path98520"
-         sodipodi:nodetypes="cc" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="80.141792"
-         y="128.15535"
-         id="text102925"><tspan
-           sodipodi:role="line"
-           id="tspan102923"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="80.141792"
-           y="128.15535">熱伝導率 λ：小</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="118.8964"
-         y="128.16684"
-         id="text114243"><tspan
-           sodipodi:role="line"
-           id="tspan114241"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-           x="118.8964"
-           y="128.16684">熱伝導率 λ：大</tspan></text>
-      <path
-         style="fill:none;stroke:#ffff00;stroke-width:0.0499999"
-         d="m 74.831751,107.88313 0.173077,8.65385"
-         id="path402" />
-      <path
-         style="fill:none;stroke:#ffff00;stroke-width:0.0499999"
-         d="m 146.05627,109.12307 -0.17307,9.34615"
-         id="path404" />
-      <path
-         style="opacity:1;fill:#000000;stroke:#000000;stroke-width:0.001;stroke-dasharray:none;stroke-dashoffset:0"
-         d="m 70.65291,95.093048 0.173077,5.365382"
-         id="path1" />
-      <path
-         style="opacity:1;fill:#000000;stroke:#000000;stroke-width:0.001;stroke-dasharray:none;stroke-dashoffset:0"
-         d="m 147.49906,93.708433 -1.03846,6.576927"
-         id="path2" />
-    </g>
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 202.85094,177.83426 h 15.24601"
+       id="path98520"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="83.364319"
+       y="174.34352"
+       id="text102925"><tspan
+         sodipodi:role="line"
+         id="tspan102923"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="83.364319"
+         y="174.34352">熱伝導率 λ：小</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+       x="135.27969"
+       y="174.35892"
+       id="text114243"><tspan
+         sodipodi:role="line"
+         id="tspan114241"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
+         x="135.27969"
+         y="174.35892">熱伝導率 λ：大</tspan></text>
+    <path
+       style="fill:none;stroke:#ffff00;stroke-width:0.0669795"
+       d="m 76.251026,147.18701 0.231853,11.59264"
+       id="path402" />
+    <path
+       style="fill:none;stroke:#ffff00;stroke-width:0.0669795"
+       d="m 171.66286,148.84803 -0.23185,12.52003"
+       id="path404" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 115.68968,197.46969 h 10.76977"
+       id="path4" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 145.48681,124.06008 h 6.60872"
+       id="path5" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 222.8334,155.87988 v 8.56687"
+       id="path6" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 76.462311,150.73976 v 9.05641"
+       id="path7" />
   </g>
 </svg>
