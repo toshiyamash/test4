@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-52</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題52</span>&emsp;自然換気の換気量に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>温度差による換気量は，給気口と排気口の高さの差の平方根に比例する．
+        <p><span class="bold">（2）</span>温度差による換気量は，室内外空気の密度差の平方根に比例する．
+        <p><span class="bold">（3）</span>風力による換気量は，風圧係数の差に比例する．
+        <p><span class="bold">（4）</span>風力による換気量は，外部風速に比例する．
+        <p><span class="bold">（5）</span>開口部の風圧係数は，外部風の風向によって変化する．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題52&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>風力による換気量は，風圧係数の<span class="underln">差の平方根</span>に比例する．
+        <p>「換気量」と 「換気力」について
+        <p>換気力\(P\)とは，開口部前後の空気の圧力差である．この圧力差は，風圧（移動する空気の動圧）だけではなく，温度差（空気の密度の差）によっても，もたらされる．
+        <p>外部風による換気力\(P_w\)［Pa］は，次式によって与えられる．
+        <div class="textcenter">
+            \[P_w=\frac{\rho}{2}V^2(C_1-C_2)\] 
+        </div>
+        <p style="margin-left: 250px;">ただし，
+        <br>\(V\)：風速［m/s］，
+        <br>\(C_1\)，\(C_2\)：建物の風上，風下の風圧係数，\(\rho\)：空気の密度［kg/m<sup>3</sup>］．
+        </p>
+        <p>風圧係数は実験的に求めるが，<span class="bold">2024-52-1図</span>のとおり風の向きで正負の値をとる．
+        <div class="imgcap">2024-52-1図&emsp;風圧係数</span></div>
+        <div class="container">
+            <img src="../../images/image_3/風圧係数.svg" alt="風圧係数">
+        </div>
+        <br>
+        <p>温度差による換気力\(P_t\)は次式で表される．
+        <div class="textcenter">
+            \[P_t=h(\rho_o -\rho_i){\rm g}\]            
+        </div>
+        <p style="margin-left: 265px;">ただし，
+        <br>\(h\)：開口部間の高さの差［m］，
+        <br>\(\rho_i\)，\(\rho_o\)：その時の温度・高さによる内外空気の密度［kg/m<sup>3</sup>］，<br>\({\rm g}\)：重力加速度（9.8m/s<sup>2</sup>）．
+        </p>
+        <p>換気量\(Q\)［m<sup>3</sup>/s］はこれらの換気力を次式に代入して求めることができる．
+        <div class="textcenter">
+            \[Q=\alpha A\sqrt{\frac{2}{\rho}\cdot P}\]            
+        </div>
+        <p style="margin-left: 265px;">ただし，
+        <br>\(\alpha\)：流量係数，
+        <br>\(A\)［m<sup>2</sup>］，
+        <br>\(\rho\)：換気空気の密度［kg/m<sup>3</sup>］．
+        </p>
+        <p>風力による換気量なら，
+        <div class="textcenter">
+            \begin{align}
+            Q &=\alpha A \sqrt{\frac{2}{\rho} \cdot P_w} \notag\\[5pt]
+            &=\alpha A \sqrt{\frac{2}{\rho}\cdot \frac{\rho}{2}\cdot V^2(C_1-C_2)} \notag\\[5pt]
+            &=\alpha A \sqrt{(C_1-C_2)}\ V \notag
+            \end{align}
+        </div>
+        <p>この式から，風力による換気量は，風速，開口面積に比例し，風圧係数の差の平方根に比例することが分かる．  
+        <p><span class="bold">2024-52-1表</span>に自然換気の換気力と風量についてまとめた．                
+        <table>
+            <caption class="bold">2024-52-1表&emsp;自然換気の換気力と風力</span></caption><tr>
+            <td></td>
+            <td class="textcenter">換気力\(P\)［Pa］</td>
+            <td class="textcenter">風量\(Q\)［m<sup>3</sup>/s］</td>
+            </tr>
+            <tr>
+                <td>風力換気</td>
+                <td><ul>
+                    <li>開口部前後の圧力差に比例</li>
+                    <li>風速の2乗に比例</li>
+                    <li>風上，風下の風圧係数の差に比例</li>
+                </ul></td>
+                <td><ul>
+                    <li>開口部前後の圧力差の平方根に比例</li>
+                    <li>風速に比例</li>
+                    <li>風圧係数の差の平方根に比例</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td nowrap>温度差換気</td>
+                <td><ul>
+                    <li>室内外の温度の差に比例</li>
+                    <li>給気口と排気口の高さに比例</li>
+                    <li>室内外の空気の密度の差に比例</li>
+                </ul></td>
+                <td><ul>
+                    <li>温度差の平方根に比例</li>
+                    <li>高さの差の平方根に比例</li>
+                    <li>密度の差の平方根に比例</li>
+                </ul></td>
+            </tr>
+        </table>      
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-53.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-51.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-53</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題53</span>&emsp;エアロゾル粒子の一般的な粒径が，<span class="bold">大きい順に並んでいる</span>ものは次のうちどれか．</span>
+        <p><span class="bold">（1）</span>花粉＞バクテリア＞ウイルス
+        <p><span class="bold">（2）</span>ウイルス＞バクテリア＞花粉
+        <p><span class="bold">（3）</span>ウイルス＞花粉＞たばこ煙
+        <p><span class="bold">（4）</span>たばこ煙＞ウイルス＞バクテリア
+        <p><span class="bold">（5）</span>バクテリア＞花粉＞たばこ煙
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題53&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>この手の問題では，ウイルスが一番小さいものを選んでおけばよい（<span class="bold">2024-53-1表</span>参照）
+        <p class="bold textcenter ">2024-53-1表&emsp;代表的なエアロゾル等の粒径</span>
+        <table>
+            <tr>
+                <td class="textcenter">エアロゾルの種類</td>
+                <td class="textcenter">粒径［μm］</td>
+                <td class="divider"></td>
+                <td class="textcenter">エアロゾルの種類</td>
+                <td class="textcenter">粒径［μm］</td>
+            </tr>
+            <tr>
+                <td>ウイルス</td>
+                <td class="textcenter">0.003～0.05</td>
+                <td class="divider"></td>
+                <td>ダニアレルゲン</td>
+                <td class="textcenter">1～15</td>
+            </tr>
+            <tr>
+                <td>たばこ煙</td>
+                <td class="textcenter">0.01～1</td>
+                <td class="divider"></td>
+                <td>噴霧液滴</td>
+                <td class="textcenter">1～20</td>
+            </tr>
+            <tr>
+                <td>海塩粒子</td>
+                <td class="textcenter">0.03～0.5</td>
+                <td class="divider"></td>
+                <td>胞子</td>
+                <td class="textcenter">10～40</td>
+            </tr>
+            <tr>
+                <td>バクテリア（細菌）</td>
+                <td class="textcenter">0.3～30</td>
+                <td class="divider"></td>
+                <td>住宅内堆積じん（机上）</td>
+                <td class="textcenter">1～150</td>
+            </tr>
+            <tr>
+                <td>硫酸ミスト</td>
+                <td class="textcenter">1～100</td>
+                <td class="divider"></td>
+                <td>フライアッシュ</td>
+                <td class="textcenter">1～200</td>
+            </tr>
+            <tr>                    
+                <td>セメントダスト</td>
+                <td class="textcenter">3～100</td>
+                <td class="divider"></td>
+                <td>霧雨</td>
+                <td class="textcenter">200～500</td>
+            </tr>
+            <tr>                    
+                <td>花粉</td>
+                <td class="textcenter">10～100</td>
+                <td class="divider"></td>
+                <td>海岸砂</td>
+                <td class="textcenter">100～2,000</td>
+            </tr>
+        </table>
+        <p>エアロゾル（aerosol）の正確な意味は，微小な液体または固体の粒子が分散した気体のことである．       
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-54.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-52.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
