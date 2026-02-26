@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-63</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題63</span>&emsp;湿り空気線図上の状態変化に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>湿り空気を加熱すると，相対湿度は低下する．
+        <p><span class="bold">（2）</span>湿り空気を減湿すると，水蒸気分圧は低下する．
+        <p><span class="bold">（3）</span>湿り空気を冷却すると，比容積は小さくなる．
+        <p><span class="bold">（4）</span>湿り空気を加湿すると，露点温度は低下する．
+        <p><span class="bold">（5）</span>湿り空気を冷却すると，比エンタルピーは低下する．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題63&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p> 空気は加湿して湿っぽくなると，温度が高くても結露しやすくなる．すなわち，露点温度は高くなる．
+        <p> 湿り空気線図（<span class="bold">2024-63-1 図</span>参照）で確認してみると，加湿して絶対湿度が上昇すれば図のA点は上方に移動する．その時露点温度，さらに水蒸気分圧も上昇することが分かる．逆に減湿すれば，A点は下方に移動し，絶対湿度，露点温度，水蒸気分圧ともに低下する．
+        <div class="imgcap">2024-63-1図&emsp;湿り空気線図には何が描かれているのか</span></div>
+        <div class="container">
+            <img src="../../images/image_3/空気線図には何が描かれているのか.svg" alt="湿り空気線図には何が描かれているのか">
+        </div>
+        <p>他の，<span class="bold">-(1) </span>～<span class="bold">-(5) </span>の状態点の移動を<span class="bold">2024-63-2図</span>〜<span class="bold">2024-63-6図</span>に示す．
+        <div class="imgcap">2024-63-2図&emsp;<span class="bold">-(1) 加熱すると相対湿度は低下する</span></span></div>                    
+        <div class="container">
+            <img src=../../images/image_3/空気線図・単純加熱相対湿度低下.svg alt="空気線図・単純加熱相対湿度低下">
+        </div>
+        <p>&emsp;</p>
+        <div class="imgcap">2024-63-3図&emsp;<span class="bold">-(2) 減湿は水蒸気分圧低下を意味する</span></span></div>                    
+        <div class="container">
+            <img src="../../images/image_3/空気線図・減湿蒸気圧低下.svg" alt="空気線図・減湿蒸気圧低下">
+        </div>
+        <p>&emsp;</p>
+        <div class="imgcap">2024-63-4図&emsp;<span class="bold">-(3)冷却すると比容積は小さくなる</span></span></div>                    
+        <div class="container">
+            <img src="../../images/image_3/空気線図・冷却比容積減少.svg" alt="空気線図・冷却比容積減少">
+        </div>
+        <p>&emsp;</p>
+        <div class="imgcap">2024-63-5図&emsp;<span class="bold">-(4)加湿は露点温度上昇を意味する</span></span></div>                    
+        <div class="container">
+            <img src="../../images/image_3/空気線図・加湿露点温度上昇.svg" alt="空気線図・加湿露点温度上昇">
+        </div>
+        <p>&emsp;</p>
+        <div class="imgcap">2024-63-6図&emsp;<span class="bold">-(5)冷却すると比エンタルピーは減少する</span></span></div>                    
+        <div class="container">
+            <img src="../../images/image_3/空気線図・冷却比エントロピー減少.svg" alt="空気線図・冷却比エントロピー減少">
+        </div>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-64.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-62.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

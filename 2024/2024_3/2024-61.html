@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-61</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題61</span>&emsp;次の空調熱負荷のうち，潜熱負荷を含む対象として，<span class="bold">最も適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>照明からの発熱負荷
+        <p><span class="bold">（2）</span>ガラス窓からの通過熱負荷
+        <p><span class="bold">（3）</span>外気負荷
+        <p><span class="bold">（4）</span>ダクト通過熱負荷
+        <p><span class="bold">（5）</span>送風機による負荷
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題61&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>空気の温度をあげる，又は下げるための熱を「顕熱」と言うのに対し，水蒸気の除去や加湿に必要な熱を「潜熱」という．
+        <br>潜熱負荷は必ず水蒸気の移動を伴うが，<span class="bold">-(1) </span>の照明や，<span class="bold">-(5) </span>の送風機は蒸気など出さないし，<span class="bold">-(2) </span>のガラスや<span class="bold">-(4) </span>のダクトは蒸気を通さない．
+        <br><span class="bold">-(3) </span>の外気は，（日本では）夏場は水蒸気を持ち込み，冬場は持ち去る．
+        <br><a href="../../2024/2024_3/2024-60.html#tab2#:~:text=22024-60-1表 熱負荷の分類" target="_blank" rel="noopener noreferrer">前問</a>解説の <span class="bold">2024-60-1表</span>も参照．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-62.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-60.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
