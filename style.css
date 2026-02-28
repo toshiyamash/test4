@@ -68,13 +68,18 @@
 
     /* table関係 */ 
     table {
-    width: 100%;
-    /* table-layout: fixed; */
-    border-collapse:  collapse;     /* セルの線を重ねる */
+      /* width: 100%; */
+      /* table-layout: fixed; */
+      border-collapse:  collapse;     /* セルの線を重ねる */
+      margin-left: auto;
+      margin-right: auto;
     }
     caption {
       font-weight: bold;
-      margin-bottom: 0.75rem; 
+      /* margin-bottom: 0.75rem; 
+      white-space: nowrap;
+      text-align: center;
+      padding-bottom: 5px; */
     }
     table.auto-layout {
     table-layout: auto;
@@ -96,6 +101,12 @@
     background-image: linear-gradient(to left top, transparent calc(50% - 0.5px), #999 50%, #999 calc(50% + 0.5px), transparent calc(50% + 1px)) !important;
     }
 
+  .tblcap{
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 0.75rem; 
+  }
+
   img {
     max-width: 100%;         /* 親より大きくならないように */
     height: auto;
@@ -115,10 +126,11 @@
       text-align: center;
     }
 
-    /* 画像キャプション */
-    .imgcap {
+    /* 画像，表キャプション */
+    .cap {
       text-align: center;
       font-weight: bold;
+      margin-top: 0.75rem; 
       margin-bottom: 0.75rem; 
     }
     /* 出典 */
