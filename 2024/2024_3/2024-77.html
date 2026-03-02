@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-77</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題77</span>&emsp;環境測定に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>サーミスタ温度計は，電気抵抗式温度計の一種である．
+        <p><span class="bold">（2）</span>相対湿度の測定には，毛髪などの伸縮を利用する方法がある．
+        <p><span class="bold">（3）</span>アスマン通風乾湿計は，周囲気流及び熱放射の影響を防ぐ構造となっている．
+        <p><span class="bold">（4）</span>ピトー管による風速測定では，ストークスの定理を用いる．
+        <p><span class="bold">（5）</span>換気量の測定には，トレーサガスの濃度減衰を利用する方法がある．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題77&emsp;正解（4）&emsp;頻出度AA</span></p>
+        <p>「ストークスの定理」⇛「ベルヌーイの定理」が正しい（ストークスの定理はベクトル解析なる学問で，線積分を面積分に変換する公式が有名）．
+        <p>ベルヌーイの定理から動圧＋静圧＝全圧である．ピトー管（<span class="bold">2024-77-1 図</span>）では，静圧と全圧の差から動圧を求める
+        ことができる．
+        <div class="cap">2024-77-1図&emsp;ピトー管</span></div>
+        <div class="container">
+            <img src="../../images/image_3/ピトー管.svg" alt="ピトー管">
+        </div>
+        <p>ピトー管の全圧測定口では流速\(v=0\ {\rm m/s}\)&nbsp;(よどみ点という)となって動圧は全て静圧に変換している．
+        <p>動圧を\(q\)［Pa］とすれば，ベルヌーイの定理から，
+        <div class="textcenter">
+            \[q=\frac{\rho}{2}v^2=0.6\times v^2\ \ \ (\ \because {\rm 空気の密度＝1.2kg/m^3}\ )\]
+        </div>
+        <p>これから，
+        <div class="textcenter">
+            \[v=\sqrt{\frac{q}{0.6}}\ {\rm ［m/s］}\]
+        </div>
+        <p>ピトー管はダクト内などの風速を測定するのに利用される．室内の風速など微風の測定には適さない．
+        <p><span class="bold">-(1) </span>サーミスタ温度計は電気抵抗式温度計の一種である．サーミスタ(thermistor)とは，温度変化に対して電気抵抗の変化の大きい抵抗体のことである．最も利用多いNTCサーミスタはニッケル，マンガン，コバルト，鉄などの酸化物を混合して焼結したものである．
+        <br>電気抵抗式温度計は精度が高く，遠隔で示度を読み取れる利点を持つ．    
+        <p><span class="bold">-(2) </span>自記毛髪湿度計<span class="bold">2024-77-2図</span>参照．構造上，自記毛髪湿度計は振動の影響を受けやすく，また，極端な低湿度，高湿度の環境で利用するのは適当でない．
+        <div class="cap">2024-77-2図&emsp;自記毛髪湿度計</span></div>
+        <div class="container">
+            <img src="../../images/image_3/自記毛髪湿度計.svg" alt="自記毛髪湿度計">
+        </div>
+        <p class="source">出典&emsp;株式会社佐藤計量器製作所</span><br>
+            https://www.sksato.co.jp/7234-00/
+        <p><span class="bold">-(3) </span>アスマン通風乾湿計（<span class="bold">2024-77-3図</span>）は，湿球における水の蒸発量は気流によって異なるので，一定速度で回転するゼンマイ駆動又はモータ駆動の風車機構を内蔵する．湿球への通風速度は3m/s以上必要である．
+        <div class="cap">2024-77-3図&emsp;アスマン通風乾湿計　</span></div>
+        <div class="container">
+            <img src="../../images/image_3/アスマン通風乾湿計.svg" alt="アスマン通風乾湿計">
+        </div>
+        <p class="source">出典&emsp;柴田科学株式会社</span><br>
+            https://www.sibata.co.jp/item/598/ を基に作成
+        <p>放射熱の影響を防ぐため温度計を挿入した金属管はクロームメッキを施されている．
+        <br>測定点に設置し，通風開始後3分と4分の値を読み取り変化がなければ測定値とする．
+        <p>相対湿度100%でない限り，湿球温度は常に乾球温度よりも低い値を示す．
+        <p><span class="bold">-(5) </span>トレーサガス減衰法は，室内の二酸化炭素等をトレーサ(指標物質)として，トレーサの濃度変化から，下記のとおり計算によって換気量を求める間接換気量測定法である．
+        <div class="textcenter" class="">
+            \[Q=\frac{C_1-C_D}{C_D-C_U}\cdot F_I\]           
+        </div>
+        <p style="margin-left: 175px;">ただし，
+            <br>\(Q\)：換気量［m<sup>3</sup>/h］，            
+            <br>\(C_U\)：トレーサーガス上流濃度［ppm］，
+            <br>\(C_D\)：トレーサーガス下流濃度［ppm］，
+            <br>\(C_I\)：注入トレーサーガス濃度［ppm］，
+            <br>\(F_I\)：トレーサーガス注入量［m<sup>3</sup>/h］
+        </p>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-78.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-76.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="130.92903mm"
+   width="188.99998mm"
    height="88.553452mm"
-   viewBox="0 0 130.92903 88.55345"
+   viewBox="0 0 188.99998 88.55345"
    version="1.1"
    id="svg5"
    inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.7643519"
-     inkscape:cx="511.54449"
+     inkscape:cx="631.90789"
      inkscape:cy="226.33554"
      inkscape:window-width="1920"
      inkscape:window-height="973"
@@ -51,15 +51,15 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(40.64394,84.313797)" /><g
+     transform="translate(72.490092,84.313797)" /><g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(40.64394,84.313797)" /><g
+     transform="translate(72.490092,84.313797)" /><g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(40.64394,84.313797)"><text
+     transform="translate(72.490092,84.313797)"><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.56664px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.231943"
        x="78.301147"
@@ -147,4 +147,10 @@
        style="fill:#000000;stroke:#000000;stroke-width:0.438317;stroke-dasharray:none"
        d="M -16.823366,-31.772581 0.55699542,-37.566034"
        id="path4"
-       sodipodi:nodetypes="cc" /></g></svg>
+       sodipodi:nodetypes="cc" /><path
+       style="fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m -72.490092,-49.006107 v 15.923075"
+       id="path1" /><path
+       style="fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 116.5099,-53.85226 v 19.730767"
+       id="path2" /></g></svg>

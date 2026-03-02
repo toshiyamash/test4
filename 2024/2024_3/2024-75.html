@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-75</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題75</span>&emsp;空気調和設備の配管系における配管名称と使用区分との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span>
+        <p><span style="margin-left: 4rem;">配管名称</span><span style="margin-left: 14rem;">使用区分</span></p>
+        <p><span class="bold">（1）</span>圧力配管用炭素鋼鋼管<span class="connectLine">　　　　　　　　　　</span>高温水
+        <p><span class="bold">（2）</span>一般配管用ステンレス鋼鋼管<span class="connectLine">　　　　　　　</span>冷却水
+        <p><span class="bold">（3）</span>水道用硬質塩化ビニルライニング鋼管<span class="connectLine">　　　</span>冷却水
+        <p><span class="bold">（4）</span>配管用炭素鋼鋼管（白管）<span class="connectLine">　　　 　　　　　</span>冷温水
+        <p><span class="bold">（5）</span>耐熱性硬質ポリ塩化ビニル管<span class="connectLine">　　　　　　　</span>蒸気
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題75&emsp;正解（5）&emsp;頻出度AAA</span></p>
+        <p>耐熱性硬質ポリ塩化ビニル管や架橋ポリエチレン管などの樹脂管は温度的に蒸気には用いることはできない（<span class="bold">2024-75-1表</span>参照）．
+        <p class="cap">2024-75-1表&emsp;樹脂管の使用温度　            
+        <table>
+            <tr>
+                <td class="textcenter">樹脂管名</td>
+                <td class="textcenter">使用温度</td>
+                <td class="textcenter">JIS</td>
+            </tr>
+            <tr>
+                <td>耐熱性硬質ポリ塩化ビニル管　</td>
+                <td class="textcenter">90℃以下</td>
+                <td class="textcenter">K 6776：2016</td>
+            </tr>
+            <tr>
+                <td>ポリブテン管</td>
+                <td class="textcenter">90℃以下</td>
+                <td class="textcenter">K 6778：2016</td>
+            </tr>
+            <tr>
+                <td>架橋ポリエチレン管</td>
+                <td class="textcenter">95℃以下</td>
+                <td class="textcenter">K 6769：2004</td>
+            </tr>
+        </table>
+        <br>蒸気には，配管用炭素鋼管，圧力配管用炭素鋼管の，いずれも黒管を用いる（亜鉛メッキした白管は亜鉛が溶け出すので使用できない）．
+        <p>樹脂管では，硬質ポリ塩化ビニル管が冷却水，耐熱性硬質ポリ塩化ビニル管が冷温水管に使用できる．架橋ポリエチレン管，ポリブテン管は，冷却水，冷温水配管に用いることができる（<span class="bold">2024-75-2表</span>参照）．
+        <p class="cap">2024-75-2表&emsp;空調設備の配管材料と使用区分            
+        <table>
+            <tbody>
+                <tr>
+                    <td class="tdVertical textcenter" rowspan="2">管種</td>
+                    <td class="textcenter" rowspan="2">名称</td>
+                    <td class="textcenter" colspan="7">使用区分（\(\bigcirc\)：使用可）</td>
+                </tr>
+                <tr>
+                    <td class="tdVertical textcenter">蒸気</td>
+                    <td class="tdVertical textcenter">蒸気還管</td>
+                    <td class="tdVertical textcenter">高温水</td>
+                    <td class="tdVertical textcenter">冷温水</td>
+                    <td class="tdVertical textcenter">冷却水</td>
+                    <td class="tdVertical textcenter">油</td>
+                    <td class="tdVertical textcenter">冷媒</td>
+                </tr>
+                <tr>
+                    <td class="tdVertical textcenter" rowspan="14">鋼管</td>
+                    <td>水道用亜鉛めっき鋼管</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>配管用炭素鋼鋼管（黒管）　</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>配管用炭素鋼鋼管（白管）　</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>圧力配管用炭素鋼鋼管（黒管）</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                </tr>
+                <tr>
+                    <td>圧力配管用炭素鋼鋼管（白管）</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>一般配管用ステンレス鋼管　</td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>配管用ステンレス鋼管</td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>配管用溶接大径ステンレス鋼管</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>水道用硬質塩化ビニルライニング鋼管</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>フランジ付硬質塩化ビニルライニング鋼管</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>水道用耐熱性硬質塩化ビニルライニング鋼管</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>フランジ付耐熱性樹脂ライニング鋼管</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>水道用ポリエチレン粉体ライニング鋼管</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>フランジ付ポリエチレン粉体ライニング鋼管</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="tdVertical textcenter" rowspan="4">銅管</td>
+                    <td>銅および銅合金の継目無管（硬質）</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>銅および銅合金の継目無管（硬質，軟質，反硬質）</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                </tr>
+                <tr>
+                    <td>外面被覆銅管（硬質）</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>断熱材被覆銅管</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                </tr>
+                <tr>
+                    <td class="tdVertical textcenter" rowspan="4">樹脂管</td>
+                    <td>硬質ポリ塩化ビニル管</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><span class="underln">耐熱性硬質ポリ塩化ビニル管</span></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>架橋ポリエチレン管</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>ボリブテン管</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td class="textcenter">\(\bigcirc\)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-76.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-74.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

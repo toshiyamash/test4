@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-76</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題76</span>&emsp;換気設備に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>全熱交換器は，導入外気と排気の間で熱交換を行い，外気負荷軽減による省エネルギーを図る装置である．
+        <p><span class="bold">（2）</span>外気処理空調機は，居室に必要な導入外気に対する温湿度調整・空気浄化等の処理を専用に行う装置である．
+        <p><span class="bold">（3）</span>建築基準法施行令では，住宅等の居室のシックハウス対策として，機械換気設を用いる場合の必要換気量は，換気回数で0.3回/ｈ以上と規定されている．
+        <p><span class="bold">（4）</span>便所，浴室では，換気設備が単独で設置されることが多い．
+        <p><span class="bold">（5）</span>建築物衛生法における空気調和設備を設けている特定建築物の空気環境の管理基準では，一酸化炭素の含有率は，6ppm以下とされている．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題76&emsp;正解（3）&emsp;頻出度AA</span></p>
+        <p>住宅等の居室の場合は，「0.3回/h以上」→「0.5回/h以上」が正しい（建築基準法施行令第20条の8）．0.3回は住宅等の居室以外の居室が対象．
+        <p>建築基準法のシックハウス対策に係る規制の概要は次のとおり．
+        <p>1．居室を有する建築物には，クロルピリホス<sup>※</sup>を添加した建築材料の使用が禁止されている（建築基準法施行令第20条の6）． 
+        <br>※&nbsp;クロルピリホス：シロアリ駆除や農業用殺虫剤として使われてきた有機リン系化合物．
+        <p>2．内装の仕上げの制限：居室の種類及び換気回数に応じて，内装の仕上げに使用するホルムアルデヒド発散建築材料は面積制限を受ける
+        （建築基準法施行令第20条の7）．
+        <p>3．換気設備の義務付け：内装の仕上げ等にホルムアルデヒド発散建築材料を使用しない場合であっても，家具等からもホルムアルデヒドが発散されるため，居室を有する全ての建築物に機械換気設備の設置が原則義務付けられている（同施行令第20条の8）．
+        <p>4．天井裏等の制限：天井裏等は，下地材をホルムアルデヒドの発散の少ない建築材料とするか，機械換気設備を天井裏等も換気できる構造とする必要がある（平成15年国土交通省告示第274号第1第三号）．
+        <p>5．告示対象建築材料で，Ｆ☆☆☆☆等級のものは「規制対象外建築材料」で，居室の内装の仕上げや天井裏等に，本規制を受けることなく用いることができる．
+        <p>出典：<a href="https://www.mlit.go.jp/jutakukentiku/build/jutakukentiku_house_tk_000043.html#:~:text=シックハウス対策に係る規制の概要" target="_blank" rel="noopener noreferrer">国土交通省（建築基準法に基づくシックハウス対策について）</a>
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-77.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-75.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
