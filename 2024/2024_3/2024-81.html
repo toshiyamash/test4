@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-81</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題81</span>&emsp;空気調和・換気設備に関する維持管理上の問題と考えられる原因との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span>
+        <p><span style="margin-left: 3rem;">維持管理上の問題</span><span style="margin-left: 10rem;">原因</span></p>
+        <p><span class="bold"></span>（1）</span>全熱交換器からの外気量不足<span class="connectLine">　　　　　</span>熱交換エレメントの目詰まり
+        <p><span class="bold"></span>（2）</span>冷却塔でのレジオネラ属菌増殖<span class="connectLine">　　　　</span>冷却水の過剰な濃縮
+        <p><span class="bold"></span>（3）</span>室内空気質の低下<span class="connectLine">　　　　　　　　　　</span>ダクト内部の汚れ
+        <p><span class="bold"></span>（4）</span>冬期暖房時の室内相対湿度の低下<span class="connectLine">　　　</span>取入外気量過少
+        <p><span class="bold"></span>（5）</span>夏期冷房時の室内温度の上昇<span class="connectLine">　　　　　</span>ダンパ開度不足による送風量過少
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題81&emsp;正解（4）&emsp;頻出度AA</span></p>
+        <p>取入外気量「過少」⇛「過大」が正しい．冬期の乾いた外気を過大に取り入れると湿度のさらなる低下を招く．
+        <p><span class="bold">-(2) </span>冷却水の過剰な濃縮が冷却塔でのレジオネラ属菌増殖につながるというような資料・文献は見つからなかった．維持管理の行き届いていない冷却塔はレジオネラ症の原因になるから危険ぐらいの意味か（<a href="../../2024/2024_3/2024-82.html" target="_blank" rel="noopener noreferrer">次問</a>の解説参照）．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-82.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-80.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
