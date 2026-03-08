@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-96</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題96</span>&emsp;仕上げ材料に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>                    
+        <p><span class="bold">（1）</span>ポリ塩化ビニルは合成樹脂の一つで，床や内壁の仕上げ材などに使用される．
+        <p><span class="bold">（2）</span>陶磁器質材料は，一般に焼成温度の高いものほど吸水率が高い．
+        <p><span class="bold">（3）</span>左官材料を用いた湿式工法の工期は，一般に乾式工法に比べて長い．
+        <p><span class="bold">（4）</span>ブロンズは，銅とすずの合金である．
+        <p><span class="bold">（5）</span>グラスウール断熱材の中に湿気が入ると断熱性が著しく低下する．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題96&emsp;正解（2）&emsp;頻出度A</span></p>
+        <p>高い温度で焼成された陶磁器質材料ほど吸水率は低い．
+        <p>陶磁器質材料は，粘土にケイ酸塩鉱物を加えた粉末を成形し高温焼成したもので，瓦や，壁，床の仕上げに用いられるタイルなどがある．焼成時の温度により，<span class="bold">2024-96-1表</span>のように分類される．
+        <p class="cap">2024-96-1表&emsp;陶磁器質材料の焼成時温度       
+        <table>
+            <tr>
+                <td class="textcenter">種類</td>
+                <td class="textcenter">焼成時の温度</td>
+            </tr>
+            <tr>
+                <td>土器</td>
+                <td class="textcenter">800℃前後</td>
+            </tr>
+            <tr>
+                <td>陶器</td>
+                <td class="textcenter">1000℃前後</td>
+            </tr>
+            <tr>
+                <td><ruby>炻<rt>せっ</rt></ruby>器</td>
+                <td class="textcenter">1200℃前後</td>
+            </tr>
+            <tr>
+                <td>磁器</td>
+                <td class="textcenter">1250℃以上</td>
+            </tr>
+        </table>
+        <p>一般に，焼成温度の高いものほど徹密で吸水率が低く，耐久性が高い．
+        <p><span class="bold">-(1) </span>ポリ塩化ビニル（塩ビ，PVC，(C<sub>2</sub>H<sub>3</sub>Cl)n）は，安価で耐久性・耐水性も優れているため，床シート・タイル，壁紙等として，合成樹脂材料の中で建築材料として最も多く使われている．可塑剤の配合により，硬質と軟質があり，壁紙などの内装材は軟質性である．
+        <p><span class="bold">-(3) </span>モルタル，しっくい，土壁材など水で練った左官材料を用いた仕上げの工法を湿式工法という．それに対して，石こうボード，スレートなどの板状の材料を用いる工法を乾式工法という．
+        <p><span class="bold">-(4) </span>銅とすずの合金はブロンズ（青銅）である（オリンピックの銅メダルはブロンズメダルである）．なお，銅と亜鉛の合金は真<ruby>鍮<rt>ちゅう</rt></ruby>という．
+        <p><span class="bold">-(5) </span>グラスウールは，中に含まれた空気の断熱性を利用している．水に濡れてしまうとその断熱性が損なわれる．水の熱伝導率は空気の20倍以上である（<a href="../../2024/2024_4/2024-95.html#tab2#:~:text=空気" target="_blank" rel="noopener noreferrer">前問</a>解説参照）．そのため，壁内の断熱材などとして用いる場合は，防湿シートと併用する必要がある．
+        <p>建材のグラスウールは密度（K：kg/m<sup>3</sup>，10K〜32K）と厚みで規格化されている．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-97.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-95.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
