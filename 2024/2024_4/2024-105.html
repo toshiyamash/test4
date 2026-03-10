@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-105</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題105</span>&emsp;建築物の管理に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>                    
+        <p><span class="bold">（1）</span>リテラシーとは，情報やデータを管理，活用する能力のことである．
+        <p><span class="bold">（2）</span>BELSとは，中央監視，エネルギー管理，ビル管理等を含んだ包括的なシステムのことである．
+        <p><span class="bold">（3）</span>冷暖房設備のCOP（成績係数）は，入力エネルギーに対して出力された熱量の割合を示す．
+        <p><span class="bold">（4）</span>非常用発電機により電力供給される防災負荷とは，消火設備，排煙設備等に必要な電力負荷のことである．
+        <p><span class="bold">（5）</span>ステークホルダとは，企業・組織の利害関係者のことである．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題105&emsp;正解（2）&emsp;頻出度AA</span></p>
+        <p>BELS［ベルス］とは Building-Housing Energy-efficiency Labeling System（建築物省エネルギー性能表示制度）の略称．新築・既存の建築物において，省エネ性能を第三者評価機関が評価し認定する制度である．
+        <p>建建築物のエネルギー消費性能の向上等に関する法律（築物省エネ法）第7条において建築物の販売や賃貸等を行う事業者に対するエネルギー消費性能の表示の努力義務が規定されており，それに呼応して(一社)住宅性能評価・表示協会がBELSを運用している．BELS評価書交付数は月間数万件に上っている．
+        <p>「中央監視，エネルギー管理，ビル管理等を含んだ包括的なシステム」は </span><span class="fontColorId" id="#BEMS">BEMS</span>（Building Energy ManagementSystem：ビルエネルギー管理システム）である．
+        <p><span class="bold">-(1) </span>リテラシー（英: literacy）とは，原義では「読解記述力」を指し，転じて現代では「（何らかのカタチで表現されたものを）適切に理解・解釈・分析し，改めて記述・表現する」という意味に使われるようになった．
+        <p><span class="bold">-(3) </span>冷凍サイクルのCOPの定義は，COP＝(冷凍効果)/(圧縮機の仕事量)である．COPが6を超える冷凍機が開発されている．COP3とCOP6の冷凍機の，同じ冷凍効果6を得るときの排熱は，COP3の場合は，6+1+1＝8，COP6の場合は6+1＝7となる．
+        <p><span class="bold">-(4) </span>用語として「非常用発電機」は消防法にも建築基準法にも出てこないが，消防法では，施行規則でいうところの非常用電源としての「自家発電設備」を指す．屋内消火栓，スプリンクラー設備，泡消火設備，屋外消火栓設備，排煙設備，連結送水管，非常コンセントの非常用電源として自家発電設備があげられている．
+        <p>建築基準法では「予備電源」の中に自家発電設備が含まれる．予備電源として自家発電設備があげられているものは，排煙設備，非常用の照明装置，
+        （非常用の進入口），地下道の非常用排水設備，非常用の昇降機，防火区画に用いる防火設備（防火ダンパ等）等となっている．
+        <p><span class="bold">-(5) </span>ステークホルダ（英: stakeholder）とは，企業や行政機関，NPO（非営利法人）等の利害と行動に直接・間接的な関係を有する者を指す．日本語では利害関係者という．具体的には，消費者（顧客），労働者，株主，専門家，債権者，仕入先，得意先，地域社会，行政機関，利益団体（業界団体・労働組合・当事者団体等）の構成員など（Wikipedia）．stakefoLderのstakeは元々賭け金，権利などの意味がある．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='../2024_5/2024-106.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-104.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
