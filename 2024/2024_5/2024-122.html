@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-122</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題122</span>&emsp;給湯設備の配管に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>横管が凹配管となる場合は，水抜きのための止水弁を設ける．
+        <p><span class="bold">（2）</span>ポンプの揚程は，循環管路系で最も長くなる管路における摩擦抵抗と局部抵抗による圧力損失から決定する．
+        <p><span class="bold">（3）</span>架橋ポリエチレン管の線膨張係数は，ステンレス鋼管のそれより小さい．
+        <p><span class="bold">（4）</span>銅管は，循環配管を設けない一管式配管において腐食の発生がほとんどない．
+        <p><span class="bold">（5）</span>樹脂管を温度の高い湯に使用すると，塩素による劣化が生じやすい．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題122&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>線膨張係数は架橋ポリエチレン管の方が大きい（<span class="bold">2024-122-1表</span>参照）．金属管と樹脂管の線膨張係数を比べると，樹脂管の方が金属管より数倍から十数倍大きい．
+        <p class="cap">2024-122-1表&emsp;配管材料の線膨張係数
+        <table>
+            <tr>
+                <td class="textcenter">管種</td>
+                <td class="textcenter">線膨張係数［1/℃］</td>
+            </tr>
+            <tr>
+                <td>銅管</td>
+                <td class="textcenter">1.77×10<sup>-5</sup></td>
+            </tr>
+            <tr>
+                <td>ステンレス鋼管</td>
+                <td class="textcenter">1.73×10<sup>-5</sup></td>
+            </tr>
+            <tr>
+                <td>鋼管</td>
+                <td class="textcenter">1.10×10<sup>-5</sup></td>
+            </tr>
+            <tr>
+                <td>耐熱性硬質ポリ塩化ビニル管</td>
+                <td class="textcenter">6×10<sup>-5</sup>〜8×10<sup>-5</td>
+            </tr>
+            <tr>
+                <td>架橋ポリエチレン管</td>
+                <td class="textcenter">14×10<sup>-5</sup>〜23×10<sup>-5</td>
+            </tr>
+            <tr>
+                <td>ポリブテン管</td>
+                <td class="textcenter">12×10<sup>-5</sup>〜15×10<sup>-5</td>
+            </tr>
+        </table>
+        <p><span class="bold">-(1) </span>凹部には泥だまりができて衛生上の問題になる．凹部の両端に水抜きのための止水弁を設ける．
+        <p><span class="bold">-(4) </span>銅管においては，一過式配管や返湯管を設けていない給湯管においては腐食の発生がほとんどないが，常時湯が循環している中央式給湯配管においては腐食が発生する場合がある．
+        <br>銅管の腐食には<ruby>潰<rt>かい</rt></ruby>食と孔食とがある．
+        <br>管内の水の流速が速いと酸化被膜が形成されず，流れ方向にえぐられたような潰食といわれる腐食が生じる．伸張性に富む＝やわらかい銅は特に要注意で，管内の流速を他の配管材より小さくする．給湯管の流速は一般的に1.5m/s以下とされるが，銅管の返湯管では潰食を考慮して1.2m/s以下とする．
+        <br>管の内面にボツボツと生じる腐食が孔食で，その発生は水質，水温，残留塩素，流速などの多くの要因が考えられるが，現状ではその詳細なメカニズムは解明されていない．
+        <p>&emsp;</p>
+        <!-- <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-123.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-121.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

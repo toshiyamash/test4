@@ -7,8 +7,8 @@
    viewBox="0 0 132.21394 75.730606"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="2021-131-2フロートスイッチ.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   sodipodi:docname="フロートスイッチ.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,22 +24,27 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.0482005"
-     inkscape:cx="29.574495"
-     inkscape:cy="151.21153"
+     inkscape:zoom="0.74118968"
+     inkscape:cx="91.744396"
+     inkscape:cy="168.64779"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer3"
      inkscape:snap-global="false"
-     inkscape:lockguides="true">
+     inkscape:lockguides="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid861"
        originx="-33.898982"
-       originy="-84.704006" />
+       originy="-84.704006"
+       spacingy="1"
+       spacingx="1"
+       units="mm" />
   </sodipodi:namedview>
   <defs
      id="defs2">
@@ -378,11 +383,11 @@
          x="0"
          y="0">　</tspan></text>
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.2"
+       style="fill:none;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
        d="m 33.998984,109.94569 v 12.62083"
        id="path912" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.2"
+       style="fill:none;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
        d="m 166.01293,108.43118 v 17.92159"
        id="path914" />
   </g>

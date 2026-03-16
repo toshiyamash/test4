@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-118</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題118</span>&emsp;給湯に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>                    
+        <p><span class="bold">（1）</span>給湯設備で扱う範囲の水は，ほとんど非圧縮性である．
+        <p><span class="bold">（2）</span>配管内の水中における気体の溶解度は，水温が上昇すると減少する．
+        <p><span class="bold">（3）</span>水中に溶存している空気は，配管内の圧力が低いと分離されにくい．
+        <p><span class="bold">（4）</span>湯をポンプでくみ上げる場合，吸い上げることのできる高さは，温度が高いほど低くなる．
+        <p><span class="bold">（5）</span>給湯設備で使用する金属材料は，水温が高いほど，腐食速度が速くなる．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題118&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>ヘンリーの法則により，水中に溶存している空気が分離されにくいのは配管内の圧力が高い場合である．
+        <p>水中の気体の溶解度は，気体の圧力があまり大きくない場合には，その圧力（絶対圧力）に比例する（ヘンリーの法則）．
+        <br>水の圧力が高い場合には溶存空気はなかなか出てこないので，配管中の湯に含まれている溶存空気を自動空気抜き弁によって抜くためには，圧力の低いところ，すなわち位置的に一番高い場所に自動空気抜き弁を設置する必要がある．
+        <br>ただし，アンモニア，塩素ガス等水中にイオンとして溶ける気体はヘンリーの法則には従わない．
+        <p><span class="bold">-(1) </span>完全な非圧縮性の物体は現実には存在しないが，マッハ数（物体中の移動速度/音速の比）が，マッハ1/3以下なら非圧縮性，1/3以上なら圧縮性と定義されている．したがってマッハ2で飛ぶジェット機に対して空気は圧縮性，20m/sで進む原子力潜水艦にとって水は非圧縮性である（水中の音速はおよそ1,500m/s）．
+        <p><span class="bold">-(2) </span>上述のとおり，ヘンリーの法則により空気などの気体が水などの液体に溶けるとき，気体の質量や物質量はその分圧に比例する．
+        <p>溶ける気体の分圧\(P\)と体積\(V\)の積は，ボイルの法則により一定である．
+        <p>溶ける気体の物質量\(n\)は，ボイル・シャルルの法則，\(PV=n{\rm R}T\)から，\(n=\displaystyle \frac{PV}{RT}\)となって，温度\(T\)に反比例する傾向がある(\({\rm R}\)は気体定数)．すなわち，配管内の水中における気体の溶解度は，水温の上昇により減少する．
+        <p><span class="bold">-(4) </span>水は圧力が低いと100℃以下で沸騰する．ポンプの吸込み側は真空となるので60℃を超える湯を汲み上げることはできない．
+        <p>水面よりポンプが高い位置にある場合，理論的には水面から約10m(＝大気圧)まで吸上げ可能であるが，必要NPSHや吸込み配管の抵抗等があって実際には 5～6mまでである．水が温水になると，キャビテーションを起こしやすくなるためさらに低くなり，60℃を超えると吸上げ不可能となる．
+        <p><span class="bold">-(5) </span>一般的には，腐食速度は水中の溶存酸素の供給量につれて大きくなる．約80℃までは酸素の拡散が速くなるので腐食は増大するが，それより高くなると酸素の溶解度が減るために腐食速度は低下する．また，溶存酸素が多すぎると金属表面に不動態被膜が成長しやすくなって，腐食速度は低下する．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-119.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-117.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
