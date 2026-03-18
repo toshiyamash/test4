@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-137</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題137</span>&emsp;浄化槽法第 1 条（目的）に規定されている事項として，<span class="bold">誤っている</span>ものは次のうちどれか．</span>
+        <p><span class="bold">（1）</span>浄化槽の設置，保守点検，清掃及び製造について規制すること．
+        <p><span class="bold">（2）</span>浄化槽製造業の登録制度を整備すること．
+        <p><span class="bold">（3）</span>浄化槽清掃業の許可制度を整備すること．
+        <p><span class="bold">（4）</span>浄化槽設備士及び浄化槽管理士の資格を定めること．
+        <p><span class="bold">（5）</span>浄化槽によるし尿及び雑排水の適正な処理を図ること．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題137&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p>浄化槽製造業は登録制ではない．浄化槽製造業者は，浄化槽の型式認定申請を国土交通大臣に行う．
+        <p>関係条文は次のとおり．
+        <p>浄化槽法第1条（目的）
+        この法律は，浄化槽の設置，保守点検，清掃及び製造について規制するとともに，浄化槽工事業者の登録制度及び浄化槽清掃業の許可制度を整備し，浄化槽設備士及び浄化槽管理士の資格を定めること等により，公共用水域等の水質の保全等の観点から浄化槽によるし尿及び雑排水の適正な処理を図り，もつて生活環境の保全及び公衆衛生の向上に寄与することを目的とする．
+        <p>第13条（浄化槽の型式の認定）
+        <p>浄化槽を工場において製造しようとする者は，製造しようとする浄化槽の型式について，国土交通大臣の認定を受けなければならない．
+        <p>第48条（条例による浄化槽の保守点検を業とする者の登録制度）
+        <p>都道府県（保健所を設置する市又は特別区にあつては，市又は特別区とする．）は，条例で，浄化槽の保守点検を業とする者について，都道府県知事
+        の登録を受けなければ浄化槽の保守点検を業としてはならないとする制度を設けることができる．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-138.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-136.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

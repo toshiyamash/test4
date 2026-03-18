@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-138</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題138</span>&emsp;特殊設備に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>入浴設備において，気泡発生装置などのエアロゾルを発生させる設備を設置する場合には，空気取入口から土ぼこりが入らないような構造とする．
+        <p><span class="bold">（2）</span>プール水の消毒設備には，塩素剤に加えてオゾン消毒や紫外線消毒を併用する例がある．
+        <p><span class="bold">（3）</span>子供が水遊びをする親水施設の用水には，衛生性の確保の面から利用形態によりプール並みの浄化装置が必要となる．
+        <p><span class="bold">（4）</span>食品製造に関する管理システムのHACCP方式は，製造した最終製品を対象に安全確認検査を行う手法である．
+        <p><span class="bold">（5）</span>入浴設備の循環水は，浴槽の底部に近い部分から供給する．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題138&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>HACCP方式の特徴は，従来の方式が最終製品の安全確認検査に依存していたものを，原材料の生産から消費者に届くまでの各段階で安全性確保のための管理を行う方式としたことである．
+        <p>HACCP（Hazard Analysis Critical Control Point：危害分析重点管理点管理方式）は，アメリカ航空宇宙局（NASA）が宇宙食の安全性を確保するために開発した食品製造に関する管理システムである．
+        <p><span class="bold">-(1) </span>浴槽に気泡発生装置，ジェット噴射装置等のエアロゾルを発生させる設備を設置する場合には，空気取入口から土ぼこりが入らないような構造とすること（厚生労働省「<a href="https://www.mhlw.go.jp/topics/bukyoku/kenkou/legionella/030725-1.html" target="_blank" rel="noopener noreferrer">レジオネラ症を予防するために必要な措置に関する技術上の指針</a>」）．
+        <p><span class="bold">-(2) </span>プール水は一般的にろ過，消毒して循環されて使用されている．オゾン消毒，紫外線消毒を塩素消毒の前段階に用いると水の透明度が上がり，ろ過の回数を減らす節水効果が得られる
+        <p><span class="bold">-(5) </span>ろ過器等により浴槽水を循環させる構造の浴槽にあっては，当該浴槽水の誤飲の防止又はエアロゾルの発生の抑制を図るため，当該水を浴槽の底部に近い部分から供給すること（レジオネラ症を予防するために必要な措置に関する技術上の指針）．<span class="bold">2024-138-1図</span>参照．
+        <div class="cap">2024-138-1図&emsp;浴槽の循環ろ過（オーバフロー方式）</span></div>
+        <div class="container">
+            <img src="../../images/image_5/浴槽の循環ろ過（オーバフロー方式）.svg" alt="浴槽の循環ろ過（オーバフロー方式）">
+        </div>
+        <p class="source">出典&nbsp;公益財団法人&nbsp;日本建築衛生管理教育センター<br>「新建築物の環境衛生管理第1版第1刷」中巻551頁&nbsp;図6-11-3(1) を基に作成</span>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-139.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-137.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
