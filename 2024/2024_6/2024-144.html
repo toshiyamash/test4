@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-144</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題144</span>&emsp;清掃の作業手順書に関する次の文章の<span class="whiteFrame">　　　</span>内に入る語句として，<span class="bold">最も適当な</span>ものはどれか．</span>
+        <p>作業手順書とは，一つ一つの作業のマニュアルである．作業名，行うべき作業項目，作業手順，<span class="whiteFrame">　　　</span> ，注意事項，作業終了後の品質状態等を記載したもので，従事者に対する教育指導のために使用する．
+        <p><span class="bold">（1）</span>作業計画の作成方法
+        <p><span class="bold">（2）</span>作業実施記録の書き方
+        <p><span class="bold">（3）</span>作業スケジュールの管理方法
+        <p><span class="bold">（4）</span>組織管理体制
+        <p><span class="bold">（5）</span>使用資機材と数量
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題144&emsp;正解（5）&emsp;頻出度AAA</span></p>
+        <p>「作業手順書とは，一つ一つの作業のマニュアルである．行うべき作業，作業手順，<span class="underln">使用資機材と数量</span>，注意事項，作業終了後の品質状態等を記載したもので，従事者に対する教育指導のため使用するものである」（出典&nbsp;公益財団法人日本建築衛生管理教育センター「新建築物の環境衛生管理第2版第1刷」下巻27頁，<span class="bold">2024-144-1 図</span>参照）．
+        <div class="cap">2024-144-1図&emsp;作業手順書の例</span></div>
+        <div class="container">
+            <img src="../../images/image_6/作業手順書.svg" alt="作業手順書">
+        </div>
+        <p class="source">出典&nbsp;公益財団法人日本建築衛生管理教育センター<br>「新建築物の環境衛生管理第2版第1刷」下巻27頁           
+        <p><span class="bold">-(1) </span>～<span class="bold">-(4) </span>はその作業手順書を作成する作業責任者・監督者が心得ておくべき事項である．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-145.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-143.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

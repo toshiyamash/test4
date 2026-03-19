@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-146</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題146</span>&emsp;予防清掃に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>微細なごみやたばこの灰等をできるだけ散乱させないように，適当な容器を用意する．
+        <p><span class="bold">（2）</span>衣服類や内装材・家具はなるべく摩耗しにくいものを使用する．
+        <p><span class="bold">（3）</span>土ぼこりを放置すると，床材や床維持剤が土ぼこりにより削られ，より多くのほこりが発生する．
+        <p><span class="bold">（4）</span>多くのほこりが発生するところは，適切な除じん作業の回数を調整する．
+        <p><span class="bold">（5）</span>高気密化している建築物では，窓や隙間がほこりの侵入路として重要である．
+     </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題146&emsp;正解（5）&emsp;頻出度AAA</span></p>
+        <p>密閉性の高い現代の建築物では，窓や隙間から侵入するほこりは少ない．侵入路として重要視されるのは入口などの開口部である．
+        <br>建築物内におけるほこりは，外部から侵入した土ぼこりが多い．入口にある程度の長さ（人の歩く6～8歩分）の防じん用マット類を敷く方法は，簡易な割に予防清掃としての効果が高い．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-147.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-145.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
