@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式をx倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-162</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題162</span>&emsp;建築物内廃棄物に関する次の記述のうち<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>事後分別とは，ごみ発生時点以降に分別を行うことである．
+        <p><span class="bold">（2）</span>事前分別の基本は，収集・運搬用具を廃棄物の種類ごとに用意することである．
+        <p><span class="bold">（3）</span>建築物内の収集時に廃棄物かどうか不明な書類などは，確認するまで処理しない．
+        <p><span class="bold">（4）</span>ビルメンテナンス事業者は，建築物内廃棄物の管理責任者を選任する．
+        <p><span class="bold">（5）</span>事後分別の留意点は，廃棄物と資源化物を大別し詳細に分別することである．
+     </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題162&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>建築物内廃棄物の管理責任者を選任するのは，建築物の所有者等の管理権原者である．
+        <p>建築物内廃棄物処理の各関係者の基本的役割はつぎのとおり．
+        <p>1．ビル所有者等の建築物維持管理権原者
+        <p>建築物内廃棄物の収集・運搬業務の一環として清掃従事者が事後的に分別を行うよりも，所有者等が分別できるような環境を整備し，利用者へ分別を促すなどして，ごみ発生時点で分別を行うことが，安全・衛生・効率の観点から必要である．
+        <p>　1）施設内廃棄物処理計画を策定する（分別の種類を明記する）．
+        <br>　2）入居者及び廃棄物処理関係者に同計画の周知，指導をする．
+        <br>　3）同処理計画に則り，廃棄物を的確に処分する．
+        <br>　4）廃棄物の減量化・減容化に努力する．
+        <br>　5）廃棄物の管理責任者を選任する．
+        <br>　6）廃棄物の管理に関する契約を締結する．
+        <br>　7）廃棄物の処理に必要な容器，集積場所，保管場所等を適正に準備する．
+        <br>　8）新築の建築物では，使用開始後一定期間が経過した時機に廃棄物処理計画を見直す．
+        <p>2．ビル入居者
+        <p>廃棄物処理計画に則り，
+        <p>　1）廃棄物の減量化・減容化に努める．
+        <br>　2）廃棄物の分別排出を行う（ごみ発生時点での，発生させた者による分別）．
+        <br>　3）必要な場合には，自己の責任でビル外に排出する．
+        <br>　4）従業員に上記遵守事項を徹底させるために廃棄物排出責任者を選任する．
+        <p>3．施設内廃棄物処理会社・ビルメンテナンス会社
+        <p>廃棄物処理計画に則り，
+        <p>　1）系内廃棄物の収集・運搬・処理・保管を実施する．
+        <br>　2）系内廃棄物の減容化に努める．
+        <p>4．廃棄物収集運搬・処分許可会社
+        <p>　1）廃棄物の管理に関する契約に基づき，搬出された廃棄物の収集・運搬・処分を実施する．
+        <br>　2）分別可能廃棄物を明確化する．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-163.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-161.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
