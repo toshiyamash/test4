@@ -205,8 +205,10 @@
 
     /* 赤下線 */
     .underln {
-    text-decoration: underline red;
-    text-underline-offset:0.2em;
+    text-decoration: underline red; text-decoration-thickness: 2.5px;
+    /* border-bottom: 2.5px solid #fa0101; */
+    /* text-decoration: underline red;
+    text-underline-offset:0.2em; */
     }
 
     /* テキストセンター */
