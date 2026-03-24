@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2024-174</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2024年</p>
+        <p><span class="bold">問題174</span>&emsp;ネズミの生態や防除に関する次の記述のうち，<span class="bold">最も適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>床が濡れていたり汚れていたりすると，ネズミは粘着トラップにかかりにくい．
+        <p><span class="bold">（2）</span>殺鼠剤は，経皮的にネズミの体内に取り込ませることを目的している．
+        <p><span class="bold">（3）</span>室内で圧殺式トラップを設置する場合には，毒餌皿に入れる．
+        <p><span class="bold">（4）</span>餌を断つことを目的とした食物・残滓管理により，ネズミの防除は達成可能である．
+        <p><span class="bold">（5）</span>ネズミの体の脂と汚れで壁面や配管等に残った黒い跡を，ローチスポットと呼ぶ．
+    </div>
+
+    <div id="tab2">
+        <p>2024年</p>
+        <p class="bold">問題174&emsp;正解（1）&emsp;頻出度AA</span></p>
+        <p><span class="bold">-(1) </span>『トラップ使用のコツ　ネズミは新しいものや状況に対して強い警戒心をもつ．したがってトラップを配置する場合，いかに慣れさせるかが捕獲効率に大きく影響する．餌をつけても数日間はトラップのバネが落ちないようにする等，実際の使用に当たってはネズミとの知恵比べが必要である．粘着トラップは，活動中のネズミがうっかりして捕まるものである．したがって，生息場所にはできるだけ多くのトラップを配置する必要がある・・・床が濡れていたり汚れていたりすると，ネズミは粘着トラップにかかりにくい．また配置頻度を，1ヵ月1回にすると個体数は増加し，月2回では平衡状態，毎週1回にすると減少していく，という報告がある．』（公益財団法人日本建築衛生管理教育センター「新建築物の環境衛生管理第2版第1刷」下巻198頁より）．
+        <p><span class="bold">-(2) </span>殺鼠剤はすべて食毒である．
+        <p><span class="bold">-(3) </span>毒餌皿⇛毒餌箱が正しい．
+        <p><span class="bold">-(4) </span>ネズミの防除は，環境対策，すなわち食物残滓管理，巣材料の管理，防そ構造の採用などを基本に行うべきであるが，活動性の高いネズミを環境対策だけでは防除しきれない．
+        <p><span class="bold">-(5) </span>ローチ（roach：ゴキブリ）スポットはゴキブリの糞などが付着した活動痕のことである．ネズミの活動痕はラットサイン，ラブ（rub：擦り）サインなどと呼ぶ．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2024-175.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2024-173.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
