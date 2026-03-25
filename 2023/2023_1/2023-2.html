@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-2</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題2</span>&emsp;次に掲げる法律と，法律を所管する行政組織との組合せとして，<span class="bold">誤っている</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>地域保健法<span class="connectLine">　　　　　　　　　　　　　　</span>厚生労働省
+        <p><span class="bold">（2）</span>廃棄物の処理及び清掃に関する法律<span class="connectLine">　　　</span>環境省
+        <p><span class="bold">（3）</span>学校保健安全法<span class="connectLine">　　　　　　　　　　　　</span>文部科学省 
+        <p><span class="bold">（4）</span>土壌汚染対策法<span class="connectLine">　　　　　　　　　　　　</span>国土交通省
+        <p><span class="bold">（5）</span>健康増進法<span class="connectLine">　　　　　　　　　　　　　　</span>厚生労働省
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題2&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>土壌汚染対策法を所管するのは環境省である（<span class="bold">2023-2-1</span>表参照）．
+        <p class="cap">2023-2-1表&emsp;よく出題される所管法令
+        <table>
+            <tr>
+                <td>厚生労働省</td>
+                <td>建築物における衛生的環境の確保に関する法律<br>
+                    地域保健法<br>
+                    興行場法&emsp;旅館業法</span>&emsp;公衆浴場法</span>&emsp;食品衛生法</span><br>
+                    理容師法&emsp;クリーニング業法</span><br>
+                    水道法<br>
+                    労働基準法&emsp;労働安全衛生法</span><br>
+                    感染症の予防及び感染症の患者に対する医療に関する法律
+                </td>
+            </tr>
+            <tr>
+                <td>環境省</td>
+                <td>環境基本法<br>
+                    大気汚染防止法&emsp;水質汚濁防止法</span>&emsp;悪臭防止法</span>&emsp;騒音規制法</span><br>
+                    <span class="underln">土壌汚染対策法</span><br>
+                    廃棄物の処理及び清掃に関する法律<br>
+                    下水道法（終末処理場の維持管理に限る）&emsp;浄化槽法</span>
+                </td>
+            </tr>
+            <tr>
+                <td>国土交通省</td>
+                <td>建築基準法&emsp;建築士法</span>&emsp;都市計画法</span><br>
+                    下水道法&emsp;浄化槽法</span>
+                </td>
+            </tr>
+            <tr>
+                <td>総務省</td>
+                <td>消防法</td>
+            </tr>
+            <tr>
+                <td>文部科学省</td>
+                <td>学校教育法&emsp;学校保健安全法</span>
+                </td>
+            </tr>
+        </table>
+        <p>法律を所管する省庁の確認には，インターネットの「<a href="https://elaws.e-gov.go.jp/" target="_blank" rel="noopener noreferrer">e-Gov 法令検索</a>」で，〇〇法施行規則（省令）を見るのが確実で早い．
+        <br>例えば，「土壌汚染対策法」と入れて検索すると，何行目かに「土壌汚染対策法施行規則」が出てくるので開いてみると，平成十四年<span class="underln">環境省令</span>第二十九号と，環境省の名前が出てくる．
+        <p>&emsp;</p>
+        <!-- <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-3.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-1.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

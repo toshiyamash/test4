@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-1</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題1</span>&emsp;日本国憲法第25条に規定されている次の条文の<span class="whiteFrame">　　　</span>内に入る語句の組合せとして，<span class="bold">正しい</span>ものはどれか．</span></p>
+        <p>第25条 すべて国民は，健康で<span class="whiteFrame">　ア　</span>な最低限度の生活を営む権利を有する．
+        <p>② 国は，すべての<span class="whiteFrame">　イ　</span>について，<span class="whiteFrame">　ウ　</span>，社会保障及び<span class="whiteFrame">　エ　</span>の向上及び増進に努めなければならない．
+        <p><span style="margin-left: 3.5rem;">ア</span><span style="margin-left: 5rem;">イ</span><span style="margin-left: 6rem;">ウ</span><span style="margin-left: 6rem;">エ</span></p>
+        <p><span class="bold">（1）</span>文化的<span class="connectLine">　　　</span>生活部面<span class="connectLine">　　　</span>社会福祉<span class="connectLine">　　　</span>公衆衛生
+        <p><span class="bold">（2）</span>社会的<span class="connectLine">　　　</span>国民<span class="connectLine">　　　　　</span>環境衛生<span class="connectLine">　　　</span>生活環境
+        <p><span class="bold">（3）</span>文化的<span class="connectLine">　　　</span>国民<span class="connectLine">　　　　　</span>環境衛生<span class="connectLine">　　　</span>生活環境
+        <p><span class="bold">（4）</span>社会的<span class="connectLine">　　　</span>国民<span class="connectLine">　　　　　</span>社会福祉<span class="connectLine">　　　</span>公衆衛生
+        <p><span class="bold">（5）</span>文化的<span class="connectLine">　　　</span>生活部面<span class="connectLine">　　　</span>環境衛生<span class="connectLine">　　　</span>公衆衛生
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題1&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>憲法第25条は次のとおり．
+        <p>第25条&emsp;全て国民は，健康で<span class="whiteFrame">文化的</span>な最低限度の生活を営む権利を有する．
+        <p>2&emsp;国は，全ての<span class="whiteFrame">生活部面</span>について，<span class="whiteFrame">社会福祉</span>，社会保障及び<span class="whiteFrame">公衆衛生</span>の向上及び増進に努めなければならない．
+        <p>参考&emsp;ビル管理法の目的
+        <br>第1条&nbsp;この法律は，多数の者が使用し，又は利用する建築物の維持管理に関し環境衛生上必要な事項等を定めることにより，その建築物における衛生的な環境の確保を図り，もつて<span class="underln">公衆衛生の向上及び増進に資することを目的</span>とする． 
+        <p>このようにして，全ての法律は憲法に根ざしている．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-2.html'">次問へ</button>
+      <!-- <button type="button" class="btn-outline" onclick="location.href='2024-179.html'">前問へ</button> -->
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
