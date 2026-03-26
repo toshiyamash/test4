@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-4</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題4</span>&emsp;建築物衛生法に基づく特定建築物の用途として，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span>
+        <p><span class="bold">（1）</span>結婚式場
+        <p><span class="bold">（2）</span>理容所
+        <p><span class="bold">（3）</span>認可保育園
+        <p><span class="bold">（4）</span>公民館
+        <p><span class="bold">（5）</span>社交ダンスホール
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題4&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>認可保育園など保育施設は，過去問（<a href="../../2022/2022_1/2022-5.html" target="_blank" rel="noopener noreferrer">2022年&nbsp;問題5</a>，<a href="../../2020/2020_1/2020-4.html" target="_blank" rel="noopener noreferrer">2020年&nbsp;問題4</a>など）から特定用途とされていないことが分かる．
+        他の，<span class="bold">-(1)</span>，<span class="bold">-(2)</span>，<span class="bold">-(4)</span>，<span class="bold">-(5)</span>は明らかに特定用途である（<a href="2023-3.html#tab2" target="_blank" rel="noopener noreferrer">前問解説</a>参照）．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-5.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-3.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
