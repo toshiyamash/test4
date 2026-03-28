@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-14</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題14</span>&emsp;建築物衛生法に基づく国又は地方公共団体の用に供する特定建築物に関する次の記述のうち，<span class="bold">誤っている</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>特定建築物の届出を行わなければならない．
+        <p><span class="bold">（2）</span>環境衛生管理基準を遵守しなければならない．
+        <p><span class="bold">（3）</span>建築物環境衛生管理技術者を選任しなければならない．
+        <p><span class="bold">（4）</span>都道府県知事等は，立入検査を行うことができる．
+        <p><span class="bold">（5）</span>都道府県知事等は，改善命令等に代えて，勧告を行うことができる．
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題14&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>立入検査ができない代わりに必要な説明，又は資料の提出を求める．
+        <p>特定建築物が<span class="fontColorId" id="#koukyou-kentikubutu-no-tokurei">公用・公共建築物の場合の特例</span>は<span class="bold">2023-14-1表</span>参照．                
+        <p class="cap">2023-14-1表&emsp;公用・公共建築物の特例
+        <table>
+            <tbody>
+                <tr>
+                    <td class="textcenter">一般の特定建築物</td>
+                    <td class="textcenter">公共建築物</td>
+                </tr>
+                <tr>
+                    <td>特定建築物の届出</td>
+                    <td rowspan="4">必要（一般の特定建築物と同じ）</td>
+                </tr>
+                <tr>
+                    <td>建築物環境衛生管理基準の遵守</td>
+                    <!-- <td class="textcenter">〃</td> -->
+                </tr>
+                <tr>
+                    <td>帳簿書類の備付け</td>
+                    <!-- <td class="textcenter">〃</td> -->
+                </tr>
+                <tr>
+                    <td>管理技術者の選任</td>
+                    <!-- <td class="textcenter">〃</td> -->
+                </tr>
+                <tr>
+                    <td>都道府県知事等への報告，<br>都道府県知事等の検査</td>
+                    <td>必要な説明，又 は資料の提出</td>
+                </tr>
+                <tr>
+                    <td>都道府県知事等の改善命令</td>
+                    <td>勧告</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&emsp;</p>
+        <!-- <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-15.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-13.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
