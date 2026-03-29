@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-21</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題21</span>&emsp;環境基準と<ruby>閾<rt>いき</rt></ruby>値に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>環境基準には，人の健康を保護する上で維持されることが望ましい基準と生活環境を保全する上で維持されることが望ましい基準がある．
+        <p><span class="bold">（2）</span>閾値とは最小の刺激量として定義され，医学的な有害性の判断の根拠となる量である．
+        <p><span class="bold">（3）</span>環境基準については， 常に適切な科学的判断が加えられ，必要な改定がなされなければならない．
+        <p>（4）</span>閾値の概念を示すHatchの図において，縦軸は化学的因子の量である．
+        <p><span class="bold">（5）</span>環境基準は，動物実験や疫学調査等から得られる有害濃度を基礎とし，安全を考慮して決定されている．
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題21&emsp;正解（4）&emsp;頻出度AA</span></p>
+        <p><ruby>閾<rt>いき</rt></ruby>値の概念を示すHatchの図において，縦軸は医学的症状を表す（<span class="bold">2023-21-1図</span>参照）．横軸が化学的因子の量を示す．
+        <div class="cap">2023-21-1図&emsp;Hatchの図　</span></div>
+        <div class="container">
+            <img src="../../images/image_2/Hatchの図.svg" alt="Hatchの図">
+        </div>
+        <p class="source">出典&nbsp;公益財団法人日本建築衛生管理教育センター
+          <br>「新建築物の環境衛生管理第2版第1刷」中巻3頁 図4-1-1(2)           
+        <p>Hatchの図は，閾値をどこに置くかは，医学的な判断や診断技術の向上によって変わりうることを示している（図中のA，BもしくはC）．
+        <p><span class="bold">-(1)</span>環境基本法第16条&emsp;政府は，大気の汚染，水質の汚濁，土壌の汚染及び騒音に係る環境上の条件について，それぞれ，人の健康を保護し，及び生活環境を保全する上で維持されることが望ましい基準を定めるものとする．</span><br>
+        現行の環境基準の一覧は次のサイトで見ることができる．<a href="https://www.env.go.jp/kijun/" target="_blank" rel="noopener noreferrer">環境省・環境基準について</a>
+        <p><span class="bold">-(5) </span>『環境基準の設定のための科学的判断基準としては環境省総合環境政策局総務課編「環境基本法の解説」に以下の3点が挙げられている．
+        <br>①実験室内での動物実験等の生物的研究
+        <br>②汚染度の異なる地域についての生理学的機能の変化、罹患状況等の疫学調査
+        <br>③経験的に証明されている有害濃度，労働衛生上の許容濃度を基礎とた安全度の検討
+        <br>安全度とは，基準値となる閾値にさらに安全性を考慮して，閾値に10分の1〜100分の1を乗じたものを指す．』（出典&nbsp;公益財団法人日本建築衛生管理教育センター「新建築物の環境衛生管理第2版第1刷」中巻3頁）
+        <p>&emsp;</p>
+        <!-- <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-22.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../2023_1/2023-20.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
