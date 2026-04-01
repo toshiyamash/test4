@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-39</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題39</span>&emsp;紫外線に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>紫外線には殺菌作用がある．
+        <p><span class="bold">（2）</span>紫外線は皮膚表層で吸収される．
+        <p><span class="bold">（3）</span>紫外線のリスクとして悪性黒色腫の発生がある．
+        <p><span class="bold">（4）</span>紫外線の<ruby>曝<rt>ばく</rt></ruby>露が起こる作業の一つにアーク溶接がある．
+        <p><span class="bold">（5）</span>紫外線の曝露による白内障は，ガラス工白内障として古くから知られている．
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題39&emsp;正解（5）&emsp;頻出度AAA</span></p>
+        <p>白内障は後述のとおり紫外線でも起きるが，ガラス工白内障は溶解したガラスから発する<span class="underln">赤外線</span>による眼の障害である．<br>赤外線の慢性曝露により潜伏期間10～15年で発症する．
+        <p><span class="bold">-(1) </span>～<span class="bold">-(4) </span>赤外線と比べて波長の短い紫外線の人体への直接的な影響は皮膚表層にとどまるが，エネルギーが大きいため早期に発生し深刻な場合も多い（<span class="bold">2023-39-1表</span>参照．                
+        <p class="cap">2023-39-1表&emsp;紫外線（UV-A，UV-B，UV-C）
+        <table>
+            <tr>
+                <td nowrap>UV-A　<br>
+                    315～400nm
+                    </td>
+                <td>UV-Aはメラニンを黒化させ皮膚の色を黒くする日焼け（サンタン）を起こす（皮膚へのメラニンの沈着ともいう）．
+                    白人に多い皮膚の癌，<span class="fontColorId" id="#akusei-kokushoku-shu">悪性黒色腫</span>の原因の1つとされる．
+                    </td>
+            </tr>
+            <tr>
+                <td>UV-B　<br>
+                    280～320nm
+                    </td>
+                <td>
+                <p>1）皮膚に強い紅斑や水泡を作る日焼け（サンバーン）の原因となる．紅斑を作る紫外線の最小量を最小紅斑量（MED）という．真夏の海岸で20分の直射日光に相当する．健康のためには毎日1/7MED程度の紫外線を浴びる必要がある．
+                <p>2）UV-Bは眼の表層に吸収されて角膜炎の原因となる（雪のゲレンデなどで起きる雪眼，アーク溶接の紫外線による電気性眼炎）．<br>遅発性の症状として，白内障を生ずる．
+                <p>3）280～320nmの紫外線を健康線（ドルノ線</span>）といい，皮膚でビタミンDを生成したり（不足するとクル病の原因），鉱物質の代謝を促進する．
+                </td>
+            </tr>
+            <tr>
+                <td>UV-C　<br>
+                    200～280nm
+                    </td>
+                <td>地表約10km上空のオゾン層に吸収されて地上には到達しない．紫外線の殺菌作用は200～320nmの波長で，特に260nmは最強波長である．これは核酸の吸光ピークに一致するため，バクテリア細胞内のDNAが障害されると考えられる．紫外線殺菌灯は253.7nmを用いている．</td>
+            </tr>
+        </table>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-40.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-38.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
