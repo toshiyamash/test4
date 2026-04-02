@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-44</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題44</span>&emsp;感染症法により，<span class="bold">全数把握が必要とされる</span>感染症は次のうちどれか．</span>
+        <p><span class="bold">（1）</span>ヘルパンギーナ
+        <p><span class="bold">（2）</span>A型肝炎
+        <p><span class="bold">（3）</span>季節性インフルエンザ
+        <p><span class="bold">（4）</span>手足口病
+        <p><span class="bold">（5）</span>マイコプラズマ肺炎                                
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題44&emsp;正解（2）&emsp;頻出度AA</span></p>
+        <p>A型肝炎は四類感染症なので，全数把握（診断した医師は直ちに届け出る）の対象である．
+        <p>-(1)，-(3)～-(5)は全て五類感染症である．
+        <p>一類～四類感染症は，全数を直ちに届け出．五類感染症は全数届出（「直ちに」ならびに「7日以内」）と定点医療機関のみの届出に分かれる． 
+        <p>感染症に対する措置については，<span class="bold">2023-44-1表</span>参照．
+        <p class="cap">2023-44-1表&emsp;感染症法に基づく措置
+        <table>
+            <tr>
+                <td class="textcenter">措置 /</span> 感染症</span></td>
+                <td class="textcenter">一類</td>
+                <td class="textcenter">二類</td>
+                <td class="textcenter">三類</td>
+                <td class="textcenter">四類</td>
+                <td class="textcenter">五類</td>
+                <td class="textcenter">新型インフルエンザ等感染症</td>
+            </tr>
+            <tr>
+                <td>疾病名の規定</td>
+                <td class="textcenter">法律</td>
+                <td class="textcenter">法律</td>
+                <td class="textcenter">法律</td>
+                <td class="textcenter">政令</td>
+                <td class="textcenter">省令</td>
+                <td class="textcenter">法律</td>
+            </tr>
+            <tr>
+                <td>無症状病原体保有者への適用</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">〇</td>
+            </tr>
+            <tr>
+                <td>擬似症患者への適用</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇<sup>※1</sup></td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">〇</td>
+            </tr>
+            <tr>
+                <td>入院の勧告・措置，移送</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">〇</td>
+            </tr>
+            <tr>
+                <td>就業制限</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">〇</td>
+            </tr>
+            <tr>
+                <td>健康診断受診の勧告・実施</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">〇</td>
+            </tr>
+            <tr>
+                <td>死体の移動制限</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">〇</td>
+            </tr>
+            <tr>
+                <td>生活用水の使用制限</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">△</td>
+            </tr>
+            <tr>
+                <td>ねずみ・昆虫等の駆除</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">△</td>
+            </tr>
+            <tr>
+                <td>汚染された物件の廃棄等</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">〇</td>
+            </tr>
+            <tr>
+                <td>汚染された場所の消毒</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">〇</td>
+            </tr>
+            <tr>
+                <td>獣医師の届出</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">〇</td>
+            </tr>
+            <tr>
+                <td>医師の届出</td>
+                <td class="textcenter">直ちに</td>
+                <td class="textcenter">直ちに</td>
+                <td class="textcenter">直ちに</td>
+                <td class="textcenter">直ちに</td>
+                <td class="textcenter">7日以内<sup>※2</sup></td>
+                <td class="textcenter">直ちに</td>
+            </tr>
+            <tr>
+                <td>積極的疫学調査の実施</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">〇</td>
+            </tr>
+            <tr>
+                <td>建築物の立入制限・封鎖</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">△</td>
+            </tr>
+            <tr>
+                <td>交通の制限</td>
+                <td class="textcenter">〇</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">△</td>
+            </tr>
+            <tr>
+                <td>健康状態の報告要請</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">〇</td>
+            </tr>
+            <tr>
+                <td>外出の自粛の要請</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">×</td>
+                <td class="textcenter">〇</td>
+            </tr>
+        </table>
+        <p>凡例&emsp;〇：適用</span>&emsp;×：適用なし</span>&emsp;新型インフルエンザ等感染症の△印は2年以内の政令で定める期間に限り適用</span>
+        <p>※1 疑似症患者への適用</span>&emsp;二類感染症は政令の定めるもの</span><br>
+        ※2 医師の届け出</span>&emsp;五類感染症のうち，風しん，麻しん，侵襲性髄膜炎菌感染症は直ちに届け出．</span>
+        <p>感染症法に基づく措置は，次のサイトも参照&emsp;<a href="https://www.mhlw.go.jp/content/10900000/000664825.pdf#:~:text=診断・死亡したときの医師による届出" target="_blank" rel="noopener noreferrer">厚生労働省：感染症法上の指定感染症について</a>．
+        <p>感染症法による感染症の類型とその意味は（<span class="bold">2023-44-2表</span>参照）．
+        <p class="cap">2023-44-2表&emsp;感染症法の感染症類型とその意味　
+        <table>
+            <tr>
+                <td style="width: 20%;" class="textcenter">分類</td>
+                <td class="textcenter" colspan="2">定義等</td>
+            </tr>
+            <tr>
+                <td>一類感染症</td>
+                <td colspan="2">感染力や罹患した場合の重篤性などに基づく総合的な観点からみた危険性が極めて高い感染症</td>
+            </tr>
+            <tr>
+                <td>二類感染症</td>
+                <td colspan="2">感染力や罹患した場合の重篤性などに基づく 総合的な観点からみた危険性が高い感染症</td>
+            </tr>
+            <tr>
+                <td>三類感染症</td>
+                <td colspan="2">感染力や罹患した場合の重篤性などに基づく 総合的な観点からみた危険性は高くないものの、特定の職業に就業することにより感染症の集団発生を起こしうる感染症</td>
+            </tr>
+            <tr>
+                <td>四類感染症</td>
+                <td colspan="2">人から人への感染はほとんどないが、動物、飲食物などの物件を介して人に感染し、国民の健康に影響を与えるおそれのある感染症</td>
+            </tr>
+            <tr>
+                <td>五類感染症</td>
+                <td colspan="2">国が感染症発生動向調査を行い、その結果に基づき必要な情報を国民や医療関係者などに提供・公開していくことによって、発生・拡大を防止すべき感染症</td>
+            </tr>
+            <tr>
+                <td>新型インフルエンザ等感染症</td>
+                <td colspan="2">新型インフルエンザ：新たに人から人に伝染する能力を有することとなったウイルスを病原体と するインフルエンザであって、一般に国民が当該感染症に対する免疫を獲得していないことから、当該感染症の全国的かつ急速なまん延により国民の生命及び健康に重大な影響を与えるおそれがあると認められているものをいう．<br>
+                再興型インフルエンザ：かつて世界的規模で流行したインフルエンザであってその後流行することなく長期間が経過しているものとして厚生労働大臣が定めるものが再興したものであって、一般に現在の国民の大部分が当該感染症に対する免疫を獲得していないことから、当該感染症の全国的かつ急速なまん延により国民の生命及び健康に重大な影響を与えるおそれがあると認められるものをいう．
+                </td>
+            </tr>
+            <tr>
+                <td>指定感染症</td>
+                <td colspan="2">一～三類および新型インフルエンザ等感染症に分類されない既知の感染症の中で、一～三類に準じた対応の必要が生じた感染症（政令で指定、1年限定）</td>
+            </tr>
+            <tr>
+                <td>新感染症</td>
+                <td style="width: 40%;">人から人に伝播すると認められる感染症で、既知の感染症と症状などが明らかに異なり、その伝播力および罹患した場合の重篤度から判断した危険性が極めて高い感染症</td>
+                <td>〔当初〕<br>
+                都道府県知事が、厚生労働大臣の技術的指導・助言を得て、個別に応急対応する<br>                       
+                〔政令指定後〕<br>
+                政令で症状などの要件した後に一類感染症に準じた対応を行う</td>
+            </tr>
+        </table>
+        <p>新型コロナ感染症は当初の新型インフルエンザ等感染症から，2023年5月8日より5類感染症に変更された．
+        <p>最新の感染症の分類は次のサイト参照&emsp;<a href="https://www.mhlw.go.jp/content/10900000/001149889.pdf#:~:text=A型肝炎" target="_blank" rel="noopener noreferrer">厚生労働省：感染症法における感染症の分類</a>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-45.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-43.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

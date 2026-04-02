@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-42</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題42</span>&emsp;水系感染症の特徴に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>梅雨から夏に集中する．
+        <p><span class="bold">（2）</span>初発患者の発生から数日で爆発的に増加する．
+        <p><span class="bold">（3）</span>職業と関連する場合は少ない．
+        <p><span class="bold">（4）</span>給水範囲に一致して発生し，その境界線が明確である．
+        <p><span class="bold">（5）</span>一般に潜伏期間が長い．
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題42&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>水系感染症では，発生時期が季節等に左右されることは少ない．
+        <p>水系感染症の特徴は次のとおり．
+        <p>1．患者の発生が給水範囲と重なる．
+        <p>2．発生時期が季節等に左右されることは少なく，初発患者の発生から数日で爆発的に患者が増える．
+        <p>3．一般に，水で薄められるため潜伏期間が長く，致死率は低く，軽症例が多い．
+        <p>4．水の汚染が証明又は確定されることが多い．
+        <p>5．患者の性別，職業，年齢等に無関係に発症する．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-43.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-41.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

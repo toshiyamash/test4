@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-43</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題43</span>&emsp;次の感染症のうち，ウイルスによって<span class="bold">引き起こされる</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>発しんチラス
+        <p><span class="bold">（2）</span>カンジダ症
+        <p><span class="bold">（3）</span>マラリア
+        <p><span class="bold">（4）</span>日本脳炎
+        <p><span class="bold">（5）</span>レプトスピラ症
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題43&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>日本脳炎の病原体は日本脳炎ウイルスである．コガタアカイエカが媒介する．<br>主な病原体の分類は<span class="bold">2023-43-1表</span>のとおり．                
+        <p class="cap">2023-43-1表&emsp;病原体　
+        <table>
+            <tbody>
+                <tr>
+                    <td class="textcenter">分類</td>
+                    <td class="textcenter">大きさ，形態</td>
+                    <td class="textcenter">感染症の例</td>
+                </tr>
+                <tr>
+                    <td class="tdVertical">ウイルス</td>
+                    <td>10～400nmの球状の小体<br>
+                    ウイルスは他の生物の細胞内でしか増殖できない．</td>
+                    <td><ruby>痘瘡<rt>とうそう</rt></ruby>，麻しん（はしか），風しん，A型肝炎，B型肝炎，C型肝炎，E型肝炎，インフルエンザ，日本脳炎，急性灰白髄炎（ポリオ，小児まひ），ノロウイルス感染症，デング熱</td>
+                </tr>
+                <tr>
+                    <td class="tdVertical">リケッチア</td>
+                    <td>300～500nm球形ないしは<ruby>桿<rt>かん</rt></ruby>形の小体</td>
+                    <td>発疹チフス，つつが虫病</td>
+                </tr>
+                <tr>
+                    <td class="tdVertical">細菌</td>
+                    <td>1μm前後の球形ないしは桿形の単細胞生物<br>
+                        細胞核をもたない原核生物</td>
+                    <td>コレラ，赤痢，腸チフス，パラチフス，ペスト，結核，レジオネラ症，カンピロバクター・ジェジュニ</td>
+                </tr>
+                <tr>
+                    <td class="tdVertical">スピロヘータ</td>
+                    <td>6～15μmらせん形の細長い細菌の一種</td>
+                    <td>梅毒，ワイル病</td>
+                </tr>
+                <tr>
+                    <td class="tdVertical">真菌類</td>
+                    <td>1～10μm程度細胞核をもつ真核生物．キノコ，カビ，酵母（単細胞生物）など</td>
+                    <td>カンジダ症，<ruby>白癬<rt>はくせん</rt></ruby>症（水虫，たむし）</td>
+                </tr>
+                <tr>
+                    <td class="tdVertical">原虫</td>
+                    <td>20～500μm以上の単細胞生物</td>
+                    <td>マラリア，クリプトスポリジウム症</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-44.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-42.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
