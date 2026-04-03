@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-47</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題47</span>&emsp;下の図のようなA部材とB部材からなる外壁がある．いま，A部材とB部材の厚みと熱伝導率がそれぞれ14cmと1.4W/(m･K) ，5cmと0.2W/(m・K)であり，室内側熱伝達率，屋外側熱伝達率がそれぞれ10W/(m<sup>2</sup>･K)，20W/(m<sup>2</sup>･K) であるとする</span>．室内と屋外の温度差が20℃であるとき，この外壁の単位面積当たりの熱流量として，<span class="bold">正しい</span>ものは次のうちどれか．<p>&emsp;</p>
+        <div class="container">
+            <img src="../../images/image_3/2023-47問題添付図1.svg" alt="問題添付図">
+        </div>
+        <p>&emsp;</p>
+        <p><span class="bold">（1）</span>0.7 W/m<sup>2</sup>
+        <p><span class="bold">（2）</span>1.4 W/m<sup>2</sup>
+        <p><span class="bold">（3）</span>10 W/m<sup>2</sup>
+        <p><span class="bold">（4）</span>40 W/m<sup>2</sup>
+        <p><span class="bold">（5）</span>56 W/m<sup>2</sup>
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題47&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>壁を貫流する貫流熱量\(Q\)［W］を求める式は次のとおり．
+            \[Q=\frac{1}{R}(\theta_i-\theta_o)\times S \ \cdots \cdots {\rm 式（1）}\]
+        <div class="leftcenter">
+            ただし，<br>
+            \(R\)：熱貫流抵抗［W/(m<sup>2</sup>･K)］，<br> 
+            \(\theta_i\)：室内温度［℃］， <br>
+            \(\theta_o\)：外気温［℃］，<br>
+            \(S\)：熱流の通過する壁の面積［m<sup>2</sup>］．  
+        </div>
+        <p>一般的に熱貫流抵抗\(R\)は次式で求めることができる（<span class="bold">2023-47-1図</span>参照）．
+        <div class="cap">2023-47-1図&emsp;貫流熱流と熱抵抗</span></div>
+        <div class="container">
+            <img src="../../images/image_3/貫流熱流と熱抵抗.svg" alt="">
+        </div>
+            \[R=\frac{1}{\alpha_i}+\frac{\delta_A}{\lambda_A}+r_b+\frac{\delta_C}{\lambda_C}+\frac{1}{\alpha_o} \ \cdots \cdots {\rm 式（2）}\]
+        <div class="leftcenter">
+            ただし，<br>
+            \(\alpha_i\)：室内側熱伝達率，<br>
+            \(\delta_A\)：壁材料Aの厚さ，<br>
+            \(\lambda_A\) ：壁材料Aの熱伝導率，<br>
+            \(r_B\)：中空層の熱抵抗，<br>
+            \(\delta_C\)：壁材料Cの厚さ，<br>
+            \(\lambda_C\) ：壁材料Cの熱伝導率，<br>
+            \(\alpha_o\)：屋外側熱伝達率．
+        </div>
+        <p>（2）式に与えられた数値を代入して\(R\)［W/(m<sup>2</sup>･K)］を求める（中空層は今回ないので\(r_B\) = 0）．  
+            \begin{align}
+                R&=\frac{1}{\alpha_i}+\frac{\delta_A}{\lambda_A}+r_b+\frac{\delta_C}{\lambda_C}+\frac{1}{\alpha_o} \notag\\[5pt]
+                &=\frac{1}{10}+\frac{0.14}{1.4}+0+\frac{0.05}{0.2}+\frac{1}{20} \notag\\[5pt]
+                &=0.1+0.1+0.25+0.05 \notag\\[5pt]
+                &=0.5
+            \end{align}
+        <p>求める単位面積当たりの貫流熱量\(Q\)［W/m<sup>2</sup>］は，（1）式より，面積\(S\) =1［m<sup>2</sup>］として，
+            \begin{align}
+                Q&=\frac{1}{R}(\theta_i-\theta_o)\times S \notag\\[5pt]
+                &=\frac{1}{0.5}\times 20 \times 1 \notag\\[5pt]
+                &=2\times 20 \notag\\[5pt]
+                &=40
+            \end{align}
+        <p>熱貫流抵抗\(R\)の逆数，\(\displaystyle K=\frac{1}{R}\)を熱貫流率</span>［W/(m<sup>2</sup>･K)］という．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-48.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-46.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

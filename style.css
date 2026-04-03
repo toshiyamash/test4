@@ -1,4 +1,9 @@
 
+.textcenter span {
+  display: inline-block; /* 2. 各行をブロック要素として扱う */
+  text-align: left; /* 3. テキストの行頭を左に揃える */
+}
+
 /* タブ機能関係 */
   #tabss {
     /* 画面の右下に固定 */
@@ -215,6 +220,13 @@
     .textcenter{
       text-align: center;      
     }
+
+    /* 変数定義「ただし，」を見やすく */
+    .leftcenter {
+    width: max-content;
+    margin: 10px auto;
+    }
+    /* メンター　https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14283827584 */
 
     /* 太字 */
     .bold{
