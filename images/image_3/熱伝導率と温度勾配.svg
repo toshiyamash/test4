@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="146.61586mm"
+   width="96.894531mm"
    height="73.409607mm"
-   viewBox="0 0 146.61584 73.409614"
+   viewBox="0 0 96.894518 73.409614"
    version="1.1"
    id="svg5"
    inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.0809568"
-     inkscape:cx="219.2502"
+     inkscape:cx="219.25021"
      inkscape:cy="24.977871"
      inkscape:window-width="1920"
      inkscape:window-height="973"
@@ -43,7 +43,7 @@
     <inkscape:grid
        type="xygrid"
        id="grid861"
-       originx="-76.217529"
+       originx="-76.251012"
        originy="-124.06008"
        spacingy="1"
        spacingx="1"
@@ -58,7 +58,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(-76.217543,-124.06008)">
+     transform="translate(-76.251026,-124.06008)">
     <image
        width="66.410416"
        height="79.375"
@@ -73,12 +73,12 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-76.217543,-124.06008)" />
+     transform="translate(-76.251026,-124.06008)" />
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-76.217543,-124.06008)">
+     transform="translate(-76.251026,-124.06008)">
     <path
        style="fill:#ececec;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 86.136934,126.7087 v 34.08232"
@@ -234,60 +234,60 @@
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-       x="185.05797"
-       y="167.10617"
+       x="189.70856"
+       y="88.535728"
        id="text6911"><tspan
          sodipodi:role="line"
          id="tspan6909"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-         x="185.05797"
-         y="167.10617">Δx</tspan></text>
+         x="189.70856"
+         y="88.535728">Δx</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-       x="185.05797"
-       y="167.10617"
+       x="189.70856"
+       y="88.535728"
        id="text16061"
        inkscape:transform-center-y="4.4134615"><tspan
          sodipodi:role="line"
          id="tspan16059"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-         x="185.05797"
-         y="167.10617">Δx</tspan></text>
+         x="189.70856"
+         y="88.535728">Δx</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-       x="185.05797"
-       y="161.88948"
+       x="189.70856"
+       y="83.319038"
        id="text16065"
        inkscape:transform-center-y="4.4134615"><tspan
          sodipodi:role="line"
          id="tspan16063"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-         x="185.05797"
-         y="161.88948">Δθ</tspan></text>
+         x="189.70856"
+         y="83.319038">Δθ</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
-       x="204.30173"
-       y="167.51189"
+       x="208.95232"
+       y="88.941444"
        id="text22731"><tspan
          sodipodi:role="line"
          id="tspan22729"
          style="stroke-width:0.354433"
-         x="204.30173"
-         y="167.51189">δ</tspan></text>
+         x="208.95232"
+         y="88.941444">δ</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
-       x="199.72263"
-       y="160.76004"
+       x="204.37321"
+       y="82.189598"
        id="text24011"><tspan
          sodipodi:role="line"
          id="tspan24009"
          style="stroke-width:0.354433"
-         x="199.72263"
-         y="160.76004">θ<tspan
+         x="204.37321"
+         y="82.189598">θ<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.354433"
    id="tspan24903">1</tspan><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
@@ -296,96 +296,96 @@
    id="tspan25677">2</tspan></tspan></text>
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 183.84074,163.04876 h 7.94094"
+       d="m 188.49133,84.478321 h 7.94094"
        id="path35976" />
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 198.85319,162.9908 h 16.22967"
+       d="m 203.50378,84.420361 h 16.22967"
        id="path36068"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-       x="193.40466"
-       y="164.55579"
+       x="198.05525"
+       y="85.985344"
        id="text37546"><tspan
          sodipodi:role="line"
          id="tspan37544"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-         x="193.40466"
-         y="164.55579">＝</tspan></text>
+         x="198.05525"
+         y="85.985344">＝</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;stroke-width:0.354433"
-       x="173.65805"
-       y="141.2119"
+       x="178.30864"
+       y="62.64146"
        id="text39558"><tspan
          sodipodi:role="line"
          id="tspan39556"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-         x="173.65805"
-         y="141.2119">局所的温度勾配</tspan></text>
+         x="178.30864"
+         y="62.64146">局所的温度勾配</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-       x="213.07104"
-       y="143.54037"
+       x="217.72163"
+       y="64.969933"
        id="text44572"><tspan
          sodipodi:role="line"
          id="tspan44570"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-         x="213.07104"
-         y="143.54037">Δx</tspan></text>
+         x="217.72163"
+         y="64.969933">Δx</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-       x="213.07104"
-       y="143.54037"
+       x="217.72163"
+       y="64.969933"
        id="text44576"
        inkscape:transform-center-y="4.4134615"><tspan
          sodipodi:role="line"
          id="tspan44574"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-         x="213.07104"
-         y="143.54037">Δx</tspan></text>
+         x="217.72163"
+         y="64.969933">Δx</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-       x="213.07104"
-       y="138.32368"
+       x="217.72163"
+       y="59.753246"
        id="text44580"
        inkscape:transform-center-y="4.4134615"><tspan
          sodipodi:role="line"
          id="tspan44578"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-         x="213.07104"
-         y="138.32368">Δθ</tspan></text>
+         x="217.72163"
+         y="59.753246">Δθ</tspan></text>
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 211.8538,139.48297 h 7.94094"
+       d="m 216.50439,60.912531 h 7.94094"
        id="path44582" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-       x="206.63712"
-       y="140.98999"
+       x="211.2877"
+       y="62.419552"
        id="text44586"><tspan
          sodipodi:role="line"
          id="tspan44584"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-         x="206.63712"
-         y="140.98999">＝</tspan></text>
+         x="211.2877"
+         y="62.419552">＝</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;stroke-width:0.354433"
-       x="174.08368"
-       y="151.75555"
+       x="178.73427"
+       y="73.185112"
        id="text45536"><tspan
          sodipodi:role="line"
          id="tspan45534"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-         x="174.08368"
-         y="151.75555">均質な材料では</tspan></text>
+         x="178.73427"
+         y="73.185112">均質な材料では</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
@@ -543,60 +543,60 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-       x="178.68202"
-       y="179.39925"
+       x="183.33261"
+       y="100.8288"
        id="text48360"><tspan
          sodipodi:role="line"
          id="tspan48358"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-         x="178.68202"
-         y="179.39925">熱流</tspan></text>
+         x="183.33261"
+         y="100.8288">熱流</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
-       x="189.4118"
-       y="178.90971"
+       x="194.06239"
+       y="100.33927"
        id="text56628"><tspan
          sodipodi:role="line"
          id="tspan56626"
          style="stroke-width:0.354433"
-         x="189.4118"
-         y="178.90971">q</tspan></text>
+         x="194.06239"
+         y="100.33927">q</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-       x="193.40466"
-       y="179.39926"
+       x="198.05525"
+       y="100.82882"
        id="text57100"><tspan
          sodipodi:role="line"
          id="tspan57098"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
-         x="193.40466"
-         y="179.39926">＝λ<tspan
+         x="198.05525"
+         y="100.82882">＝λ<tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
    id="tspan100621" /></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
-       x="208.62737"
-       y="182.19142"
+       x="213.27795"
+       y="103.62098"
        id="text98508"><tspan
          sodipodi:role="line"
          id="tspan98506"
          style="stroke-width:0.354433"
-         x="208.62737"
-         y="182.19142">δ</tspan></text>
+         x="213.27795"
+         y="103.62098">δ</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-size:4.25321px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.354433"
-       x="203.3925"
-       y="175.27563"
+       x="208.04309"
+       y="96.705193"
        id="text98518"><tspan
          sodipodi:role="line"
          id="tspan98516"
          style="stroke-width:0.354433"
-         x="203.3925"
-         y="175.27563">θ<tspan
+         x="208.04309"
+         y="96.705193">θ<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.76458px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.354433"
    id="tspan98510">1</tspan><tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25321px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.354433"
@@ -605,7 +605,7 @@
    id="tspan98514">2</tspan></tspan></text>
     <path
        style="fill:#000000;stroke:#000000;stroke-width:0.401878;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 202.85094,177.83426 h 15.24601"
+       d="m 207.50153,99.263821 h 15.24601"
        id="path98520"
        sodipodi:nodetypes="cc" />
     <text
@@ -631,12 +631,12 @@
          x="135.27969"
          y="174.35892">熱伝導率 λ：大</tspan></text>
     <path
-       style="fill:none;stroke:#ffff00;stroke-width:0.0669795"
+       style="fill:none;stroke:#ffff00;stroke-width:0;stroke-dasharray:none"
        d="m 76.251026,147.18701 0.231853,11.59264"
        id="path402" />
     <path
        style="fill:none;stroke:#ffff00;stroke-width:0.0669795"
-       d="m 171.66286,148.84803 -0.23185,12.52003"
+       d="m 176.31345,70.277591 -0.23185,12.52003"
        id="path404" />
     <path
        style="fill:#000000;stroke-width:0"
@@ -648,11 +648,15 @@
        id="path5" />
     <path
        style="fill:#000000;stroke-width:0"
-       d="m 222.8334,155.87988 v 8.56687"
+       d="m 227.48399,77.309441 v 8.56687"
        id="path6" />
     <path
-       style="fill:#000000;stroke-width:0"
+       style="fill:#000000;stroke-width:0;stroke-dasharray:none"
        d="m 76.462311,150.73976 v 9.05641"
        id="path7" />
+    <path
+       style="fill:#000000;stroke-width:0;stroke-dasharray:none"
+       d="M 173.14556,147.55778 V 158.8171"
+       id="path1" />
   </g>
 </svg>

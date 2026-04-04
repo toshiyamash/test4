@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-48</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題48</span>&emsp;湿り空気に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>絶対湿度が一定の状態で，温度が上昇すると相対湿度は低下する．
+        <p><span class="bold">（2）</span>相対湿度が同じ湿り空気では，温度が高い方が比エンタルピーは高い．
+        <p><span class="bold">（3）</span>乾球温度が同じ湿り空気では，絶対湿度が高い方が水蒸気圧は高い．
+        <p><span class="bold">（4）</span>露点温度における湿り空気では，乾球温度と湿球温度は等しい．
+        <p><span class="bold">（5）</span>比エンタルピーが同じ湿り空気では，温度が高い方が絶対温度は高い．                              
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題48&emsp;正解（5）&emsp;頻出度AAA</span></p>
+        <p>比エンタルピーが同じ状態点1と状態点2の湿り空気では，温度が高い状態点2の方が絶対温度は低くなることが<span class="bold">2023-48-1図</span>の湿り空気線図から分かる．
+        <div class="cap">2023-48-1図&emsp;等比エンタルピーのときの絶対湿度と温度を示す湿り空気線図</span></div>
+        <div class="container">
+            <img src="../../images/image_3/等比エンタルピー，絶対湿度と温度.svg" alt="等比エンタルピー，絶対湿度と温度">
+        </div>
+        <p>絶対湿度などの，湿り空気の性質を表す状態量</span>を<span class="bold">2023-48-1表に示す．                
+        <p class="cap">2023-48-1表&emsp;湿り空気の性質を表す状態量
+        <table>
+            <tr>
+                <td class="textcenter" nowrap>状態量の名称</td>
+                <td class="textcenter" nowrap>単位</td>
+                <td class="textcenter">定義</td>
+            </tr>
+            <tr>
+                <td>乾球温度</td>
+                <td class="textcenter">℃</td>
+                <td>乾球温度計の示す温度</td>
+            </tr>
+            <tr>
+                <td>湿球温度</td>
+                <td class="textcenter">℃</td>
+                <td>5m/s程度の気流の当たっている湿球温度計の示す温度．<br>
+                    飽和湿り空気では乾球温度と湿球温度は等しくなる．そうでない場合は常に湿球温度は乾球温度より低い値を示す．</td>
+            </tr>
+            <tr>
+                <td>露点温度</td>
+                <td class="textcenter">℃</td>
+                <td>湿り空気を冷却していったとき結露を始める温度（水蒸気の絶対量を示す）．ある空気に対して，同じ水蒸気分圧を持つ飽和空気の温度ともいえる．</td>
+            </tr>
+            <tr>
+                <td>絶対湿度</td>
+                <td class="textcenter">kg/kg(DA)</td>
+                <td>湿り空気中の乾燥空気1kg当たりの水蒸気量を示す．これは，専門的には，重量絶対湿度という．
+                <br>絶対湿度には，湿り空気1m<sup>3</sup>中の水蒸気の質量を表す容積絶対湿度［kg/m<sup>3</sup>］もあるが，空調工学分野では，温度によって変化しない重量絶対湿度の方が取り扱いやすい．</td>
+            </tr>
+            <tr>
+                <td>水蒸気分圧</td>
+                <td class="textcenter">Pa</td>
+                <td>湿り空気を理想気体（完全気体ともいう）と見なせば，その圧力は水蒸気だけがあったときの圧力と乾燥空気だけがあつたときの圧力の和である．ダルトンの分圧の法則という．そのときの水蒸気の圧力を水蒸気分圧という（水蒸気の絶対量を示す）．</td>
+            </tr>
+            <tr>
+                <td>相対湿度</td>
+                <td class="textcenter">%</td>
+                <td>ある湿り空気の水蒸気分圧と，同じ温度の飽和湿り空気の水蒸気分圧（飽和水蒸気圧という）の比．飽和湿り空気の相対湿度は100％となる．</td>
+            </tr>
+            <tr>
+                <td nowrap>比エンタルピー</td>
+                <td class="textcenter">kJ/kg(DA)</td>
+                <td>湿り空気の持っている熱量（顕熱+潜熱）．0℃の乾燥空気の比エンタルピーをゼロする．</td>
+            </tr>
+            <tr>
+                <td>比容積</td>
+                <td class="textcenter">m<sup>3</sup>/kg(DA)</td>
+                <td>乾き空気1kg当たりの湿り空気が占める容積</td>
+            </tr>
+            <tr>
+                <td>飽和度</td>
+                <td class="textcenter">%</td>
+                <td>ある湿り空気の絶対湿度と同じ温度の飽和湿り空気の絶対湿度の比を飽和度という．</td>
+            </tr>            
+        </table>
+        <p>これらの状態量のうち，「露点温度」，「絶対湿度」，「水蒸気分圧」は，湿り空気の状態量としては同じこと(水分の絶対量)を表しているのに過ぎないので，いずれかを測定すれば他の二つも測定したことになる．
+        <p>いかなる状態の湿り空気でも，湿り空気線図上の1つの点として表現される．この点を状態点という．状態点は湿り空気の状態を表す2つの量が決まれば求めることができるので，他の状態量は湿り空気線図から求めることができる．しかし，上述のとおり，露点温度，絶対湿度，水蒸気分圧のうちの二つを与えられても，状態点は決定できない（<span class="bold">2023-48-2図</span>で1本の横線が決まるだけである）．この三つのうち一つが上昇すれば，他の二つも上昇することは分かる．
+        <div class="cap">2023-48-2図&emsp;湿り空気線図には何が描かれているのか</span></div>
+        <div class="container">
+            <img src="../../images/image_3/空気線図には何が描かれているのか.svg" alt="湿り空気線図には何が描かれているのか">
+        </div>
+        <p><span class="underln">この手の問題に確実にかつ迅速に正解するには，湿り空気線図に何が描かれているかを理解し，頭に思い浮かべることができるようなっておくことが必須である．</span>この問題であれば，1本の右下がりの比エンタルピー線上を右側に移動すれば，すなわち，乾球温度が上がれば，絶対湿度は低くなることが，2023-48-1図のようにイメージできればよい．さて，<span class="bold">-(1) </span>～<span class="bold">-(4) </span>はどのように思い浮かべることができるだろうか．</span>         
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-49.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-47.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
