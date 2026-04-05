@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-52</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題52</span>&emsp;下の図のように， 風上側と風下側にそれぞれ一つの開口部を有する建築物における外部の自然風のみによる自然換気に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span><p>　</p>
+            <div class="container">
+                <img src="../../images/image_3/2023-52問題添付図1.svg" alt="問題添付図">
+            </div><p>　</p>
+        
+        <p><span class="bold">（1）</span>外部の自然風の風速が2倍になると，換気量は2倍になる．
+        <p><span class="bold">（2）</span>換気量は，開口部 ①と②の風圧係数の差の平方根に比例する．
+        <p><span class="bold">（3）</span>開口部①と②の両方の開口面積を2倍にすると，換気量は4倍になる．
+        <p><span class="bold">（4）</span>風下側に位置する開口部②の風圧係数は，一般的に負の値となる．
+        <p><span class="bold">（5）</span>各開口の流量係数は，開口部の形状に関係する．                              
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題52&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>両方の開口面積を2倍にすると，換気量も2倍になる（片方の開口面積を2倍にしただけではほとんど変化しない）．
+        <p>外部風による換気力\(P_w\)［Pa］は，次式によって与えられる．
+          \[P_w=\frac{\rho}{2}V^2(C_1-C_2)\]
+        <div class="leftcenter">
+            ただし，<br>
+            \(V\)：風速［m/s］，<br> 
+            \(C_1\)，\(C_2\)：建物の風上，風下の風圧係数， <br>
+            \(\rho\)：空気の密度［kg/m<sup>3</sup>］．  
+        </div>
+        <p>風圧係数は実験的に求めるが，<span class="bold">2023-52-1図</span>のとおり風の向きで正負の値をとる．
+        <div class="cap">2023-52-1図&emsp;風圧係数</span></div>
+        <div class="container">
+            <img src="../../images/image_3/風圧係数.svg" alt="風圧係数">
+        </div>
+        <p>換気量\(Q\)［m<sup>3</sup>/s］はこれらの換気力を次式に代入して求めることができる．
+          \[Q=\alpha A\sqrt{\frac{2}{\rho}\cdot P}\]
+        <p>式中の流量係数\(\alpha\)とは，オリフィスや弁などの実流量/理論流量の比のことで，流入口から流出口までの全ての抵抗を考慮した係数である．
+        <p>流量係数は，通常の窓で0.6～0.7程度となる（理想的なベルマウス，<span class="bold">2023-52-1図</span>参照）などの場合に≒1で，1を超えることはない）．
+        <div class="cap">2023-52-1図&emsp;ベルマウス</span></div>
+        <div class="container">
+            <img src="../../images/image_3/ベルマウス.svg" alt="ベルマウス">
+        </div>
+        <p class="source">出典&emsp;モノタロウ（メーカー：古河電気工業）</span><br>
+            https://www.monotaro.com/g/04630739/#
+        <p>外部風に対する窓などの場合は，開口面積\(A\)［m<sup>2</sup>］に対して，\(\alpha A\)を有効開口面積ということもできる．
+        <p>風力による換気量なら，
+            \begin{align}
+                Q&=\alpha A \sqrt{\frac{2}{\rho}\cdot P_w} \notag\\[5pt]
+                &=\alpha A \sqrt{\frac{2}{\rho}\cdot \frac{\rho}{2}\cdot V^2 } \notag\\[5pt]
+                &=\alpha A \sqrt{(C_1-C_2)}\cdot V \notag
+            \end{align}
+        <p>この式から，風力による換気量は，風速，開口面積に比例し，風圧係数の差の平方根に比例することが分かる．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-53.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-51.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-51</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題51</span>&emsp;流体力学に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>連続の式（質量保存の法則）は，ダクト中の流体の温度，断面積，流速の積が一定となることを意味する．
+        <p><span class="bold">（2）</span>無秩序な乱れによる流体塊の混合を伴う流れを乱流という．
+        <p><span class="bold">（3）</span>ベルヌーイの定理は，流れの力学的エネルギーの保存の仮定から導かれる．
+        <p><span class="bold">（4）</span>レイノルズ数が小さい流れでは，粘性が強い流れとなる．
+        <p><span class="bold">（5）</span>ダクトの形状変化に伴う圧力損失は， 形状抵抗係数と風速の2乗に比例する．                              
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題51&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>「温度」→「密度」が正しい（温度は少しフザケてる）．
+        <p>摩擦のないダクト中の流れを考える（<span class="bold">2023-51-1図</span>）．
+        <div class="cap">2023-51-1図&emsp;連続の式・摩擦のないダクト中の流れ</span></div>
+        <div class="textcenter">
+            <img src="../../images/image_3/連続の式.svg" alt="連続の式">
+        </div>
+        <p class="source">出典&nbsp;公益財団法人日本建築衛生管理教育センター
+          <br>「新建築物の環境衛生管理第2版第1刷」中巻141頁 図5-1-3(32)を基に作成           
+        <p>定常状態の流れの上流側にA断面，下流側にB断面をとると，AB断面間に，単位時間に流入する流れと流出する流れの質量は等しい．この関係を示す次式を連続の式という．
+          \[S_A\times U_A\times \rho=S_B\times U_B\times \rho\]
+        <p>連続の式は，ダクトのどこをとっても単位時間に流れる質量は一定であることを示している．この式に力学的エネルギー保存の法則を適用するとベルヌーイの定理を導くことができる．
+        <p><span class="bold">-(2) </span>，<span class="bold">-(4) </span>流体の速度が十分遅い場合，流れは整然とした層流となるが，流速が一定以上になると，流れは乱流となる．<br>
+        細く絞った蛇口からの水流は澄んだ透明な層流であり，蛇口を大きく開けると周囲の空気まで巻き込んで水流は白っぽく濁った乱流となる．
+        <p>流れが層流となるか，無秩序な流体塊の混合を伴う乱流となるかは流れのレイノルズ数(\(Re\)数)によることが知られている．
+        <p>\(Re\)数は，流体に働く慣性力と粘性力の比(慣性力/粘性力)を示す無次元数で，これが小さい流れでは乱流の原因となる慣性力を粘性力が上回っていて，乱れは減衰してしまう．\(Re\)数が大きい流れは，乱れを継続させる力である慣性力が減衰させる粘性力に勝るので，乱れが持続する．
+        <p>流れの\(Re\)数は次式で与えられる．
+          \[R_e=\frac{v\cdot D}{\nu}\]
+        <div class="leftcenter">
+            ただし，<br>
+            \(v\)：流速［m/s］，<br> 
+            \(D\)：流れの代表長さ（ダクトや配管の径など）［m］， <br>
+            \(\nu\)：（ニュー）：流体の動粘性係数（粘性係数を密度で割った値）．
+        </div>
+        <p>\(R_e\)数が2,000程度以下では層流，4,000程度以上では乱流となる．
+        <p><span class="bold">-(3) </span>上述の連続の式は，摩擦のない理想的な流体では，流体のどこをとっても単位時間に流れる質量は一定であることを示している．この式に力学的エネルギー保存の法則を適用するとベルヌーイの定理を導くことができる．
+        <p>ベルヌーイの定理によれば，摩擦のない理想的な流体では，単位時間にある断面を通過する流体の持つエネルギーは，運動エネルギー，圧力のエネルギー，外力によるエネルギー（位置エネルギー）の合計となり，ダクトのどの断面をとってもその値は一定となる．すなわち，
+          \[\frac{1}{2}mU^2+PV+m{\rm g}h={\rm 一定}\]
+        <div class="leftcenter">
+            ただし，<br>
+            \(m\)：質量［kg］，<br> 
+            \(U\)：流速［m/s］， <br>
+            \(P\)：圧力［Pa］， <br>
+            \(V\)：体積［m<sup>3</sup>］， <br>
+            \(h\)：高さ［m］， <br>
+            \({\rm g}\)：重力加速度（9.8m/s<sup>2</sup>）．
+        </div>
+        <p>流体の密度を\(\rho\)［kg/m<sup>3</sup>］，体積を\(V\)［m<sup>3</sup>］とすれば，\(m=V\times \rho\)であるから，この式を\(V\)で除した，
+          \[\frac{1}{2}\rho U^2+P+\rho{\rm g}h=H\ {\rm （一定）}\]
+        <p>も成り立つ．この式の各項は圧力［Pa］の次元をもち，第1項を動圧，第2項を静圧，第3項を位置圧，\(H\)を全圧と呼ぶ．
+        <p>気体では位置圧は無視してよいほど小さいので，
+          \[\frac{1}{2}\rho U^2+P=H\ {\rm （一定）}\]
+        <p>すなわち，動圧＋静圧＝全圧としてよい．この式は，流体の速度が小さくなれば静圧が大きくなり，速度が速くなれば静圧が小さくなる，すなわち動圧と静圧は交互に変換することを示している．
+        <p>なお，ここでいう圧力とは絶対圧力である．圧力計(ゲージ)で測った圧力はゲージ圧といい，絶対圧力＝ゲージ圧＋その場所の大気圧である．
+        <p><span class="bold">-(5) </span>ベルヌーイの定理によれば，理想的な流体ではダクトのどこをとっても動圧+静圧+位置圧＝一定（全圧）となるが，実際の流れでは，摩擦や流れの渦運動によって圧力損失を生じる．
+        <p>ダクトの形状変化に伴う圧力損失\(\varDelta p\)［Pa］は次式で表される．式中の&nbsp;\(\xi\)&nbsp;(クサイ)は形状抵抗係数と呼ばれ，さまざまな形状変化に対する経験値が知られている.
+          \[\varDelta p=\xi \frac{1}{2}\rho v^2\]
+        <p>さらに，丸ダクトなどの直線ダクトでも，全圧は流れの下流方向に単調に低下する．
+        <p>直線の丸ダクトなどに生じる圧力損失は，流体の速度を\(v\)［m/s］，ダクトの有効径を\(D\)［m］，長さを\(L\)［m］，流体の密度を\(\rho\)［kg/m<sup>3</sup>］とすると，次式で表される．
+          \[\varDelta p=\lambda \frac{L}{D}\cdot \frac{1}{2}\rho v^2\]
+        <p>\(\lambda\)（ラムダ）は摩擦抵抗係数</span>と呼ばれ，ダクト表面の粗度のほか，ダクト内流体のレイノルズ数（\(R_e\)数）によって変化する．
+        <p>いずれの圧力損失も流速の2乗に比例する（動圧&nbsp;\(\displaystyle \frac{1}{2}\rho v^2\)&nbsp;に比例するといってもよい）．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-52.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-50.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
