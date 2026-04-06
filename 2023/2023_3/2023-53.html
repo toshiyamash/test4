@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-53</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題53</span>&emsp;室内気流に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>混合換気 (混合方式の換気) は，室温よりやや低温の空調空気を床面付近に低速で供給 し，天井面付近で排気する換気方式である．
+        <p><span class="bold">（2）</span>コールドドラフトは，冷たい壁付近などでの自然対流による下降流が原因で生じることがある．
+        <p><span class="bold">（3）</span>壁面上部からの水平吹出しの空気調和方式では，暖房時に居住に停滞域が生じて上下 温度差が大きくなりやすい．
+        <p><span class="bold">（4）</span>天井中央付近から下向き吹出しの空気調和方式では，冷房時に冷気が床面付近に拡散し，室上部に停滞域が生じやすい．
+        <p><span class="bold">（5）</span>ドラフトとは不快な局部気流のことであり，風速，気流変動の大きさ，空気温度の影響を受ける．                              
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題53&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>室温よりやや低温の空調空気を床面付近に低速で供給し，天井面付近で排気する換気方式は，「置換換気方式」という．
+        <p>一般の事務室や会議室の換気方式は混合方式(清浄空気＋室内汚染空気)である．それに対して半導体のクリーンルーム等で採用される一方向方式とは，清浄空気をピストンのように一方向の流れとなるように室内に供給し，室内汚染物質を拡散させることなく，そのまま排気口へ押し出す方式で，その 1 つである置換換気方式は，低温空気が室の底部に滞留する傾向を利用した換気方式で，室温よりやや低温の新鮮空気を床面下部より低速で供給し，室上部から排出する．
+        <p><span class="bold">-(2) </span>～<span class="bold">-(5) </span>室内気流分布</span>の状態を決める主要な要因は，吹出し空気の温度，吹出し方向，速度，吹出し口の位置・形状である．
+        <p>不快な局部気流のことをドラフト（draft）といい，冷たい壁付近などで，自然対流によって生じる下降流や隙間風が原因のドラフトのことをコールドドラフトという．
+        <p>コールドドラフトや空気の滞留域が生じないように調整する（<span class="bold">2023-53-1表</span>参照）．                
+        <p class="cap">2023-53-1表&emsp;室内気流分布（停滞域，ドラフト）
+        <table>
+            <tbody>
+                <tr>
+                    <td class="textcenter" nowrap>吹出口の位置，<br>吹出し方向</td>
+                    <td class="textcenter">冷房時</td>
+                    <td class="textcenter">暖房時</td>
+                </tr>
+                <tr>
+                    <td>側壁上部からの水平吹出し</td>
+                    <td>冷房時に吹出し速度を適切に選べば，噴流が対向壁まで到達し良好な温度分布が形成される．<br>
+                    速度が大きすぎるとドラフト，弱すぎると天井面の途中で冷気が剥離して降下しドラフトとなる場合がある．</td>
+                    <td>居住域に滞留域が生じて上下温度差が大きくなり，壁からのコールドドラフトを生じやすい．</td>
+                </tr>
+                <tr>
+                    <td>側壁下部からの水平吹出し</td>
+                    <td>冷房時には床面に沿って噴流が拡がり，上部に滞留域が発生する．</td>
+                    <td>吹出し速度が十分大きいと，噴流の方向に沿ってドラフトが生じる場合があるが，上下温度差は小さくなる．</td>
+                </tr>
+                <tr>
+                    <td>天井中央付近からの水平吹出し</td>
+                    <td>冷房時は一様な温度分布が形成され，特にアネモ型吹出口では，拡散性が強いのでドラフトの問題は生じにくい．</td>
+                    <td>暖房に用いると，室中央部に滞留域が生じ上下温度差が大きくなりがちである．</td>
+                </tr>
+                <tr>
+                    <td>天井中央付近からの下向き吹出し</td>
+                    <td>冷房時は冷気が床面付近に拡散し，上部に滞留域が生じる．</td>
+                    <td>居住域部分に一部速度の速い領域が生じるが，温度分布は一様となりやすい．<br>吹出し速度が小さく，噴流が床面に到達しない場合は，噴流下部が停滞し大きな上下温度差が形成される．</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-54.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-52.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
