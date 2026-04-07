@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-54</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題54</span>&emsp;通風を行う開口部の通過風量に関する次の式のア〜ウに入る用語の組合せとして，<span class="bold">正しい</span>ものはどれか．</span>
+        <p>建物の窓などの開口部で通風が行われる場合，通過量\(Q\)は下記のような式に表すことができる．
+          \[Q={\rm ア}\sqrt{\frac{2}{{\rm イ}}{\rm ウ}}\]
+        <p><span style="margin-left: 5rem;">ア</span><span style="margin-left: 11rem;">イ</span><span style="margin-left: 11rem;">ウ</span></p>
+        <p><span class="bold">（1）</span>相当開口面積<span class="connectLine">　　　　　　</span>空気の密度<span class="connectLine">　　　　　　　</span>開口部前後の圧力差
+        <p><span class="bold">（2）</span>開口部前後の圧力差<span class="connectLine">　　　</span>相当開口面積<span class="connectLine">　　　　　　</span>空気の密度
+        <p><span class="bold">（3）</span>相当開口面積<span class="connectLine">　　　　　　</span>開口部前後の圧力差<span class="connectLine">　　　</span>空気の密度
+        <p><span class="bold">（4）</span>開口部前後の圧力差<span class="connectLine">　　　</span>空気の密度<span class="connectLine">　　　　　　　</span>相当開口面積
+        <p><span class="bold">（5）</span>空気の密度<span class="connectLine">　　　　　　　</span>相当開口面積<span class="connectLine">　　　　　　</span>開口部前後の圧力差                              
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題54&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>ア「相当開口面積」，イ「空気密度」，ウ「開口部前後の圧力差」である．すなわち，
+          \[Q=\alpha A \sqrt{\frac{2}{\rho}\cdot P}\]
+        <div class="leftcenter">
+          ただし，<br>
+          \(\alpha\)：流量係数，<br>
+          \(A\)：開口面積［m<sup>2</sup>］，<br>
+          \(\rho\)：換気空気の密度［kg/m<sup>3</sup>］，<br>
+          \(P\)：換気力［Pa］．
+        </div>
+        <p>換気力\(P\)とは，開口部前後の空気の圧力差である．この圧力差は，風圧（移動する空気の動圧）だけではなく，温度差（空気の密度の差）によっても，もたらされる．
+        <p>外部風による換気力\(P_w\)［Pa］は，次式によって与えられる．
+          \[P_w=\frac{\rho}{2}V^2 (C_1-C_2)\]
+        <div class="leftcenter">
+          ただし，<br>
+          \(V\)：風速［m/s］，<br>
+          \(C_1\)，\(C_2\)：建物の風上，風下の風圧係数，<br>
+          \(\rho\)：空気の密度［kg/m<sup>3</sup>］．
+        </div>
+        <p>風圧係数は実験的に求めるが，<span class="bold">2023-58-1図</span>のとおり風の向きで正負の値をとる．
+        <div class="cap">2023-58-1図&emsp;風圧係数</div>
+        <div class="container">
+            <img src="../../images/image_3/風圧係数.svg" alt="風圧係数">
+        </div>
+        <p>&emsp;</p>
+        <p>温度差による換気力\(P_t\)は次式で表される．
+          \[P_t=h(\rho_o-\rho_i){\rm g}\]
+        <div class="leftcenter">
+          ただし，<br>
+          \(h\)：開口部間の高さの差［m］，<br>
+          \(\rho_i\)，\(\rho_o\)：その時の温度・高さによる内外空気の密度［kg/m<sup>3</sup>］，<br>
+          \({\rm g}\)：重力加速度（9.8m/s<sup>2</sup>）．
+        </div>
+        <p>換気量\(Q\)［m<sup>3</sup>/s］はこれらの換気力を，冒頭にも挙げた次式に代入して求めることができる．
+          \[Q=\alpha A \sqrt{\frac{2}{\rho}\cdot P}\]
+        <div class="leftcenter">
+          ただし，<br>
+          \(\alpha\)：流量係数，<br>
+          \(A\)：開口面積［m<sup>2</sup>］，<br>
+          \(\rho\)：換気空気の密度［kg/m<sup>3</sup>］，<br>
+          \(P\)：換気力［Pa］．
+        </div>
+        <p>流量係数\(\alpha\)とは，オリフィスや弁などの実流量/理論流量の比のことで，流入口から流出口までの全ての抵抗を考慮した係数である．流量係数は，通常の窓で0.6～0.7程度となる．\(\alpha A\)を相当開口面積という．
+        <p>風力による換気量なら，
+            \begin{align}
+                Q&=\alpha A \sqrt{\frac{2}{\rho}\cdot P_w} \notag\\[5pt]
+                &=\alpha A \sqrt{\frac{2}{\rho}\cdot \frac{\rho}{2}\cdot V^2(C_1-C_2)} \notag\\[5pt]
+                &=\alpha A \sqrt{(C_1-C_2)}\cdot V \notag
+            \end{align}
+        <p>この式から，風力による換気量は，風速，開口面積に比例し，風圧係数の差の平方根に比例することが分かる．
+        <p><span class="bold">2023-54-1表</span>に自然換気の換気力と換気量についてまとめた．
+        <p class="cap">2023-54-1表&emsp;自然換気の換気力と換気量
+        <table>
+          <tr>
+            <td></td>
+            <td class="textcenter">換気力&emsp;\(P\)［Pa］</td>
+            <td class="textcenter">換気量&emsp;\(Q\)［m<sup>3</sup>/s］</td>
+          </tr>
+          <tr>
+            <td>風力換気</td>
+            <td><ul>
+                <li>開口部前後の圧力差に比例</li>
+                <li>風速の2乗に比例</li>
+                <li>風上，風下の風圧係数の差に比例</li>
+            </ul></td>
+            <td><ul>
+                <li>開口部前後の圧力差の平方根に比例</li>
+                <li>風速に比例</li>
+                <li>風圧係数の差の平方根に比例</li>
+            </ul></td>
+          </tr>
+          <tr>
+            <td>温度差換気</td>
+            <td><ul>
+                <li>室内外の温度の差に比例</li>
+                <li>給気口と排気口の高低差に比例</li>
+                <li>室内外の空気の密度の差に比例</li>
+            </ul></td>
+            <td><ul>
+                <li>温度差の平方根に比例</li>
+                <li>高低差の平方根に比例</li>
+                <li>密度の差の平方根に比例</li>
+            </ul></td>
+          </tr>
+        </table>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-55.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-53.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
