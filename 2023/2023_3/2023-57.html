@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-57</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題57</span>&emsp;空気清浄化と換気に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>単位時間当たりに室内に取り入れる外気量を室容積で除したものを空気交換効率という．
+        <p><span class="bold">（2）</span>換気の目的の一つに，室内空気と新鮮空気の入れ換えがある．
+        <p><span class="bold">（3）</span>単位時間当たりに室内に取り入れる外気量を (外気による) 換気量という．
+        <p><span class="bold">（4）</span>室内における粉じんの除去は，空調機に設置されているエアフィルタにより行うことができる．
+        <p><span class="bold">（5）</span>室内におけるガス状汚染物質の除去は，ケミカルエアフィルタにより行うことができるが，基本的には換気が重要である．
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題57&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>単位時間当たりに室内に取り入れる外気量を室容積で除したものは「換気回数」である．
+        <p>空気交換効率&nbsp;\(\epsilon_a\)（イプシロン\(a\)）は次式のとおり．
+          \[\epsilon_a=\frac{\tau_n}{\tau_r}\]
+        <div class="leftcenter">
+          ただし，<br>
+          \(\tau_n\)（タウ\(n\)）：換気回数1回分の給気に要する時間（室容積÷換気量）<br>
+          \(\tau_r\)：室内の空気が全て外気に置き換えられるのに要する時間
+        </div>
+        <p>空気交換効率は実際の空気交換時間と理論上の最小空気交換時間との比であり，換気の質を表すための換気効率を示す指標の一つである．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-58.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-56.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

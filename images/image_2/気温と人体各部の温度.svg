@@ -7,8 +7,8 @@
    viewBox="0 0 115.54585 90.360046"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="2021-24-1気温と人体各部の温度.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   sodipodi:docname="気温と人体各部の温度.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,12 +25,12 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.0496621"
-     inkscape:cx="316.76861"
+     inkscape:cx="316.29226"
      inkscape:cy="146.71388"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer3"
      inkscape:snap-global="true"
@@ -44,7 +44,10 @@
        type="xygrid"
        id="grid843"
        originx="-46.153213"
-       originy="-64.062746" />
+       originy="-64.062746"
+       spacingy="1"
+       spacingx="1"
+       units="mm" />
   </sodipodi:namedview>
   <defs
      id="defs2">
@@ -978,11 +981,11 @@
          x="83.559624"
          y="85.072014">躯幹</tspan></text>
     <path
-       style="fill:#000000;stroke:#ffff00;stroke-width:0.1"
+       style="fill:#000000;stroke:#ffff00;stroke-width:0;stroke-dasharray:none"
        d="m 46.203202,101.87253 0.252065,10.08261"
        id="path468" />
     <path
-       style="fill:#000000;stroke:#ffff00;stroke-width:0.1"
+       style="fill:#000000;stroke:#ffff00;stroke-width:0;stroke-dasharray:none"
        d="m 161.64908,101.11633 -0.25206,9.07435"
        id="path1025" />
   </g>
