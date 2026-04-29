@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-62</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題62</span>&emsp;湿り空気に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>顕熱比とは，顕熱の変化量の，全熱の変化量に対する比である．
+        <p><span class="bold">（2）</span>露点温度とは，湿り空気を冷却したとき飽和状態になる温度のことである．
+        <p><span class="bold">（3）</span>絶対湿度とは，湿り空気中の水蒸気量の湿り空気の全質量に対する比である．
+        <p><span class="bold">（4）</span>相対湿度とは，ある湿り空気の水蒸気分圧の，その湿り空気と同一温度の飽和水蒸気分圧に対する比を，百分率で表したものである．  
+        <p><span class="bold">（5）</span>熱水分比とは，比エンタルピーの変化量の，絶対湿度の変化量に対する比である．                       
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題62&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>絶対湿度とは，湿り空気中の乾燥空気1kg当たりの水蒸気量を示す．
+        <br>湿り空気中の水蒸気量の湿り空気の全質量に対する比は「比湿」（単位は［kg/kg］（無次元））という．
+        <p>絶対湿度などの，湿り空気の性質を表す状態量を<span class="bold">2023-62-1表</span>に示す．                
+        <p class="cap">2023-62-1表&emsp;湿り空気の性質を表す状態量
+          <table>
+            <tr>
+                <td class="textcenter" nowrap>状態量の名称</td>
+                <td class="textcenter" nowrap>単位</td>
+                <td class="textcenter">定義</td>
+            </tr>
+            <tr>
+                <td>乾球温度</td>
+                <td class="textcenter">℃</td>
+                <td>乾球温度計の示す温度</td>
+            </tr>
+            <tr>
+                <td>湿球温度</td>
+                <td class="textcenter">℃</td>
+                <td>5m/s程度の気流の当たっている湿球温度計の示す温度．<br>
+                    飽和湿り空気では乾球温度と湿球温度は等しくなる．そうでない場合は常に湿球温度は乾球温度より低い値を示す．</td>
+            </tr>
+            <tr>
+                <td>露点温度</td>
+                <td class="textcenter">℃</td>
+                <td>湿り空気を冷却していったとき結露を始める温度（水蒸気の絶対量を示す）．ある空気に対して，同じ水蒸気分圧を持つ飽和空気の温度ともいえる．</td>
+            </tr>
+            <tr>
+                <td>絶対湿度</td>
+                <td class="textcenter">kg/kg(DA)</td>
+                <td>湿り空気中の乾燥空気1kg当たりの水蒸気量を示す．これは，専門的には，重量絶対湿度という．
+                <br>絶対湿度には，湿り空気1m<sup>3</sup>中の水蒸気の質量を表す容積絶対湿度［kg/m<sup>3</sup>］もあるが，空調工学分野では，温度によって変化しない重量絶対湿度の方が取り扱いやすい．</td>
+            </tr>
+            <tr>
+                <td>水蒸気分圧</td>
+                <td class="textcenter">Pa</td>
+                <td>湿り空気を理想気体（完全気体ともいう）と見なせば，その圧力は水蒸気だけがあったときの圧力と乾燥空気だけがあつたときの圧力の和である．ダルトンの分圧の法則という．そのときの水蒸気の圧力を水蒸気分圧という（水蒸気の絶対量を示す）．</td>
+            </tr>
+            <tr>
+                <td>相対湿度</td>
+                <td class="textcenter">%</td>
+                <td>ある湿り空気の水蒸気分圧と，同じ温度の飽和湿り空気の水蒸気分圧（飽和水蒸気圧という）の比．飽和湿り空気の相対湿度は100％となる．</td>
+            </tr>
+            <tr>
+                <td nowrap>比エンタルピー</td>
+                <td class="textcenter">kJ/kg(DA)</td>
+                <td>湿り空気の持っている熱量（顕熱+潜熱）．0℃の乾燥空気の比エンタルピーをゼロする．</td>
+            </tr>
+            <tr>
+                <td>比容積</td>
+                <td class="textcenter">m<sup>3</sup>/kg(DA)</td>
+                <td>乾き空気1kg当たりの湿り空気が占める容積</td>
+            </tr>
+            <tr>
+                <td>飽和度</td>
+                <td class="textcenter">%</td>
+                <td>ある湿り空気の絶対湿度と同じ温度の飽和湿り空気の絶対湿度の比を飽和度という．</td>
+            </tr>            
+        </table>
+        <p>&emsp;</p>                    
+        <p><span class="bold">-(1) </span>「顕熱比」の定義は次式のとおり．
+          \[\displaystyle {\rm 顕熱比}＝\frac{{\rm 顕熱}}{{\rm 顕熱}+{\rm 潜熱}}=\frac{{\rm 顕熱}}{{\rm 全熱}}\]
+        <p>湿り空気線図上で，吹出し口から吹き出された空調空気の状態点は，その室の顕熱比の勾配に沿って移動する．湿り空気線図の左上の半円形の顕熱比スケールを使って勾配を求めることができる（<span class="bold">2023-62-1図</span>参照）．
+        <div class="cap">2023-62-1図&emsp;顕熱比</span></div>
+        <div class="container">
+            <img src="../../images/image_3/空気線図・顕熱比.svg" alt="顕熱比">
+        </div><p>　</p>
+        <p><span class="bold">-(5) </span>加湿をしたときの状態点の移動方向（勾配）は「熱水分比」\(u\)［kJ/kg］で決まる．湿り空気線図の左上の熱水分比スケールで求めることができる（<span class="bold">2023-62-2図</span>参照）．
+        <div class="cap">2023-62-2図&emsp;熱水分比</span></div>
+        <div class="container">
+            <img src="../../images/image_3/空気線図・加湿.svg" alt="熱水分比">
+        </div>
+          \[u=\frac{\varDelta h}{\varDelta x}=\frac{i_w \varDelta x}{\varDelta x}=i_w\]
+        <div class="leftcenter">
+            ただし，<br>
+            \(\varDelta h\)：熱量の変化［kJ］，<br> 
+            \(\varDelta x\)：絶対湿度の変化［kg］， <br>
+            \(i_w\)：加湿に用いた水，水蒸気の比エンタルピー［kJ/kg(DA)］<br>（つまり，熱水分比＝加湿に使用した水分の比エンタルピーである）．  
+        </div>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-63.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-61.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

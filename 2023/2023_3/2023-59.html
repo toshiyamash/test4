@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-59</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題59</span>&emsp;個別方式の空気調和設備に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>ビル用マルチパッケージには，同一室外機系統でも室内機ごとに冷暖房が選択できる冷暖房同時型というタイプがある．
+        <p><span class="bold">（2）</span>圧縮機の駆動力は，電力を用いるものとガスエンジンによるものがある．
+        <p><span class="bold">（3）</span>特殊なものを除き，通常は外気処理機能をもたない．
+        <p><span class="bold">（4）</span>分散設置空気熱源ヒートポンプPAC方式では，圧縮機のON-OFF制御が主流である．
+        <p><span class="bold">（5）</span>分散設置水熱源ヒートポンプ方式は， 冷房と暖房が混在する場合には熱回収運転が可能である．                             
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題59&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>「ON-OFF 制御」→「インバーターによる回転数制御」が正しい．
+        <p>今のパッケージエアコンは，分散設置空気熱源ヒートポンプPAC方式に限らず，インバーターによる回転数制御が主流となり，ON-OFF制御よりも部分負荷効率が改善された．
+        <p><span class="bold">-(1) </span>冷暖房同時型のビル用マルチパッケージでは，室外機・室内機の冷媒配管を，分流コントローラでつなぎ，要求に応じて室内機ごとに液冷媒もしくはガス冷媒を送る（次のサイトを参照・<a href="https://www.mhi-mth.co.jp/business/air-conditioner-for-business/multi-air-conditioner-for-building/cwfree-multi-lxr4/" target="_blank" rel="noopener noreferrer">三菱重工・ビル用マルチエアコン</a>）．
+        <p><span class="bold">-(2) </span>圧縮機を電力で駆動するものをEHP，ガスエンジン駆動のものをGHPなどと呼ぶ．GHPでは，ガスエンジンの排気熱を有効利用できるので寒冷地の暖房に向く．
+        <p><span class="bold">-(3) </span>別途全熱交換器，外気処理ユニット等を用いて換気を確保する．
+        <p><span class="bold">-(5) </span>分散設置水熱源ヒートポンプ方式は，冷房運転モードの室内機が循環水へ捨てる熱を暖房運転モードの室内機が吸い上げるので，冷暖房同時運転時に熱回収できることが大きな利点であるが，室内機内の圧縮機の騒音と，天井内に張り巡らされた冷温水管からの水漏れが問題となることがある（<span class="bold">2023-59-1図</span>参照）．
+        <div class="cap">2023-59-1図&emsp;分散設置水熱源ヒートポンプ方式</div>
+        <div class="container">
+            <img src="../../images/image_3/分散設置水熱源ヒートポンプ方式.svg" alt="分散設置水熱源ヒートポンプ方式">
+        </div>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-60.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-58.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

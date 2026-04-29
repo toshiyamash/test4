@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-60</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題60</span>&emsp;定風量単一ダクト方式を図Aに，冷房最大負荷時の状態変化を図Bに示す．図-Aの 各点に対する図-Bの状態点との組合せとして，<span class="bold">最も適当な</span>ものは次のうちどれか．
+        <div class="container">
+            <img src="../../images/image_3/2023-60問題添付図1.svg" alt="問題添付図">
+        </div><p>　</p>        
+        <p><span style="margin-left: 1.7rem;">図-A</span><span style="margin-left: 5rem;">図-B</span></p>                     
+        <p><span class="bold">（1）</span>a <span class="connectLine">　　　　　　</span> ア
+        <p><span class="bold">（2）</span>b <span class="connectLine">　　　　　　</span> ウ
+        <p><span class="bold">（3）</span>c <span class="connectLine">　　　　　　</span> エ
+        <p><span class="bold">（4）</span>d <span class="connectLine">　　　　　　</span> イ
+        <p><span class="bold">（5）</span>e <span class="connectLine">　　　　　　</span> オ                            
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題60&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>図-Aでは，外気aと室内からの還気eが混合されてbとなっている．図-Bの湿り空気線図で，「混合」の特徴的な描写はオとウが混合されてエとなっているところだけである．冷房なので，オは外気すなわちaである．したがって，e はウ，bはエとなる．b（エ）は冷却コイルで冷やされてc（ア）となり，送風機でかき混ぜられ少し熱損失があって，d（イ）となる．したがって正しいのは<span class="bold">-(4)</span>であることが分かる．<span class="bold">2023-60-1図</span>参照．
+        <p>空調システム（出題されるのは定風量単一ダクト方式に限られる）での空調空気の状態変化を問う問題は，冷房と暖房の問題が出題されるが，冷房の場合は，上述のとおり「混合」に着目すると迅速かつ正確に正答に行き着く．
+        <div class="cap">2023-60-1図&emsp;冷房の場合（本問）</span></div>
+        <div class="container">
+            <img src="../../images/image_3/2023-60解答解説図1.svg" alt="冷房の場合">
+        </div><p>　</p>
+        <p>暖房の出題では，「加湿」に目を付けると迅速に正解に行き着くことが多い．出題される加湿はほぼ蒸気加湿で，その場合状態点は加湿器前後でほぼ垂直に上に移動し（下の<span class="bold">2023-60-2図</span>でイ⇒ア），そのあと室に吹出すことになる．
+        <div class="cap">2023-60-2図&emsp;暖房の場合（2020問題61の例）</span></div>
+        <div class="container">
+            <img src="../../images/image_3/2023-60解答解説図2.svg" alt="暖房の場合">
+        </div>            
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-61.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-59.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
