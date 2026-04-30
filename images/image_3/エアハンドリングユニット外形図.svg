@@ -7,8 +7,8 @@
    viewBox="0 0 111.84849 59.449558"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="2021-71-1エアハンドリングユニット外形図.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   sodipodi:docname="エアハンドリングユニット外形図.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,13 +24,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="0.88077157"
-     inkscape:cx="275.32678"
-     inkscape:cy="225.93826"
+     inkscape:zoom="1.2455991"
+     inkscape:cx="75.465694"
+     inkscape:cy="212.74903"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2"
      inkscape:snap-global="false"
@@ -49,7 +49,10 @@
        type="xygrid"
        id="grid879"
        originx="8.0441837"
-       originy="-82.741669" />
+       originy="-82.741669"
+       spacingy="1"
+       spacingx="1"
+       units="mm" />
   </sodipodi:namedview>
   <defs
      id="defs2">
@@ -708,11 +711,11 @@
          x="-137.88338"
          y="72.396278">https://www.peace-osaka.or.jp/news/pdf/20190724_3.pdf</tspan></text>
     <path
-       style="fill:#ffffcd;stroke:#ffff00;stroke-width:0.1"
+       style="fill:#ffffcd;stroke:#ffff00;stroke-width:0;stroke-dasharray:none"
        d="m -7.9942651,103.46923 0.6007989,10.51398"
        id="path1176" />
     <path
-       style="fill:#ffffcd;stroke:#ffff00;stroke-width:0.1"
+       style="fill:#ffffcd;stroke:#ffff00;stroke-width:0;stroke-dasharray:none"
        d="m 103.75434,102.56803 -0.6008,15.62077"
        id="path1178" />
   </g>
@@ -1132,7 +1135,7 @@
          x="69.671967"
          y="159.73573">エアハンドリングユニット</tspan></text>
     <path
-       style="fill:#b3b3b3;stroke:#ffffff;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#b3b3b3;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        d="m 30.800106,82.841665 h 9.346239"
        id="path44786" />
   </g>

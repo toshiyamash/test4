@@ -3,8 +3,8 @@
 
 <svg
    width="115.46128mm"
-   height="114.18916mm"
-   viewBox="0 0 115.46126 114.18917"
+   height="103.74327mm"
+   viewBox="0 0 115.46126 103.74328"
    version="1.1"
    id="svg5"
    inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
@@ -26,7 +26,7 @@
      showgrid="true"
      inkscape:zoom="1.0482005"
      inkscape:cx="408.31883"
-     inkscape:cy="145.01043"
+     inkscape:cy="105.89577"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -40,7 +40,7 @@
        type="xygrid"
        id="grid861"
        originx="-20.14463"
-       originy="-71.922546"
+       originy="-82.368442"
        spacingy="1"
        spacingx="1"
        units="mm"
@@ -69,7 +69,7 @@
      id="layer1"
      style="display:inline"
      sodipodi:insensitive="true"
-     transform="translate(-20.14463,-71.922543)">
+     transform="translate(-20.14463,-82.368438)">
     <image
        y="253.83855"
        x="-198.27124"
@@ -94,7 +94,7 @@
      id="layer4"
      inkscape:label="Layer 4"
      style="display:inline"
-     transform="translate(-20.14463,-71.922543)">
+     transform="translate(-20.14463,-82.368438)">
     <rect
        style="opacity:0.179426;fill:#000000;fill-opacity:0.929412;stroke:#000000;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect1652"
@@ -139,7 +139,7 @@
      id="layer2"
      inkscape:label="Layer 2"
      style="display:inline"
-     transform="translate(-20.14463,-71.922543)">
+     transform="translate(-20.14463,-82.368438)">
     <circle
        style="opacity:1;fill:none;fill-opacity:0.929412;stroke:#000000;stroke-width:0.514881;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        id="path885"
@@ -1917,7 +1917,7 @@
        id="path87" />
     <path
        style="fill:#000000;stroke:none;stroke-width:0;stroke-dasharray:none"
-       d="m 71.174446,71.925543 10.72176,-0.003"
+       d="m 72.941363,83.536712 10.72176,-0.003"
        id="path88" />
     <path
        style="fill:#000000;stroke:none;stroke-width:0;stroke-dasharray:none"
@@ -2033,7 +2033,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-20.14463,-71.922543)">
+     transform="translate(-20.14463,-82.368438)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
