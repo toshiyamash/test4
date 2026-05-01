@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-71</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題71</span>&emsp;空気調和設備に用いられる加湿装置と除湿装置に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>冷却除湿機は，空気を冷却して露点温度以下にし，水蒸気を凝縮分離する方式である．
+        <p><span class="bold">（2）</span>吸収式除湿機は，塩化リチウムなどの吸収剤を利用した湿式の除湿装置である．
+        <p><span class="bold">（3）</span>蒸気式加湿器では，水中に含まれる微生物の放出により空気質が悪化することがある．
+        <p><span class="bold">（4）</span>吸着式除湿機は，シリカゲルなどの固体吸着剤に水蒸気を吸着させて除湿する装置である．
+        <p><span class="bold">（5）</span>気化式加湿器では，温度降下が生じる．                     
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題71&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>蒸気式加湿器の加湿蒸気は高温のため無菌である（<span class="bold">2023-71-1表</span>参照）．
+        <p>どれがどの方式に分類されるか，どれが温度降下するか，どれが不純物を放出するか，無菌なのはどれか，が出題される．                
+        <p class="cap">2023-71-1表&emsp;加湿装置
+          <table>
+                <tr>
+                <td class="tdVertical textcenter">方式</td>
+                <td class="textcenter">特徴</td>
+                <td class="textcenter" colspan="2">加湿装置の種類と原理</td>
+                <td class="textcenter">課題</td>
+            </tr>
+            <tr>
+                <td class="tdVertical textcenter" rowspan="3"><span class="fontColorId" id="#kika-housiki">気化方式</span></td>
+                <td rowspan="3">
+                    <p>1）温度降下する
+                    <p>2）給水中の不鈍物を放出しない
+                    <p>3）飽和湿度以下で放出する（結露しにくい）
+                    <p>4）低温高湿になるほど加湿量が少なくなる</td>
+                <td><span class="fontColorId" id="#tekika-siki">滴下式</span></td>
+                <td>上部より滴下給水し加湿材を湿らして通風気化させる</td>
+                <td>加湿エレメントの寿命<br>5,000～10,000h</td>
+            </tr>
+            <tr>
+                <td nowrap><span class="fontColorId" id="#tousitu-maku-siki">透湿模式</span></td>
+                <td>透湿膜内に水を充填させ膜の外側で通風・気化させる</td>
+                <td>透湿膜の寿命<br>3,000～7,000h</td>
+            </tr>
+        <tr>
+                <td><span class="fontColorId" id="#eaa-wassha-siki">エアワッシャ式</span></td>
+                <td>多量の水を循環し空気と接触して気化させる</td>
+                <td>多量の水と循環ポンプが必要</td>
+            </tr>
+            <tr>
+                <td class="tdVertical textcenter" rowspan="5" ><span class="fontColorId" id="#jyouki-housiki">蒸気方式</span></td>
+                <td rowspan="5">
+                    <p>1）無菌
+                    <p>2）給水中の不純物を放出しない
+                    <p>3）温度降下しない</td>
+                <td><span class="fontColorId" id="#den-netu-siki">電熱式</span></td>
+                <td>シーズヒータにより水を加熱蒸発させる</td>
+                <td>シーズヒータの寿命<br>10,000～20,000h</td>
+            </tr>
+            <tr>
+                <td><span class="fontColorId" id="#den-kyoku-siki">電極式</span></td>
+                <td>電極間の水をジユール熱で加熱蒸発させる</td>
+                <td>純水では運転できない<br>電極の寿命2,000～5,000h</td>
+            </tr>
+            <tr>
+                <td><span class="fontColorId" id="#pan-gata">パン型</span></td>
+                <td>シーズヒータにより水を加熱蒸発させる</td>
+                <td>水槽内の頻繁なスケール除去作業が必要</td>
+            </tr>
+            <tr>
+                <td><span class="fontColorId" id="#itiji-jyouki-supuree-siki">一次蒸気スプレー式</span></td>
+                <td>ホイラからの蒸気を直接放出する</td>
+                <td>蒸気配管・ドレン配管必要<br>ボイラ清缶剤の使用に注意</td>
+            </tr>
+            <tr>
+                <td><span class="fontColorId" id="#niji-jyouki-supuree-siki">二次蒸気スプレー式</span></td>
+                <td>ボイラ蒸気を熱源として間接的に水を加熱蒸発させる</td>
+                <td>蒸気配管・ドレン配管必要</td>
+            </tr>
+            <tr>
+                <td class="tdVertical textcenter" rowspan="4"><span class="fontColorId" id="#mizu-hunmu-housiki">水噴霧方式</span></td>
+                <td rowspan="4">
+                    <p>1）温度降下する
+                    <p>2）給水中の不純物を放出する                    
+                <td><span class="fontColorId" id="#ensin-siki">遠心式</span></td>
+                <td>遠心力により水を霧化する</td>
+                <td>軸受けの寿命<br>2,000～30,000h</td>
+            </tr>
+                <td><span class="fontColorId" id="#tyou-onpa-siki">超音波式</span></td>
+                <td>超音波振動子により水を霧化する</td>
+                <td>振動子の寿命<br>5,000～10,000h</td>
+            </tr>
+                <td><span class="fontColorId" id="#ni-ryuutai-supuree-siki">二流体スプレー式</span></td>
+                <td>高速空気流により水を霧化する</td>
+                <td>圧縮機が必要</td>
+            </tr>
+            <tr>
+                <td><span class="fontColorId" id="#kou-atu-sui-supuree">高圧水スプレー</span></td>
+                <td>高圧水をノズルで霧化する</td>
+                <td>加圧ポンプが必要</td>
+            </tr>
+        </table>
+        <p>水噴霧方式は加湿吸収距離が大きいため加湿効率（蒸発量/給水量）は一般的に低い（蒸気吹出方式，気化方式の加湿効率はほぼ100％）．
+        <p>近年の東京都などの調査によれば，通風気化方式の加湿器の採用が90％を超えている．
+        <p><span class="bold">-(1) </span>，<span class="bold">-(2) </span>，<span class="bold">-(4) </span>空調の吸湿には，冷却除湿とデシカント除湿（吸収除湿，吸着除湿）がある．この違いを湿り空気線図に示す（<span class="bold">2023-71-1図</span>）．
+        <div class="cap">2023-71-1図&emsp;冷却除湿とデシカント除湿</span></div>
+        <div class="container">
+            <img src="../../images/image_3/冷却除湿とデシカント除湿.svg" alt="冷却除湿とデシカント除湿">
+        </div>
+        <p>&#x24b6;は一般的な空調機内での冷却除湿を表している．
+        <p>&#x24b7;，&#x24b8;はデシカント（乾燥剤）による除湿で，&#x24b7;は液体吸収剤による吸収除湿，&#x24b8;は個体吸着剤による吸着除湿である．同じ除湿量なら，個体吸着剤の吸着熱の方が液体吸収剤の吸収熱より大きい．したがって，固体吸着の方が温度上昇が大きくなる．これは，液体吸収剤での発熱は水の凝縮熱なので，水加湿の逆の過程で，湿球温度は一定となるが，個体吸着剤では，固体表面と水蒸気分子間の相互作用によって分子間力が開放されて発生する熱が加わるため，その分温度上昇が大きくなる（「ヒートテック」の原理である）．
+        <p>この図でよくわかるのは，同じ除湿量を得るのに，冷却除湿はデシカント除湿と比べて，目立って大きなエネルギー（比エンタルピー）を必要とすることである．吸収剤，吸着剤の再生を工夫すれば，大きな省エネの可能性があるため，現在種々のデシカント空調のシステム・機器の開発が進められている．
+        <p>「吸着剤」には水蒸気を捉える微細な多孔質をもつシリカゲル<sup>※</sup>，ゼオライト<sup>※</sup>，活性炭などが用いられる．
+        <br>※&nbsp;シリカゲル（silica gel）：二酸化ケイ素を主原料とする．
+        <br>※&nbsp;ゼオライト（zeolite）：<ruby>沸石<rt>ふっせき</rt></ruby> ともいう．アルミとケイ素の化合物．天然に産出するが，類似物を含め大量に化学合成されている．
+        <p>「吸収剤」には水分を吸収して溶ける性質（<ruby>潮解<rt>ちょうかい</rt></ruby>性という）を持つ塩化リチウム，塩化カルシウムなどが用いられる．
+        <p>いずれの装置も，空気から吸湿する部分と，吸着・吸収剤の再生をする部分からなり，連続運転を可能にしている．                     
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-72.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-70.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
