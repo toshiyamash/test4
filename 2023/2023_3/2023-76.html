@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-75</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題76</span>&emsp;パッケージ型空調機方式で使用する外気処理ユニットに関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>ビル用マルチパッケージと同一の冷媒ラインに接続可能である．
+        <p><span class="bold">（2）</span>導入した外気に加熱・冷却を行うことが可能である．
+        <p><span class="bold">（3）</span>導入した外気は加湿された後に直膨コイルを通過する．
+        <p><span class="bold">（4）</span>全熱交換器を組み込んだユニットである．
+        <p><span class="bold">（5）</span>給排気の風量バランスについて注意が必要である．                     
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題76&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>導入した外気は直膨コイルを通過したあとに加湿される（<span class="bold">2023-76-1図</span>参照）．
+        <br>加湿には蒸発熱の供給が必要なので加熱コイルの後が適切である．
+        <div class="cap">2023-76-1図&emsp;外気処理ユニットの構成例</span></div>
+        <div class="container">
+            <img src="../../images/image_3/外気処理ユニットの構成例.svg" alt="外気処理ユニットの構成例">
+        </div>
+        <p class="source">出典 Pansonic<br>
+            https://www2.panasonic.biz/jp/air/pac/build/unit_in/in16.html を基に作成
+        <p>パッケージ型空調機による個別方式空気調和設備では別途換気設備並びに加湿設備を付加しなければならない．個別方式空気調和設備の換気設備には主に<span class="bold">2023-76-1表</span>のような方式がある．                
+        <p class="cap">2023-76-1表&emsp;個別方式空気調和設備の換気設備
+        <table>
+            <tbody>
+                <tr>
+                    <td>　</td>
+                    <td class="textcenter">方式</td>
+                    <td class="textcenter">長所</td>
+                    <td class="textcenter">欠点</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">1</td>
+                    <td>中央方式の外調機</td>
+                    <td>十分な換気，加湿が可能</td>
+                    <td>ダクト設備など高価</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">2</td>
+                    <td>全熱交換器による換気＋室内機に加湿器</td>
+                    <td>低コスト</td>
+                    <td>換気，加湿とも不十分になるケースが見られる</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">3</td>
+                    <td>外気処理ユニット（全熱交換器＋直膨コイル＋加湿器）</td>
+                    <td>十分な加湿が可能</td>
+                    <td>給排気がアンバランスとなる</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">4</td>
+                    <td>外気処理専用パッケージ型空調機（直膨コイル＋加湿器）</td>
+                    <td>十分な換気，加湿が可能</td>
+                    <td>設備コスト，運転コストともに比較的高め</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">5</td>
+                    <td>ヒートポンプデシカント調湿型外気処理装置</td>
+                    <td>加湿のための水配管が不要</td>
+                    <td>冬期の加湿不足を解消できるかは検証が必要</td>
+                </tr>
+            </tbody>
+        </table><p> </p>
+        <p>表の2や3では，室，ゾーンからの排気を全熱交換器とトイレなどの排気ファンが奪い合うかたちとなって給排気のバランスがくずれ，全熱交換器の効率が著しく低下し，その結果として冷暖房の不足も招くケースが見られる．
+        <br>4の「外気処理専用パッケージ」は大容量の加湿器，十分な能力の冷媒直膨コイルの組み込みが可能で，3の外気処理ユニットより高性能である．また熱交換のための排気が不要なため，給排気のバランスについての問題が発生しにくい．
+        <p>5の「ヒートポンプデシカント調湿型外気処理装置」は水配管レス外調機と呼ばれる新技術であるが，『デシカント装置の吸湿・放湿原理から，加湿に用いられる水分は，装置運転開始時に室内空気が保持している水分と，通常は加湿用としてはほとんど期待できない運転中に侵入・発生する水分（外気，人体潜熱発熱分等）のみであり，建築物衛生法，並びに建築基準法に定められている加湿時の相対湿度が達成可能かどうかについては，十分な検討が必要である．』（公益社団法人 日本建築衛生管理教育センター「新建築物の環境衛生管理第2版第1刷」中巻250頁）．<br>
+        現在唯一商品化されているのは<a href="https://www.ac.daikin.co.jp/desica/features" target="_blank" rel="noopener noreferrer">ダイキンのDESICA</a>で，技術的なミソは，ヒートポンプの冷却，加熱の熱交換コイルに吸着剤（デシカント素子）を直接塗布して，コイルと空気の流れを適宜切替えて外部からの給水，外部への排水なしに室内空気の湿度を調整しようとするものである．                      
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-76.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-74.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
