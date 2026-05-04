@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-90</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題90</span>&emsp;近年の建築物管理の変化要因とその対処方策との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>高齢・要援護者需要増<span class="connectLine">　　　　　</span>ユニバーサル化
+        <p><span class="bold">（2）</span>危機・BCP<span class="connectLine">　　　　　　　　　　</span>自家発電の導入
+        <p><span class="bold">（3）</span>節電・省エネルギー化<span class="connectLine">　　　　　</span>高効率機器の選択
+        <p><span class="bold">（4）</span>降雨集中<span class="connectLine">　　　　　　　　　　　</span>排水・水防対策の強化
+        <p><span class="bold">（5）</span>空調・換気のパーソナル化<span class="connectLine">　　　</span>空間環境の均一化
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題90&emsp;正解（5）&emsp;頻出度AA</span></p>
+        <p>空間環境の均一化は，望ましい空気環境の管理基準を定めて均質で一定の空間環境の実現を図ろうとするビル管理法の前提であった．近年ではその空間の大きさを次第に狭めて個別制御性を高める設備機器の開発が進められてきたが，さらに活動の状態が千差万別な個々人にとって快適な空間環境を求めかつ全体として省エネを図ろうとするタスク・アンビエント空調などが現実化している．今後は個々人の体調まで考慮した空調・換気のパーソナル化がさらに進展するものと思われる．空間環境の均一化を前提とする現行のビル管理法では対応しきれない事態が目前に追っているとも言える．
+        <p><span class="bold">-(1) </span>高齢・要援護者への対応をバリアフリー化というが，ユニバーサル化ではそれをさらに先に進めて，最初から多くの人々に使いやすいものを作る設計手法などを指す．
+        <p><span class="bold">-(2) </span>BCP（Business Continuity Plan：「事業継続計画」）とは，災害などの緊急重態が発生したときに，企業が損害を最小限に抑え，事業の継続や復旧を図るための計画．
+        <p><span class="bold">-(4)</span>1時間当たり50mm超の豪雨の発生回数は1970年代の年平均200回程度から2020年代に至っては300回超に増加している（<a href="https://www.data.jma.go.jp/cpdinfo/extreme/extreme_p.html" target="_blank" rel="noopener noreferrer">気象庁・大雨や猛暑日など（極端現象）のこれまでの変化</a>．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='../2023_4/2023-91.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-89.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

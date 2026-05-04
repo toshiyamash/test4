@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-88</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題88</span>&emsp;昼光照明と窓に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>大気透過率が等しければ，太陽高度が高いほど直射日光による地上の水平面照度は大きくなる．
+        <p><span class="bold">（2）</span>曇天の空は，白熱電球より色温度が高い．
+        <p><span class="bold">（3）</span>設計用全天空照度は，快晴よりも薄曇りの方が高い．
+        <p><span class="bold">（4）</span>直接昼光率は，直射日光による照度の影響を受ける．
+        <p><span class="bold">（5）</span>同じ面積であれば，側窓よりも天窓の方が多く昼光を採り入れられる．
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題88&emsp;正解（4）</span>&emsp;頻出度AAA</span></p>
+        <p>昼光率は，直射日光の影響を受けない，というか，昼光率と直射日光は関係がない．
+        <p>昼光を照明に使う場合，直射日光は天候での変動が大きく，又眩しすぎるので適切に<ruby>遮蔽<rt>しゃへい</rt></ruby>し，天空光（<span class="bold">2021-88-1表</span>参照）を用いる．
+        <p class="cap">2021-88-1表&emsp;昼光（直射日光，天空光）                          
+        <table>
+            <tbody>
+                <tr>
+                    <td rowspan="2" nowrap>昼光</td>
+                    <td nowrap>直射日光</td>
+                    <td>太陽光が拡散されずに大気を透過して地表に到達する光</td>
+                </tr>
+                <tr>
+                    <td>天空光</td>
+                    <td>太陽光が大気中のちりや雲（水，氷）等の微粒子によって拡散された光</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>直射日光による照度を直射照度，天空光による照度を全天空照度といい，直射照度と天空光照度の和をグローバル照度（あるいは全天照度，昼光照度）という．        
+        <p>昼光（天空光）による照明を考える場合，昼光は季節，時刻，天候によって変動するので，昼光の量的な指標として用いられるのは照度ではなく，季節や天候に左右されない，室内の位置で決まる昼光率\(D\)である．
+        <div class="textcenter">
+            \[D=\frac{E}{E_s}\]            
+        </div>
+        <p style="margin-left: 200px;">ただし，
+        <br>\(E\)：室内のある点の天空光による照度［Lx］，
+        <br>\(E_s\)：全天空照度［Lx］．
+        </p>
+        <p>窓から入射した昼光による室内の照度は，直接照度（窓から入った天空光が直接照らす照度）と間接照度（天空光がいったん天井や壁に反射した光による照度）からなり，昼光率も直接昼光率と間接昼光率からなる．
+        <p>直接昼光率は，窓の光源としての立体角投射率，窓ガラスの透過率，透過率の維持率，窓ガラスの有効面積などに影響を受ける．
+        <p>間接昼光率は室内の壁，天井，床などの反射率の影響を受け，室内のどの位置でも一定と考えて計算されるが，一般に直接昼光率に比べると小さい．
+        <p>昼光率＝直接昼光率＋間接昼光率となり，ある点の昼光照度を求める場合には，その点の昼光率にそのときの天空光による全天空照度を乗じればよい．
+        <p><span class="bold">-(1)</span>大気外法線照度を\(E_0\)［Lx］，地上での法線照度を\(E_n\)［Lx］，水平面照度を\(E_h\)［Lx］とすれば次式が成り立つ．
+            \begin{align}
+                E_n&=E_0\times P^{\frac{1}{\sin H}} \notag\\[5pt]
+                E_h&=E_n\times \sin H \notag
+            \end{align}
+        <div class="leftcenter">
+            ただし，<br>
+            \(P\)：大気透過率，<br> 
+            \(H\)：太陽高度［度］．
+        </div>
+        </p>
+        <p>この式から，太陽高度が高いほど，直射日光による水平面照度が大きくなり，太陽高度が等しければ，大気透過率が高いほど直射日光による水平面照度が大きくなることが分かる．
+        <p><span class="bold">-(2) </span>光にも色があり，光の色は，380～780nmの可視域のうちどの波長域に分布しているか（分光分布）によって決まる．
+        <p>ランプなどの光源の光色は「相関色温度」によって数値的に示される．相関色温度は仮想的な黒体(完全放射体)を熱したときの温度と放射する比色の関係を基準とし，単位は絶対温度K（ケルビン）である．
+        <p>曇天の空の相関色温度は7,000K，白熱電球は2,850Kである（<a href="../../2023/2023_3/2023-87.html#tab2#:~:text=身近な光の相関色温度" target="_blank" rel="noopener noreferrer">2023年問題87</a>解説参照）．
+        <p><span class="bold">-(3) </span>設計用の全天空照度が簡易的に曇天晴と晴天時に分けて示されている．
+        <p>設計用全天空照度は，快晴（10,000Lx）よりも散乱光の多い薄曇りの方が大きい（50,000Lx）.
+        <p><span class="bold">-(5) </span>屋根天井面に開けた天窓の方が同じ面積の側窓より多くの光が得られる（<span class="bold">2021-88-1図</span>）．
+        <div class="cap">2021-88-1図&emsp;天窓，頂側窓</span></div>
+        <div class="container">
+            <img src="../../images/image_3/天窓，頂側窓.svg" alt="天窓，頂側窓">
+        </div>
+        <p class="source">出典&emsp;エールコーポレーション株式会社</span><br>
+            https://www.utopia-town.com/blog/5972.html を基に作成
+        <p>ただし，施工や保守の面で天窓は側窓より不利な面が多い．頂側窓と呼ばれる窓は，側窓と天窓両方の長所を取り入れようとする窓である．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-89.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-87.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

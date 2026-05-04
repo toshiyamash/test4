@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-85</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題85</span>&emsp;騒音レベル80dBと86dBの騒音を合成した場合の騒音レベルとして，<span class="bold">最も近い</span>ものは次のうちどれか．</span>
+        <p>ただし，\(\log_{10}2=0.3010\)，\(\log_{10}3=0.4771\) ，\(\log_{10}5=0.6990\)とする．
+        <p><span class="bold">（1）</span>83dB
+        <p><span class="bold">（2）</span>86dB
+        <p><span class="bold">（3）</span>87dB
+        <p><span class="bold">（4）</span>89dB
+        <p><span class="bold">（5）</span>166dB                    
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題85&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>合成した騒音レベルは，86dBより大きいが，86dBの騒音源が二つある場合の89dBよりは小さい．したがって，87dBの<span class="bold">-(3) </span>が正解と推定できる．
+        <p>計算して確かめよう．
+        <p>dBの加算には次の公式があるが，
+            \begin{align}
+                L&=10\log(10^{0.1L_1}+10^{0.1L_2}) \notag\\[5pt]
+                &=10\log(10^{0.1\times 80}+10^{0.1\times 86}) \notag\\[5pt]
+                &=10\log(10^8+10^{8.6}) \notag
+            \end{align}
+        <p>真数の，かっこ内の指数の足し算が，関数電卓でもないと手に負えないので，次のように考える．
+        <br>同じdBの騒音が二つある場合は+3dBになることが既知として，86dBは83dBが二つ，83dBは80dBが二つ，したがって，86dBは80dBが4つあることと同じである．もともとあった80dBとあわせて，この問題の状況は80dBの騒音源が5つあることと同じである．これを騒音レベルの定義式に入れて，
+            \begin{align}
+                L&=10\log\frac{I\times 5}{I_0} \notag\\[5pt]
+                &=10\log\frac{I}{I_0}+10\log5 \notag\\[5pt]
+                &=80+10\times 0.6990 \notag\\[5pt]
+                &=86.990~{\rm dB} \notag
+            \end{align}
+        （上の公式で，関数電卓を使って計算した結果は，\(L=86.9732 \cdot\cdot\cdot\)となる）．
+        <p>dBの計算を以下にまとめた．
+        <p>1．騒音源の個数が増えた場合のdB計算
+        <p>同じ騒音レベルの機械を\(x\)台同時に運転すると，音の強さ\(I\)［W/m<sup>2</sup>］が\(x\)倍になる．1台のときの騒音レベル（音の強さのレベル）を\(L_1\)［dB(A)］とすると，\(x\)台同時に運転したときの騒音レベル\(L_2\)は，音の強さのレベルの定義から，
+        <div class="textcenter">
+          \begin{align}
+            L_2&=10\log_{10}\frac{I\times x}{I_0} \notag\\[5pt]
+            &=10\log_{10}\frac{I}{I_0}+10\log_{10}x \notag\\[5pt]
+            &=L_1+10\log_{10}x \notag
+          \end{align}
+        </div>
+        <p>すなわち，\(+10\log_{10}x\)になる．
+        <p>2台なら，
+        <div class="textcenter">
+          \begin{align}
+            &+10\log_{10}2=3 \notag\\[5pt]
+            &(\because \log_{10}2\fallingdotseq 0.3)  \notag           
+          \end{align}
+        </div>
+        <p>+3dBになる．すなわち，例えば1台で80dB(A)なら2台で83dB(A)になる．
+        <p>4台なら，
+        <div class="textcenter">
+            \begin{align}
+            &+10\log_{10}4=+10\log_{10}2^2 \notag\\[5pt]
+            &=+2\times 10\log_{10}2 \notag\\[5pt]
+            &=+20\times 0.3=+6 \notag           
+          \end{align}
+        </div>
+        <p>+6dBになる．
+        <p>6台なら，
+        <div class="textcenter">
+          \begin{align}
+            &+10\log_{10}6=+10\log_{10}(2\times 3) \notag\\[5pt]
+            &=+10\log_{10}2+10\log_{10}3 \notag\\[5pt]
+            &=+3+5\,(\,\because \log_{10}3\fallingdotseq 8 \,) \notag\\[5pt]
+            &=8 \notag
+          \end{align}
+        </div>
+        <p>+8dBになる．
+        <p>8台なら，
+        <div class="textcenter">
+          \begin{align}
+            &+10\log_{10}8=+10\log_{10}2^3 \notag\\[5pt]
+            &=+3\times 10\log_{10}2 \notag\\[5pt]
+            &=+30\times 0.3=+9 \notag
+          \end{align}
+        </div>
+        <p>+9dBになる．
+        <p>10台なら，
+        <div class="textcenter">
+          \begin{align}
+            &+10\log_{10}10=+10 \notag\\[5pt]
+            &(\because \log_{10}10=1) \notag           
+          \end{align}
+        </div>
+        <p>+10dBになる．
+        <p>2．騒音源からの距離による減衰の計算
+        <p>点音源の場合，音源からの距離が2倍になると音の強さは \(\displaystyle {\left(\frac{1}{2}\right)}^2\) になる．これを音の強さのレベルの定義式に入れて，
+        <div class="textcenter">
+          \begin{align}
+            &10\log_{10}\left(\frac{I\times {\left(\frac{1}{2}\right)}^2}{I_0}\right)\notag\\[5pt]
+            &=10\log_{10}\left(\frac{I}{I_0}\right)+2\times 10\log_{10}\left(\frac{1}{2}\right) \notag\\[5pt]
+            &=10\log_{10}\left(\frac{I}{I_0}\right)+20\log_{10}2^{-1} \notag\\[5pt]
+            &=10\log_{10}\left(\frac{I}{I_0}\right)-20\log_{10}2 \notag\\[5pt]
+            &=10\log_{10}\left(\frac{I}{I_0}\right)-20\times 0.3 \notag\\[5pt]
+            &=10\log_{10}\left(\frac{I}{I_0}\right)-6 \notag
+          \end{align}
+        </div>
+        ･･･6dB減衰する．
+        <p>距離が10倍になると，
+        <div class="textcenter">
+          \begin{align}
+            &10_log_{10}\left(\frac{I\times {\left(\frac{1}{10}\right)}^2}{I_0}\right)\notag\\[5pt]
+            &=10\log_{10}\left(\frac{I}{I_0}\right)+10\log_{10}{\left(\frac{1}{10}\right)}^2 \notag\\[5pt]
+            &=10\log_{10}\left(\frac{I}{I_0}\right)+20\log_{10}10^{-1} \notag\\[5pt]
+            &=10\log_{10}\left(\frac{I}{I_0}\right)-20\log_{10}10 \notag\\[5pt]
+            &=10\log_{10}\left(\frac{I}{I_0}\right)-20\times 1 \notag\\[5pt]
+            &=10\log_{10}\left(\frac{I}{I_0}\right)-20 \notag\\[5pt]
+          \end{align}
+        </div>
+        <p>･･･20dB減衰する．
+        <p>線音源の場合，音源からの距離が2倍になると音の強さは1/2になる．
+        <div class="textcenter">
+          \begin{align}
+            &10_log_{10}{\frac{I\times \frac{1}{2}}{I_0}} \notag\\[5pt]
+            &=10\log_{10}{\frac{I}{I_0}}+10\log_{10}{\frac{1}{2}} \notag\\[5pt]
+            &=10\log_{10}{\frac{I}{I_0}}+10\log_{10}{2^{-1}} \notag\\[5pt]
+            &=10\log_{10}{\frac{I}{I_0}}-10\log_{10}2 \notag\\[5pt]
+            &=10\log_{10}{\frac{I}{I_0}}-10\times 0.3 \notag\\[5pt]
+            &=10\log_{10}{\frac{I}{I_0}}-3 \notag
+          \end{align}
+        </div>
+        <p>･･･3dB減衰する．
+        <p>線音源で距離が10になると，
+        <div class="textcenter">
+          \begin{align}
+            &10\log_{10}{\frac{I\times \frac{1}{10}}{I_0}} \notag\\[5pt]
+            &=10\log_{10}{\frac{I}{I_0}}+10\log_{10}10^{-1} \notag\\[5pt]
+            &=10\log_{10}{\frac{I}{I_0}}-10\log_{10}10 \notag\\[5pt]
+            &=10\log_{10}{\frac{I}{I_0}}-10\times 1 \notag\\[5pt]
+            &=10\log_{10}{\frac{I}{I_0}}-10 \notag
+          \end{align}
+        </div>
+        <p>･･･10dB減衰する．
+        <p>上記の計算では次の対数法則を適宜利用した．
+        <p>\(X=a^p\)のとき，\(p=\log_aX\)を，\(a\)を底とする\(X\)の対数という．\(a\)は自明の場合は省略することが多い．
+        <p>指数法則，\(a^M\times a^N=a^{M+N}\)などから，
+        <p>法則1&emsp;\(\log{MN}=\log{M}+\log{N} \)
+        <p>法則2&emsp;\(\displaystyle \log{\frac{M}{N}}=\log{M}-\log{N}\)
+        <p>法則3&emsp;\(\log{M^q}=p\times \log{M}\)
+        <p>法則4&emsp;\(\log{1}=0\)
+        <p>真数\(M\)，\(N\)が掛け算のときはそれぞれの対数の足し算，割り算のときはそれぞれの対数の引き算に分解できる．
+        <p>dBの計算問題は，受験対策的には<span class="bold">2023-85-1表</span>を覚えてしまうのがよい．                
+        <p class="cap">2023-85-1表&emsp;覚えようdBの計算（太字が頻出）       
+        <table>
+            <tbody>
+                <tr>
+                    <td><span class="bold">点状の騒音源から2倍の距離</span></td>
+                    <td class="textcenter"><span class="bold">－6dB</span></td>
+                </tr>
+                <tr>
+                    <td>点状の騒音源から10倍の距離</td>
+                    <td class="textcenter">－20dB</td>
+                </tr>
+                <tr>
+                    <td><span class="bold">線状の騒音源から2倍の距離</span></td>
+                    <td class="textcenter"><span class="bold">－3dB</span></td>
+                </tr>
+                <tr>
+                    <td>線状の騒音源から10倍の距離</td>
+                    <td class="textcenter">－10dB</td>
+                </tr>
+                <tr>
+                    <td><span class="bold">同じ騒音レベルの機械を2台</span></td>
+                    <td class="textcenter"><span class="bold">+3dB</span></td>
+                </tr>
+                <tr>
+                    <td>同じ騒音レベルの機械を4台</td>
+                    <td class="textcenter">+6dB</td>
+                </tr>
+                <tr>
+                    <td>同じ騒音レベルの機械を8台</td>
+                    <td class="textcenter">+9dB</td>
+                </tr>
+                <tr>
+                    <td>同じ騒音レベルの機械を10台</td>
+                    <td class="textcenter">+10dB</td>
+                </tr>
+            </tbody>
+        </table><p>　</p>
+        <p>3．ここのところよく出題される面状の音源（<span class="bold">2023-85-1図</span>）からの距離による減衰．
+        <div class="cap">2023-85-1図&emsp;面音源からの距離による減衰</span></div>
+        <div class="container">
+            <img src="../../images/image_3/面音源からの距離による減衰.svg" alt="面音源からの距離による減衰">
+        </div>
+        <p>有限の面積の面音源では，音源からの距離dによって，下記のように面音源～線音源～点音源の減衰特性を示す．
+        <p>&#9312;&nbsp;\(\displaystyle d\lt \frac{a}{\pi}\)･･････････面音源の特性
+        （ほとんど減衰しない）
+        <p>&#9313;&nbsp;\(\displaystyle \frac{a}{\pi}\lt d \lt \frac{b}{\pi}\)･････線音源の特性
+        （-3dB/d.d.<sup>※</sup>）
+        <p>&#9314;&nbsp;\(\displaystyle \frac{b}{\pi}\lt d\)･･････････点音源の特性（－6dB/d.d.）
+        <p>※ d.d.：ダブル・ディスタンス＝距離が倍になるごとに．
+        <p>この減衰特性をグラフにすると<span class="bold">2023-85-2図</span>のようになる．
+        <div class="cap">2023-85-2図&emsp;面音源からの距離による減衰特性</span></div>
+        <div class="container">
+            <img src="../../images/image_3/面音源からの距離のよる減衰特性.svg" alt="面音源からの距離のよる減衰特性">
+        </div>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-86.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-84.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
