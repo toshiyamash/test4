@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-91</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題91</span>&emsp;CASBEE(建築環境総合性能評価システム)の評価対象の分野に，<span class="bold">含まれていない</span>ものは次のうちどれか．</span>
+        <p><span class="bold">（1）</span>エネルギー消費
+        <p><span class="bold">（2）</span>火災安全
+        <p><span class="bold">（3）</span>資源循環
+        <p><span class="bold">（4）</span>地域環境
+        <p><span class="bold">（5）</span>室内環境                    
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題91&emsp;正解（2）&emsp;頻出度AA</span></p>
+        <p>CASBEEの評価対象は，エネルギー消費，資源循環，地域環境，室内環境の4分野である．「火災安全」は含まれていない．
+        <p>CASBEEは「Comprehensive Assessment System for Built Environmental Efficiency：建築環境総合性能評価システム」の略字．国土交通省の主導で開発された建築物の環境性能評価システム．<br>専用の評価ソフトを用い，建築物の環境品質（Q）を分子，環境負荷（L）を分母とし，その比率（BEE値）で性能を評価する．Qが高くLが低いほど，S（大変優れている），A（優れている）～C（劣る）の5段階でランク付けされる．
+        <p>現在1000件あまりのCASBEE建築評価認証を取得した建築物が<a href="https://www.ibec.or.jp/CASBEE/certified_buld/CASBEE_certified_buld_list.htm" target="_blank" rel="noopener noreferrer">公表</a>されている．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-92.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../2023_3/2023-90.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

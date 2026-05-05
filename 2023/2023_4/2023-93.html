@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-93</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題93</span>&emsp;鉄筋コンクリート構造とその材料に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>セメントペーストは，砂，セメント，水を練り混ぜたものである．
+        <p><span class="bold">（2）</span><ruby>梁<rt>はり</rt></ruby>に設けられた設備配管のための開孔部の径は，一般に梁せいの1/3以下とする．
+        <p><span class="bold">（3）</span>コンクリートと鉄筋の線膨張係数は，ほぼ等しい．
+        <p><span class="bold">（4）</span>柱の帯筋比は，0.2%以上とする．
+        <p><span class="bold">（5）</span>中性化している部分のコンクリート表面からの距離を中性化深さという．                    
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題93&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>砂，セメント，水を練り混ぜたものは「モルタル」である（<span class="bold">2023-93-1表</span>参照）．
+        <p class="cap">2023-93-1表&emsp;コンクリート，モルタル，セメントペースト
+        <table>
+            <tr>
+                <td class="textcenter" width="40%">名称／混合物</td>
+                <td class="textcenter" width="15%">セメント</td>
+                <td class="textcenter" width="15%">水</td>
+                <td class="textcenter" width="15%">砂</td>
+                <td class="textcenter" width="15%">砂利</td>
+            </tr>
+            <tr>
+                <td>コンクリート</td>
+                <td class="textcenter">○</td>
+                <td class="textcenter">○</td>
+                <td class="textcenter">○</td>
+                <td class="textcenter">○</td>
+            </tr>
+            <tr>
+                <td>モルタル（とろ）</td>
+                <td class="textcenter">○</td>
+                <td class="textcenter">○</td>
+                <td class="textcenter">○</td>
+                <td class="textcenter"></td>
+            </tr>
+            <tr>
+                <td>セメントペースト（のろ）</td>
+                <td class="textcenter">○</td>
+                <td class="textcenter">○</td>
+                <td class="textcenter"></td>
+                <td class="textcenter"></td>
+            </tr>
+        </table>
+        <p><span class="bold">-(2) </span><ruby>梁<rt>はり</rt></ruby>にあける設備用の貫通孔は，柱に近い部分を避け中央部に設けて，貫通孔と貫通孔の中心間隔は孔の直径の 3 倍以上とする（<span class="bold">2023-93-1図</span>参照）．
+        <br>貫通孔の直径は主筋を避けて，梁せい（梁の高さ）の1/3以下とし，開孔部には十分な開孔補強筋を配置する．
+        <br>建築後，梁に貫通孔をあけることは構造耐力上好ましくない．
+        <div class="cap">2023-93-1図&emsp;梁に開ける貫通孔（スリーブ）</span></div>
+        <div class="container">
+            <img src="../../images/image_4/梁に開ける貫通孔.svg" alt="梁に開ける貫通孔">
+        </div>   
+        <p><span class="bold">-(3) </span>鉄筋とコンクリートの線膨張係数はほぼ等しく（およそ10<sup>-5</sup>/℃），相互の付着性能もよいことが，鉄筋コンクリート造を可能にしている．
+        <p><span class="bold">-(4) </span>「帯筋比」とは，柱の軸断面の，帯筋の断面積の，コンクリートの断面積に対する比である．建築基準法施行令で0.2％以上と定められている．
+        <p>鉄筋コンクリート造の配筋は<span class="bold">2023-93-2図</span>，<span class="bold">2023-93-2表</span>参照．
+        <div class="cap">2023-93-2図&emsp;鉄筋コンクリート造の配筋</span></div>
+        <div class="container">
+            <img src="../../images/image_4/鉄筋コンクリート造の配筋.svg" alt="鉄筋コンクリート造の配筋">
+        </div>
+        <p class="source">出典&emsp;日本建築学会 市民のための耐震工学講座</span><br>
+                https://www.aij.or.jp/jpn/seismj/lecture/lec7.htm を基に作成
+        <p class="cap">2023-93-2表&emsp;配筋の名称と負担する応力       
+        <table>
+            <tbody>
+                <caption class="bold"></span></caption>
+                <tr>
+                    <td class="textcenter">配筋の名称</td>
+                    <td class="textcenter">負担する応力</td>
+                    <td class="textcenter">備考</td>
+                </tr>
+                <tr>
+                    <td>柱の主筋</td>
+                    <td>曲げモーメント，軸方向力</td>
+                    <td class="textcenter">―</td>
+                </tr>
+                <tr>
+                    <td>柱の帯筋</td>
+                    <td>せん断力</td>
+                    <td>フープともいう．</td>
+                </tr>
+                <tr>
+                    <td>梁の主筋</td>
+                    <td>曲げモーメント</td>
+                    <td class="textcenter">―</td>
+                </tr>
+                <tr>
+                    <td>梁の曲げ筋</td>
+                    <td>せん断力</td>
+                    <td>梁の反曲点付近に入れる．</td>
+                </tr>
+                <tr>
+                    <td nowrap>梁のあばら筋</td>
+                    <td>せん断力</td>
+                    <td>スターラップともいう．</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><span class="bold">-(5) </span>アルカリ性のコンクリートは空気中の炭酸ガスの影響で次第に表面から中性化していき，内部の鉄筋への防錆効果を失っていく．中性化深さは経過時間の平方根に比例すると言われる．<br>
+        腐食した鉄筋はコンクリートの爆裂の原因となる（<span class="bold">2023-93-3図</span>参照）．  
+        <div class="cap">2023-93-3図&emsp;コンクリートの爆裂</span></div>
+        <div class="container">
+            <img src="../../images/image_4/コンクリートの爆裂.svg" alt="コンクリートの爆裂">
+        </div>
+        <p class="source">出典&nbsp;有限会社アレックス<br>https://www.alex-toso.jp/company/           
+        <p>中性化の程度はフェノールフタレインpH指示薬で調べることができる．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-94.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-92.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
