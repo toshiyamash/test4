@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-101</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題101</span>&emsp;地震とその防災対策に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>耐震診断は，建築物の耐震改修の促進に関する法律に定められている．
+        <p><span class="bold">（2）</span>Jアラートは，緊急の気象関係情報，有事関係情報を国から住民等に伝達するシステムである．
+        <p><span class="bold">（3）</span>マグニチュードの値が1大きくなると，エネルギーは約30倍大きくなる．
+        <p><span class="bold">（4）</span>気象庁震度階級は，地震の揺れの強さを示す指標であり7階級に分類される．
+        <p><span class="bold">（5）</span>耐震診断が義務付けられている「要安全確認計画記載建築物」には，都道府県又は市町村が指定する緊急輸送道路等の避難路沿道建築物が含まれる．                  
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題101&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>気象庁震度階級は，1996年の震度計による観測への完全移行と同時に，それまでの8階級から<a href="https://www.jma.go.jp/jma/kishou/know/shindo/kaisetsu.html#taikan" target="_blank" rel="noopener noreferrer">10階級</a>となった（震度 0，1，2，3，4，5 弱，5 強，6 弱，6 強，7）．
+        <p><span class="bold">-(1) </span>『この法律において「耐震診断」とは、地震に対する安全性を評価することをいう．』（建築物の耐震改修の促進に関する法律＝耐震改修促進法&nbsp;第2条）．
+        <p><span class="bold">-(2) </span>J アラート</span>（全国瞬時警報システム）は，総務省消防庁が整備を進める，緊急の気象関係情報，有事関係情報を国から住民等に伝達するシステムである．国民保護法に基づき「全国瞬時警報システム業務規程」により運用されている．
+        <p><span class="bold">-(3) </span>地震のエネルギーを\(E\)［J］，マグニチュードを\(M\)とすると，次の関係式が成り立つ．
+          \[\log_{10}E=4.8+1.5M\]
+        <p>すなわち，
+          \[E=10^{4.8+1.5M}\]
+        <p>\(M\)が1大きくなると，
+            \begin{align}
+                10^{4.8+1.5(M+1)}&=10^{4.8+1.5M}\times 10^{1.5} \notag\\[5pt]
+                &=E\times 10\sqrt{10} \notag\\[5pt]
+                &=E\times 31.6 \notag
+            \end{align}
+        <p><span class="bold">-(5) </span>地方自治体が公表している要安全確認計画記載建築物（特定緊急輸送道路沿道建築物</span>）の耐震診断結果の中には，震度6強から7に達する程度の大規模の地震で，倒壊または崩壊する危険性が高い建物が結構たくさん含まれているが，耐震改修は今のところ努力義務にとどまる（耐震改修促進法第11条）．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-102.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-100.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
