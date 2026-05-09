@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="161.58768mm"
-   height="38.004795mm"
-   viewBox="0 0 161.58768 38.004795"
+   width="152.40071mm"
+   height="46.444675mm"
+   viewBox="0 0 152.40071 46.444675"
    version="1.1"
    id="svg5"
-   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
-   sodipodi:docname="2019-108-1トリハロメタン.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   sodipodi:docname="トリハロメタン.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,10 +25,10 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.0482005"
-     inkscape:cx="345.83077"
-     inkscape:cy="206.06744"
+     inkscape:cx="311.0092"
+     inkscape:cy="220.37769"
      inkscape:window-width="1920"
-     inkscape:window-height="968"
+     inkscape:window-height="973"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -39,8 +39,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid1440"
-       originx="-18.763628"
-       originy="-83.704644"
+       originx="-27.900614"
+       originy="-79.918392"
        spacingy="1"
        spacingx="1"
        units="mm"
@@ -62,7 +62,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(-18.763631,-83.704634)">
+     transform="translate(-27.900617,-79.918383)">
     <image
        y="75.532692"
        x="65.343323"
@@ -77,7 +77,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-18.763631,-83.704634)">
+     transform="translate(-27.900617,-79.918383)">
     <path
        style="opacity:1;fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 74.395682,95.294621 h 3.11168 m 6.470102,0 h 3.090693"
@@ -103,7 +103,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-18.763631,-83.704634)">
+     transform="translate(-27.900617,-79.918383)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.99722px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
@@ -218,61 +218,65 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
        x="74.785454"
-       y="114.23077"
+       y="115.99768"
        id="text12378"><tspan
          sodipodi:role="line"
          id="tspan12376"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="74.785454"
-         y="114.23077">メタン</tspan></text>
+         y="115.99768">メタン</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
        x="76.302582"
-       y="119.58534"
+       y="121.35226"
        id="text14142"><tspan
          sodipodi:role="line"
          id="tspan14140"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="76.302582"
-         y="119.58534">CH<tspan
+         y="121.35226">CH<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan18492">4</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
        x="110.30409"
-       y="114.14153"
+       y="115.65604"
        id="text15070"><tspan
          sodipodi:role="line"
          id="tspan15068"
          style="stroke-width:0.264583"
          x="110.30409"
-         y="114.14153">クロロホルム</tspan></text>
+         y="115.65604">クロロホルム</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
        x="115.56941"
-       y="119.67458"
+       y="121.18909"
        id="text15514"><tspan
          sodipodi:role="line"
          id="tspan15512"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="115.56941"
-         y="119.67458">CHCl<tspan
+         y="121.18909">CHCl<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan20218">3</tspan></tspan></text>
     <path
-       style="opacity:1;fill:#ffffff;stroke:#ffffff;stroke-width:0.499999;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 131.90084,121.45943 h 2.76653"
-       id="path20503" />
-    <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 18.813615,94.119599 0.178486,7.139421"
+       style="fill:none;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 27.900617,94.876849 0.178486,7.139421"
        id="path982" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 180.30133,97.221516 -0.17849,7.317914"
        id="path1017" />
+    <path
+       style="fill:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 92.974146,79.918383 h 6.058"
+       id="path1" />
+    <path
+       style="fill:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 93.983812,126.36306 h 8.329748"
+       id="path2" />
   </g>
 </svg>

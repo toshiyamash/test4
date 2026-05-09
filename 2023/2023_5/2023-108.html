@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-108</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題108</span>&emsp;水道施設に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>取水施設を設ける場所の選定に当たっては，水量及び水質に対する配慮が必要である．
+        <p><span class="bold">（2）</span>浄水処理は，一般に沈殿，ろ過，消毒の3段階からなる．
+        <p><span class="bold">（3）</span>緩速ろ過法は，沈殿池で水中の土砂などを沈殿させた後に，緩速ろ過池で4~5m/日の速度でろ過する方法である．
+        <p><span class="bold">（4）</span>送水施設は，浄水施設から配水施設まで浄水を送るための施設である．
+        <p><span class="bold">（5）</span>配水池の必要容量は，計画1日最大給水量の8時間分を標準とする．                 
+    </div>
+
+    <div id="tab2">
+        <p class="bold">問題108&emsp;正解（5）&emsp;頻出度AAA</span></p>
+        <p><span class="bold">-(1) </span>配水施設の配水池の必要容量は，計画1日最大給水量の<span class="underln">12時間分</span>を標準とする（<a href="https://www.mlit.go.jp/common/830004065.pdf#:~:text=配水池の有効容量" target="_blank" rel="noopener noreferrer">水道施設設計指針</a>）．
+        <p>水道施設は水源側から，取水施設，導水施設，浄水施設，送水施設，配水施設，給水装置で構成されている．
+        <p>それぞれの施設・装置（<span class="bold">2023-108-1図</span>）の施設基準が水道法第5条ならびに水道施設設計指針に規定されている．
+        <div class="cap">2023-108-1図&emsp;水道施設（水源から蛇口まで）</span></div>
+        <div class="container">
+            <img  src="../../images/image_5/水道施設（水源から蛇口まで）.svg" alt="水道施設（水源から蛇口まで）">
+        </div>
+        <p><span class="bold">-(3) </span>浄水施設・緩速ろ過池における緩速ろ過法では，ろ過速度は，4.0～5.0&nbsp;m/日を標準とする（<a href="https://www.mlit.go.jp/common/830003584.pdf#:~:text=ろ過速度は、4.0～5.0ｍ/日を標準とする。" target="_blank" rel="noopener noreferrer">水道施設設計指針・浄水施設編</a>）．                 
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-109.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-107.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

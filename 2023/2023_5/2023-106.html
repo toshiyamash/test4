@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-106</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題106</span>&emsp;給水及び排水の管理に関する用語とその説明との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span>
+        <p><span class="bold">（1）</span>バルキング<span class="connectLine">　　　　　　　　　</span>排水槽の底部に沈殿した固形物や油脂等が集まったもの
+        <p><span class="bold">（2）</span>自己サイホン作用<span class="connectLine">　　　　　　</span>排水が器具排水管内を満流で流れるときに，サイホンの原理によってトラップ内の封水が引かれ，残留封水が少なくなる現象
+        <p><span class="bold">（3）</span>クロスコネクション<span class="connectLine">　　　　　</span>上水(飲料水)系統と他の配管系統を配管や装置により直接接続すること
+        <p><span class="bold">（4）</span>オフセット<span class="connectLine">　　　　　　　　　</span>排水立て管の配管経路を平行移動するために，エルボ又はベンド継手で構成されている移行部分のこと
+        <p><span class="bold">（5）</span>ポンプのインバータ制御<span class="connectLine">　　　</span>周波数を変えることでモータの回転数を変化させる，送水量の制御方法                  
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題106&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>バルキング（Bulking&nbsp;膨化）とは，活性汚泥の単位重量当たりの体積が増加して，沈降しにくくなる現象をいう．
+        <p>バルキングが著しくなると，沈殿槽において固液分離が困難となり，上澄水が得られず処理水質が悪化する．<br>
+        汚泥容量指標（SVI）<sup>※</sup>が，沈降性が良好な活性汚泥では50～150，バルキング状態では200以上になる．
+        <br>※&nbsp;SVI：活性汚泥の「沈みやすさ」を示す指標．MLSS（汚泥濃度）に対するSV30（30分沈殿率）の割合で，1gの汚泥が占める容積（mL/g）を表す．
+        <p>排水槽の底部に沈殿した固形物や油脂等は「汚泥」になる．
+        <p><span class="bold">-(2) </span>トラップの自己サイホン作用による破封は<span class="bold">2023-106-1図</span>参照．     
+        <div class="cap">2023-106-1図&emsp;トラップの自己サイホン作用による破封</span></div>
+        <div class="container">
+            <img src="../../images/image_5/トラップの自己サイホン作用.svg" alt="トラップの自己サイホン作用">
+        </div>
+        <p>自己サイホン作用による破封を防ぐには，各個通気管を設置する．
+        <p><span class="bold">-(3) </span>クロスコネクションは給水の汚染を招くので禁止されている．<br>クロスコネクションの例：給水系統と屋内消火栓の系統を，逆止弁を介して接続（<span class="bold">2023-106-1 図</span>参照）．消火用水槽で吐水口空間を設けて給水するのが正しい（<span class="bold">2023-106-2 図</span>参照）．
+        <div class="container">
+            <div class="item"><p class="cap">2023-106-1図&emsp;消火管とのクロスコネクション</p></div>
+            <div class="item"><p class="cap">2023-106-2図&emsp;消火管への補給水管</p></div>
+        </div>
+        <div class="container">
+            <div class="item"><img src="../../images/image_5/クロスコネクションの例（消火栓）.svg" alt="クロスコネクションの例（消火栓）"></div>
+            <div class="item"><img src="../../images/image_5/クロスコネクション・消火用補助水槽.svg" alt="クロスコネクション・消火用補助水槽"></div>
+        </div>
+        <p><span class="bold">-(4) </span>排水立て管のオフセット<span class="bold">2023-106-2図</span>参照．
+        <div class="cap">2023-106-2図&emsp;オフセット</span></div>
+        <div class="container">
+            <img src="../../images/image_5/オフセット.svg" alt="オフセット">
+        </div>                
+        <p><span class="bold">-(5) </span>インバータによる，ポンプなどを駆動するモータ（交流誘導電動機）の回転数制御をVVVF<sup>※</sup>制御という．
+        <br>※ VVVF：Variable Voltage Variable Frequency（可変電圧可変周波数）
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-107.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../2023_4/2023-105.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
