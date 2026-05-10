@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-115</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題115</span>&emsp;給水設備の保守管理に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>貯水槽における定水位弁電極等の付属装置の動作不良により，断水・<ruby>溢<rt>いっ</rt></ruby>水事故を起こすことがある．
+        <p><span class="bold">（2）</span>給水ポンプの軸受部がグランドパッキンの場合は，水滴が滴下していないことを確認する．
+        <p><span class="bold">（3）</span>管更生工法の一つに合成樹脂ライニングによる工法がある．
+        <p><span class="bold">（4）</span>給水ポンプの電流値が変動している場合は，異物のかみ込みなどの可能性がある．
+        <p><span class="bold">（5）</span>受水槽の水位制御の作動点検は，槽内のボールタップを手動で操作して行う．              
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題115&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p>『グランドパッキンからは，連続的に滴下する(0.5cm<sup>3</sup>/s)程度の水滴が出ていればよい．これ以上水が出ている場合は，パッキン押さえを増締めする．増締めしても漏水量が減少しない場合にはグランドパッキンを取り替える．グランドパッキンを交換しても漏れ量が多い場合には，軸スリーブを交換する．メカニカルシールの場合には漏水はないか，あっても1分間に1滴(3cm<sup>3</sup>/h)以下程度ならよい．これ以上漏れはじめたらメカニカルシールを交換する．』<br>
+        出典&nbsp;公益財グランドパッキン団法人日本建築衛生管理教育センター「新建築物の環境衛生管理第2版第1刷」中巻424頁 表6-3-7(2) <br> 
+        グランドパッキン，メカニカルシールについては次のサイトが詳しい．<a href="https://www.mohno-pump.co.jp/learning/manabiya/a3a.html" target="_blank" rel="noopener noreferrer">兵神装備株式会社：軸封装置</a>．       
+        <p>主な給水ポンプの点検項目と頻度は<span class="bold">2023-115-1表</span>と下記参照．
+        <p class="cap">2023-115-1表&emsp;給水ポンプの点検                          
+        <table>
+            <tbody>
+                <tr>
+                    <td nowrap>毎日行うもの</td>
+                    <td>吸込み圧力，吐出し圧力，軸受温度，軸受部の漏水量，電流値と電圧，騒音・振動</td>
+                </tr>
+                <tr>
+                    <td>毎月</td>
+                    <td>電動機の絶縁抵抗，各部の温度測定</td>
+                </tr>
+                <tr>
+                    <td>6カ月に1回</td>
+                    <td>電動機とポンプの芯の狂い，基礎の点検，清掃</td>
+                </tr>
+                <tr>
+                    <td>3～5年に1回</td>
+                    <td>分解点検</td>
+                </tr>
+            </tbody>
+        </table>        
+        <p>1．吸込側の圧力計が振れている場合は空気を吸込んでいるか，吸込配管の詰まりが考えられる．
+        <br>2．吐出側の圧力計が振れている場合はポンプ内か吐出配管の詰まりが考えられる．
+        <br>3．電流値が定格値より大きい場合やメータの針が振れるのはポンプ内の片当たり，異物の噛み込みがある．
+        <br>4．軸受部はグランドパッキンから0.5cm<sup>3</sup>/s程度の水滴が連続的に滴下しているのがよい．
+        <br>5．絶縁抵抗が1MΩに満たない場合は早期の絶縁劣化が考えられるのでそのまま使用してはならない．
+        <br>6．軸受温度は周囲温度＋40℃以下，軸受部は60℃以下，電動機は周囲温度＋50℃以下であればよい．
+        <p><span class="bold">-(1) </span>，<span class="bold">-(5) </span>貯水槽の定水位弁の仕組み<span class="bold">2023-115-1図</span>参照．<br>副弁として，電極棒制御の電磁弁を用いる場合はボールタップとの併用とする．電磁弁が故障し異常水位になると安全装置としてのボールタップが閉止し，主弁を閉止させる．ボールタップや主弁が故障すれば溢水する危険がある．
+        <div class="cap">2023-115-1図&emsp;貯水槽の定水位弁の仕組み</span></div>
+        <div class="container">
+            <img src="../../images/image_5/定水位弁.svg" alt="貯水槽の定水位弁の仕組">
+        </div>
+        <p><span class="bold">-(3) </span>管更生工法</span>で管内に合成樹脂ライニング</span>を施す場合には，技術評価・審査証明を受けた工法を採用するのがよい．<br>
+          <a href="https://www.renotech.jp/construction_method/data/DSL202107.pdf" target="_blank" rel="noopener noreferrer">技術評価・審査証明を受けた管更生工法の例</a>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-116.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-114.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

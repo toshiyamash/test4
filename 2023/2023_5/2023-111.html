@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-111</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題111</span>&emsp;給水設備に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>飲料用の貯水槽の上部には，原則として飲料水の配管以外の機器・配管を設けてはならない．
+        <p><span class="bold">（2）</span>ウォータハンマ防止器は，防止器の破壊を避けるため急閉止弁などから十分離れた箇所に設ける．
+        <p><span class="bold">（3）</span>貯水槽の流入管は，ボールタップや電極棒の液面制御に支障がないように，波立ち防止策を講じる．
+        <p><span class="bold">（4）</span><ruby>厨<rt>ちゅう</rt></ruby>房の給水配管では，防水層の貫通を避ける．
+        <p><span class="bold">（5）</span>水の使用量が極端に減少する期間がある建築物の貯水槽では，少量貯水用の水位制御電を併設し，使用水量の状態に合わせて水位設定を切り替えて使用する．               
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題111&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p>ウォータハンマ防止器（ショックアブソーバともいう，<span class="bold">2023-111-1図</span>）は内部の気体によってウォータハンマの圧力上昇を吸収する．設置する場合はできるだけ発生箇所の近くに設け，エアチャンバー内の空気を補給できるように考慮する．
+        <div class="cap">2023-111-1図&emsp;ショックアブソーバの仕組み</span></div>
+        <div class="container">
+            <img src="../../images/image_5/ショックアブソーバ作動.svg" alt="ショックアブソーバ作動">
+        </div>
+        <p class="source">出典（左写真）&emsp;株式会社エスコ</span><br>
+            https://www.esco-net.com/wcs/escort/items/ItemDetail/EA466-3
+        <p><span class="bold">-(1) </span>建築基準法に基づく国土交通省の告示<a href="https://www.mlit.go.jp/notice/noticedata/pdf/201703/00006620.pdf#:~:text=（9） 給水タンク等の上" target="_blank" rel="noopener noreferrer">「建築物に設ける飲料水の配管設備及び排水のための配管設備の構造方法を定める件」</a>は，『給水タンク等の上にポンプ，ボイラー，空気調和機等の機器を設ける場合においては，飲料水を汚染することのないように衛生上必要な措置を講ずること』としている．<br>
+        空気調和・衛生工学会規格「給排水衛生設備基準・同解説（SHASE-S 206）」では，『水槽内部を，水槽の機能に無関係な配管を貫通させてはならない．また，上水以外の配管は，水槽の上方を横切ってはならない．』としている．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-112.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-110.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
