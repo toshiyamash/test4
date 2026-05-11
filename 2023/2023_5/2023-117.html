@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-117</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題117</span>&emsp;給湯設備の省エネルギーに関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>部分負荷を考慮し,エネルギー利用効率の高い熱源機器を採用する．
+        <p><span class="bold">（2）</span>エネルギーと水の節約を図るため，湯と水を別々の水栓から出さずに混合水栓を使用する．
+        <p><span class="bold">（3）</span>配管経路を短縮する．
+        <p><span class="bold">（4）</span>中央式給湯方式の循環ポンプは，連続運転とせず，給湯管(往き管)の温度が低下した場合に作動させる．
+        <p><span class="bold">（5）</span>排水からの熱回収をする場合，熱交換器の腐食などによる湯の汚染を防止するために開接熱交換方式とする．              
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題117&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>給湯循環ポンプは，省エネルギーのために連続運転とせず，<span class="underln">返湯管</span>に水用サーモスタットを設け，返湯の温度が低下したら運転するようにする．往き管の温度ではなかなか給湯循環ポンプが運転せず，使用場所によって冷めた水が出る可能性がある．
+        <p><span class="bold">-(2) </span>湯と水を別の水栓にすると，適温適量を得るのに時間が掛かりエネルギーを浪費する．混合水栓の利用が節水・省エネとなる．
+        <p><span class="bold">-(5) </span>効率は少し落ちるが汚染防止のために間接熱交換とする（<span class="bold">2023-117-1図</span>参照）．
+        <div class="cap">2023-117-1図&emsp;廃熱回収の方法</span></div>
+        <div class="container">
+            <img src="../../images/image_5/廃熱回収の方法.svg" alt="廃熱回収の方法">
+        </div>
+        <p class="source">出典&nbsp;公益財団法人日本建築衛生管理教育センター
+          <br>「新建築物の環境衛生管理第2版第1刷」中巻430頁 図6-4-1(6)           
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-118.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-116.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -7,8 +7,8 @@
    viewBox="0 0 122.7411 59.000619"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="2020-119-1リバースリターン，ダイレクトリターン.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   sodipodi:docname="リバースリターン，ダイレクトリターン.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -26,19 +26,24 @@
      showgrid="true"
      inkscape:zoom="0.74118965"
      inkscape:cx="178.09207"
-     inkscape:cy="252.97169"
+     inkscape:cy="252.2971"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer3"
-     inkscape:snap-global="false">
+     inkscape:snap-global="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid861"
        originx="8.2533644"
-       originy="-102.20073" />
+       originy="-102.20073"
+       spacingy="1"
+       spacingx="1"
+       units="mm" />
   </sodipodi:namedview>
   <defs
      id="defs2">
@@ -493,11 +498,11 @@
          x="6.2469869"
          y="75.856369">https://www.jsrae.or.jp/annai/yougo/34.html</tspan></text>
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.3"
+       style="fill:none;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
        d="m 114.33774,123.97596 v 14.63582"
        id="path13912" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.3"
+       style="fill:none;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
        d="m -8.1033645,124.6899 v 12.49399"
        id="path14140" />
   </g>
