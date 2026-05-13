@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-121</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題121</span>&emsp;給湯設備の保守管理内容とその実施頻度との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span>
+        <p><span class="bold">（1）</span>第一種圧力容器の定期自主検査6か月以内ごとに1回
+        <p><span class="bold">（2）</span>第二種圧力容器の定期自主検査1年以内ごとに1回
+        <p><span class="bold">（3）</span>小型圧力容器の定期自主検査1年以内ごとに1回
+        <p><span class="bold">（4）</span>シャワーヘッドの定期点検6か月に1回以上
+        <p><span class="bold">（5）</span>給湯配管類の管洗浄1年に1回以上            
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題121&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>第一種圧力容器の定期自主検査は，<a href="https://laws.e-gov.go.jp/law/347M50002000033#:~:text=第六十七条" target="_blank" rel="noopener noreferrer">ボイラー及び圧力容器安全規則第67条</a>）により，1か月以内ごとに1回と定められている（<span class="bold">2023-121-1表</span>参照）．
+        <p class="cap">2023-121-1表&emsp;ボイラ，圧力容器の性能検査，定期自主検査                                
+        <table>
+            <tbody>
+                <tr>
+                    <td class="textcenter">ボイラ，圧力容器の種別</td>
+                    <td class="textcenter">性能検査</td>
+                    <td class="textcenter">自主検査</td>
+                </tr>
+                <tr>
+                    <td nowrap>ボイラ（小型ボイラを除く）<br>第一種圧力容器　</td>
+                    <td>1年以内ごとに1回，労働基準監督署の性能検査</td>
+                    <td>1カ月以内ごとに1回，定期自主検査</td>
+                </tr>
+                <tr>
+                    <td>小型圧力容器<br>
+                        第二種圧力容器<br>
+                        小型ボイラ</td>
+                    <td class="textcenter">（なし）</td>
+                    <td>1年以内ごとに1回，定期自主検査</td>
+                </tr>
+            </tbody>
+        </table>                    
+        <p><span class="bold">-(4) </span>，<span class="bold">-(5) </span>給湯設備の点検は次のとおり．
+        <br>1．中央式給湯方式の循環ポンプは，1年に1回以上，分解清掃を行う．
+        <br>2．各種弁などについては，1年に1回以上分解掃除を行う．シャワーヘッドや水栓のこま部は，6か月に1回以上定期的に点検し，1年に1回以上は分解掃除を行う．
+        <br>3．給湯配管は，1年に1回以上，厚生労働省告示に基づく給水系統配管の管洗浄に準じて管洗浄を行うことが望ましい．
+        <br>4．逃し弁は必要に応じて，レバーハンドルを操作させて作動を確認する．                    
+        <br>出典&nbsp;公益社団法人&nbsp;日本建築衛生管理教育センター「「新建築物の環境衛生管理第2版第1刷」中巻445〜446頁 </span>
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-122.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-120.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

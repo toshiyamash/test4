@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-123</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題123</span>&emsp;雑用水設備に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>雑用水とは，人の飲用，その他それに準じる用途以外の用途に供される水の総称である．
+        <p><span class="bold">（2）</span>散水，修景又は清掃の用に供する雑用水は，し尿を含む水を原水として用いない．
+        <p><span class="bold">（3）</span>広域循環方式は，個別循環方式に比べて下水道への排水量が減少する．
+        <p><span class="bold">（4）</span>雑用水受水槽に上水を補給する場合は，吐水口空間を設けて給水する．
+        <p><span class="bold">（5）</span>雑用水は，災害時における非常用水の原水として利用することができる．          
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題123&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>下水道の終末処理場の処理水を雑用水とする広域循環方式では下水道への排水量が減ることはない．
+        <p>雑用水のシステムには，個別循環方式，地区循環方式，広域循環方式がある（<span class="bold">2023-123-1表</span>，<span class="bold">2023-123-1図</span>～<span class="bold">2023-123-3図</span>参照）．                
+        <table>
+            <tbody>
+                <caption class="bold">2023-123-1表&emsp;雑用水システム</span></caption>
+                <tr>
+                    <td nowrap>個別循環方式　</td>
+                    <td>個別建物内で循環する．</td>
+                </tr>
+                <tr>
+                    <td>地区循環方式　</td>
+                    <td>比較的まとまった地区の複数の建築物において，処理水を雑用水に利用する．</td>
+                </tr>
+                <tr>
+                    <td>広域循環方式　</td>
+                    <td>公共下水道等からの下水の処理水を広い地域の建築物に供給し，水洗便所の用に利用する．</td>
+                </tr>
+            </tbody>
+        </table><p> </p>    
+        <div class="cap">2023-123-1図&emsp;個別循環方式</span></div>
+        <div class="container">
+            <img src="../../images/image_5/個別循環方式.svg" alt="個別循環方式">
+        </div>
+        <p>&emsp;</p>
+        <div class="cap">2023-123-2図&emsp;地区循環方式</span></div>
+        <div class="container">
+            <img src="../../images/image_5/地区循環方式.svg" alt="地区循環方式">
+        </div>
+        <p>&emsp;</p>
+        <div class="cap">2023-123-3図&emsp;広域循環方式</span></div>
+        <div class="container">
+            <img src="../../images/image_5/広域循環方式.svg" alt="広域循環方式">
+        </div>
+        <p>いずれも，多元給水の要求に答えようとするもので，上水道の負荷の軽減を主目的とする．
+        <p>個別循環方式，地区循環方式では下水道の負荷軽減もともなうが，下水道の終末処理場の処理水を雑用水とする広域循環方式では下水道負荷の軽減にはつながらない．             
+        <p><span class="bold">-(1) </span>雑用水とは，人の飲用その他それに準じる用途（調理，洗面，手洗い，浴用，洗濯等生活の用に供するもの）以外の用途に供される水の総称であり，建築物内で発生した排水の再生水，雨水，下水道事業者の供給する再生水，工業用水等をいう．
+        <p><span class="bold">-(2) </span>雑用水の水質基準は，その用途によって異なる（<a href="2023-125.html#tab2#:~:text=2．散水，修景又は清掃の用に供する雑用水の水質" target="_blank" rel="noopener noreferrer">本年度問題125</a> 解説参照）．                
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-124.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-122.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

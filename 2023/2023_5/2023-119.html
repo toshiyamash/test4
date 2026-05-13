@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-119</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題119</span>&emsp;給湯設備に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>密閉式膨張水槽を設ける場合には，逃し弁も設ける．
+        <p><span class="bold">（2）</span>加熱装置から逃し管を立ち上げる場合は，水を供給する高置水槽の水面よりも高く立ち上げる．
+        <p><span class="bold">（3）</span>給湯量を均等に循環させるため，返湯管に定流量弁を設ける．
+        <p><span class="bold">（4）</span>SUS444の貯湯槽は，腐食を防止するために電気防食を施す．
+        <p><span class="bold">（5）</span>配管内の空気や水が容易に抜けるように，凹凸配管とはしない．             
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題119&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>フェライト系<sup>※</sup>ステンレス鋼のSUS444は，対応力性，耐孔食性，耐隙間腐食性がオーステナイト系<sup>※</sup>のSUS304に比較して優れているが，電気防食によって発生する水素による水素脆性割れを生ずることがあるので電気防食を施してはならない．
+        <br>※ フェライト系，オーステナイト系：ステンレス鋼の特性をもたらす鋼の結晶の相の種類．
+        <p>代表的な電気防食には，流電陽極式電気防食と外部電源式電気防食がある（<span class="bold">2023-119-1図</span>参照）．
+        <div class="cap">2023-119-1図&emsp;電気防食</span></div>
+        <div class="container">
+            <img src="../../images/image_5/電気防食.svg" alt="電気防食">
+        </div>
+        <p>流電陽極式電気防食では，配管に，配管の鋼よりも化学的に卑な（イオン化傾向が大きい＝腐食しやすい）金属，マグネシウムやアルミニウムを犠牲陽極として接続しておくと鋼の代わりに腐食され，鋼は防食される．
+        <br>貯湯槽などに流電陽極式電気防食が施されている場合には，性能検査の際に犠牲陽極の状態などを調査し，必要に応じて補修，交換する．
+        <p>外部電源式電気防食は，不溶性電極（白金めっきを施したチタン線や炭素電極等）を陽極とし，外部電源（低圧直流電源）を用いて防食対象を保護する方法．電極の取り替えが不要（長寿命）であるが，電流密度の調整や定期的な保守が必要となる．
+        <p><span class="bold">-(1) </span>密閉式膨張水槽は労働安全衛生法に基づく安全装置に該当しないので，密閉式膨張水槽を設ける場合には，逃し弁も設けなければならない．
+        <p>加熱による水の膨張量は，密閉式膨張水槽の空気を圧縮して水槽内に吸収される．湯が逃し弁から吹出すのを避けるために，逃し弁の圧力設定値を膨張水槽にかかる給水圧力よりも高く設定する（ただし，逃し弁の圧力設定値は最高使用圧力の110％を超えてはならない）．<span class="bold">2023-119-2図</span>参照．
+        <div class="cap">2023-119-2図&emsp;密閉式膨張水槽の設置・配管例</span></div>
+        <div class="container">
+            <img src="../../images/image_5/密閉式膨張水槽の設置・配管例.svg" alt="密閉式膨張水槽の設置・配管例">
+        </div>
+        <p><span class="bold">-(2) </span>温度によって比重の違う「逃し管の湯」（わずかに軽い）と「補給水管の水」（わずかに重い）を重量的にバランスさせ，逃し管から湯が流れ出ないようにするために，逃し管は補給水槽の水面より高く立ち上げる（<span class="bold">2023-119-3図</span>参照）．
+        <div class="cap">2023-119-3図&emsp;逃し管の立上げ高さ</span></div>
+        <div class="container">
+            <img src="../../images/image_5/逃し管の立上げ高さ.svg" alt="逃し管の立上げ高さ">
+        </div>
+        <p>立上げ高さは次式によって求めることができる．
+        <p class="textcenter">
+            \[ h \gt \frac{\rho_c}{\rho_h} \times H \]           
+        </p>
+        <div class="leftcenter">
+            ただし，<br>
+            \(h\)：求める逃し管の補給水槽の水面から立上げ高さ［m］，<br> 
+            \(\rho_c\)：水の密度［kg/m<sup>3</sup>］， <br>
+            \(\rho_h\)：湯の密度［kg/m<sup>3</sup>］，<br>
+            \(H\)：補給水槽水面から加熱装置の最低部までの高さ［m］．
+        </div>
+        <p><span class="bold">-(3) </span>給湯量を均等に循環させるのは，給湯管全体の湯の温度を保つためである．定流量弁を給湯管に取り付けたりすると，ピーク時に給湯量が間に合わない系統が出てくる危険がある．定流量弁や流量調整の弁は返湯管に設ける．
+        <p><span class="bold">-(5) </span>凸凹配管の凹部には泥だまりができて衛生上の問題になる．凸部には空気だまりができて円滑な給湯を妨げたり，放流の際に水が抜けにくくなる．                    
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-120.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-118.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

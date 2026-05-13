@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-120</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題120</span>&emsp;給湯設備の循環ポンプに関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>ポンプは，背圧に耐えるものを選定する．
+        <p><span class="bold">（2）</span>ポンプの環流量は，加熱装置における給湯温度と返湯温度との温度差に比例する．
+        <p><span class="bold">（3）</span>ポンプの揚程は，循環管路系で最も大きくなる管路における摩擦抵抗・局部抵抗による圧力損失から決定する．
+        <p><span class="bold">（4）</span>ポンプには，接液部をステンレス鋼製としたものが多く使用されている．
+        <p><span class="bold">（5）</span>ポンプで振動による騒音・振動が発生した場合の対応として，ポンプの吐出し側にサイレンサなどを設置する．            
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題120&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p>ポンプの循環流量は下式のとおり，給湯温度と返湯温度との温度差に反比例する．
+            \[ Q=0.0143 \times H_L \div \varDelta t\]           
+        <div class="leftcenter">
+        ただし，
+        \(Q\)：循環流量［L/min］<br>
+        \(H_L\)：循環配管からの熱損失［W］<br>
+        \(\varDelta\)：加熱装置における給湯温度と返湯温度との差［℃］<br>
+        （係数の0.0143は60秒／4186J/kg･K）．
+        </div>
+        <p><span class="bold">-(1) </span><ruby>背<rt>はい</rt></ruby>圧：ポンプの吸込み側にかかる圧力．ポンプの背圧はマイナスの圧力の場合もあるが，給湯循環ポンプは設備の一番底部に設置されるので最初から水頭圧のプラスの圧力がかかっていることが多い．
+        <p><span class="bold">-(3) </span>摩擦抵抗・局部抵抗による圧力損失が<span class="underln">最も小さくなる</span>管路から決定する，と出題されることがある．もちろん誤りである．
+        <p><span class="bold">-(4) </span>接液部をステンレス鋼製としたポンプを配管に接続する場合は，配管側の異種金属接触腐食を避けるために絶縁継手の使用を検討する．
+        <p><span class="bold">-(5) </span>サイレンサ（<span class="bold">2023-120-2図</span>）はポンプの吐出側に設ける（公益財団法人&nbsp;日本建築衛生管理教育センター「新建築物の環境衛生管理」H31.3.31第1版第1刷中巻428頁）．サイレンサは不動態膜を保護し腐食防止対策にもなる．
+        <div class="cap">2023-120-2図&emsp;サイレンサ</span></div>
+        <div class="container">
+            <img src="../../images/image_5/サイレンサ.svg" alt="サイレンサ">
+        </div>
+        <p class="source">出典&nbsp;日本防振株式会社<br>
+            http://www.boushin.co.jp/products/06_nbsilencerfrexible.html を基に作成
+        <p>（メーカのサイトによると，循環系統では吸込み，吐出し両側に設置を推奨となっている．）                                            
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-121.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-119.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
