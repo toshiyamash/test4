@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-132</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題132</span>&emsp;排水通気設備に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>自然流下式の排水管の勾配は，管内流速が0.6〜1.5m/sになるように設ける．
+        <p><span class="bold">（2）</span>排水立て管のオフセット部の上下600mm以内には，排水管を設けてはならない．
+        <p><span class="bold">（3）</span>排水槽のマンホールの大きさは，直径が60cm以上の円が内接することができるものとする．
+        <p><span class="bold">（4）</span>トラップが組み込まれていない阻集器には，その入口側にトラップを設ける．
+        <p><span class="bold">（5）</span>伸頂通気方式の排水管の水平曲がりは，排水立ての底部より3m以内に設けてはならない．         
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題132&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>トラップが組み込まれていない阻集器には，その出口側にトラップを設ける．入口側に設けたら直ぐ詰まる．
+        <p><span class="bold">-(1) </span>自然流下式の排水管の勾配，<a href="2023-128.html#tab2#:~:text=表 排水横管の最小勾配" target="_blank" rel="noopener noreferrer">本年度問題128</a>解説参照．
+        <p><span class="bold">-(2) </span>オフセット部分では排水の流れが乱れがちとなり，横枝管からの排水の流入を妨げるおそれがあるので，上下600mm以内に横枝管を接続しないようにする．オフセット部分の配管・通気については，<span class="bold">2023-132-1図</span>参照．
+        <p class="cap">2023-132-1図&emsp;オフセット部の配管・通気
+        <div class="container">
+            <img src="../../images/image_5/オフセット部の配管・通気.svg" alt="オフセット部の配管・通気">
+        </div>
+        <p class="source">出典&nbsp;公益社団法人&nbsp;日本建築衛生管理教育センター<br>「新建築物の環境衛生管理第2版第1刷」中488頁&nbsp;図6-7-2(7)b</p>
+        <p><span class="bold">-(5) </span>伸頂通気方式は，通気立て管を設けず，伸頂通気管のみによる通気方式である．
+        <br>伸頂通気管とは最上部の排水横管が排水立て管に接続した点よりもさらに上方へ，その排水立て管を，管径を縮小せずに立ち上げ，これを通気管に使用する部分をいう．
+        <p>伸頂通気方式では通気量が限られので次のような制約がある．
+        <br>伸頂通気方式の制約
+        <br>1．排水横主管以降が満流となる場合は，通気量の限られる伸頂通気方式としてはならない．
+        <br>2．伸頂通気方式の排水立て管には，通気を妨げるのでオフセットを設けてはならない．
+        <br>3．排水立て管と排水横主管の接続は，円滑な排水のために大曲がりベンド等で接続する．
+        <br>4．伸頂通気方式の排水横主管の水平曲りは，排水立て管の底部より3m以内には設けてはならない（<span class="bold">2023-132-2図</span>参照）．
+        <p class="cap">2023-132-2図&emsp;伸頂通気方式の排水横主管の水平曲り
+        <div class="container">
+            <img src="../../images/image_5/伸頂通気方式の排水横主管の水平曲り.svg" alt="伸頂通気方式の排水横主管の水平曲り">
+        </div>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-133.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-131.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
