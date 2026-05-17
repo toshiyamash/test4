@@ -7,8 +7,8 @@
    viewBox="0 0 106.18707 63.834882"
    version="1.1"
    id="svg5"
-   inkscape:version="1.3.1 (9b9bdc1480, 2023-11-25, custom)"
-   sodipodi:docname="2022-135-1衛生器具の分類.svg"
+   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   sodipodi:docname="衛生器具の分類.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,10 +25,10 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.0482005"
-     inkscape:cx="132.60821"
-     inkscape:cy="252.81422"
+     inkscape:cx="132.60822"
+     inkscape:cy="252.81423"
      inkscape:window-width="1920"
-     inkscape:window-height="968"
+     inkscape:window-height="973"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -782,11 +782,11 @@
          y="219.35605"
          id="tspan13275">　ペーパーホルダなど</tspan></text>
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.2"
+       style="fill:none;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
        d="m 78.294556,179.63036 -0.178486,7.13942"
        id="path996" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.001"
+       style="fill:none;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
        d="m 183.69489,178.53138 0.50779,9.25265"
        id="path2" />
   </g>
