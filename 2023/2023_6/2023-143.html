@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-143</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題143</span>&emsp;建築物清掃の作業計画に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>廊下壁面のスポット洗浄は，一般に定期清掃で実施する．
+        <p><span class="bold">（2）</span>廊下壁面のスイッチ回りの洗剤拭きは，一般に定期清掃として実施する．
+        <p><span class="bold">（3）</span>ELVカゴ内部の除じんは，一般に定期清掃として実施する．
+        <p><span class="bold">（4）</span>階段の手すり拭きは，一般に日常清掃として実施する．
+        <p><span class="bold">（5）</span>トイレ・洗面所の換気口の除じんは，一般に定期清掃で実施する．       
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題143&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>除じんと付けば日常清掃，洗浄と付けば定期清掃であるが，もちろん例外もある．
+        <p>エレベータは使用頻度も高く，<ruby>塵埃<rt>じんあい</rt></ruby>の持ち込み，発生も多くなるので，かご内の除じんは最低でも1日に1回は必要である（<span class="bold">2023-143-1表</span>参照）．
+        <p class="cap">2023-143-1表&emsp;清掃作業の頻度別分類
+        <table>
+            <tbody>
+                <tr>
+                <td class="tdVertical textcenter">日常清掃　</td>
+                <td>1日1回以上行う作業</td>
+                <td>共用区域の床，壁面・柱の低い部分の清掃，エレベーターのカゴ内部の除じん，階段の手すり拭き，家具・什器等のほこり除去，清掃，紙くずの処理，茶殻，ちゅう芥の処理，流し台の洗浄，トイレの清掃，消耗品の補充，洗面台の洗浄，エスカレーターのランディングプレートの除じん，玄関ホール・出入口フロアマットの除じん，ビル周りの清掃など．</td>
+                </tr>
+                <tr>
+                <td class="tdVertical textcenter">定期清掃　</td>
+                <td>週1回，月1回などと一定の間隔をおいて行う作業．<br>
+                計画的に実施する．<br>
+                洗浄と付くとほぼ定期清掃である（除じんとつくとほぼ日常清掃であるが，いずれも例外はある）．</td>
+                <td>床面洗浄，床維持剤の塗布，カーペットのスポットクリーニング・洗浄，天井・壁の高所部分の清掃，各種金属磨き，照明器具，ブラインドの清掃，幅木，いす等の脚部清掃，エレベータパネルの洗剤拭き，窓ガラスクリーニング，トイレ・洗面所の換気口の除じん，駐車場の排水口の除じん，廊下壁面の除じん，外周区域の洗浄．廊下壁面のスポット洗浄等．</td>
+                </tr>
+                <tr>
+                <td class="tdVertical textcenter">臨時清掃　</td>
+                <td>予定外の作業</td>
+                <td>普段清掃を行わない部分で汚れが目立った場合などに行う清掃．</td>
+                </tr>
+            </tbody>
+        </table>                    
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-144.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-142.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

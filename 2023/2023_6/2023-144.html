@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-144</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題144</span>&emsp;建物清掃の作業計画を作成することによる利点に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>日常清掃で除去する汚れと，定期的に除去する汚れを区別して計画することにより，作業効率と作業成果の向上が得られる．
+        <p><span class="bold">（2）</span>清掃現場の状況に応じて作業者が計画を変更して作業を実施することで，限られた時間に一定の成果を得られる．
+        <p><span class="bold">（3）</span>作業内容が明確化されているため，統一的な指導ができる．
+        <p><span class="bold">（4）</span>作業者及び作業内容の計画的な管理と記録の保存により，責任所在が明確になる．
+        <p><span class="bold">（5）</span>実施内容をデータとして蓄積して作業を改善することで，効率化のための作業改善が得られる．       
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題144&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p><span class="bold">-(2) </span>は正しくは，「限られた時間に一定の成果を得るためには，計画的に作業を実施する必要がある」．
+        <p>下記の，公益社団法人&nbsp;日本建築衛生管理教育センター「新建築物の環境衛生管理第2版第1刷」下巻24〜25頁からの出題．
+        <p>『作業計画作成の意義<br>
+        作業計画を作成する目的は，ビルクリーニング仕様書とビルクリーニング作業基準表に基づき，以下に関して，確実かつ計画的に遂行することを目的に作成する．<br>
+        ①作業成果の向上(品質の均一化)<br>
+        日常清掃で除去する汚れと，定期的に除去する汚れを区別し，計画することによって作業効率と作業成果の向上が得られる．<br>
+        ②作業能率の向上<br>
+        <span class="underln">限られた時間に一定の成果を得るためには，計画的に作業を実施する必要がある．</span><br>
+        ③作業指導のしやすさ<br>
+        作業内容が明確化されているため，統一的な指導ができる．<br>
+        ④作業管理のしやすさ<br>
+        記憶や経験を基にした個人的な管理ではないので，従事者にも理解しやすく，作業指示や作業実施が円滑になる．<br>
+        ⑤責任所在の明確化<br>
+        計画的な作業管理が実施され，記録の保存によって責任所在が明確化し，種々のトラブルの発生に対する処理が迅速に行うことができる．<br>
+        ⑥管理者への対応<br>
+        作業内容が明確になっているので，管理者への対応が的確にできる．<br>
+        ⑦作業改善等の資料収集への活用<br>
+        効率化のための作業改善が，データに基づいて行われる．』<br>
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-145.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-143.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
