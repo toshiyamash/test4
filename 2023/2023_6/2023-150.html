@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-150</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+                <p><span class="bold">問題150</span>&emsp;清掃作業に使用する洗剤に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+                <p><span class="bold">（1）</span>助剤(ビルダ)の働きとして，界面活性剤の表面張力を高め，洗浄力を向上させることが挙げられる．
+                <p><span class="bold">（2）</span>水道水で希釈して使用する洗剤には，水中のカルシウムやマグネシウムを封鎖する作用をもつ助剤が含まれる．
+                <p><span class="bold">（3）</span>洗剤を水道水で希釈する場合には，最適な希釈濃度がある．
+                <p><span class="bold">（4）</span>界面活性剤には，汚れを対象物から離脱させる働きがある．
+                <p><span class="bold">（5）</span>洗剤には酸性やアルカリ性があり，水素イオン濃度指数で確認することができる．       
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+                <p class="bold">問題150&emsp;正解（1）&emsp;頻出度AAA</span></p>
+                <p>助剤(ビルダ)は界面活性剤の表面張力を弱める．
+                <p>助剤は洗剤の効果を高め，その作業を補うものである．界面活性剤の表面張力を弱めて汚れに浸透しやすくする，pHを調整する，洗浄力を阻害するカルシウム，マグネシウムを封鎖する，汚れの再付着の防止等の作用をもつ．
+                <p>助剤として用いられたリン酸塩（Na<sub>5</sub>P<sub>3</sub>O<sub>10</sub>，Na<sub>4</sub>P<sub>2</sub>O<sub>7</sub>など）が湖沼の富栄養化をもたらしたため現在は使われていない（現在はケイ酸塩が用いられている）．
+                <p><span class="bold">-(5)</span>洗剤の分類では，pHが3未満のものを「酸性」，pHが3～6のものを「弱酸性」，pHが6～8のものを「中性」，pHが8～11のものを「弱アルカリ性」，pHが11以上のものを「アルカリ性」などとしている．
+                <br>水素イオン濃度指数（pH値）は次式にほぼ等しい．H<sup>＋</sup>は水素イオンのモル濃度［mol/L］．
+                  \[{\rm pH}=-\log[{\rm H^+}]\]
+                <br>pH=7の時の水素イオンモル濃度は10<sup>-7</sup>mol/L（=1/10<sup>7</sup>mol/L＝6.02☓10<sup>16</sup>個/L）となる．水素イオンH<sup>＋</sup>が多いほど強い酸性となる．                    
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-151.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-149.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

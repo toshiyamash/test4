@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-147</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題147</span>&emsp;ほこりや汚れの除去に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>綿布やモップに含ませる水分は，ほこりに対する付者を高める程度で十分で，過剰の水分はむしろ弊害を与える．
+        <p><span class="bold">（2）</span>おがくずを用いる方法は，ほこりを付着させる効果が大きい．
+        <p><span class="bold">（3）</span>ダストコントロール法は，粘度の低い，乾性の鉱油などを布に含ませ，ほこりを除去する方法である．
+        <p><span class="bold">（4）</span>ダストクロス法は，油分による床面への弊害が少ない．
+        <p><span class="bold">（5）</span>バキュームクリーニングは，カーペットの織り目に入り込んだほこり・土砂等の除去に用いられる．       
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題147&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>乾性⇛不乾性の鉱油が正しい．
+        <p>「ダストコントロール法」とは，綿布やモップにほこりが付着する力を高めるため，粘度の低い不乾性の鉱油等を，布の重量に対して 20%前後の少量を含ませ拭き取る方法である．この方法は1945年頃アメリカのベル電話会社が開発したものといわれている．簡便であるが，ほこり以外のものは除去できない，微量ながら油が床等に付着するなどの欠点もある．現在では，化学繊維を不織布として織り，静電気を利用してほこりを付着させたり，繊維の隙間を利用して土砂等を回収するダストクロス法が一般的である．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-148.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-146.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
