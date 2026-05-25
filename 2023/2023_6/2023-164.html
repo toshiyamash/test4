@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-164</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題164</span>&emsp;建築物内の清掃作業等に必要な人員算定として，<span class="bold">正しい</span>ものは次のうちどれか．</span>
+        <p>作業場所は，専用区城の「役員室及び会議室」と「事務室」であり，1日の作業回数は1回として必要作業人員を求める．
+        <br>作業面積を標準作業量で除した値が1時間当たりの必要作業人員であり，1回の作業時間は2.5時間である．標準作業量には，準備，移動，清掃・ごみ収集後始末の作業が含まれる．
+        <p class="textcenter">清掃作業等の概要
+        <table>
+            <tr>
+                <td></td>
+                <td class="textcenter">作業面積<br>m<sup>2</sup>］</td>
+                <td class="textcenter">標準作業量<br>m<sup>2</sup>/(人･h)</td>
+                <td class="textcenter">1日の<br>作業回数</td>
+            </tr>
+            <tr>
+                <td class="textcenter">役員室及び会議室<br>（タイルカーペット）</td>
+                <td class="textcenter">380</td>
+                <td class="textcenter">95</td>
+                <td class="textcenter">1回</td>
+            </tr>
+            <tr>
+                <td class="textcenter">事務室<br>（タイルカーペット）</td>
+                <td class="textcenter">5200</td>
+                <td class="textcenter">200</td>
+                <td class="textcenter">1回</td>
+            </tr>
+        </table><p>　</p>
+        <p><span class="bold">（1）</span>5人
+        <p><span class="bold">（2）</span>8人
+        <p><span class="bold">（3）</span>10人
+        <p><span class="bold">（4）</span>12人
+        <p><span class="bold">（5）</span>15人     
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題164&emsp;正解（4）&emsp;頻出度A</span></p>
+        <p>延べ作業時間［人･h］を計算する．
+        <p>役員室及び会議室                
+        <p>380m<sup>2</sup>÷95m<sup>2</sup>/(人･h)×1回＝4［人･h］
+        <p>事務室
+        <p>5200m<sup>2</sup>÷200m<sup>2</sup>/(人･h)×1回＝26［人･h］
+        <p>合計30［人･h］
+        <p>これを2.5時間で終わらせるには，30÷2.5＝12人必要．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-165.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-163.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

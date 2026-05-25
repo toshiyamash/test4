@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-159</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題159</span>&emsp;循環型社会形成推進基本法に関する次の文章の<span class="whiteFrame">　　　</span>内に入る語句の組合せとして，<span class="bold">正しい</span>ものはどれか．
+        <p>循環型社会形成推進基本法の第2条で「循環型社会」とは，製品等が廃棄物等となることが抑制され，並びに製品等が循環資源となった場合においてはこれについて適正に循環的な利用が行われることが促進され，及び循環的な利用が行われない循環資源については適正な処分が確保され，もって<span class="whiteFrame">　ア　</span>の消費を抑制し，<span class="whiteFrame">　イ　</span>ができる限り低減される社会をいうとされている．
+        <p><span style="margin-left: 4rem;">ア</span><span style="margin-left: 6.5rem;">イ</span>
+        <p><span class="bold">（1）</span>循環資源<span class="connectLine">　　　</span>経済への負担
+        <p><span class="bold">（2）</span>環境資源<span class="connectLine">　　　</span>健康への被害
+        <p><span class="bold">（3）</span>循環資源<span class="connectLine">　　　</span>環境への負荷
+        <p><span class="bold">（4）</span>天然資源<span class="connectLine">　　　</span>健康への被害
+        <p><span class="bold">（5）</span>天然資源<span class="connectLine">　　　</span>環境への負荷      
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題159&emsp;正解（5）&emsp;頻出度AAA</span></p>
+        <p>下記のとおり，天然資源の抑制，環境への負荷のできる限りの低減，が正しい．
+        <p>循環型社会形成推進基本法 第二条（定義）
+        <br>この法律において「循環型社会」とは，製品等が廃棄物等となることが抑制され，並びに製品等が循環資源となった場合においてはこれについて適正に循環的な利用が行われることが促進され，及び循環的な利用が行われない循環資源については適正な処分（廃棄物（ごみ，粗大ごみ，燃え殻，汚泥，ふん尿，廃油，廃酸，廃アルカリ，動物の死体その他の汚物又は不要物であって，固形状又は液状のものをいう．以下同じ．）としての処分をいう．以下同じ．）が確保され，もって<span class="underln">天然資源の消費を抑制</span>し，<span class="underln">環境への負荷ができる限り低減</span>される社会をいう．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-160.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-158.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

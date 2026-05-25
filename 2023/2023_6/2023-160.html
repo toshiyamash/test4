@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-160</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題160</span>&emsp;廃棄物の処理及び清掃に関する法律(以下「廃棄物処理法」という．)第1条の目的に定されている項目として，<span class="bold">該当しない</span>ものは次のうちどれか．</span>
+        <p><span class="bold">（1）</span>生活環境の保全
+        <p><span class="bold">（2）</span>廃棄物の排出抑制
+        <p><span class="bold">（3）</span>廃棄物の適正処理
+        <p><span class="bold">（4）</span>公衆衛生の向上
+        <p><span class="bold">（5）</span>地球環境の保全      
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題160&emsp;正解（5）&emsp;頻出度AAA</span></p>
+        <p>廃棄物の処理及び清掃に関する法律 第一条（目的） 
+        <br>この法律は，廃棄物の排出を抑制し，及び廃棄物の適正な分別，保管，収集，運搬，再生，処分等の処理をし，並びに生活環境を清潔にすることにより，生活環境の保全及び公衆衛生の向上を図ることを目的とする．<br>
+        <p>廃棄物処理法の目的に「地球環境の保全」の語句は含まれていないが，法律の体系上廃棄物処理法の根拠法となる環境基本法で，国際協調による地球環境の保全が目的とされている．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2023-161.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2023-159.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
