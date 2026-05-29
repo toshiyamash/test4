@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2023-180</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2023年</p>
+        <p><span class="bold">問題180</span>&emsp;害虫や薬剤に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span>
+        <p><span class="bold">（1）</span>喫食抵抗性は，毒餌の基剤に対する喫食忌避によって発達する．
+        <p><span class="bold">（2）</span>ペストコントロールのペストとは，ネズミや害虫等の有害な生物を指す．
+        <p><span class="bold">（3）</span>定期的で頻繁な薬剤処理は，チャバネゴキブリやチカイエカ等の薬剤抵抗性の急激な発達要因となる．
+        <p><span class="bold">（4）</span>選択毒性とは，単位体重当たりで比較したとき，ある化合物の毒性が生物種によって異なることをいう．
+        <p><span class="bold">（5）</span>人獣共通感染症とは，ヒトから動物ではなく，動物からヒトに病原体が伝<ruby>播<rt>ぱ</rt></ruby>される感染症を指す．     
+    </div>
+
+    <div id="tab2">
+        <p>2023年</p>
+        <p class="bold">問題180&emsp;正解（5）&emsp;頻出度AAA</span></p>
+        <p>人獣共通感染症の感染の方向は，「ヒト&nbsp;⇄&nbsp;動物」双方向である．WHO（世界保健機関）では，
+        <br>「脊椎動物と人の間で自然に移行するすべての病気又は感染（動物等では病気にならない場合もある）」と定義している．
+        <p><span class="bold">-(1) </span>喫食抵抗性とは，主にチャバネゴキブリなどの害虫が，殺虫成分ではなく毒餌（ベイト剤）の「餌そのもの」や「匂い」を学習または遺伝によって嫌い，食べなくなる現象を指す．食毒剤の有効成分に対する抵抗性を「生理的抵抗性」と呼ぶのに対して，喫食抵抗性は行動的抵抗性ともいう．
+        <p><span class="bold">-(2) </span>ねずみ，昆虫の防除業者をペストコントロールオペレーター（PCO）という．
+        <p><span class="bold">-(4) </span>ある薬剤の毒性がヒトまたは動物に対して小さく害虫で大きい場合，その薬剤は選択毒性が高いと言い，安全も確保しやすい．言い換えれば，LD<sub>50</sub>値が，防除対象害虫等に対しては小さく，ヒト・動物に対しては大きいほど，薬剤の安全性は確保しやすい．                
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <!-- <button type="button" class="btn-outline" onclick="location.href='2023-180.html'">次問へ</button> -->
+      <button type="button" class="btn-outline" onclick="location.href='2023-179.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
