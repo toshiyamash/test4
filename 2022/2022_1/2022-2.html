@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-2</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2022年</p>
+      <p><span class="bold">問題2</span>&emsp;建築物における衛生的環境の確保に関する法律(以下「建築物衛生法」という．)に基づく特定建築物に関する次の記述のうち<span class="bold">誤っている</span>ものはどれか．
+      <p><span class="bold">（1）</span>特定建築物の衛生上の維持管理に関する監督官庁は，都道府県知事，保健所を設置する市の市長，特別区の区長である．
+      <p><span class="bold">（2）</span>建築物環境衛生管理基準を定め，維持管理権原者にその遵守を義務付けている．
+      <p><span class="bold">（3）</span>保健所は，多数の者が使用，利用する建築物について，正しい知識の普及を図るとともに，相談，指導を行う．
+      <p><span class="bold">（4）</span>特定建築物の所有者等は，建築物環境衛生管理技術者を選任しなければならない．
+      <p><span class="bold">（5）</span>登録業者の業務の改善向上を図ることを目的として，事業ごとに，都道府県を単位とした団体を知事が指定する制度が設けられている．
+    </div>
+
+    <div id="tab2">
+      <p>2022年</p>
+      <p><span class="bold">問題2&emsp;正解（5）</span>&emsp;頻出度AAA</span></span> 
+      <p><span class="bold">-(5) </span>登録業の指定団体は厚生労働大臣が指定する．
+      <p>登録業者等の団体（指定団体）の規定は次のとおり．
+      <p>ビル管理法第12条の6『厚生労働大臣は，登録業者の業務の改善向上を図ることを目的とし，かつ，登録業者又は登録業者の団体を社員とする一般社団法人であつて，次項に規定する業務を適正に行うことができると認められるものを，第12条の2第1項各号に掲げる事業ごとに，その申出により，それぞれ，次項に規定する業務を全国的に行う者として指定することができる．』
+      <p>『前項の指定を受けた法人（以下「指定団体」という．）は、次の各号に掲げる業務を行うものとする．
+      <br>一　登録業者の業務を適正に行うため必要な技術上の基準の設定
+      <br>二　登録業者の求めに応じて行う業務の指導
+      <br>三　登録業者の業務に従事する者に対するその業務に必要な知識及び技能についての研修
+      <br>四　登録業者の業務に従事する者の福利厚生に関する施設』
+      <p>「登録業者への改善命令」や，「業務の統一価格の制定」などが，指定団体の業務で「ないもの」として出題されたことがある．
+      <p>現在の指定団体は次のとおり．<br>
+      公益社団法人&nbsp;全国ビルメンテナンス協会（清掃，貯水槽清掃，ねずみ昆虫等防除，環境衛生総合管理）<br>
+      公益社団法人&nbsp;全国建築物飲料水管理協会（貯水槽清掃）<br>
+      公益社団法人&nbsp;日本ペストコントロール協会（ねずみ昆虫等防除）<br>
+      （建築物における衛生的環境の確保に関する法律第八条第三項に規定する指定試験機関等を指定する省令）
+      <p>登録業の詳細については本年問題11，12などを参照．
+      <!-- <p>&emsp;</p>
+      <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-3.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-1.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

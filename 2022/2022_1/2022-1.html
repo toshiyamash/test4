@@ -4,7 +4,16 @@
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="../../style.css">
 
-  <title>2025-2</title>
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-1</title>
 
 </head>
 
@@ -16,20 +25,22 @@
     </ul>
 
     <div id="tab1">
-        <p>2025年</p>
-        <p><span class="bold">問題2</span>&emsp;現在の行政組織に関する次の記述のうち、<span class="bold">最も不適当な</span>ものはどれか．                
-        <p><span class="bold">（1）</span>消防法は，総務省が所管している．
-        <p><span class="bold">（2）</span>廃棄物の処理及び清掃に関する法律(以下「廃棄物処理法」という．) は，厚生労働省が所管している．
-        <p><span class="bold">（3）</span>下水道法は，国土交通省と環境省が所管している．
-        <p><span class="bold">（4）</span>建築基準法は，国土交通省が所管している．
-        <p><span class="bold">（5）</span>旅館業法は，厚生労働省が所管している．
+      <p>2022年</p>
+      <p><span class="bold">問題1</span>&emsp;次に掲げる法律のうち，厚生労働省が<span class="bold">所管していない</span>ものはどれか．</span>
+      <p><span class="bold">（1）</span> 生活衛生関係営業の運営の適正化及び振興に関する法律
+      <p><span class="bold">（2）</span> 労働安全衛生法
+      <p><span class="bold">（3）</span> 有害物質を含有する家庭用品の規制に関する法律
+      <p><span class="bold">（4）</span> 廃棄物の処理及び清掃に関する法律
+      <p><span class="bold">（5）</span> 水道法
     </div>
 
     <div id="tab2">
-      <p>2025年</p>
-      <p class="bold">問題2&emsp;正解（2）&emsp;頻出度AAA
-      <p>廃棄物処理法を所管するのは環境省である（<span class="bold">2025-2-1表</span>参照）．
-        <p class="cap">2025-2-1表 よく出題される所管法令
+      <p>2022年</p>
+      <p><span class="bold"> 問題1&emsp;正解</span>（4），（5）<sup>※</sup>&emsp;頻出度AAA </span></span>  
+      <p>「廃棄物の処理及び清掃に関する法律」は環境省の所管である．
+      <p>※&nbsp;<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/suido/index.html" target="_blank" rel="noopener noreferrer">法令改正による正解追加</a>）（2024年4月1日〜）<br>
+      また，水道法は国土交通省（水道整備・管理のうち水質・衛生以外），環境省（水質基準の策定、水道整備・管理のうち水質・衛生）の所管となった．<span class="bold"> 2022-1-1表</span>参照．  
+      <p class="cap">2022-1-1表 よく出題される所管法令
       <table>
           <tr>
               <td>厚生労働省</td>
@@ -46,7 +57,7 @@
               <td>環境基本法<br>
                   大気汚染防止法&emsp;水質汚濁防止法</span>&emsp;悪臭防止法</span>&emsp;騒音規制法</span><br>
                   土壌汚染対策法<br>
-                  <span class="underln">廃棄物の処理及び清掃に関する法律</span><br>
+                  廃棄物の処理及び清掃に関する法律<br>
                   水道法&emsp;下水道法&emsp;浄化槽法
               </td>
           </tr>
@@ -66,18 +77,19 @@
               </td>
           </tr>
       </table>
-      <p>水道法，下水道法，浄化槽法は，環境省が水質・衛生関係を所管し，それ以外を国土交通省が所管している．
+      <p>下水道法，浄化槽法も，環境省が水質・衛生関係を所管し，それ以外を国土交通省が所管している．
+      <!-- <p>&emsp;</p>
+      <p>&emsp;</p> -->
     </div>
 
     <div id="buttons">
-      <button type="button" class="btn-outline" onclick="location.href='2025-3.html'">次問へ</button>
-      <button type="button" class="btn-outline" onclick="location.href='2025-1.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-2.html'">次問へ</button>
+      <!-- <button type="button" class="btn-outline" onclick="location.href='2022-1.html'">前問へ</button> -->
       <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
       <a href="../../sakuin.html" target="_blank">
       <button type="button" class="btn-outline">索引のページへ</button>
       </a>
     </div>
-
   </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -87,7 +99,7 @@
       // 1. タブを初期化
       $("#tabs").tabs();
 
-      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
       if (window.location.hash.indexOf('tab2') !== -1) {
         // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
         $("#tabs").tabs("option", "active", 1);
