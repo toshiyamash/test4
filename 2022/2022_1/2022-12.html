@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-12</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題12</span>&emsp;建築物衛生法に基づく事業登録を受けた登録業者が，次の事項を変更した場合，<span class="bold">届出を必要としない</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>営業所の名称
+        <p><span class="bold">（2）</span>清掃作業監督者
+        <p><span class="bold">（3）</span>主要な機械器具その他の設備
+        <p><span class="bold">（4）</span>機械器具その他の設備の維持管理の方法
+        <p><span class="bold">（5）</span>従事者の研修方法
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題12&emsp;正解（5）</span>&emsp;頻出度AA</span></p>
+        <p>「従事者の研修方法の変更」は届出事項にない．
+        <p>ビル管理法施行規則第33条により，登録業者は，次に掲げる事項に変更があつたとき又は登録に係る事業を廃止したときは，その日から30日以内に，その旨を都道府県知事に届け出なければならない．
+        <p>一　氏名又は名称及び住所並びに法人にあっては，その代表者の氏名
+        <p>二　登録に係る営業所の名称及び所在地並びに責任者の氏名
+        <p>三　事業の用に供する主要な機械器具その他の設備
+        <p>四　機械器具の概要，作業監督者等の氏名等，作業方法と作業に用いる機械器具・設備の維持管理方法を記載した書面．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-13.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-11.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
