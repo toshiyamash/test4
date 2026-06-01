@@ -216,6 +216,19 @@
     text-underline-offset:0.2em; */
     }
 
+    /* 波線下線 */
+    .thin-wavy {
+  /* 下線、波線をまとめて指定 */
+  text-decoration: underline wavy #fa0101; 
+  
+  /* 線の太さを指定（1pxや0.5pxなどで細くする） */
+  text-decoration-thickness: 0.5px; 
+  
+  /* 文字と線の隙間を調整して見やすくする（好みに合わせて変更） */
+  text-underline-offset: 0.1em; 
+}
+
+
     /* テキストセンター */
     .textcenter{
       text-align: center;      
@@ -259,4 +272,32 @@
       border-radius: 5px;     /* 角を少し丸くすると柔らかい印象に */
       background-color: #f9f9f9; /* 背景色を薄く付けると見やすい */
   }
+
+    /* CSSのリセット */
+
+    body {
+      margin: 0;
+    }
+
+    /* デフォルト（スマホ）: 画面いっぱいに表示して左右に少しだけ余白をとる */
+    body {
+      width: 100%;
+      padding: 0 15px; 
+      margin: 0;
+    }
+
+    /* 画面幅が 800px 以上になったら、MDNのような中央寄せにする */
+    @media (min-width: 800px) {
+      body {
+        width: 70%;
+        margin: 0 auto;
+        padding: 0; /* スマホ用の余白をリセット */
+      }
+    }
+
+    /* box-sizing：パディングやボーダーの幅が、要素の全体の横幅（width）に含まれるように設定します。これを行うだけで、スマホ画面での「横スクロール（意図しないはみ出し）」の発生を劇的に減らせます。 */ 
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
 

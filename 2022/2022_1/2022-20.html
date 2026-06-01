@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-20</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題20</span>&emsp;平成30年に改正された健康増進法で定める受動喫煙防止規定の対象となる特定施設の区分について，<span class="bold">誤っている</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>公立の小学校や中学校は，第一種施設である．
+        <p><span class="bold">（2）</span>行政機関がその事務を処理するために使用する庁舎は，第二種施設である．
+        <p><span class="bold">（3）</span>旅館業法により許可を受けたホテルや旅館は，第二種施設である．
+        <p><span class="bold">（4）</span>一般の事務所は，第二種施設である．
+        <p><span class="bold">（5）</span>医療法に規定する病院は，第一種施設である．   
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+                <p class="bold">問題20&emsp;正解（2）&emsp;頻出度AAA</span></p>
+                <p>行政機関がその事務を処理するために使用する庁舎は，第一種施設である．
+                <p>健康増進法で特定施設の定義はつぎのとおり（健康増進法第28条）．
+                <p>第一種施設　多数の者が利用する施設のうち，次に掲げるものをいう．
+                <p>イ　学校，病院，児童福祉施設その他の受動喫煙により健康を損なうおそれが高い者が主として利用する施設として政令で定めるもの
+                <p>ロ　国及び地方公共団体の行政機関の庁舎（行政機関がその事務を処理するために使用する施設に限る．）
+                <p>第二種施設　多数の者が利用する施設のうち，第一種施設及び喫煙目的施設以外の施設をいう．
+                <p>第一種施設では特定屋外喫煙場所以外では屋内外を問わず敷地内禁煙である．
+                <p>第二種施設では，喫煙専用室以外では屋内禁煙である（旅館の個室を除く）．
+                <p>いずれも，これを破った喫煙者，放置した施設管理権原者には罰則がある．
+                <p>第二種施設の喫煙専用室には，20歳未満の者の立入りが禁止されている等の表示のある喫煙専用室標識を掲示しなければならない．    
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='../2022_2/2022-21.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-19.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

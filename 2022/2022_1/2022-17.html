@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-17</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題17</span>&emsp;旅館業法第4条に規定されている次の条文の<span class="whiteFrame"><span class="fontTransparent">　　　</span></span>内に入る語句の組合せとして，<span class="bold">正しい</span>ものはどれか．</span></p>
+        <p>営業者は，旅館業の施設について，<span class="whiteFrame">　ア　</span>，採光，<span class="whiteFrame">　イ　</span>，防湿及び清潔その他<span class="whiteFrame">　ウ　</span>の衛生に必要な措置を講じなければならない．
+        <p><span style="margin-left: 3rem">ア</span><span style="margin-left: 6rem">イ</span><span style="margin-left: 5rem">ウ</span> </p>
+        <p><span class="bold">（1）</span>換気―――――照明――――客室
+        <p><span class="bold">（2）</span>換気―――――照明――――宿泊者
+        <p><span class="bold">（3）</span>換気―――――防音――――客室
+        <p><span class="bold">（4）</span>空気調和―――照明――――宿泊者
+        <p><span class="bold">（5）</span>空気調和―――防音――――客室</p>    
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題17&emsp;正解（2）</span>&emsp;頻出度AAA</span></p>
+        <p><span class="bold">-(2) </span>換気－照明－宿泊者が正しい．
+        <p>興行場法，公衆衛生浴場法にもよく似た規定が存在する（<span class="bold">2022-17-1表</span>参照）．
+        <table>
+            <caption class="bold ">2022-17-1表&emsp;旅館業法，興行場法，公衆浴場法の規定</span></caption>
+            <tr>
+                <td>興行場法</td>
+                <td>営業者は，興行場について，<span class="thin-wavy">換気，照明，防湿</span>及び清潔その他入場者の衛生に必要な措置を講じなければならない．</td>
+            </tr>
+            <tr>
+                <td>旅館業法</td>
+                <td>営業者は，旅館の施設について，<span class="thin-wavy">換気，採光，照明，防湿</span>及び清潔その他宿泊者の衛生に必要な措置を講じなければならない．</td>
+            </tr>
+            <tr>
+                <td nowrap>公衆浴場法</td>
+                <td>営業者は，公衆浴場について，<span class="thin-wavy">換気，採光，照明，保温</span>及び清潔その他入浴者の衛生及び風紀に必要な措置を講じなければならない．</td>
+            </tr>
+            <tr>
+                <td colspan="2">前項の措置の基準については，<span class="thin-wavy">都道府県（保健所を設置する市又は特別区にあっては，市又は特別区）が条例で</span>，これを定める．</td>
+            </tr>
+        </table>
+        <p>旅館業法を基準に考えると，興行場は暗幕で覆うぐらいなので，採光は要らない．公衆浴場で防湿はナンセンスだが保温が必要，旅館は宿泊者，興行場は入場者，浴場は入浴者，などと覚える．
+        <p>これらの法律は生活衛生関係営業法令といわれ，営業に許可のいるものと事前に届け出なければならないものに大別される．
+        <p>許可制の法律：興行場法，旅館業法，興行場法等
+        <p>届け出制の法律：理容師法，美容師法，クリーニング業法    
+        <!-- <p>&emsp;</p> -->
+        <!-- <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-18.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-16.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
