@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-23</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題23</span>&emsp;労働衛生に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p> 
+        <p><span class="bold">（1）</span>有害物の負荷量と個体レベルにおける障害などの程度の関係を，量反応関係と呼ぶ．
+        <p><span class="bold">（2）</span>最大許容濃度とは，作業中のどの時間をとっても曝露濃度がこの数値以下であれば，ほとんど全ての労働者に健康上の悪い影響が見られないと判断される濃度である．
+        <p><span class="bold">（3）</span>許容濃度とは，労働者が1日8時間，週40時間程度，肉体的に激しくない労働強度で有害物質に曝露されても，ほとんど全ての労働者に健康上の悪い影響が見られないと判断される濃度である．
+        <p><span class="bold">（4）</span>許容限界とは，生物が耐えきれなくなるストレス強度の限界のことである．
+        <p><span class="bold">（5）</span>一般の事務所における環境の基準は，労働安全衛生法に基づく事務所衛生基準規則により定められている．   
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題23&emsp;正解（1）</span>&emsp;頻出度AAA</span></p>
+        <p>個体レベルの関係は，「量-影響関係」である．「量-反応関係」は集団レベルの関係である．
+        <p>個体に対する有害物の影響は，その有害物の量（負荷量）が増えるにつれて個体内部での恒常性が保たれなくなり，最終的には死に至る．この負荷量と個体レベルにおける影響の関係を量－影響関係という．
+        <p>環境条件が厳しくなると，集団の中では，影響を受ける人の割合が増えてくる．これを量－反応関係という．
+        <p><span class="bold">-(2) </span>，<span class="bold">-(3) </span>の，「最大許容濃度」，「許容濃度」は日本産業衛生学会の「許容濃度等の勧告」での定義である．最大許容濃度は，健康への影響が大きく，短時間で起こる化学物質などに対して用いられる．
+        <p>勧告された許容濃度等の例：ホルムアルデヒド許容濃度0.1ppm，最大許容濃度0.2ppm，等．
+        <p><span class="bold">-(4) </span>生物が耐え切れなくなるストレス強度の限界を「許容限界」というのに対して，ストレスの影響が最も少ない条件を「至適条件」といい，至適条件が満たされた状態が最も生物にとって快適な状態である．
+        <p><span class="bold">-(5)</span>「事務所衛生基準規則」⇛ <a href="../2022_1/2022-19.html#tab2" target="_blank" rel="noopener noreferrer">本年問題19解説</a>
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-24.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-22.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索引のページへ</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
