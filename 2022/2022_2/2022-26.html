@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-26</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題26</span>&emsp;寒冷障害(ヒトの低温障害)に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p> 
+        <p><span class="bold">（1）</span>5℃以下の水に突然つかると，5～15分間で生命にかかわる低体温症を生じる．
+        <p><span class="bold">（2）</span>気温が13～16℃程度でも天候によっては低体温症となることがある．
+        <p><span class="bold">（3）</span>乳幼児や高齢者は寒さへの適応力が低く，低体温症のリスクが高い．
+        <p><span class="bold">（4）</span>低体温症の診断は脇の下の体温を測定することで行う．
+        <p><span class="bold">（5）</span>凍傷による障害は，組織の凍結と周辺の血管収縮・血栓による血流阻害により起きる．   
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題26&emsp;正解（4）</span>&emsp;頻出度AAA</span></p>
+        <p>低体温症の診断は，外気温の影響の少ない直腸温で行う（成人で，体温計を肛門から4〜5cm程度挿入して計測する）．
+        <p>低体温症とは，核心温（深部体温）が35℃未満をいう．体温が31℃以下になると死亡するリスクが高まり，28℃以下では死亡する可能性が極めて高くなる．
+        <p>人間の重要な臓器のある頭部や体幹の温度は環境条件にかかわらず約37℃で一定の狭い範囲に保たれている．このように，外気温が変動しても影響を受けにくい身体内部を核心部といい，その温度を核心温という．体温とは普通この核心温を言う．それに対して外気温の変動によりその温度も影響を受ける部分を外層部といい，その温度を外層温という．
+        <p>深部体温が一定に保たれるのは，恒常性（ホメオスタシス）の一例であり，恒常性が保たれるのは，健康の前提である．
+        <p>核心温の指標として，直腸温・食道温・鼓膜温・<ruby>舌下<rt>ぜっか</rt></ruby>温・<ruby>腋下<rt>えきか</rt></ruby>温等が状況に応じて用いられる．直腸温は外気の影響を受けにくく，最も核心温に近い．
+        <p><span class="bold">-(5)</span>凍傷では，凍ってしまった組織が壊死する場合がある．よく似た言葉に<ruby>凍瘡<rt>とうそう</rt></ruby>があるが，これはいわゆる”しもやけ”で，繰り返し冷気に暴露されることによって，痒み，痛み，皮膚の変色，水疱などの症状を示す．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-27.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-25.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

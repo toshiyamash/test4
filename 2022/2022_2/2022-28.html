@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-28</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題28</span>&emsp;空気環境に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p> 
+        <p><span class="bold">（1）</span>良好な室内空気環境を維持するためには，一般に1人当たり30m<sup>3</sup>/h以上の換気量が必とされている．
+        <p><span class="bold">（2）</span>一般の室内環境下では，窒素の人体への健康影響はない．
+        <p><span class="bold">（3）</span>空気中の酸素濃度が16%程度になると意識障害やけいれんが生じる．
+        <p><span class="bold">（4）</span>二酸化炭素濃度は，室内空気の汚染や換気の総合指標として用いられる．
+        <p><span class="bold">（5）</span>窒素は，大気の約78％を占める．   
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題28&emsp;正解（3）</span>&emsp;頻出度AAA</span></p>
+        <p>酸素欠乏による意識障害やけいれんが起こるのは，酸素濃度10％以下である（<span class="bold">2022-28-1表</span>参照）．
+        <p class="cap">2022-28-1表&emsp;酸素濃度の影響
+        <table>
+            <tr>
+                <td class="textcenter">濃度［％］</td>
+                <td class="textcenter">症状</td>
+            </tr>
+            <tr>
+                <td class="textcenter">17～16</td>
+                <td>呼吸・脈拍増加，めまい</td>
+            </tr>
+            <tr>
+                <td class="textcenter">15～14</td>
+                <td>労働困難になる．注意力・判断力の低下．</td>
+            </tr>
+            <tr>
+                <td class="textcenter">11～10</td>
+                <td>呼吸困難となり，眠気を催し，動作が鈍くなる．</td>
+            </tr>
+            <tr>
+                <td class="textcenter">10以下</td>
+                <td>意識障害，けいれんが生じる．</td>
+            </tr>
+            <tr>
+                <td class="textcenter">7～6</td>
+                <td>顔色が悪く，口唇は青紫色になり，感覚鈍重となり，知覚を失う．</td>
+            </tr>
+            <tr>
+                <td class="textcenter">4以下</td>
+                <td>40秒以内に知覚を失い，卒倒する．</td>
+            </tr>
+        </table>
+        <p>人体の臓器で，酸素欠乏に対して最も敏感なのは脳である．
+        <p><span class="bold">-(1) </span>通常は，人体から発生する二酸化炭素を基準として必要換気量を求めることが多い．
+        <p>ビル管理法の二酸化炭素の環境衛生管理基準値「1,000ppm以下」を保つための，1人当たりの換気量\(Q\)［m<sup>3</sup>/h］を求めてみよう・
+        <p>人が呼吸で発生する二酸化炭素の量を0.020m<sup>3</sup>/(人･h)（事務作業），外気の二酸化炭素の濃度を350ppmと仮定すると，
+        <div>
+            \[Q=\frac{M}{C-C_o}\times 10^6 = \frac{0.020}{1000-350}\times 10^6=30.77\]            
+        </div>
+        <p>これから，およそ30m<sup>3</sup>/(人･h)の換気量を確保すればビル管理法の二酸化炭素の基準値1,000ppmを保つことができるとわかる．
+        <p><span class="bold">-(4) </span>人間の活動には必ず二酸化炭素の発生がついて回るので，空気汚染の総合指標となる．
+        <p><span class="bold">-(5) </span>清浄空気の組成は<span class="bold">2022-28-2表</span>参照．
+        <p class="cap">2022-28-2表&emsp;清浄空気の組成（容積比［％］）
+        <table>
+            <tr>
+                <td>窒素</td>
+                <td class="textcenter">78.1</td>
+            </tr>
+            <tr>
+                <td>酸素</td>
+                <td class="textcenter">20.93</td>
+            </tr>
+            <tr>
+                <td>アルゴン</td>
+                <td class="textcenter">0.93</td>
+            </tr>
+            <tr>
+                <td>二酸化炭素</td>
+                <td class="textcenter">0.04</td>
+            </tr>
+        </table>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-29.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-27.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

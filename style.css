@@ -195,7 +195,7 @@
       display: grid;
       /* 基本は1列（スマホ用） */
       grid-template-columns: 1fr; 
-      gap: 15px;
+      gap: 10px;
     }
 
     /* 画面が広くなったら自動計算に切り替える */
@@ -301,3 +301,6 @@
       box-sizing: border-box;
     }
 
+    h3{
+      text-align: center; 
+    }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-29</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題29</span>&emsp;浮遊粉じんに関する次の文章の<span class="whiteFrame">　　　</span>内に入る数値の組合せとして，<span class="bold">最も適当な</span>ものはどれか．</span></p> 
+        <p>粒径<span class="whiteFrame">　ア　</span>μm以下の粉じんは長時間にわたり浮遊し，ヒトの気道内に取り込まれる．
+        <p>特に肺に沈着し，人体に有害な影響を及ぼすのは，通常<span class="whiteFrame">　イ　</span>μm程度以下の大きさである．
+        <p><span style="margin-left: 2.5rem;"></span>ア<span style="margin-left: 3rem;">イ</span></p>
+        <p>（1）50<span class="connectLine">　　　</span>10
+        <p>（2）40<span class="connectLine">　　　</span>10
+        <p>（3）20<span class="connectLine">　　　</span>&nbsp;5
+        <p>（4）10<span class="connectLine">　　　</span>&nbsp;5
+        <p>（5）10<span class="connectLine">　　　</span>&nbsp;1   
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題29&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+        <p>10μm － 1μmが正しい．
+        <p>空気中の粉じんのうち，相対沈降径<sup>※1</sup>が10μm<sup>※2</sup>以上のものは発じんしても直ぐに沈降するので人の呼吸器官に吸込まれることは少ない．したがってビル管理法でも測定対象となるのは粒径がおおむね10μm以下の粉じんである．5μm程度の粉じんは気道の粘液と有毛細胞の線毛に補足されて，粘液線毛運動によって排出される．したがって，肺に沈着し，人体に有害な影響をおよぼす粉じんは，通常1μm以下の大きさである．
+        <p>※1 相対沈降径とは，粉じんの直径を空気中において当該粉じんと等しい沈降速度を示す比重1の球の直径で表したもの．
+        <p>※2 10μmは人の目が見分けられる限界の大きさといわれる．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-30.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-28.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

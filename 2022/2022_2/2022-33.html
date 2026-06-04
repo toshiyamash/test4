@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-32</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題33</span>&emsp;音に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p> 
+        <p><span class="bold">（1）</span>外耳は耳介，外耳道，鼓膜からなる．
+        <p><span class="bold">（2）</span>音の伝達には気導と骨導がある．
+        <p><span class="bold">（3）</span>サウンドアメニティーとは，快い音環境のことである．
+        <p><span class="bold">（4）</span>聴力はオージオメーターの基準音圧レベルを基準として測定される．
+        <p><span class="bold">（5）</span><ruby>蝸<rt>か</rt></ruby>牛は内耳に含まれ，蝸牛内部には有毛細胞をもつコルチ器がある． 
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題33&emsp;正解（1）</span>&emsp;頻出度AA</span></p>
+        <p>鼓膜は中耳にある（<span class="bold">2022-33-1図</span>参照）．
+        <p class="cap">2022-33-1図&emsp;耳の構造
+        <div class="container">
+            <img src="../../images/image_2/耳の構造.svg" alt="耳の構造">
+        </div>
+        <p class="source">出典&emsp;たなか耳鼻咽喉科</span><br>
+            http://www.tanaka-ent.or.jp/mimi-kozo.html&nbsp;を基に作成
+        <p><span class="bold">-(2) </span>気導が，音が外耳と中耳を通して内耳へ伝えられることを言うのに対して，骨導とは，音が頭<ruby>蓋<rt>がい</rt></ruby>骨と軟部組織の機械振動を通して内耳へ伝えられることをいう（録音された自分の声を聴くと違和感を感じるのは，録音されているのは気導だけによる音声なのに対し，普段我々は自分の声を，気導と骨導のミックスで聞いているからである）．
+        <p><span class="bold">-(3) </span>快い音環境を意味するサウンドアメニティーは，低い暗騒音に，環境音楽や鳥のさえずり，せせらぎの音などで構成される．
+        <p><span class="bold">-(4) </span>オージオメーターで測定される聴力レベル［dB］は，数値が小さいほど聴力がよいことを意味し，マイナスであれば標準の聴力（0dB）を上回っていることになる．
+        <p><span class="bold">-(5) </span>内耳の<ruby>蝸牛<rt>かぎゅう</rt></ruby>は長さ3cmほどの管が2回転半している．内部は前庭階，蝸牛管，鼓室階の3層に分かれ，いずれもリンパ液で満たされている．耳小骨から伝わった気導音波振動もしくは骨導音波振動はリンパ液を揺らし，その揺れが，蝸牛管の下壁のコルチ器の有毛細胞を揺らして興奮させ，リンパ液の振動が電気信号に変換される．電気信号は蝸牛神経を経て脳の聴覚野に届き，音として認識される．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-33.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-31.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
