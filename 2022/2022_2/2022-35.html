@@ -6,9 +6,16 @@
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="../../style.css">
 
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-  <title>2025-34</title>
+  <title>2022-35</title>
 
 </head>
 
@@ -20,20 +27,19 @@
     </ul>
 
     <div id="tab1">
-        <p>2025年</p>
-        <p><span class="bold">問題34</span>&emsp;振動に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
-        <p><span class="bold">（1）</span>都市部における全身振動の振動源には，建設機械，道路交通，工場等がある．
-        <p><span class="bold">（2）</span>バスやフォークリフトで知覚される振動は局所振動である．
-        <p><span class="bold">（3）</span>ヒトにおける振動の知覚は，全身に分布する知覚神経末端受容器によってなされる．
-        <p><span class="bold">（4）</span>1秒間の振動回数を周波数といい，単位はHzである．
-        <p><span class="bold">（5）</span>局所振動による末梢の循環障害の誘因の一つに寒冷がある．
-     </div>
+        <p>2022年</p>
+        <p><span class="bold">問題35</span>&emsp;振動に関する次の記述のうち，<span class="bold">最も適当な</span>ものはどれか．</span></p> 
+        <p><span class="bold">（1）</span>地震の震度は，気象庁の職員の体感によって測定される.
+        <p><span class="bold">（2）</span>レイノー現象は，温度が高く代謝が上昇する夏季に起こりやすい．
+        <p><span class="bold">（3）</span>全身振動により，胃腸の働きの抑制が見られる．
+        <p><span class="bold">（4）</span>振動の知覚は，皮膚，内臓，関節等，全身に分布する運動神経末端受容器によりなされる．
+        <p><span class="bold">（5）</span>地面の振動が伝わる際，建築物内床面の振動レベルは減衰により屋外地面上より低くなる． 
+    </div>
 
     <div id="tab2">
-        <p>2025年</p>
-        <p class="bold">問題34&emsp;正解（2）&emsp;頻出度AAA</span>
-        <p>バスやフォークリフトで知覚される振動は全身振動である．
-        <br>バスやトラックなどの交通車両，トラクタ，フォークリフトなどの作業車両の運転者に，比較的強い垂直振動（全身振動）により胃下垂などの内臓下垂や腰痛など骨・関節の障害を生じやすい．</span>
+        <p>2022年</p>
+        <p class="bold">問題35&emsp;正解（3）</span>&emsp;頻出度AAA</span></p>
+        <p>振動の直接的な生理的影響はおよそ振動レベル100dB以上の強い振動で起こり，呼吸数の増加，血圧の上昇，胃腸の働きの阻害，不安感や疲労感を覚えるなど自律神経系の影響がある．
         <p>人間の受ける振動は，「全身振動」と「局所振動」</span>に分けられる．環境要因として問題になる振動（環境振動</span>）は，全身振動で1～90Hz，局所振動で8～1,000Hzである．
         <p>＜全身振動＞<br>
         全身振動の知覚は主に内耳の前庭器官と三半規管が加速度の変位を感知することによる．<br>
@@ -64,12 +70,12 @@
         <p class="source">出典 独立行政法人労働者健康安全機構
         <br>https://www.research.johas.go.jp/sindou/03.html
         <p>&emsp;</p>
-        <p>&emsp;</p>       
+        <p>&emsp;</p>
     </div>
 
     <div id="buttons">
-      <button type="button" class="btn-outline" onclick="location.href='2025-35.html'">次問へ</button>
-      <button type="button" class="btn-outline" onclick="location.href='2025-33.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-36.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-34.html'">前問へ</button>
       <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
       <a href="../../sakuin.html" target="_blank">
       <button type="button" class="btn-outline">索　引</button>
@@ -84,7 +90,7 @@
       // 1. タブを初期化
       $("#tabs").tabs();
 
-      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
       if (window.location.hash.indexOf('tab2') !== -1) {
         // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
         $("#tabs").tabs("option", "active", 1);
