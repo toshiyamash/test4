@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="295.58643mm"
-   height="291.2348mm"
-   viewBox="0 0 295.58644 291.23482"
+   width="312.81226mm"
+   height="325.1601mm"
+   viewBox="0 0 312.81227 325.16011"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    sodipodi:docname="空気線図には何が描かれているのか.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,22 +23,22 @@
      inkscape:pagecheckerboard="false"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="524.67323"
-     inkscape:cy="790.54538"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="633.56768"
+     inkscape:cy="636.3961"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer3"
      inkscape:snap-global="false"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#ffffff">
     <inkscape:grid
        type="xygrid"
        id="grid99522"
-       originx="-51.09474"
+       originx="-51.094739"
        originy="-19.139576"
        spacingy="1"
        spacingx="1"
@@ -6873,11 +6873,11 @@
        id="path6"
        sodipodi:nodetypes="cc" />
     <circle
-       style="fill:#ff0000;stroke-width:0.2"
+       style="fill:#ff0000;stroke-width:0.239689"
        id="circle6"
-       cx="189.40523"
-       cy="242.58751"
-       r="2.80633" />
+       cx="183.44821"
+       cy="248.4308"
+       r="3.3632286" />
     <circle
        style="fill:#ff0000;stroke-width:0.2"
        id="path1"
@@ -6897,7 +6897,7 @@
        id="text180098"
        style="font-size:8px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect180100);display:inline" />
     <rect
-       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:1.66834;stroke-dasharray:none"
+       style="opacity:1;fill:#dcecff;fill-opacity:1;stroke:none;stroke-width:1.66834;stroke-dasharray:none"
        id="rect26"
        width="51.520428"
        height="12"
@@ -6906,7 +6906,7 @@
        rx="3"
        ry="3" />
     <rect
-       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.786424;stroke-dasharray:none"
+       style="opacity:1;fill:#dcecff;fill-opacity:1;stroke:none;stroke-width:0.786424;stroke-dasharray:none"
        id="rect29"
        width="84.544724"
        height="12"
@@ -6915,7 +6915,7 @@
        rx="3"
        ry="3" />
     <rect
-       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
+       style="opacity:1;fill:#dcecff;fill-opacity:1;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
        id="rect35"
        width="63.984325"
        height="12"
@@ -6924,7 +6924,7 @@
        rx="3"
        ry="3" />
     <rect
-       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
+       style="opacity:1;fill:#dcecff;fill-opacity:1;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
        id="rect36"
        width="87.557495"
        height="12"
@@ -6933,7 +6933,7 @@
        rx="3"
        ry="3" />
     <rect
-       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
+       style="opacity:1;fill:#dcecff;fill-opacity:1;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
        id="rect37"
        width="41.907864"
        height="12"
@@ -6942,7 +6942,7 @@
        rx="3"
        ry="3" />
     <rect
-       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
+       style="opacity:1;fill:#dcecff;fill-opacity:1;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
        id="rect38"
        width="49.017231"
        height="12"
@@ -6951,7 +6951,7 @@
        rx="3"
        ry="3" />
     <rect
-       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
+       style="opacity:1;fill:#dcecff;fill-opacity:1;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
        id="rect39"
        width="95.789398"
        height="12"
@@ -6960,7 +6960,7 @@
        rx="3"
        ry="3" />
     <rect
-       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
+       style="opacity:1;fill:#dcecff;fill-opacity:1;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
        id="rect40"
        width="56.500778"
        height="12"
@@ -6987,7 +6987,7 @@
        rx="2.3900001"
        ry="1.8708867" />
     <rect
-       style="opacity:1;fill:#ffffff;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
+       style="opacity:1;fill:#dcecff;fill-opacity:1;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
        id="rect1"
        width="56.500778"
        height="12"
@@ -6995,6 +6995,24 @@
        y="159.08324"
        rx="3"
        ry="3" />
+    <rect
+       style="fill:none;fill-opacity:0.803738;stroke-width:1.31968;stroke-dasharray:none"
+       id="rect2"
+       width="156.64159"
+       height="95.126472"
+       x="122.96415"
+       y="238.43376" />
+    <rect
+       style="fill:none;fill-opacity:0.803738;stroke:#000000;stroke-width:0.359533;stroke-dasharray:none"
+       id="rect3"
+       width="131.59161"
+       height="98.614441"
+       x="140.08691"
+       y="239.06795" />
+    <path
+       style="fill:none;fill-opacity:0.803738;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 199.64313,344.29969 h 13.84456"
+       id="path7" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -7003,215 +7021,215 @@
      transform="translate(-215.10632,26.193755)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
-       x="358.32114"
-       y="199.83955"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.45569px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;stroke:none;stroke-width:1.0786;stroke-dasharray:none"
+       x="353.33737"
+       y="206.19591"
        id="text6"><tspan
          sodipodi:role="line"
          id="tspan6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:0.9"
-         x="358.32114"
-         y="199.83955">状態点A</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.45569px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:1.0786"
+         x="353.33737"
+         y="206.19591">状態点A</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="334.41141"
-       y="210.48366"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="319.60947"
+       y="218.95227"
        id="text7"><tspan
          sodipodi:role="line"
          id="tspan7"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="334.41141"
-         y="210.48366">乾球温度</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="319.60947"
+         y="218.95227">乾球温度</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="378.96225"
-       y="210.58549"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="373.00116"
+       y="219.07431"
        id="text8"><tspan
          sodipodi:role="line"
          id="tspan8"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="378.96225"
-         y="210.58549">25℃</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="373.00116"
+         y="219.07431">25℃</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="334.43729"
-       y="217.24142"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="319.6405"
+       y="227.05107"
        id="text9"><tspan
          sodipodi:role="line"
          id="tspan9"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="334.43729"
-         y="217.24142">相対湿度</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="319.6405"
+         y="227.05107">相対湿度</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="378.77304"
-       y="251.13266"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="372.77441"
+       y="267.66782"
        id="text10"><tspan
          sodipodi:role="line"
          id="tspan10"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="378.77304"
-         y="251.13266">17.5℃</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="372.77441"
+         y="267.66782">17.5℃</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="378.9202"
-       y="217.1911"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="372.95078"
+       y="226.99075"
        id="text11"><tspan
          sodipodi:role="line"
          id="tspan11"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="378.9202"
-         y="217.1911">50％</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="372.95078"
+         y="226.99075">50％</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="334.42435"
-       y="224.03152"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="319.625"
+       y="235.18863"
        id="text12"><tspan
          sodipodi:role="line"
          id="tspan12"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="334.42435"
-         y="224.03152">絶対湿度</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="319.625"
+         y="235.18863">絶対湿度</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="379.00104"
-       y="223.80911"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="373.04764"
+       y="234.92207"
        id="text13"><tspan
          sodipodi:role="line"
          id="tspan13"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="379.00104"
-         y="223.80911">0.010kg/kg(DA)</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="373.04764"
+         y="234.92207">0.010kg/kg(DA)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="334.37262"
-       y="244.40189"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="319.56299"
+       y="259.60135"
        id="text14"><tspan
          sodipodi:role="line"
          id="tspan14"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="334.37262"
-         y="244.40189">比エンタルピー</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="319.56299"
+         y="259.60135">比エンタルピー</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="378.9202"
-       y="243.74417"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="372.95078"
+       y="258.81311"
        id="text15"><tspan
          sodipodi:role="line"
          id="tspan15"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="378.9202"
-         y="243.74417">51kJ/kg(DA)</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="372.95078"
+         y="258.81311">51kJ/kg(DA)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="334.38556"
-       y="230.73453"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="319.57849"
+       y="243.22179"
        id="text16"><tspan
          sodipodi:role="line"
          id="tspan16"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="334.38556"
-         y="230.73453">露点温度</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="319.57849"
+         y="243.22179">露点温度</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="334.42435"
-       y="237.54709"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="319.625"
+       y="251.38626"
        id="text17"><tspan
          sodipodi:role="line"
          id="tspan17"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="334.42435"
-         y="237.54709">水蒸気分圧</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="319.625"
+         y="251.38626">水蒸気分圧</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="334.41141"
-       y="251.03027"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="319.60947"
+       y="267.5451"
        id="text18"><tspan
          sodipodi:role="line"
          id="tspan18"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="334.41141"
-         y="251.03027">湿球温度</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="319.60947"
+         y="267.5451">湿球温度</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="334.37262"
-       y="257.76651"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="319.56299"
+       y="275.61807"
        id="text19"><tspan
          sodipodi:role="line"
          id="tspan19"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="334.37262"
-         y="257.76651">比容積</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="319.56299"
+         y="275.61807">比容積</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="334.46317"
-       y="264.57819"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="319.67151"
+       y="283.78149"
        id="text20"><tspan
          sodipodi:role="line"
          id="tspan20"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="334.46317"
-         y="264.57819">飽和度</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="319.67151"
+         y="283.78149">飽和度</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="378.77304"
-       y="230.8591"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="372.77441"
+       y="243.37109"
        id="text21"><tspan
          sodipodi:role="line"
          id="tspan21"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="378.77304"
-         y="230.8591">13.5℃</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="372.77441"
+         y="243.37109">13.5℃</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="378.77304"
-       y="237.51453"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="372.77441"
+       y="251.34724"
        id="text22"><tspan
          sodipodi:role="line"
          id="tspan22"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="378.77304"
-         y="237.51453">1.6kPa</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="372.77441"
+         y="251.34724">1.6kPa</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="379.00104"
-       y="257.59842"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="373.04764"
+       y="275.41663"
        id="text24"><tspan
          sodipodi:role="line"
          id="tspan24"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="379.00104"
-         y="257.59842">0.858m<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:super;stroke-width:0.413951"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="373.04764"
+         y="275.41663">0.858m<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:super;stroke-width:0.496097"
    id="tspan23">3</tspan>/kg(DA)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.413951"
-       x="378.9202"
-       y="264.49887"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.496097"
+       x="372.95078"
+       y="283.68643"
        id="text25"><tspan
          sodipodi:role="line"
          id="tspan25"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.413951"
-         x="378.9202"
-         y="264.49887">49％</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.76454px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.496097"
+         x="372.95078"
+         y="283.68643">49％</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;stroke:none;stroke-width:0.899999;stroke-dasharray:none"
