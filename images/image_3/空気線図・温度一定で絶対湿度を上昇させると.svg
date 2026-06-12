@@ -24,8 +24,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.5287038"
-     inkscape:cx="351.93214"
-     inkscape:cy="149.80011"
+     inkscape:cx="335.57842"
+     inkscape:cy="134.10054"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -13618,15 +13618,17 @@
        stroke-linecap="square"
        style="stroke-opacity:1.0;stroke:#000000" />
     <rect
-       x="-121.7996"
-       y="39.111282"
-       width="73.468697"
-       height="17.3785"
+       x="-122.83807"
+       y="39.500214"
+       width="70.180237"
+       height="16.600637"
        id="rect40776"
-       stroke-width="0.302868"
+       stroke-width="0.289312"
        stroke-linecap="square"
        fill="#ffffff"
-       style="fill:#ffffff;fill-opacity:0.8037383" />
+       style="fill:#ffffff;fill-opacity:0.803738"
+       rx="5"
+       ry="5" />
     <text
        id="text14644"
        stroke-width="0.264583"
