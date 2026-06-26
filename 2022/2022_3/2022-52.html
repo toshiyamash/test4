@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式をｘ倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-52</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題52</span>&emsp;流体の基礎に関する次の文章の<span class="whiteFrame">　　　</span>内に入る語句の組合せとして，<span class="bold">正しい</span>ものはどれか．</span></p>
+        <p>摩擦のないダクト中を進む流れを考え，流れの上流側にA断面，下流側にB断面をとる．
+        <p>ダクト内の流管の二つの断面A，Bにおける流れの力学的エネルギーの保存を仮定すると次のようなベルヌーイの定理を表す式が得られる．
+        ただし，\(\rho\)
+        ：密度，\(a\)：<span class="whiteFrame">　ア　</span>，\(b\)：<span class="whiteFrame">　イ　</span>，\({\rm g}\)：重力加速度，\(c\)：<span class="whiteFrame">　ウ　</span>とする．
+          \[\frac{1}{2}\rho a^2+b+\rho{\rm g}c={\rm 一定}\]
+        <p><span style="margin-left: 3rem;"></span>ア<span style="margin-left: 4rem;">イ</span></span><span style="margin-left: 4rem;">ウ</span></p>
+        <p><span class="bold">（1）</span>速度<span class="connectLine">　　　</span>静圧<span class="connectLine">　　　</span>高さ
+        <p><span class="bold">（2）</span>速度<span class="connectLine">　　　</span>動圧<span class="connectLine">　　　</span>高さ
+        <p><span class="bold">（3）</span>高さ<span class="connectLine">　　　</span>静圧<span class="connectLine">　　　</span>速度
+        <p><span class="bold">（4）</span>静圧<span class="connectLine">　　　</span>高さ<span class="connectLine">　　　</span>速度
+        <p><span class="bold">（5）</span>動圧<span class="connectLine">　　　</span>高さ<span class="connectLine">　　　</span>速度    
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題52&emsp;正解（1）</span>&emsp;頻出度AAA</span></p>
+        <p>\(a\)（ア）は「速度」，\(b\)（イ）は「静圧」，\(c\)（ウ）は「高さ」である．
+        <p><a href="2022-51.html#tab2#:~:text=連続の式という" target="_blank" rel="noopener noreferrer">前問</a>にもある連続の式は，摩擦のない理想的な流体では，流体のどこをとっても単位時間に流れる質量は一定であることを示している．この式に力学的エネルギー保存の法則を適用するとベルヌーイの定理を導くことができる．
+        <p>ベルヌーイの定理によれば，摩擦のない理想的な流体では，単位時間にある断面を通過する流体の持つエネルギーは，運動エネルギー，圧力のエネルギー，外力によるエネルギー（位置エネルギー）の合計となり，ダクトのどの断面をとってもその値は一定となる．すなわち，
+          \[\frac{1}{2}mU^2+PV+m{\rm g}h={\rm 一定}\]
+        <div class="leftcenter">
+            ただし，<br>
+            \(m\)：質量［kg］，<br> 
+            \(U\)：流速［m/s］， <br>
+            \(P\)：圧力［Pa］， <br>
+            \(V\)：体積［m<sup>3</sup>］， <br>
+            \(h\)：高さ［m］， <br>
+            \({\rm g}\)：重力加速度（9.8m/s<sup>2</sup>）．
+        </div>
+        <p>流体の密度を\(\rho\)［kg/m<sup>3</sup>］，体積を\(V\)［m<sup>3</sup>］とすれば，\(m=V\times \rho\)であるから，この式を\(V\)で除した，
+          \[\frac{1}{2}\rho U^2+P+\rho{\rm g}h=H\ {\rm （一定）}\]
+        <p>も成り立つ．この式の各項は圧力［Pa］の次元をもち，第1項を動圧，第2項を静圧，第3項を位置圧，\(H\)を全圧と呼ぶ．
+        <p>流体が空気のように気体の場合は，位置圧は無視してよいほど小さいので，
+          \[\frac{1}{2}\rho U^2+P=H\ {\rm （一定）}\]
+        <p>すなわち，動圧＋静圧＝全圧としてよい．この式は，流体の速度が小さくなれば静圧が大きくなり，速度が速くなれば静圧が小さくなる，すなわち動圧と静圧は交互に変換することを示している．
+        <p>なお，ここでいう圧力とは絶対圧力である．圧力計(ゲージ)で測った圧力はゲージ圧といい，絶対圧力＝ゲージ圧＋その場所の大気圧である．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-53.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-51.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
