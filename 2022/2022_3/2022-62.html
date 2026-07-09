@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1 /* 全体の数式をｘ倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-62</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題62</span>&emsp;下に示す湿り空気線図上のア～オは，加湿・除湿操作による状態変化を表している．各状態変化と加湿・除湿操作との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span></p>
+        <div class="container">
+            <img src="../../images/image_3/2022-62問題添付図1.svg" alt="問題添付図1">
+        </div>
+        <p><span class="bold">（1）</span>ア<span class="connectLine">　　　</span>蒸気加湿
+        <p><span class="bold">（2）</span>イ<span class="connectLine">　　　</span>気化式加湿
+        <p><span class="bold">（3）</span>ウ<span class="connectLine">　　　</span>空気冷却器による冷却除湿
+        <p><span class="bold">（4）</span>エ<span class="connectLine">　　　</span>液体吸収剤による化学的除湿
+        <p><span class="bold">（5）</span>オ<span class="connectLine">　　　</span>シリカゲルなどの個体吸着剤による除温
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題62&emsp;正解（1）</span>&emsp;頻出度AAA</span></p>
+        <p>アは蒸気加湿ではない．蒸気加湿では状態点はほぼ垂直（わずかに右傾斜）に移動する（<span class="bold">2022-62-1図</span>参照）．
+        <p class="cap">2022-62-1図&emsp;湿り空気線図上の加湿・除湿
+        <div class="container">
+            <img src="../../images/image_3/空気線図・加湿・除湿.svg" alt="湿り空気線図上の加湿・除湿">
+        </div>
+        <p>加湿をしたときの状態点の移動方向（勾配）は熱水分比\(u\)［kJ/kg］で決まる（湿り空気線図の左上の半円形の熱水分比スケールで勾配を求めることができる）．
+          \[u=\frac{\varDelta h}{\varDelta x}=\frac{i_w \varDelta x}{\varDelta x}=i_w\]
+        <div class="leftcenter">
+            ただし，<br>
+            \(\varDelta h\)：熱量の変化［kJ］，<br> 
+            \(\varDelta x\)：絶対湿度量の変化［kg］，<br>
+            \(i_w\)：加湿に用いた水，水蒸気の比エンタルピー［kJ/kg(DA)］<br>（つまり，加湿に使用した水分の比エンタルピーで決まる）．
+        </div>
+        <p>上図で，&#9312;は水加湿を示している．常温の水の比エンタルピー約42kJ/kgは\(u=0\)とみなしてよいので，ほぼ比エンタルピー一定の線に沿って状態点は移動する（その時温度は低下することが分かる）．&#9314;は蒸気加湿を示す．100℃の蒸気の比エンタルピーは約2,600kJ/kgなので，状態点はほぼ垂直(わずかに右傾斜)に上に移動する（温度はわずかに上昇する）．&#9313;は温水加湿を示し，パン型加湿器のように電熱器を空調機内にもつ加湿器では空気温度はさらに上昇する（&#9315;，垂直より右に傾く）．
+        <p>除湿の方は，&#x24b6;は一般的な空調機内での冷却除湿を表している．&#x24b7;，&#x24b8;はデシカント（乾燥剤）による除湿で，同じ除湿量なら，個体吸着剤の吸着熱の方が液体吸収剤の吸収熱より大きい．これは，液体吸収剤での発熱は水の凝縮熱なので，水加湿の逆の過程で，湿球温度は一定となるが，個体吸着剤では，固体表面と水蒸気分子間の相互作用によって分子間力が開放されて発生する熱が加わるため，その分温度上昇が大きくなる．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-63.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-61.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

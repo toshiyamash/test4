@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1 /* 全体の数式をｘ倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-58</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題58</span>&emsp;アレルゲンと微生物に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>オフィスビル内のアレルゲンの大部分は細菌類である．
+        <p><span class="bold">（2）</span>空気調和機内は，微生物の増殖にとって好環境となる．
+        <p><span class="bold">（3）</span>アルテルナリアは，一般環境中に生育するカビである．
+        <p><span class="bold">（4）</span>ダンプネスは，過度の湿気を原因とするカビ臭さや微生物汚染等の開題が確認できるような状態をいう．
+        <p><span class="bold">（5）</span>大部分のダニアレルゲンの粒径は，数μm以上である．   
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題58&emsp;正解（1）</span>&emsp;頻出度AAA</span></p>
+        <p>オフィス内の主要なアレルゲンは，室内に存在するハウスダストである．
+        <p>さらに，ハウスダストのうちアレルゲンの主要なものはヒョウヒダニ類のダニアレルゲンである．ダニは，高温多湿になる夏に多いので，アレルゲン量はダニの死骸や糞等が蓄積される秋に最大になると考えられる．
+        <p><span class="bold">-(2) </span>空気調和機内の温湿度は微生物の増殖にとって好環境で，特に還気ダクトは室内条件に近く，生存条件に適している上に，入口にフィルタがないので，細菌・真菌濃度は給気ダクトの5～10倍多い．
+        <p><span class="bold">-(3) </span>アスペルギルス，ペニシリウム，アルテルナリア，フザリウム，クラドスポリウムはいずれも一般環境中にありふれたカビアレルゲンである．
+        <p><span class="bold">-(4) </span>室内の高湿度状態をダンプネス（Dampness）という．汗の蒸発を妨げて体感温度を上昇させる（蒸し暑さを感じる）．汗ばみにより衣服等を汚す．建築物に結露が生じ，建材の腐朽，かびやダニが発生する．これによってアレルギー疾患の発症への影響もある．
+        <p><span class="bold">-(5) </span>ダニ，カビ，杉，ブタクサの花粉などのアレルゲンは，粒子状物質としてみた場合その大部分は数μm以上の大きさで，エアフィルタによる除去が有効であると考えられる．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-59.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-57.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

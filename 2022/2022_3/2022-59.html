@@ -9,13 +9,13 @@
     <script>
     window.MathJax = {
         chtml: {
-        scale: 1.1 /* 全体の数式を1.1倍（110%）にする */
+        scale: 1 /* 全体の数式をｘ倍にする */
         }
     };
     </script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-  <title>2025-57</title>
+  <title>2022-59</title>
 
 </head>
 
@@ -27,22 +27,20 @@
     </ul>
 
     <div id="tab1">
-        <p>2025年</p>
-        <p><span class="bold">問題57</span>&emsp;エアロゾル粒子とその測定粒径との組合せとして，<span class="bold">最も適当な</span>ものは次のうちどれか．
-        <p><span class="bold">（1）</span>細菌<span class="connectLine">　　　　　</span>0.01μm
-        <p><span class="bold">（2）</span>海塩粒子<span class="connectLine">　　　</span>0.1μm
-        <p><span class="bold">（3）</span>ウイルス<span class="connectLine">　　　</span>1.0μm
-        <p><span class="bold">（4）</span>たばこ煙<span class="connectLine">　　　</span>10μm
-        <p><span class="bold">（5）</span>カビ胞子<span class="connectLine">　　　</span>100μm
-     </div>
+        <p>2022年</p>
+        <p><span class="bold">問題59</span>&emsp;エアロゾル粒子の一般的な粒径として，<span class="bold">最も小さい</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>噴霧液滴
+        <p><span class="bold">（2）</span>硫酸ミスト
+        <p><span class="bold">（3）</span>セメントダスト
+        <p><span class="bold">（4）</span>フライアッシュ
+        <p><span class="bold">（5）</span>たばこ煙   
+    </div>
 
     <div id="tab2">
-        <p>2025年</p>
-        <p class="bold">問題57&emsp;正解（2）&emsp;頻出度AAA</span>
-        <p>海塩粒子の粒径が0.03〜0.5μｍなので<span class="bold">-(2)</span>が正しい（<span class="bold">2025-57-1表</span>参照）．
-        <p>「エアロゾル化する海塩粒子の大部分は、海面に浮かんでいる気泡が破裂した際に空中に舞う微小水滴が蒸発してできたものである。」
-        <br>「海塩粒子は、エアロゾルとして空中を漂う間に、湿った空気と接して凝結核（雲核）となり、雲を生成する素となる。また、海塩粒子は海風に乗って海岸の構造物に吹きつけ、金属に付着すると腐食を起こして錆の原因となる。」（Wikipedia）．
-        <p class="bold textcenter ">2025-57-1表&emsp;代表的なエアロゾル等の粒径</span>
+        <p>2022年</p>
+        <p class="bold">問題59&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+        <p>この中では，たばこ煙粒子が0.01～1μmで最も小さい（<span class="bold">2022-59-1表</span>参照）
+        <p class="bold textcenter ">2022-59-1表&emsp;代表的なエアロゾル等の粒径</span>
         <table>
             <tr>
                 <td class="textcenter">エアロゾルの種類</td>
@@ -101,14 +99,15 @@
                 <td class="textcenter">100～2,000</td>
             </tr>
         </table>
-        <p>エアロゾル（aerosol）の正確な意味は，微小な液体または固体の粒子が分散した気体のことである．  
+        <p>エアロゾル（aerosol）の正確な意味は，微小な液体または固体の粒子が分散した気体のことである．
+        <p>この問題ではたばこ煙が最も小さかったが，ウイルスが選択肢にあれば，迷わずウイルスを選んでおけばよい．ウイルスは格段に小さい．
         <!-- <p>&emsp;</p> -->
         <p>&emsp;</p>
     </div>
 
     <div id="buttons">
-      <button type="button" class="btn-outline" onclick="location.href='2025-58.html'">次問へ</button>
-      <button type="button" class="btn-outline" onclick="location.href='2025-56.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-60.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-58.html'">前問へ</button>
       <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
       <a href="../../sakuin.html" target="_blank">
       <button type="button" class="btn-outline">索　引</button>
@@ -123,7 +122,7 @@
       // 1. タブを初期化
       $("#tabs").tabs();
 
-      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
       if (window.location.hash.indexOf('tab2') !== -1) {
         // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
         $("#tabs").tabs("option", "active", 1);
