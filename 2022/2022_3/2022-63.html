@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1 /* 全体の数式をｘ倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-63</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題63</span>&emsp;個別方式の空気調和設備に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>水熱源ヒートポンプ方式のパッケージ型空調機は，圧縮機を内蔵するため騒音源として注意が必要である．
+        <p><span class="bold">（2）</span>分散設置型空気熱源ヒートポンプ方式には，電動のヒートポンプ(EHP)の他に，ガスエンジン駆動のヒートポンプ(GHP)がある．
+        <p><span class="bold">（3）</span>ピル用マルチパッケージとは，1台の室外機に複数の室内機を接続するタイプである．
+        <p><span class="bold">（4）</span>ピル用マルチパッケージには，同一室外機系統でも室内機ごとに冷暖房が選択できる冷暖房同時型というタイプがある．
+        <p><span class="bold">（5）</span>空気熱源ヒートポンプは，冷房時にデフロスト運転(除霜運転)による効率低下が発生することがある．
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題63&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+        <p>デフロスト（除霜）運転は暖房時に行う．
+        <p>ヒートポンプを暖房運転している場合，室外機の熱交換器コイルは蒸発器となり，周辺空気より低温となることによって，周辺空気から吸熱している．気温が10℃を下回ると，蒸発器コイルの温度は氷点下になるためコイル表面に，周辺空気の水蒸気が凝固し，霜がつく状態になる．気象条件によっては室外機全体が氷結してしまい，運転不能となる．こういった事態を避けるために，ヒートポンプ空調機はデフロスト運転の機能を持っている．デフロスト運転では，冷媒回路を切り変えて圧縮機の吐出しガス（ホットガス）を室外機のコイルに流し，加熱して霜を除去する．この間暖房運転は中断することになる（<span class="bold">2022-63-1図</span>参照）．
+        <p class="cap">2022-63-1図&emsp;ヒートポンプのデフロスト運転
+        <div class="textcenter">
+            <img src="../../images/image_3/ヒートポンプ・デフロスト.svg" alt="ヒートポンプのデフロスト運転">
+        </div>
+        <p>参考までに冷房モードの冷媒回路図も挙げておく（<span class="bold">2022-63-2図</span>）．
+        <p class="cap">2022-63-2図&emsp;ヒートポンプの冷房運転回路
+        <div class="textcenter">
+            <img src="../../images/image_3/ヒートポンプの冷房運転回路.svg" alt="ヒートポンプの冷房運転回路">
+        </div>
+        <p><span class="bold">-(1) </span>（分散設置型）水熱源ヒートポンプ方式は，室内機の騒音と，天井内に張り巡らした冷温水管からの水漏れに悩まされることがある（<span class="bold">2022-63-3図</span>参照）．
+        <p class="cap">2022-63-3図&emsp;分散設置型水熱源ヒートポンプ方式
+        <div class="textcenter">
+            <img src="../../images/image_3/分散設置型水熱源ヒートポンプ方式.svg" alt="分散型設置型水熱源ヒートポンプ方式"> 
+        </div>
+        <p><span class="bold">-(2) </span>GHPでは，ガスエンジンの排気熱を有効利用できるので寒冷地の暖房に向く．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-64.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-62.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
