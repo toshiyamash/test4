@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1 /* 全体の数式をｘ倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-66</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題66</span>&emsp;蒸気圧縮冷凍サイクルに関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>凝縮器により冷媒が液化する．
+        <p><span class="bold">（2）</span>圧縮機により冷媒の比エンタルピーが増加する．
+        <p><span class="bold">（3）</span>膨張弁により冷媒の圧力が低下する．
+        <p><span class="bold">（4）</span>蒸発器により冷媒がガス化する．
+        <p><span class="bold">（5）</span>冷凍サイクルでは凝縮器，圧縮機，膨張弁，蒸発器の順に冷媒が循環する．
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題66&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+        <p>蒸気圧縮式冷凍サイクルは，圧縮機⇒凝縮器⇒膨張弁⇒蒸発器⇒圧縮機･･･と冷媒が循環する．
+        <p>蒸気圧縮式冷凍サイクルとは，最も普及しているフロン等を使った冷凍機の冷媒サイクルのことである（<span class="bold">2022-66-1図</span>，<span class="bold">2022-66-1表</span>，<span class="bold">2022-66-2表</span>参照）．    
+        <p class="cap">2022-66-1図&emsp;蒸気圧縮式冷凍サイクル
+        <div class="container">
+        <img src="../../images/image_3/蒸気圧縮式冷凍サイクル.svg" alt="蒸気圧縮式冷凍サイクル"></div>
+        <p>&emsp;</p>
+                <p class="cap">2022-66-1表&emsp;蒸気圧縮式冷凍サイクル
+        <table>
+                <tr>
+                    <td class="textcenter">サイクル</td>
+                    <td class="textcenter">行程</td>
+                    <td class="textcenter">説明（冷媒の状態）</td>
+                    <td class="textcenter">温度</td>
+                    <td class="textcenter">圧力</td>
+                    <td class="textcenter">比エンタルピー</td>
+                </tr>
+                <tr>
+                    <td class="textcenter" nowrap>A → B</td>
+                    <td class="textcenter">圧縮</td>
+                    <td>冷媒は圧縮され高温高圧へ</td>
+                    <td class="textcenter">上昇</td>
+                    <td class="textcenter">上昇</td>
+                    <td class="textcenter">増加</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">B → C</td>
+                    <td class="textcenter">凝縮</td>
+                    <td>凝縮して湿り蒸気から液体冷媒へ</td>
+                    <td class="textcenter">一定</td>
+                    <td class="textcenter">一定</td>
+                    <td class="textcenter">減少</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">C → D</td>
+                    <td class="textcenter">膨張</td>
+                    <td>膨張弁を通り，低圧低温へ</td>
+                    <td class="textcenter">低下</td>
+                    <td class="textcenter">低下</td>
+                    <td class="textcenter">一定</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">D → A</td>
+                    <td class="textcenter">蒸発</td>
+                    <td>湿り蒸気から過熱蒸気へ</td>
+                    <td class="textcenter">一定</td>
+                    <td class="textcenter">一定</td>
+                    <td class="textcenter">増加</td>
+                </tr>
+        </table>
+        <p>&emsp;</p>
+                <p class="cap">2022-66-2表&emsp;蒸気圧縮式冷凍サイクルの構成機器
+        <table>
+            <tr>
+                <td>冷媒</td>
+                <td>フロン，アンモニア，二酸化炭素等</td>
+            </tr>
+            <tr>
+                <td nowrap>圧縮機</td>
+                <td>気化した冷媒を圧縮して高圧高温の冷媒とする．</td>
+            </tr>
+            <tr>
+                <td>凝縮器</td>
+                <td>高温の冷媒ガスが放熱し凝縮して液体冷媒となる．</td>
+            </tr>
+            <tr>
+                <td>膨張弁</td>
+                <td>蒸発器での蒸発に備えて，冷媒を低圧低温の状態にする．</td>
+            </tr>
+            <tr>
+                <td>蒸発器</td>
+                <td>液体冷媒が吸熱して蒸発し，冷水を冷やす．</td>
+            </tr>
+        </table>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-67.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-65.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

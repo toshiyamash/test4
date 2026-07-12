@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1 /* 全体の数式をｘ倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-69</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題69</span>&emsp;密関型冷却塔に関す次の文章の<span class="whiteFrame">　　　</span>内に入る語句の組合せとして，<span class="bold">最も適当な</span>ものはどれか．</span></p>
+        <p>密閉型冷却塔は，水と空気が<span class="whiteFrame">　ア　</span>熱交換となるため，通風抵抗と送風機動力が<span class="whiteFrame">　イ　</span>する．また，冷却水の散布水系統の保有水量は開放型冷却塔と比べて<span class="whiteFrame">　ウ　</span>．
+        <p><span style="margin-left: 3rem;"></span>ア<span style="margin-left: 4rem;">イ</span><span style="margin-left: 4rem;">ウ</span></p>
+        <p><span class="bold">（1）</span>間接<span class="connectLine">　　　</span>増加<span class="connectLine">　　　</span>多い
+        <p><span class="bold">（2）</span>間接<span class="connectLine">　　　</span>減少<span class="connectLine">　　　</span>少ない
+        <p><span class="bold">（3）</span>直接<span class="connectLine">　　　</span>減少<span class="connectLine">　　　</span>多い
+        <p><span class="bold">（4）</span>直接<span class="connectLine">　　　</span>増加<span class="connectLine">　　　</span>少ない
+        <p><span class="bold">（5）</span>間接<span class="connectLine">　　　</span>増加<span class="connectLine">　　　</span>少ない
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題69&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+        <p>密閉型冷却塔は，間接熱交換のための熱交換器を有し，そのため開放型冷却塔と比較して通風抵抗が増し，送風機の動力が大きくなる．散布水系統は冷却塔の中で循環するだけなので保有水量は少ない．（<span class="bold">2022-69-1図</span>参照）
+        <p class="cap">2022-69-1図&emsp;開放型冷却塔と密閉型冷却塔
+        <div class="container">
+            <img src="../../images/image_3/開放型冷却塔と密閉型冷却塔.svg" alt="開放型冷却塔と密閉型冷却塔">
+        </div>
+        <p>開放型冷却塔では，冷却水自らが蒸発して冷却されるのに対し，密閉型冷却塔は，開放型冷却塔の充填材の部分に多管式・フィン付き管式又はプレート式などの熱交換器(コイル)を持ち，熱交換器の外面に散布した水の蒸発潜熱を利用して管内の冷却水を冷却する．大気による冷却水の汚染がないため，冷凍機の信頼性への要求が高い電算室やクリーンルーム系統の冷却塔としての採用例が多い．
+        <p>密閉型冷却塔は同じ冷却能力を得るのに開放型より大型となる．熱交換器による通風抵抗の増加に伴い送風機動力も増加する上，冷却水ポンプとは別に散布水ポンプが必要で高コストとなる．
+        <p>密閉型冷却塔の散布水系統は大気に開放されているので，大気中の汚染物質によって汚染され，さらに保有水量が少ないので不純物の濃縮が激しい．したがって水質管理は厳密に行う必要がある．又，レジオネラ属菌の繁殖の危険は開放型と同じである．   
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-70.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-68.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

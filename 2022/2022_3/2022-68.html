@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1 /* 全体の数式をｘ倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-68</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題68</span>&emsp;空気調和設備の各種熱源方式の特徴に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>コージェネレーション方式は，電力需要を主として運転することにより最も高いエネルギー利用効率が得られる．
+        <p><span class="bold">（2）</span>ガスエンジンヒートポンプ方式は，エンジン排熱を有効利用することができるため，寒冷地における暖房熱源に適している．
+        <p><span class="bold">（3）</span>蓄熱システムは，電力負荷平準化や熱源装置容量削減に効果がある．
+        <p><span class="bold">（4）</span>水熱源方式のヒートポンプは，地下水や下水熱等の未利用エネルギー利用に適している．
+        <p><span class="bold">（5）</span>地域冷暖房システムは，地域での熱源集約化や集中管理化のメリットがある．
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題68&emsp;正解（1）</span>&emsp;頻出度AAA</span></p>
+        <p>電力需要を主として運転するコージェネレーション方式のエネルギー利用効率は，発電機を駆動する内燃機関などの排熱を如何に効率よく利用するかにかかっている．
+        <p>単体の設備であれば，電気エネルギーと熱エネルギーはそれぞれ40％程度のエネルギー効率に留まっているが，発電とともに排熱を利用することで，総合エネルギー効率を70～85％まで向上させることも可能である．
+        <p>コージェネレーションは，施設の利用目的等から，熱と電気のどちらを主たるエネルギーとして考えるかによって，熱主電従もしくは電主熱従で設計される．
+        <p>熱主電従の運用方法は，熱の利用を主に考え，発電については制御を行わない方式である．電主熱従の運用方法は，電気の利用を主に考え，熱の制御を行わない方式である．いずれの場合も，副となる電気あるいは排熱をいかにうまく利用するかに全体のエネルギー効率はかかってくる．
+        <p>代表的な熱源方式を<span class="bold">2022-68-1表</span>にまとめた．
+        <p class="cap">2022-68-1表&emsp;熱源方式
+        <table>
+            <tr>
+                <td class="textcenter">熱源方式</td>
+                <td class="textcenter">特徴・備考</td>
+            </tr>
+            <tr>
+                <td>電動冷凍機+ボイラ方式</td>
+                <td>年間を通して電力消費量の変化が大きくなる（電力消費が夏期大きく，冬期小さい）．</td>
+            </tr>
+            <tr>
+                <td>電動機駆動ヒートポンプ方式</td>
+                <td>夏期と冬期における電力使用量の変化が小さい．<br>採熱源として空気熱源と水熱源（河川，地下水等）があるが，立地など制約の少ない空気熱源が主流である．</td>
+            </tr>
+            <tr>
+                <td>ガスエンジンヒートポンプ方式</td>
+                <td>エンジンの排熱を回収して有効利用することができるので寒冷地の暖房熱源に適している．</td>
+            </tr>
+            <tr>
+                <td>吸収冷凍機+蒸気ボイラ方式</td>
+                <td>空調以外の給湯・洗浄・消毒等の用途に高圧蒸気を必要とする病院，ホテル，工場等での採用例が多い．</td>
+            </tr>
+            <tr>
+                <td><ruby>直焚<rt>じかだ</rt></ruby>き吸収冷温水器</td>
+                <td>1台の機器で冷水又は温水，あるいはこれらを同時に製造することができる．</td>
+            </tr>
+            <tr>
+                <td nowrap>コージェネレーション方式</td>
+                <td>エンジンなどを駆動して発電するとともに，排熱を回収して利用する．<br>電力需要を主として運転するコージェネレーション方式では，空気調和その他の熱需要に追従できない場合がある．</td>
+            </tr>
+            <tr>
+                <td>蓄熱システム</td>
+                <td>熱源設備により製造された冷熱・温熱を計画的に効率よく蓄熱し，必要な時に必要な量だけ取り出して利用する．<br>熱源装置容量の削減や冷暖房最盛期における電力負荷平準化に寄与する．</td>
+            </tr>
+            <tr>
+                <td>地域冷暖房方式（DHC）</td>
+                <td>個別熱源システムに比べて，一般に環境負荷は低減できる．<br>設備の能力が21GJ/h以上で不特定多数の需要家に熱供給する能力を持つ施設は，熱供給事業法の適用を受け，熱供給事業として経済産業大臣の登録を受けなければならない．</td>
+            </tr>
+        </table>    
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-69.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-67.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
