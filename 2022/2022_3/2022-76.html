@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1 /* 全体の数式をｘ倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-76</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題76</span>&emsp;空気調和設備に用いられる配管の種類とそれに使用する温度又は圧力との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>冷却水配管<span class="connectLine">　　　　</span>20～40℃
+        <p><span class="bold">（2）</span>高温水配管<span class="connectLine">　　　　</span>80～90℃
+        <p><span class="bold">（3）</span>冷水配管<span class="connectLine">　　　　　</span>5～10℃
+        <p><span class="bold">（4）</span>低圧蒸気配管<span class="connectLine">　　　</span>0.01～0.05MPa
+        <p><span class="bold">（5）</span>高圧蒸気配管<span class="connectLine">　　　</span>0.1～1MPa
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題76&emsp;正解（2）</span>&emsp;頻出度AAA</span></p>
+        <p>高温水配管の使用温度は，100℃以上（一般に120～180℃）である（<span class="bold">2022-76-1表</span>参照）．
+        <p class="cap">2022-76-1表&emsp;配管の用途と使用温度，蒸気圧力
+        <table>
+            <tr>
+                <td class="textcenter">配管の用途</td>
+                <td class="textcenter">使用温度，圧力</td>
+            </tr>
+            <tr>
+                <td>冷水配管</td>
+                <td>5～10℃</td>
+            </tr>
+            <tr>
+                <td>冷温水配管</td>
+                <td>5～10℃，40～50℃</td>
+            </tr>
+            <tr>
+                <td>温水配管</td>
+                <td>100℃未満（一般に40～80℃）</td>
+            </tr>
+            <tr>
+                <td>高温水配管</td>
+                <td>100℃以上（一般に120～180℃）</td>
+            </tr>
+            <tr>
+                <td>冷却水配管</td>
+                <td>20～40℃</td>
+            </tr>
+            <tr>
+                <td>不凍液配管</td>
+                <td>-10～-5℃（氷蓄熱）</td>
+            </tr>
+            <tr>
+                <td>低圧蒸気配管　</td>
+                <td>0.1MPa未満（一般に0.01～0.05MPa）</td>
+            </tr>
+            <tr>
+                <td>高圧蒸気配管</td>
+                <td>0.1MPa以上（一般に0.1～1MPa）</td>
+            </tr>
+        </table> 
+        <p>&emsp;</p>
+        <!-- <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-77.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-75.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

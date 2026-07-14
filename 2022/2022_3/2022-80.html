@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1 /* 全体の数式をｘ倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-80</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題80</span>&emsp;環境要素の測定に関する用語の組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>温度<span class="connectLine">　　　　</span>熱電対
+        <p><span class="bold">（2）</span>臭気<span class="connectLine">　　　　</span>オルファクトメータ法
+        <p><span class="bold">（3）</span>熱放射<span class="connectLine">　　　</span>シンチレーションカウンタ
+        <p><span class="bold">（4）</span>酸素<span class="connectLine">　　　　</span>ガルバニ電池
+        <p><span class="bold">（5）</span>気流<span class="connectLine">　　　　</span>サーミスタ
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題80&emsp;正解（3）</span>&emsp;頻出度AAA</span></p>
+        <p>熱放射の測定にはグローブ温度計（<span class="bold">2022-80-1図</span>参照）が用いられる．
+        <p>シンチレーションカウンタは，放射線の空間線量の測定器である．
+        <p class="cap">2022-80-1図&emsp;グローブ温度計
+        <div class="container">
+            <div class="item" style="flex-basis:40%;"><img style="width: 100%;" src="../../images/image_3/グローブ温度計（写真）.svg" alt="2022-80-1-1グローブ温度計（写真）"></div>
+            <div class="item" style="flex-basis:40%;"><img style="width: 100%;" src="../../images/image_3/グローブ温度計（イラスト）.svg" alt="2022-80-1-1グローブ温度計（イラスト）"></div>
+        </div>
+        <div class="container">
+            <div class="item" style="flex-basis:40%;"><p class="source">出典 柴田科学株式会社 <br>
+                https://www.sibata.co.jp/item/7868/</p>
+            </div>
+            <div class="item" style="flex-basis:40%;">        <p class="source">出典&nbsp;公益社団法人<br>日本建築衛生管理教育センター<br>「新建築物の環境衛生管理第2版第1刷」中巻274
+                頁&nbsp;図5-3-2(5) 
+            </div>
+        </div>
+        <p>グローブ温度計は薄銅板製の直径15cmの中空球体の表面を黒色つや消し塗りし，その中心にガラス管温度計の球部が達するように挿入したものである．
+        <p>全方向から受ける熱放射を平均化した温度表示である「平均放射温度</span>」\(MRT\)［℃］は，グローブ温度\(t_g\)を用いて次式で求めることができる．
+          \[MRT=t_g+2.37 \sqrt{v} ~(t_g-t_a)\]
+        <div class="leftcenter">
+            ただし，<br>
+            \(v\)：風速［m/s］，<br> 
+            \(t_a\)：気温［℃］．  
+        </div>
+        <br>この式から平均放射温度\(MRT\)は風速が小さくなると黒球温度に近づくことが分かる．
+        <p>グローブ温度計はその構造上，示度が安定するまでには比較的時間を要する(15～20分間)ので，気流変動の大きい所での測定には不適当である．
+        <p>「シンチレーションカウンタ」は，電離放射線により発光する物質（シンチレータという）の光を増幅して検出する装置である（<span class="bold">2022-80-2図</span>）．
+        <p class="cap">2022-80-2図&emsp;シンチレーションカウンタの例
+        <div class="container">
+            <img src="../../images/image_3/シンチレーションカウンタの例.svg" alt="シンチレーションカウンタの例">
+        </div>
+        <p class="source">出典&emsp;株式会社堀場製作所</span><br>
+            https://www.horiba.com/jpn/process-and-environmental/products/detail/action/show/Product/pa-1000-radi%E3%83%A9%E3%83%87%E3%82%A3-2265/<br>
+        を基に作成
+        <p><span class="bold">-(1) </span>熱電対は，種類の異なる2本の金属線，銅とコンスタンタン（銅とニッケルの合金）を接合して閉回路を作り，2つの接合点に温度差を与えると，回路に熱起電力が生じる（ゼーベック効果）．この熱起電力による電圧を測定して温度を求める．精度が高く，遠隔で示度を読み取れる利点を持つ．
+        <p><span class="bold">-(2) </span>オルファクトメーター法では，官能試験のための臭気の希釈を自動化された機械で行う．
+        <p><span class="bold">-(4) </span>ガルバニ電池式酸素センサーでは，陽極と陰極を電解液に浸し，電解液と空気（酸素）の間を酸素透過性の膜で隔離してある．透過酸素濃度に比例して流れる電流を測定して酸素濃度を得る．
+        <p><span class="bold">-(5) </span>サーミスタは温度の変化につれてその抵抗値がきわめて大きく変化する半導体で，温度計として利用される．精度が高く，遠隔で示度を読み取れる利点を持つ．汎用性が高く，空調に限らずあらゆる温度制御に用いられている．又，気流により奪われる熱量が風速の関数となることを測定原理として，熱式風速計としても利用される．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-81.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-79.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

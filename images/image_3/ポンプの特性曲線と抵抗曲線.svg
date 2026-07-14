@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="97.587852mm"
-   height="64.636719mm"
-   viewBox="0 0 97.587853 64.636719"
+   width="97.296402mm"
+   height="67.678268mm"
+   viewBox="0 0 97.296402 67.678269"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    sodipodi:docname="ポンプの特性曲線と抵抗曲線.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.0809568"
-     inkscape:cx="160.04341"
-     inkscape:cy="195.19745"
+     inkscape:zoom="2.1619136"
+     inkscape:cx="215.78106"
+     inkscape:cy="164.66893"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -39,8 +39,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid879"
-       originx="-73.621567"
-       originy="-135.88534"
+       originx="-73.772605"
+       originy="-134.53913"
        spacingy="1"
        spacingx="1"
        units="mm" />
@@ -68,7 +68,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(-73.62157,-135.88535)">
+     transform="translate(-73.772608,-134.53913)">
     <image
        y="70.267334"
        x="65.649956"
@@ -92,7 +92,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-73.62157,-135.88535)">
+     transform="translate(-73.772608,-134.53913)">
     <rect
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:square"
        id="rect903"
@@ -441,19 +441,27 @@
        cy="150.77892"
        r="0.7992577" />
     <path
-       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.302077"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
        d="m 73.772608,165.59481 v 10.12331"
        id="path1069" />
     <path
-       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.280819"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
        d="m 171.06901,164.36246 v 13.36592"
        id="path1071" />
+    <path
+       style="fill:#000000;fill-opacity:0.5718;stroke-width:0;stroke-dasharray:none"
+       d="m 120.98412,134.53913 h 4.65059"
+       id="path5" />
+    <path
+       style="fill:#000000;fill-opacity:0.5718;stroke-width:0;stroke-dasharray:none"
+       d="m 120.12744,202.2174 h 4.03866"
+       id="path6" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-73.62157,-135.88535)">
+     transform="translate(-73.772608,-134.53913)">
     <g
        id="g31539">
       <text
@@ -1111,7 +1119,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Layer 4"
-     transform="translate(-73.62157,-135.88535)">
+     transform="translate(-73.772608,-134.53913)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.46944px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
