@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="72.48819mm"
-   height="49.18568mm"
-   viewBox="0 0 72.488192 49.185681"
+   width="111.46153mm"
+   height="54.51923mm"
+   viewBox="0 0 111.46153 54.519231"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    sodipodi:docname="音の反射，吸収，透過.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.0809568"
-     inkscape:cx="170.21957"
-     inkscape:cy="228.50127"
+     inkscape:zoom="3.0574075"
+     inkscape:cx="208.34645"
+     inkscape:cy="126.57783"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -39,8 +39,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid861"
-       originx="276.67215"
-       originy="-40.730732"
+       originx="292.76831"
+       originy="-38.307655"
        spacingy="1"
        spacingx="1"
        units="mm" />
@@ -61,7 +61,7 @@
      id="layer1"
      style="display:none"
      sodipodi:insensitive="true"
-     transform="translate(276.67219,-40.730731)">
+     transform="translate(292.76834,-38.307654)">
     <image
        y="15.283054"
        x="-284.4856"
@@ -76,9 +76,9 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(276.67219,-40.730731)">
+     transform="translate(292.76834,-38.307654)">
     <rect
-       style="display:inline;opacity:0.255981;fill:#e6e6e6;stroke:none;stroke-width:0.368415;stroke-linecap:square"
+       style="display:inline;opacity:0.255981;fill:#000000;stroke:none;stroke-width:0.368415;stroke-linecap:square;fill-opacity:0.13919704"
        id="rect885"
        width="11.605105"
        height="35.452961"
@@ -105,16 +105,32 @@
        d="m -225.80117,69.501892 13.07168,6.503961 0.63765,-1.530344 1.97669,4.080917 -4.27221,1.530343 0.70141,-1.594109 -13.5818,-6.567724 z"
        id="path1620" />
     <path
-       style="display:inline;opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.368415;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.736831, 0.736831;stroke-dashoffset:0"
+       style="display:inline;opacity:1;fill:#1a1a1a;fill-opacity:0.164375;stroke:#000000;stroke-width:0.368415;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.736831, 0.736831;stroke-dashoffset:0"
        d="m -235.30205,49.033544 -1.9767,3.188217 0.95646,0.06376 -0.0637,9.373355 2.10422,-0.127527 V 52.15799 l 0.95647,-0.127528 z"
        id="path1622" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:0.164375;stroke-width:0"
+       d="M -292.76834,62.365345 V 68.76919"
+       id="path1" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:0.164375;stroke-width:0"
+       d="m -181.30681,60.634576 v 9.519229"
+       id="path2" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:0.164375;stroke-width:0"
+       d="m -242.74911,38.307654 h 7.09615"
+       id="path3" />
+    <path
+       style="fill:#1a1a1a;fill-opacity:0.164375;stroke-width:0"
+       d="m -244.30681,92.826882 h 7.61539"
+       id="path4" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
      style="display:inline"
-     transform="translate(276.67219,-40.730731)">
+     transform="translate(292.76834,-38.307654)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
@@ -128,7 +144,7 @@
          y="270.05362">2021-85-1図　音の反射，吸音，透過</tspan></text>
     <g
        id="g31343"
-       transform="matrix(0.73683216,0,0,0.73683216,-297.02592,21.35983)">
+       transform="matrix(0.73683216,0,0,0.73683216,-326.449,24.821368)">
       <text
          xml:space="preserve"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
@@ -156,7 +172,7 @@
     </g>
     <g
        id="g31364"
-       transform="matrix(0.73683216,0,0,0.73683216,-297.02592,21.35983)">
+       transform="matrix(0.73683216,0,0,0.73683216,-335.10284,27.590599)">
       <text
          xml:space="preserve"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
@@ -184,7 +200,7 @@
     </g>
     <g
        id="g31350"
-       transform="matrix(0.73683216,0,0,0.73683216,-297.02592,21.35983)">
+       transform="matrix(0.73683216,0,0,0.73683216,-327.48746,-4.4286305)">
       <text
          xml:space="preserve"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
@@ -212,7 +228,7 @@
     </g>
     <g
        id="g31357"
-       transform="matrix(0.73683216,0,0,0.73683216,-297.02592,21.35983)">
+       transform="matrix(0.73683216,0,0,0.73683216,-255.83361,18.936753)">
       <text
          xml:space="preserve"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.87778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
@@ -249,13 +265,101 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0"
          x="-237.50937"
          y="89.68428">壁</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke-width:0"
+       x="-237.38373"
+       y="45.923038"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0"
+         x="-237.38373"
+         y="45.923038">I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke-width:0"
+       x="-235.0472"
+       y="46.499115"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0"
+         x="-235.0472"
+         y="46.499115">a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke-width:0"
+       x="-277.01834"
+       y="51.288422"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0"
+         x="-277.01834"
+         y="51.288422">I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke-width:0"
+       x="-274.55942"
+       y="51.976383"
+       id="text7"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0"
+         x="-274.55942"
+         y="51.976383">i</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke-width:0"
+       x="-266.97989"
+       y="81.576881"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0"
+         x="-266.97989"
+         y="81.576881">I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke-width:0"
+       x="-264.55679"
+       y="82.43792"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0"
+         x="-264.55679"
+         y="82.43792">r</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke-width:0"
+       x="-208.65295"
+       y="81.230728"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke-width:0"
+         x="-208.65295"
+         y="81.230728">I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke-width:0"
+       x="-205.93442"
+       y="82.091766"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:C059;-inkscape-font-specification:'C059, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0"
+         x="-205.93442"
+         y="82.091766">t</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Layer 4"
      style="display:inline"
-     transform="translate(276.67219,-40.730731)">
+     transform="translate(292.76834,-38.307654)">
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"
@@ -378,7 +482,7 @@
      inkscape:label="Layer 5"
      style="display:none"
      sodipodi:insensitive="true"
-     transform="translate(276.67219,-40.730731)">
+     transform="translate(292.76834,-38.307654)">
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.264583"

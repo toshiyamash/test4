@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1 /* 全体の数式をｘ倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-84</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題84</span>&emsp;振動と遮音に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>個体伝搬音問題には振動が関与する．
+        <p><span class="bold">（2）</span>対象振動が正弦波の場合，振動加速度の実効値は，加速度の最大振幅の\(1/\sqrt{2}\)で求められる．
+        <p><span class="bold">（3）</span>コインシデンス効果が生じると，壁体の透過損失は減少する．
+        <p><span class="bold">（4）</span>建物内で感じる道路交通による振動は，不規則で変動も大きい．
+        <p><span class="bold">（5）</span>空気調和設備による振動は，間欠的かつ非周期的に発生する．
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題84&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+        <p>空気調和設備による振動は，定常的で変動小とされる（<span class="bold">2022-84-1表</span>参照）． 
+        <p class="cap">2022-84-1表&emsp;建築物内で感じる各種振動の時間特性              
+        <table>
+            <tr>
+                <td class="textcenter">振動の種類</td>
+                <td class="textcenter">時間特性</td>
+            </tr>
+            <tr>
+                <td>道路交通振動</td>
+                <td>不規則で変動大</td>
+            </tr>
+            <tr>
+                <td>鉄道振動</td>
+                <td>間欠的で非周期</td>
+            </tr>
+            <tr>
+                <td>建設振動</td>
+                <td>間欠的で周期的，不規則で変動大</td>
+            </tr>
+            <tr>
+                <td>工場振動</td>
+                <td>変動振動</td>
+            </tr>
+            <tr>
+                <td>風による建物振動</td>
+                <td>長周期の正弦波</td>
+            </tr>
+            <tr>
+                <td>空調設備などの建築設備振動</td>
+                <td>定常的で変動小</td>
+            </tr>
+            <tr>
+                <td>人の歩行による振動</td>
+                <td>間欠的で非周期的</td>
+            </tr>
+        </table>    
+        <p><span class="bold">-(1) </span>騒音はエネルギーの伝わり方から見た場合，設備機器等から発生した音や交通騒音が空気中を伝搬してくる空気伝搬音と，設備機器等の振動が建物躯体内を伝搬して居室の内装材から放射される固体伝搬音に分けられる（<span class="bold">2022-84-2表</span>参照）．
+        <p class="cap">2022-84-2表&emsp;空気伝搬音と固体伝搬音                         
+        <table>
+            <tr>
+                <td nowrap>空気伝搬音</td>
+                <td>・空調機から発生した音が隔壁・隙間等を透過してくる音<br>・ダクト内を伝搬して給排気口から放射する音<br>・ダクト内を伝搬してダクト壁から透過する音<br>・窓から入る道路交通騒音，鉄道軌道騒音</td>
+            </tr>
+            <tr>
+                <td>固体伝搬音</td>
+                <td>・空調機自体の振動に起因して発生する音<br>・ダクト・管路系の振動に起因する音<br>・ポンプに接続された管路系で発生する音<br>・給排水騒音，電気室騒音，エレベータ走行音，地下鉄騒音等</td>
+            </tr>
+        </table>
+        <p>&emsp;</p>    
+        <p><span class="bold">-(2) </span>振幅の最大値を\(a_0\)とすれば，正弦波の瞬時値は\(a_0\sin\omega t\)と表される．\(\omega\)は角速度である（\(\omega=2\pi f=\displaystyle \frac{2\pi}{T}\)，\(f\)：周波数，\(T\)：周期）．
+        <p>実効値の定義は，瞬時値の2乗を1周期\(T\)にわたって平均したものの平方根であるから，振幅の実効値\(a_{rms}\)は，
+            \begin{align}
+            a_{rms}&=\sqrt{\frac{{a_0}^2}{T}\int_0^T{\sin^2\omega t\,dt}} \notag\\[5pt]
+            &=\sqrt{\frac{{a_0}^2}{T}\int_0^T{\frac{1-\cos2\omega t}{2}\,dt}} \notag\\[5pt]
+            &=\sqrt{\frac{{a_0}^2}{2T}\left[t-\frac{1}{2\omega}\sin2\omega t \right]_0^T} \notag\\[5pt]
+            &=\sqrt{\frac{{a_0}^2}{2T}\left[T-\frac{1}{2\omega}\sin2\omega t-0+\frac{1}{2\omega}\sin(2\omega \cdot 0) \right]} \notag\\[5pt]
+            &=\sqrt{\frac{{a_0}^2}{2T}\left[T-\frac{1}{2\omega}\sin(2\cdot \frac{2\pi}{T}) \right]} \notag\\[5pt]
+            &=\sqrt{\frac{{a_0}^2}{2T}\left[T-\frac{1}{2\omega}\sin4\pi \right]} \notag\\[5pt]
+            &=\sqrt{\frac{{a_0}^2}{2T}(T-0)} \notag\\[5pt]
+            &=\sqrt{\frac{{a_0}^2}{2T}T} \notag\\[5pt]
+            &=\sqrt{\frac{{a_0}^2}{2}} \notag\\[5pt]
+            &=\frac{a_0}{\sqrt{2}} \notag\
+            \end{align}
+        <p><span class="bold">-(3) </span>コインシデンス効果が生じると，壁体の透過損失は著しく減少し，遮音性能が低下する．
+        <p>ある屈曲振動数をもった壁に，一定の振動数の音波が，一定の角度で壁面に入射すると，音圧の疎密に対応して壁面に屈曲波が生じ，その振動により音を放射し，あたかも音が透過するようにみえる現象が生じる．この現象はコインシデンス（振動数の一致）効果といわれ，壁面の透過損失を著しく低下させることになる．<br>
+        壁材料の屈曲振動数は一般的に大きいので，コインシデンス効果は高音域で発生する．ちなみに，壁体の固有振動数と騒音の共鳴現象による遮音性能の低下は共鳴透過現象といい低音域で発生する．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-85.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-83.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
