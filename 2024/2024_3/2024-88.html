@@ -48,15 +48,17 @@
         <p>まず，\(\displaystyle {\rm 照度}=\frac{{\rm 光束}}{{\rm 光束の入射面の面積}}\)である．
         <p>図から同じ量の光束を受ける法線面と水平面の面積の関係は，法線面積＝水平面積×\(\sin h\)．
         <p>すなわち，\(\displaystyle {\rm 水平面積}=\frac{{\rm 法線面積}}{\sin h}\)．
-        <p>したがって，\(\displaystyle {\rm 水平面の照度}=\frac{{\rm 光束}}{{\rm 水平面積}}=\frac{{\rm 光束}}{\frac{{\rm 法線面積}}{\sin h}}=\frac{{\rm 光束}}{{\rm 法線面積}}\times \sin h={\rm 法線面照度}\times \sin h\)．
+        <p>したがって，
+            \begin{align}
+                {\rm 水平面の照度}&=\frac{{\rm 光束}}{{\rm 水平面積}} \notag\\[5pt]
+                &=\frac{{\rm 光束}}{\dfrac{{\rm 法線面積}}{\sin h}} \notag\\[5pt]
+                &=\frac{{\rm 光束}}{{\rm 法線面積}}\times \sin h \notag\\[5pt]
+                &={\rm 法線面照度}\times \sin h \notag
+            \end{align}
         <p>すなわち，地上での法線照度を\(E_n\)［Lx］，水平面照度を\(E_h\)［Lx］とすれば，
-        <div class="textcenter">
             \[E_h=E_n\sin h\] 
-        </div>           
         <p>さらに，水平面に立てた垂直線と太陽光線の来る方向のなす角度を入射角といい，これを\(\theta\)とすれば，太陽高度&nbsp;\(\displaystyle h=\frac{\pi}{2}-\theta\)&nbsp;となるので，三角関数の公式&nbsp;\(\displaystyle \sin \left(\frac{\pi}{2}-x \right)=\cos x\)から，
-        <div class="textcenter">
             \[E_h=E_n\sin h=E_n\sin(\frac{\pi}{2}-\theta)=E_n\cos \theta\]            
-        </div>
         <p>これを入射角余弦の法則という．
         <br><br>
         <p>昼光照明について下記にまとめた．
@@ -77,13 +79,12 @@
         </table>
         <p>直射日光による照度を直射照度，天空光による照度を全天空照度といい，直射照度と天空光照度の和をグローバル照度（あるいは全天照度，昼光照度）という．        
         <p>昼光（天空光）による照明を考える場合，昼光は季節，時刻，天候によって変動するので，昼光の量的な指標として用いられるのは照度ではなく，季節や天候に左右されない，室内の位置で決まる昼光率\(D\)である．
-        <div class="textcenter">
             \[D=\frac{E}{E_s}\]            
+        <div class="leftcenter">
+            ただし，<br>
+            \(E\)：室内のある点の天空光による照度，<br> 
+            \(E_S\)：全天空照度．
         </div>
-        <p style="margin-left: 200px;">ただし，
-        <br>\(E\)：室内のある点の天空光による照度［Lx］，
-        <br>\(E_s\)：全天空照度［Lx］．
-        </p>
         <p>窓から入射した昼光による室内の照度は，直接照度（窓から入った天空光が直接照らす照度）と間接照度（天空光がいったん天井や壁に反射した光による照度）からなり，昼光率も直接昼光率と間接昼光率からなる．
         <p>直接昼光率は，窓の光源としての立体角投射率，窓ガラスの透過率，透過率の維持率，窓ガラスの有効面積などに影響を受ける．
         <p>間接昼光率は室内の壁，天井，床などの反射率の影響を受け，室内のどの位置でも一定と考えて計算されるが，一般に直接昼光率に比べると小さい．
@@ -91,18 +92,18 @@
         <p>設計用の全天空照度が簡易的に曇天晴と晴天時に分けて示されている．
         <br>設計用全天空照度は，快晴（10,000Lx）よりも散乱光の多い薄曇りの方が大きい（50,000Lx）.
         <p>大気外法線照度を\(E_0\)［Lx］，地上での法線照度を\(E_n\)［Lx］，水平面照度を\(E_h\)［Lx］とすれば次式が成り立つ．
-        <div class="textcenter">
             \begin{align}
                 E_n&=E_0\times P^{\frac{1}{\sin H}} \notag\\[5pt]
                 E_h&=E_n\times \sin H \notag
             \end{align}
+        <div class="leftcenter">
+            ただし，<br>
+            \(P\)：大気透過率，<br> 
+            \(H\)：太陽高度［度］．
         </div>
-        <p style="margin-left: 265px;">ただし，\(P\)：大気透過率，
-          <br>\(H\)：太陽高度［度］．
-        </p>
         <p>この式から，太陽高度が高いほど，直射日光による水平面照度が大きくなり，太陽高度が等しければ，大気透過率が高いほど直射日光による水平面照度が大きくなることが分かる．
         <p><span class="bold">-(4) </span>屋根天井面に開けた天窓の方が同じ面積の側窓より多くの光が得られる（<span class="bold">2024-88-2図</span>）．
-        <div class="cap">2024-88-2図&emsp;天窓，頂側窓</span></div>
+        <p class="cap">2024-88-2図&emsp;天窓，頂側窓
         <div class="container">
             <img src="../../images/image_3/天窓，頂側窓.svg" alt="天窓，頂側窓">
         </div>
