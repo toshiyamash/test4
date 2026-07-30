@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1 /* 全体の数式をｘ倍にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-92</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題92</span>&emsp;建築物と都市環境に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>高層建築物の周辺では，局地的に強風が生じることがある．
+        <p><span class="bold">（2）</span>一般的なアスフアルト舗装面は，土壌面に比べて熱容量が大きく日射熱を蓄熱しやすい．
+        <p><span class="bold">（3）</span>地盤沈下は，環境基本法で公害と定義している典型7公害の一つである．
+        <p><span class="bold">（4）</span>都市化により，都市の中心部の気温が郊外と比較して高くなる現象をダウンドラフトという．
+        <p><span class="bold">（5）</span>乱開発などによって市街地が広がることをスプロール現象という．
+</div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題92&emsp;正解（4）</span>&emsp;頻出度AAA</span></p>
+        <p>都市化により，都市の中心部の気温が郊外と比較して高くなる現象は「ヒートアイランド」現象である．
+        <p>「ダウンドラフト」とは『煙突から排出される煙の吐出速度が周囲の風速よりも小さく，又，排煙温度が低い場合には，煙はあまり上昇せず，風下にある建造物の後ろで生じる渦に巻き込まれて降下し，汚染物質の滞留を起こすこと』である（<span class="bold">2022-92-1図</span>参照）．
+        <p class="cap">2022-92-1図&emsp;ダウンドラフト
+        <div class="container">
+            <img src="../../images/image_4/ダウンドラフト.svg" alt="ダウンドラフト">
+        </div>
+        <p class="source">出典&emsp;埼玉県&emsp;J032川口市戸塚環境センター施設整備事業環境影響評価書</span></span><br>
+            https://www.pref.saitama.lg.jp/documents/195341/j032_hyoukasyo_dai9syo1.pdf<br>
+        <p><span class="bold">-(1) </span>いわゆるビル風であるが，サンクンガーデン（半地下式庭園）はこの対策として設けられる．
+        <p><span class="bold">-(2) </span>体積熱容量（容積比熱）を比べると，アスファルト，コンクリート，土壌でそれほど違わないが，アスファルトの太陽放射の反射率（アルベド：albedo）が一番小さいために最も多くの熱を吸収することになる．一部の都市では，アスファルトの路面上に熱線（赤外線）を反射する遮熱性塗装を施すことが行われている．
+        <p><span class="bold">-(3) </span>典型7公害とは，環境基本法第2条に例示されている，大気の汚染，水質の汚濁，土壌の汚染，騒音，振動，地盤の沈下，悪臭である．</span>
+        <p><span class="bold">-(5) </span>スプロール現象のスプロール（sprawl）のもともとの意味は，「だらしなく寝そべる」で，計画性のないまま都市化が無秩序に広がる様子を表す．インフラが未整備のまま環境破壊が進行することが多い．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-93.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-91.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
