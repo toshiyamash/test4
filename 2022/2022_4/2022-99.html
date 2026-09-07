@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-99</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題99</span>&emsp;エレベーター設備に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>小荷物専用昇降機設備は，荷物運搬専用の小規模リフトの総称である．
+        <p><span class="bold">（2）</span>ロープ式エレベーターは汎用性が高く，中高層，超高層建築物に多用されている．
+        <p><span class="bold">（3）</span>非常用エレベーターの設置義務は，消防法により定められている．
+        <p><span class="bold">（4）</span>新築の建物では，機械室なしエレベーターが普及している．
+        <p><span class="bold">（5）</span>エレベーターの安全装置には，制動装置がある．
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題99&emsp;正解（3）</span>&emsp;頻出度AAA</span></p>
+        <p>非常用エレベーターの設置義務を定めているのは，建築基準法である．
+        <p>『高さ三十一メートルをこえる建築物（政令で定めるものを除く．）には，非常用の昇降機を設けなければならない．』建築基準法第34条2．
+        <p><span class="bold">-(1) </span>建築基準法の規定は次のとおり．『物を運搬するための昇降機で，かごの水平投影面積が一平方メートル以下で，かつ，天井の高さが一・二メートル以下のもの（以下「小荷物専用昇降機」という．）』（施行令129条の三）
+        <p><span class="bold">-(2) </span>一方の油圧エレベーターは停止階が3程度までと少ないが，重量物の搬送に適する．
+        <p><span class="bold">-(4) </span>機械室なしエレベーターはかごの昇降路に巻上機や制御装置を備える．国土交通省告示でその構造が定められている．
+        <p><span class="bold">-(5) </span>エレベーターの安全装置には，制動装置，扉開走行保護装置，地震時等管制運転装置，荷重超過警報装置，非常照明（以上は法定・建築基準法施行令第129条の10），火災時管制運転装置，停電時自動着床装置などがある．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-100.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-98.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

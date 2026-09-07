@@ -304,3 +304,12 @@
     h3{
       text-align: center; 
     }
+
+    img.inq25 {            /* 問題選択肢内画像2022-100*/
+      background-color: transparent;
+      width: auto;
+      height: 25px;
+      margin: auto; 
+      vertical-align: middle
+    }
+
