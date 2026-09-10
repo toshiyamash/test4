@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-106</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題106</span>&emsp;給水及び排水の管理に関する用語と単位の組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>水の比体積<span class="connectLine">　　　　　　</span>kg/m<sup>3</sup>
+        <p><span class="bold">（2）</span>給湯器の加熱能力<span class="connectLine">　　　</span>kW
+        <p><span class="bold">（3）</span>BOD容積負荷<span class="connectLine"> 　　　　　</span>kg/(m<sup>3</sup>･日)
+        <p><span class="bold">（4）</span>腐食速度<span class="connectLine">　　　　　　　</span>mm/年
+        <p><span class="bold">（5）</span>病院の単位給水量<span class="connectLine">　　　</span>L/(床･日)
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題106&emsp;正解（1）</span>&emsp;頻出度AAA</span></p>
+        <p>［kg/m<sup>3</sup>］は，水の「密度」である．「水の比体積」はその逆数なので，単位は［m<sup>3</sup>/kg］である．水の比体積は温度約4℃で最少となる（密度は最大になる）．
+        <p>よく出題される給排水関連の単位<span class="bold">2022-106-1表</span>参照．
+        <p class="cap">2022-106-1表&emsp;用語と単位                              
+        <table>
+            <tbody>
+                <tr>
+                    <td class="textcenter">用語</td>
+                    <td class="textcenter">意味</td>
+                    <td class="textcenter">単位記号</td>
+                </tr>
+                <tr>
+                    <td nowrap>ポンプの揚程</td>
+                    <td>ポンプが単位時間に流体に与えるエネルギーを水頭で表したもの．</td>
+                    <td>m</td>
+                </tr>
+                <tr>
+                    <td>加熱能力<br>
+                        熱損失</td>
+                    <td>給湯設備の加熱能力など<br>給湯配管からの熱損失など</td>
+                    <td>W，kW</td>
+                </tr>
+                <tr>
+                    <td>ゲージ圧</td>
+                    <td>ある地点の圧力を大気圧との差で表したものを大気基準圧またはゲージ圧という．</td>
+                    <td>Pa</td>
+                </tr>
+                <tr>
+                    <td>水槽照度率</td>
+                    <td>水槽内照度/水槽外照度×100</td>
+                    <td>%</td>
+                </tr>
+                <tr>
+                    <td>線膨張係数</td>
+                    <td>長さ（\(l\)）の棒の温度上昇（\(\varDelta t\)）に伴う伸び（\(\varDelta L\)）が生じたときの次の関係式の係数（\(\alpha\)）をいう．
+                      \[\alpha=\frac{1}{L} \cdot \frac{\varDelta L}{\varDelta t}\]
+                      \[{\rm（}\varDelta L=\alpha \cdot L \cdot \varDelta t {\rm ）}\]
+                    </td>
+                    <td>1/℃</td>
+                </tr>
+                <tr>
+                    <td>吐水口空間</td>
+                    <td>給水栓または給水管の吐水口端とあふれ縁との垂直距離</td>
+                    <td rowspan="2">mm，cm</td>
+                </tr>
+                <tr>
+                    <td>排水口空間</td>
+                    <td>排水系統に直結している器具もしくは水受容器のあふれ縁，または排水を受ける床面と間接排水管の管端との間の垂直距離をいう．</td>
+                </tr>
+                <tr>
+                    <td>比重</td>
+                    <td>ある物質（水の場合が多い）の質量と，それと同体積の基準となる物質の質量との比</td>
+                    <td>単位なし．<br>
+                        水を1.0とする．</td>
+                </tr>
+                <tr>
+                    <td>比体積</td>
+                    <td>ある物質の単位質量当たりの体積．密度の逆数．<br>
+                    水の比体積は4℃で最も小さく，おおよそ1.0m<sup>3</sup>/10<sup>3</sup>kg．</td>
+                    <td>m<sup>3</sup>/10<sup>3</sup>kg，L/kg</td>
+                </tr>
+                <tr>
+                    <td>比熱</td>
+                    <td>単位質量の物質の温度を，単位温度を上げるのに必要な熱量</td>
+                    <td>kJ/(kg・℃)</td>
+                </tr>
+                <tr>
+                    <td>腐食速度</td>
+                    <td>腐食を受ける金属の表面から垂直方向の腐食の速度</td>
+                    <td>mm/y（年）</td>
+                </tr>
+                <tr>
+                    <td>密度</td>
+                    <td>ある物質の単位体積当たりの質量</td>
+                    <td>kg/L，kg/m<sup>3</sup></td>
+                </tr>
+                <tr>
+                    <td>BOD</td>
+                    <td>生物化学的酸素要求量</td>
+                    <td rowspan="9">mg/L</td>
+                </tr>
+                <tr>
+                    <td>COD</td>
+                    <td>化学的酸素要求量</td>
+                </tr>
+                <tr>
+                    <td>DO</td>
+                    <td>溶存酸素</td>
+                </tr>
+                <tr>
+                    <td>SS</td>
+                    <td>水中浮遊物質</td>
+                </tr>
+                <tr>
+                    <td>MLSS</td>
+                    <td>活性汚泥浮遊物質</td>
+                </tr>
+                <tr>
+                    <td>残留塩素</td>
+                    <td>遊離残留塩素，結合残留塩素</td>
+                </tr>
+                <tr>
+                    <td>総アルカリ度</td>
+                    <td>試薬の名前からMアルカリ度ともいう．水中のアルカリ成分を炭酸カルシウムに換算した量</td>
+                </tr>
+                <tr>
+                    <td>リン含有量</td>
+                    <td>排水に含まれるリンの含有量</td>
+                </tr>
+                <tr>
+                    <td><a href="https://elaws.e-gov.go.jp/document?lawid=415M60000100101_20200401_502M60000100038&keyword=%E6%B0%B4%E8%B3%AA%E5%9F%BA%E6%BA%96" target="_blank" rel="noopener noreferrer">水質基準</a></td>
+                    <td>現在51項目中44項目</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-107.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../2022_4/2022-105.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

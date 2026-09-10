@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-107</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題107</span>&emsp;給水及び排水の管理に関する用語とその説明との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>ボールタップ<span class="connectLine">　　　　　</span>受水槽の水位調節
+        <p><span class="bold">（2）</span>専用洗浄弁式<span class="connectLine">　　　　　</span>小便器の給水方式
+        <p><span class="bold">（3）</span>酸化保護被膜<span class="connectLine">　　　　　</span>酸化によってできる金属表面の薄い被膜
+        <p><span class="bold">（4）</span>スクリーン<span class="connectLine">　　　　　　</span><ruby>夾<rt>きょう</rt></ruby>雑物の除去
+        <p><span class="bold">（5）</span>フロートスイッチ<span class="connectLine">　　　</span>汚水槽の水位センサ
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題107&emsp;正解（なし）<sup>※</sup></span>&emsp;頻出度AA</span></p>
+        <p>※試験実施当局から正答一覧が発表された際に，正解となる選択肢がなかったと付記された．
+        <p><span class="bold">-(2) </span>「専用洗浄弁式」は大便器にもある．<a href="https://kikakurui.com/a5/A5207-2019-01.html#google_vignette#:~:text=3.2.3" target="_blank" rel="noopener noreferrer">JISの規格参照</a>．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-108.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-106.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
