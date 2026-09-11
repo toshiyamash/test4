@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-114</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題114</span>&emsp;受水槽の構造に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>流入管は，受水槽内部で水没させず吐水口空間を確保する．
+        <p><span class="bold">（2）</span>オーバフロー管に設置する防虫網の有効関口面積は，オーバフロー管の断面積以上とする．
+        <p><span class="bold">（3）</span>水抜き管は，オーバフロー管に接続させずに単独の配管とする．
+        <p><span class="bold">（4）</span>オーバフロー水を受ける排水管の管径は，オーバフロー管より大きくする．
+        <p><span class="bold">（5）</span>水抜き管の管末には，防虫網を設置する．
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題114&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+        <p>水抜き管には，排水時詰まる恐れがあるので，原則として防虫網は設けない．
+        <p>貯水槽の構造等は<span class="bold">2022-114-1図</span>，<span class="bold">2022-114-2図</span>参照．
+        <p class="cap">2022-114-1図&emsp;貯水槽の壁・天井からの隔離距離
+        <div class="container">
+            <img src="../../images/image_5/貯水槽の壁・天井からの隔離距離.svg" alt="貯水槽の壁・天井からの隔離距離">
+        </div>
+        <p>&emsp;</p>
+        <p class="cap">2022-114-2図&emsp;貯水槽の構造　
+        <div class="container">
+            <img src="../../images/image_5/貯水槽の構造.svg" alt="貯水槽の構造">
+        </div>
+        <p>2m<sup>3</sup>以上の貯水槽には，ほこりその他衛生上有害なものが入らない構造の通気のための装置（通気管又は通気笠）を設けなければならない．
+        <p>内部の高さが1mを超えるような貯水槽には内部に梯子を設ける．
+        <p>原則として貯水槽上部に設置できるのは飲料水の配管だけである．又，貯水槽の内部には飲料水の配管以外を貫通させてはならない．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-115.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-113.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
