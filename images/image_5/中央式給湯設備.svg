@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.0482005"
-     inkscape:cx="425.4911"
-     inkscape:cy="326.27345"
+     inkscape:zoom="2.9647587"
+     inkscape:cx="188.88552"
+     inkscape:cy="119.06534"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -1091,6 +1091,36 @@
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.203313;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        d="m 256.94818,158.9527 v -2.05738 l 2.46885,2.01166 v -2.01166"
        id="path51" />
+    <g
+       id="g54"
+       transform="matrix(-1,0,0,1,356.53099,1.3973462)">
+      <path
+         id="path25"
+         style="opacity:1;fill:#000000;stroke:#000000;stroke-width:0.352352;stroke-linecap:square"
+         inkscape:transform-center-x="-0.29481924"
+         inkscape:transform-center-y="-4.3005617e-06"
+         d="m 83.730854,159.40986 0.347072,-0.6082 -0.347072,-0.70285 0.884464,0.32776 0.884468,0.32776 -0.884468,0.32777 z"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 79.889891,153.46937 v 5.30075 h 4.417293"
+         id="path54" />
+    </g>
+    <g
+       id="g56"
+       transform="rotate(90,176.76605,197.00105)">
+      <path
+         style="opacity:1;fill:#000000;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 74.021204,103.30154 v 3.53383"
+         id="path55" />
+      <path
+         id="path56"
+         style="opacity:1;fill:#000000;stroke:#000000;stroke-width:0.352352;stroke-linecap:square"
+         inkscape:transform-center-x="4.76e-06"
+         inkscape:transform-center-y="-0.2948193"
+         d="m 74.690044,103.7492 -0.6082,-0.34708 -0.70285,0.34708 0.32776,-0.88447 0.32776,-0.88447 0.32777,0.88447 z"
+         sodipodi:nodetypes="ccccccc" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1516,7 +1546,7 @@
          y="86.621742">1/200以上の上り勾配　</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.2;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 278.06795,87.88908 -7.50907,8.457499"
+       d="m 278.06795,87.88908 -2.1545,8.011285"
        id="path108"
        sodipodi:nodetypes="cc" />
     <text
