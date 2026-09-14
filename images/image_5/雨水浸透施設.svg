@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="109.2658mm"
-   height="59.30109mm"
-   viewBox="0 0 109.2658 59.30109"
+   width="112.59315mm"
+   height="65.108215mm"
+   viewBox="0 0 112.59315 65.108215"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    sodipodi:docname="雨水浸透施設.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,23 +24,23 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.0809568"
-     inkscape:cx="148.47957"
-     inkscape:cy="312.68595"
+     inkscape:zoom="2.1619136"
+     inkscape:cx="283.08254"
+     inkscape:cy="148.47957"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      inkscape:snap-global="false"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid7563"
-       originx="-76.534683"
-       originy="-86.388458"
+       originx="-75.066077"
+       originy="-83.696013"
        spacingy="1"
        spacingx="1"
        units="mm" />
@@ -53,7 +53,7 @@
      id="layer1"
      style="display:none"
      sodipodi:insensitive="true"
-     transform="translate(-76.534685,-86.38846)">
+     transform="translate(-75.066079,-83.696015)">
     <image
        width="70.114586"
        height="43.65625"
@@ -79,14 +79,14 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-76.534685,-86.38846)">
+     transform="translate(-75.066079,-83.696015)">
     <path
-       style="opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.307436;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:0.0740038;fill:#1a1a1a;stroke:#000000;stroke-width:0.307436;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 100.69193,100.98575 -10.575489,3.52516 0.06651,30.32972 62.322259,0.26605 12.7704,-6.9173 -0.26605,-27.20363 z"
        id="path11113" />
     <path
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.461154;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 87.000918,103.90653 v 32.92202 h 66.220302 l 13.88903,-7.52502 0.0323,-29.723894 H 100.546 Z"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.458354;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 87.978589,103.90546 v 32.92449 h 65.413621 l 13.71983,-7.52559 0.0319,-29.726124 h -65.78528 z"
        id="path7344"
        sodipodi:nodetypes="ccccccc" />
     <path
@@ -283,13 +283,6 @@
        ry="0.61524099" />
     <ellipse
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.307436;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       id="ellipse10886"
-       cx="124.56538"
-       cy="107.28915"
-       rx="0.43233153"
-       ry="0.61524099" />
-    <ellipse
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.307436;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="ellipse10888"
        cx="132.11911"
        cy="114.40468"
@@ -407,125 +400,130 @@
        id="path30661" />
     <text
        xml:space="preserve"
-       style="font-size:4.88054px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.406711"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
        x="109.19978"
-       y="93.559608"
+       y="91.111931"
        id="text31919"><tspan
          sodipodi:role="line"
          id="tspan31917"
-         style="stroke-width:0.406711"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
          x="109.19978"
-         y="93.559608">雨どい</tspan></text>
+         y="91.111931">雨どい</tspan></text>
     <path
-       style="opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.307436;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.922309, 0.922309;stroke-dashoffset:0"
-       d="M 128.76486,92.0546 H 142.8743"
-       id="path32606" />
+       style="opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 120.44275,90.096458 21.69724,2.447677"
+       id="path32606"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 125.97776,83.696015 h 6.1192"
+       id="path1" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 75.066079,109.64139 v 8.07734"
+       id="path2" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 119.85857,148.80423 h 9.54594"
+       id="path3" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 187.65923,108.90709 v 9.05641"
+       id="path4" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-76.534685,-86.38846)">
+     transform="translate(-75.066079,-83.696015)">
     <path
-       style="opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.307436;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 115.2198,109.92656 2.82189,4.51501"
        id="path23316" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.88054px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
-       x="96.971588"
-       y="109.55031"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
+       x="97.828278"
+       y="109.36674"
        id="text14361"><tspan
          sodipodi:role="line"
          id="tspan14359"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.88054px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
-         x="96.971588"
-         y="109.55031">浸透トレンチ</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
+         x="97.828278"
+         y="109.36674">浸透トレンチ</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:4.88054px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.406711"
+       style="font-size:3.52777778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.406711;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
        x="111.26917"
        y="129.49165"
        id="text20197"><tspan
          sodipodi:role="line"
          id="tspan20195"
-         style="stroke-width:0.406711"
+         style="stroke-width:0.406711;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:3.52777778px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="111.26917"
          y="129.49165">砕石</tspan></text>
-    <g
-       id="g27157"
-       transform="matrix(1.5371788,0,0,1.5371788,-38.47905,-46.406052)">
-      <text
-         xml:space="preserve"
-         style="font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-         x="127.24283"
-         y="101.57861"
-         id="text21477"><tspan
-           sodipodi:role="line"
-           id="tspan21475"
-           style="stroke-width:0.264583"
-           x="127.24283"
-           y="101.57861">浸</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-         x="127.24903"
-         y="105.12774"
-         id="text22031"><tspan
-           sodipodi:role="line"
-           id="tspan22029"
-           style="stroke-width:0.264583"
-           x="127.24903"
-           y="105.12774">透</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-         x="127.25523"
-         y="108.43211"
-         id="text22255"><tspan
-           sodipodi:role="line"
-           id="tspan22253"
-           style="stroke-width:0.264583"
-           x="127.25523"
-           y="108.43211">ま</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
-         x="127.28624"
-         y="111.85885"
-         id="text25994"><tspan
-           sodipodi:role="line"
-           id="tspan25992"
-           style="stroke-width:0.264583"
-           x="127.28624"
-           y="111.85885">す</tspan></text>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
+       x="157.2383"
+       y="111.94135"
+       id="text21477"><tspan
+         sodipodi:role="line"
+         id="tspan21475"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
+         x="157.2383"
+         y="111.94135">浸</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
+       x="157.23477"
+       y="115.90336"
+       id="text22031"><tspan
+         sodipodi:role="line"
+         id="tspan22029"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
+         x="157.23477"
+         y="115.90336">透</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
+       x="157.15892"
+       y="119.73131"
+       id="text22255"><tspan
+         sodipodi:role="line"
+         id="tspan22253"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
+         x="157.15892"
+         y="119.73131">ま</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
+       x="157.19949"
+       y="123.46047"
+       id="text25994"><tspan
+         sodipodi:role="line"
+         id="tspan25992"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.406711"
+         x="157.19949"
+         y="123.46047">す</tspan></text>
     <path
-       style="opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.307436;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 155.29062,115.00596 -10.34693,1.12875"
        id="path27205" />
     <text
        xml:space="preserve"
-       style="font-size:4.88054px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.406711"
+       style="font-size:3.52777778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.406711;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
        x="106.18975"
        y="145.29422"
        id="text30135"><tspan
          sodipodi:role="line"
          id="tspan30133"
-         style="stroke-width:0.406711"
+         style="stroke-width:0.406711;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:3.52777778px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          x="106.18975"
          y="145.29422">透水シート</tspan></text>
     <path
        style="opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.307436;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 116.53668,140.59108 0.18812,-3.76253"
        id="path30462" />
-    <path
-       style="fill:#ffffcd;stroke:#ffff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 76.611544,109.33982 v 12.79257"
-       id="path932" />
-    <path
-       style="fill:#ffffcd;stroke:#ffff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 183.84329,110.09233 1.88126,12.04006"
-       id="path934" />
   </g>
 </svg>
