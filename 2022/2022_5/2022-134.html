@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-134</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題134</span>&emsp;排水設備に関する次の記述のうち<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>汚水槽の清掃は，酸素濃度が18%以上，かっ，硫化水素濃度がl0ppm以下であることを確認してから作業を行う．
+        <p><span class="bold">（2）</span>逆流防止弁は，排水通気管からの臭気の逆流を防止するために設置する．
+        <p><span class="bold">（3）</span>飲食店などのグリース阻集器内で発生する油分の廃棄物は，産業廃棄物として処理する．
+        <p><span class="bold">（4）</span>排水槽内で汚物などの腐敗が進行し，悪臭が発生する場合の対策として，排水ポンプのタイマ制御により1～2時間ごとに強制的に排水する．
+        <p><span class="bold">（5）</span>排水管に設置する床下式の掃除口の蓋には，砲金製プラグを用いる．
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題134&emsp;正解（2）</span>&emsp;頻出度AAA</span></p>
+        <p>逆流防止弁は下水本管からの排水の逆流を阻止する弁である（<span class="bold">2022-134-1図</span>参照）．排水ますの流入口（上流側）などに取り付ける．
+        <p class="cap"> 2022-134-1図&emsp;逆流防止弁
+        <div class="container">
+            <img src="../../images/image_5/逆流防止弁.svg" alt="逆流防止弁">
+        </div>
+        <p class="source">出典&emsp;関西化工株式会社</span><br>
+            https://kansaikako-onlineshop.com/product.php?id=120
+        <p class=" "><span class="bold">-(1) </span>酸素濃度が18%未満，硫化水素濃度が10ppmを超える状態は，酸欠防止規則の定める「酸素欠乏等」である．汚水槽の清掃が同規則の「第二種酸素欠乏危険作業（酸素欠乏症+硫化水素中毒）」に該当する場合は，酸素欠乏危険作業主任者の選任，特別教育，作業環境測定，換気，保護具の使用等の規則が定められている．
+        <p>作業中も十分な換気，定期的な濃度検査を実施し，空気呼吸器，安全帯等を使用し，非常時の避難用具等も備えておく．
+        <p><span class="bold">-(5) </span>掃除口には床上掃除口と床下掃除口があるが，常時排水にさらされる床下式の掃除口に鋼製のプラグがしてある場合は，耐食性の高い砲金製に取り替える．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-135.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-133.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

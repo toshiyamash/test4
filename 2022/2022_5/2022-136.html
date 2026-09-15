@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-136</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題136</span>&emsp;大便器回りの故障の現象とその原因との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>便器と床面の間が濡れる<span class="connectLine">　　　　　　　</span>フランジ部シール材の取り付けが不良である．
+        <p><span class="bold">（2）</span>洗浄力が弱く，汚物が流れない<span class="connectLine">　　　　</span>タンク内の止水位が高くなっている．
+        <p><span class="bold">（3）</span>洗浄弁のハンドル部から漏水する<span class="connectLine">　　　</span>ハンドル部パッキン又は押し棒が麿耗してゆるんでいる．
+        <p><span class="bold">（4）</span>吐水時間が長い<span class="connectLine">　　　　　　　　　　　</span>洗浄弁のピストンバルブのストレーナが詰まりかけている．
+        <p><span class="bold">（5）</span>洗出し便器で，封水位が低い<span class="connectLine">　　　　　</span>便器に接続される汚水管の勾配の異常により，サイホン現象を起こしている．
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題136&emsp;正解（2）</span>&emsp;頻出度AAA</span></p>
+        <p>洗浄力が弱く汚物が流れないのは，タンク内の止水位が低くなっているために水量が足りないことによる（<span class="bold">2022-136-1表</span>参照）．
+        <p class="cap">2022-136-1表&emsp;大便器周りの故障                          
+        <table>
+            <tbody>
+                <tr>
+                    <td class="textcenter">故障内容</td>
+                    <td class="textcenter">原因</td>
+                </tr>
+                <tr>
+                    <td>便器と床面の間がぬれる</td>
+                    <td>フランジ部シール材の取り付け不良</td>
+                </tr>
+                <tr>
+                    <td>洗浄力が弱く汚物が流れない</td>
+                    <td>トラップ部や排水路における異物の詰まり<br>
+                        タンク内の止水位が低くなっている．</td>
+                </tr>
+                <tr>
+                    <td>少量の水が流れ放し</td>
+                    <td>洗浄弁のシートとシートパッキンの間にごみ</td>
+                </tr>
+                <tr>
+                    <td>多量の水が流れ放し</td>
+                    <td>洗浄弁のピストンバルブのストレーナ又は小穴が詰っている．</td>
+                </tr>
+                <tr>
+                    <td>吐水時間が長い<sup>※</sup></td>
+                    <td>開閉ねじの閉めすぎ，又は，ピストンバルブのストレーナ又は小穴が詰りかかっている．</td>
+                </tr>
+                <tr>
+                    <td>吐水時間が短い<sup>※</sup></td>
+                    <td>開閉ねじの開けすぎ，又は，ピストンバルブUパッキンの損傷･磨耗により，ピストンバルブが早く降下する．</td>
+                </tr>
+                <tr>
+                    <td>ハンドル部から漏水</td>
+                    <td>ハンドル押し棒部のパッキン磨耗・損傷又は，押し棒の磨耗．押し棒部の取り付けナットの緩み．</td>
+                </tr>
+                <tr>
+                    <td>サイホン，サイホンゼット式で，溜水面が正常より小さい</td>
+                    <td>タンク内の補助水管がオーバフロー管内に差し込まれていない（外れている）．</td>
+                </tr>
+                <tr>
+                    <td>洗出し便器で，封水位が低い</td>
+                    <td>便器に接続される汚水管の勾配の異常や詰まり気味で，サイホン現象を起こしている．</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>※ </span>吐水時間は大便器洗浄弁内のピストンバルブの降下スピードで決まる．ピストンバルブに出入りする水の勢いが大きいと吐水時間は短くなる．            
+        <p>大便器洗浄弁（フラッシュバルブ）の構造・動作について参考となる動画を挙げる（力作である）．
+        <div class="video-container iframe">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4FL5CbpS14o?rel=0&start=25&end=625&mute=1&modestbranding=1" title="どうなってるの？フラッシュバルブ？ギミック解析挑戦！" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>              
+            </iframe>
+        </div>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-137.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-135.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

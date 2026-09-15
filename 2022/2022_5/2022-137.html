@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-137</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題137</span>&emsp;浄化槽に採用されている処理法のうち，<span class="bold">生物膜法に分類されない</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>長時間ばっ気法
+        <p><span class="bold">（2）</span>回転板接触法
+        <p><span class="bold">（3）</span>接触ばっ気法
+        <p><span class="bold">（4）</span>散水ろ床法
+        <p><span class="bold">（5）</span>担体流動法
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題137&emsp;正解（1）</span>&emsp;頻出度AAA</span></p>
+        <p>長時間ばっ気法は，活性汚泥法に分類される．<br>
+        長時間ばっ気法は，標準的な活性汚泥法よりもばっ気時間が長く，活性汚泥の自己分解が進み，余剰汚泥の発生を極力抑えることが可能となる．
+        <p>浄化槽は，生物処理の方法によって生物膜法と活性汚泥法に大別される（<span class="bold">2022-137-1表</span>参照）．
+        <p class="cap">2022-137-1表&emsp;主な生物膜法と活性汚泥法
+        <table>
+            <tbody>
+                <tr>
+                    <td rowspan="4">生物膜法</td>
+                    <td rowspan="4">汚水中の汚濁有機物質が，ろ材，回転板などの固形物の表面に生成した生物膜との接触によって分解除去される．</td>
+                    <td>担体流動法</td>
+                </tr>
+                <tr>
+                    <td>回転板接触法</td>
+                </tr>
+                <tr>
+                    <td>散水ろ床法</td>
+                </tr>
+                <tr>
+                    <td>接触ばっ気法</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" nowrap>活性汚泥法</td>
+                    <td rowspan="2">槽内に浮遊する活性汚泥中の微生物が有機物を分解除去する．</td>
+                    <td nowrap>標準活性汚泥法</td>
+                </tr>
+                <tr>
+                    <td>長時間ばっ気法</td>
+                </tr>
+            </tbody>
+        </table>                                        
+        <p>浄化槽は，簡単に言えば，種々の機能を持った水槽を繋げたもの，といえる．それらの水槽を単位装置とよぶ．汚水はそれらの水槽を通過するうちに浄化された上澄み水と汚泥に分離される．上澄み水は消毒後河川等に放流され，汚泥はバキュームカー等によって引き抜かれ汚水処理施設に運搬されて次の処理が行われる．
+        <p>浄化槽は，国土交通大臣の定めた構造（例示仕様）に適合するものと，それ以外のものがあるが，いずれも国土交通大臣の型式認定を受けたものでなければ，建築確認を受けることができない．例示仕様の浄化槽のフローシートの例を<span class="bold">2022-137-1図</span>に示す． 
+        <p class="cap">2022-137-1図&emsp;例示仕様の浄化槽のフローシートの例
+        <div class="container">
+            <img src="../../images/image_5/例示仕様の浄化槽のフローシート.svg" alt="例示仕様の浄化槽のフローシートの例">
+        </div>
+        <p class="source">出典&emsp;公益財団法人 日本建築衛生管理教育センター</span><br>「新建築物の環境衛生管理第2版第1刷」中巻541頁 図6-10-1(2) 
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-138.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-136.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
