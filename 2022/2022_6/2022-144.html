@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-144</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題144</span>&emsp;清掃品質の評価者がインスペクションの実施にあたって行う事項に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>準備において，具体的に評価範囲を決め，インスペクションを行うための実施計画を立案する．
+        <p><span class="bold">（2）</span>評価において，品質の良否に限定せず，どの程度の改善が必要であるか分析，判断する．
+        <p><span class="bold">（3）</span>改善において，改善内容や具体的な対策を示して，清掃従事者に指示をする．
+        <p><span class="bold">（4）</span>再点検において，改善されていない場合は，その理由を明らかにして，事後処理をする．
+        <p><span class="bold">（5）</span>再点検の結果をもとに，改善について再評価を実施する．
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題144&emsp;正解（3）</span>&emsp;頻出度AAA</span></p>
+        <p>指示は清掃責任者に出す．責任者の頭越しに作業員に指示を出すのは混乱の元である．
+        <p>業務改善のためのPDCAサークル（Plan-Do-Check-Action）システムの中で，インスペクションはCheck〜Actionの段階における主要なツールであるが，正しく使われて初めてその機能を発揮する．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-145.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-143.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
