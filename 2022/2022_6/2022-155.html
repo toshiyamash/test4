@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-155</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題155</span>&emsp;ごみの処理に関する語句の組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>排出抑制<span class="connectLine">　　　　</span>収集袋の有料化
+        <p><span class="bold">（2）</span>収集・運搬<span class="connectLine">　　　</span>余熱利用
+        <p><span class="bold">（3）</span>再生<span class="connectLine">　　　　　　</span>集団回収
+        <p><span class="bold">（4）</span>中間処理<span class="connectLine">　　　　</span>破砕・圧縮
+        <p><span class="bold">（5）</span>最終処分<span class="connectLine">　　　　</span>残余容量
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題155&emsp;正解（2）</span>&emsp;頻出度AAA</span></p>
+        <p>余熱利用は，ごみの焼却処理で行われている．
+        <p><span class="bold">-(5) </span>ごみの最終処分とは，最終処分場に埋め立てることであるが，その埋立の残余容量は微減傾向にある．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-156.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-154.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
