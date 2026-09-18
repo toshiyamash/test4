@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-157</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題157</span>&emsp;建築物における衛生的環境の維持管理について（平成20年1月25日健発第0125001号）における建築物環境衛生維持管理要領で示されている次の文章の<span class="whiteFrame">　　　</span>内に入る語句として，<span class="bold">正しい</span>ものはどれか．</span></p>
+        <p>建築物内で発生する廃棄物の分別，収集，運搬及び貯留について，安全で衛生的かつ<span class="whiteFrame">　ア　</span>な方法により，速やかに処理すること．<span class="whiteFrame">　イ　</span>は，分別ができるような環境を整備し，<span class="whiteFrame">　ウ　</span>へ分別を促すこと．また，収集・運搬用具は安全で衛生的に管理すること．
+        <p><span style="margin-left: 3.5rem;">ア</span><span style="margin-left: 5rem;">イ</span><span style="margin-left: 6rem;">ウ</span></p>
+        <p><span class="bold">（1）</span>効率的―――所有者等―――利用者
+        <p><span class="bold">（2）</span>効率的―――占有者等―――事業者
+        <p><span class="bold">（3）</span>効率的―――占有者等―――利用者
+        <p><span class="bold">（4）</span>計画的―――占有者等―――事業者
+        <p><span class="bold">（5）</span>計画的―――所有者等―――利用者
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題157&emsp;正解（1）</span>&emsp;頻出度AAA</span></p>
+        <p>『建築物内で発生する廃棄物の分別，収集，運搬及び貯留について，安全で衛生的かつ<span class="underln">効率的</span>な方法により，速やかに処理すること．<span class="underln">所有者等</span>は，分別ができるような環境を整備し，<span class="underln">利用者</span>へ分別を促すこと．又，収集・運搬用具は安全で衛生的に管理すること．』 
+        <p>「建築物環境衛生維持管理要領」全文は，次のサイトで見ることができる．
+        <p><a href="https://www.mhlw.go.jp/bunya/kenkou/seikatsu-eisei09/pdf/02a.pdf#page=9" target="_blank" rel="noopener noreferrer">「建築物における衛生的環境の維持管理について」</a> 
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-158.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-156.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

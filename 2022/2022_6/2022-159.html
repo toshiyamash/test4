@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2022-159</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2022年</p>
+        <p><span class="bold">問題159</span>&emsp;建築物内廃棄物の発生量に関する次の文章の<span class="whiteFrame">　　　</span>内に入る原単位として，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p>建築物における廃棄物の発生を把握する際に使用される一般的な原単位は，<span class="whiteFrame">　（1）　</span>が用いられる．
+        <p>なお，発生量が多い場合は，<span class="whiteFrame">　（2）　</span>又は，重量の代わりに容量で示す<span class="whiteFrame">　（3）　</span>が用いられる．
+        <p>その他，人の利用者数で廃棄物発生量が左右される図書館は<span class="whiteFrame">　（4）　</span>が使用される．
+        <p>また，廃棄物の質を表す単位は，「単位容積質量値」であり<span class="whiteFrame">　（5）　</span>が用いられる．
+        <p><span class="bold">（1）</span>kg/(m<sup>2</sup>･年)
+        <p><span class="bold">（2）</span>kg/(m<sup>2</sup>･日)
+        <p><span class="bold">（3）</span>L/(m<sup>2</sup>･日)
+        <p><span class="bold">（4）</span>kg/(人･年)
+        <p><span class="bold">（5）</span>m<sup>3</sup>/kg
+    </div>
+
+    <div id="tab2">
+        <p>2022年</p>
+        <p class="bold">問題159&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+        <p>ごみの単位容積質量値とは，ごみ1m<sup>3</sup>当たりのおおよその質量のことなので単位は［kg/m<sup>3</sup>］．
+        <p>厳密なものではなく「見かけ比重」とも言われる．ごみを容積の分かったバケツにすりきり一杯まで入れ，地上30cmから数回落下させ，<ruby>嵩<rt>かさ</rt></ruby>が減った分さらにごみを入れる作業を数回行ったのち，重量を測定し，バケツ容量で除して求める．
+        <p>ごみの単位容積質量値は，水分量，可燃性，圧縮性，腐敗性など，ごみの基本的な質を表す代表的な数値である．
+        <p>可燃ごみが150kg/m<sup>3</sup>程度なのに対し，<ruby>厨<rt>ちゅう</rt></ruby>芥は，700～850kg/m<sup>3</sup>となり，水分を多く含む厨芥は可燃ごみの4～5倍の数値になる．
+        <p><span class="bold">-(1) </span>～<span class="bold">-(4) </span>原単位を用いた，建物用途別の廃棄物発生量を示す調査例を次に示す（<span class="bold">2022-159-1表</span>）．
+        <p class="cap">2022-159-1表&emsp;建物用途別の廃棄物発生量        
+        <table>
+            <tr>
+                <td class="textcenter">建築物の用途</td>
+                <td class="textcenter">発生量<br>
+                    kg/(m<sup>2</sup>･年)
+                </td>
+                <td class="textcenter">再利用量<br>
+                    kg/(m<sup>2</sup>･年)
+                </td>
+                <td class="textcenter">処分量<br>
+                    kg/(m<sup>2</sup>･年)
+                </td>
+                <td class="textcenter">再利用率<br>
+                    ％
+                </td>
+            </tr>
+            <tr>
+                <td>オフィスビル</td>
+                <td class="textRight">9.21</td>
+                <td class="textRight">5.42</td>
+                <td class="textRight">3.79</td>
+                <td class="textRight">58.9</td>
+            </tr>
+            <tr>
+                <td>店舗ビル</td>
+                <td class="textRight">26.20</td>
+                <td class="textRight">13.78</td>
+                <td class="textRight">12.42</td>
+                <td class="textRight">52.6</td>
+            </tr>
+            <tr>
+                <td>ホテル等</td>
+                <td class="textRight">17.35</td>
+                <td class="textRight">5.86</td>
+                <td class="textRight">11.49</td>
+                <td class="textRight">33.8</td>
+            </tr>
+            <tr>
+                <td>工場・研究所</td>
+                <td class="textRight">30.26</td>
+                <td class="textRight">24.81</td>
+                <td class="textRight">5.45</td>
+                <td class="textRight">82.0</td>
+            </tr>
+            <tr>
+                <td>倉庫・流通センター</td>
+                <td class="textRight">15.86</td>
+                <td class="textRight">9.27</td>
+                <td class="textRight">6.58</td>
+                <td class="textRight">58.5</td>
+            </tr>
+            <tr>
+                <td>医療機関</td>
+                <td class="textRight">13.30</td>
+                <td class="textRight">4.28</td>
+                <td class="textRight">9.02</td>
+                <td class="textRight">32.2</td>
+            </tr>
+            <tr>
+                <td>学校</td>
+                <td class="textRight">3.92</td>
+                <td class="textRight">1.69</td>
+                <td class="textRight">2.23</td>
+                <td class="textRight">43.1</td>
+            </tr>
+            <tr>
+                <td>駅舎</td>
+                <td class="textRight">14.30</td>
+                <td class="textRight">7.98</td>
+                <td class="textRight">6.32</td>
+                <td class="textRight">55.8</td>
+            </tr>
+            <tr>
+                <td>その他</td>
+                <td class="textRight">11.16</td>
+                <td class="textRight">6.00</td>
+                <td class="textRight">5.16</td>
+                <td class="textRight">53.8</td>
+            </tr>
+        </table>
+        <p class="source">出典&nbsp;公益財団法人&nbsp;日本建築衛生管理教育センター<br>「新建築物の環境衛生管理第1版第1刷」下巻108頁&nbsp; 表7-6-1⑴を基に作成
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2022-160.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2022-158.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
