@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-9</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2021年</p>
+      <p><span class="bold">問題9</span>&emsp;建築物環境衛生管理基準に基づく飲料水の衛生上必要な措置に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+      <p><span class="bold">（1）</span>水道事業者が供給する水（水道水）を直結給水により，特定建築物内に飲料水として供給する場合，定期の水質検査を行う必要はない．
+      <p><span class="bold">（2）</span>水道事業者が供給する水（水道水）を特定建築物内の貯水槽に貯留して供給する場合，貯水槽以降の飲料水の管理責任者は，当該特定建築物の維持管理権原者である．
+      <p><span class="bold">（3）</span>供給する水が人の健康を害するおそれがあると知ったときは，直ちに給水を停止し，かつ，その水を使用することが危険である旨を関係者に周知する．
+      <p><span class="bold">（4）</span>飲用目的だけでなく，炊事用など，人の生活の用に供する水も，水道法で定める水質基準に適合する水を供給することが必要である．
+      <p><span class="bold">（5）</span>水道事業者が供給する水（水道水）以外の井水等を使用する場合，水道水と同様の水質が確保されていれば，給水栓における残留塩素の保持は必要ない．     
+    </div>
+
+    <div id="tab2">
+      <p>2021年</p>
+      <p class="bold">問題9&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+      <p>水道法により，原水が何であれ，水道によって供給される水は残留塩素が保持されていなければならない．
+      <p>井水を原水とする場合は，残留塩素の保持・検査はもとより水質検査も水道事業者が供給する水を原水とする貯水槽水道より検査項目が増えるなど厳しくなる．<br>
+      <p><span class="bold">-(1) </span>，<span class="bold">-(2) </span>水道法により，水道事業者が供給する水を直結給水<sup>※</sup>により，特定建築物内に供給する場合は，残留塩素の検査ならびに水質検査をしなくてもよい．
+      <p>※&nbsp;直結給水：水道事業者の施設した配水管から分岐して設けられた給水管及びこれに直結する給水用具（水道法第3条第9項に規定する給水装置）で給水すること．<br>
+      <p>貯水槽を設けると，それ以降は特定建築物所有者等が水道事業者の扱いとなり，管理責任を負うことになるので，水質検査・残留塩素の規定が適用される．<br>
+      <p><span class="bold">-(4) </span>ビル管理法施行規則第3条の19で，水質基準に適合する水を供給するのは，人の飲用，炊事用，浴用その他人の生活の用（旅館業法の旅館における浴用を除く．）と規定している．
+      <p>参考サイト<a href="https://www.mhlw.go.jp/bunya/kenkou/seikatsu-eisei10/#:~:text=３　給水の管理" target="_blank" rel="noopener noreferrer">建築物環境衛生管理基準について</a>）
+      <!-- <p>&emsp;</p>
+      <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-10.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-8.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

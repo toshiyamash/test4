@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-6</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2021年</p>
+      <p><span class="bold">問題6</span>&emsp;建築物衛生法に基づき備え付けておかなければならない帳簿書類とその保存期間との組合せとして，<span class="bold">最も適当な</span>ものは次のうちどれか．</p>
+      <p><span class="bold">（1）</span>飲料水貯水槽の修繕の記録<span class="connectLine">　　　　　　　</span>2年間
+      <p><span class="bold">（2）</span>維持管理に関する設備の配置図<span class="connectLine">　　　　　</span>5年間
+      <p><span class="bold">（3）</span>更新した空調設備の整備記録<span class="connectLine">　　　　　　</span>3年間
+      <p><span class="bold">（4）</span>臨時に実施した空気環境測定の結果<span class="connectLine">　　　</span>3年間
+      <p><span class="bold">（5）</span>排水管清掃の実施記録<span class="connectLine">　　　　　　　　　</span>5年間        
+    </div>
+
+    <div id="tab2">
+      <p>2021年</p>
+      <p class="bold">問題6&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+      <p>帳簿書類の保存期間は，点検表等が5年間，図面は法令に定めがないので永久となる．
+      <p>帳簿書類の保管について<span class="bold">2021-6-1表</span>にまとめた．                
+      <table>
+          <tbody>
+              <caption class="bold">2021-6-1表&emsp;備え付けておくべき環境衛生上必要な帳簿書類</span></caption>
+              <tr>
+                  <td></td>
+                  <td class="textcenter">帳簿の種類</td>
+                  <td class="textcenter">保存期間</td>
+              </tr>
+              <tr>
+                  <td class="textcenter">1</td>
+                  <td>空気環境の調整，給水及び排水の管理，清掃ならびにねずみ等の防除の状況（これらの措置に関する測定又は検査の結果ならびに当該措置に関する設備の点検及び整備の状況を含む．）を記載した帳簿書類</td>
+                  <td rowspan="2">5年間</td>
+              </tr>
+              <tr>
+                  <td class="textcenter">2</td>
+                  <td>その他当該特定建築物の維持管理に関し環境衛生上必要な事項を記載した帳簿書類</td>
+              </tr>
+              <tr>
+                  <td class="textcenter">3</td>
+                  <td>管理技術者兼任に関する確認書面ならびに意見の聴取を行った場合の内容を記載した書面<sup>※</sup></td>
+                  <td rowspan="2">期限の定めなし＝永久</td>
+              </tr>
+              <tr>
+                  <td class="textcenter">4</td>
+                  <td>当該特定建築物の平面図及び断面図ならびに当該特定建築物の維持管理に関する設備の配置及び系統を明らかにした図面（改修後の図面を含む）</td>
+              </tr>
+          </tbody>
+      </table>        
+      <p>※ 2022年4月の法改正により追加された書面．
+      <p>環境衛生上必要な帳簿書類で<span class="underln">ないもの</span>として，消防設備，エレベータ設備の点検記録等がよく出題される．      
+      <!-- <p>&emsp;</p>
+      <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-7.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-5.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
