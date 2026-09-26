@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-15</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2021年</p>
+      <p><span class="bold">問題15</span>&emsp;地域保健法に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+      <p><span class="bold">（1）</span>保健所長は，原則として医師をもって充てる．
+      <p><span class="bold">（2）</span>特別区には，保健所が設置されている．
+      <p><span class="bold">（3）</span>都道府県が設置する保健所は，市町村の求めに応じ，技術的助言を行うことができる．
+      <p><span class="bold">（4）</span>全国に設置されている保健所のうち，政令市が設置している保健所が最も多い．
+      <p><span class="bold">（5）</span>地域保健対策の推進に関する基本的な指針には，対人保健のほか，建築物衛生に関わる事項も含まれている．       
+    </div>
+
+    <div id="tab2">
+      <p>2021年</p>
+      <p class="bold">問題15&emsp;正解（4）</span>&emsp;頻出度AAA</span></p>
+      <p>現時点で，都道府県立の保健所が最も多くて約360ヵ所，政令市立約90ヵ所，特別区立が23ヵ所である．
+      <p>地域保健法は，保健所を設置するのは，都道府県，地方自治法で定める指定都市，中核市，特別区，その他地域保健法の政令で定める市（保健所設置市ともいう）と定めている．
+      <p><span class="bold">-(5) </span><a href="https://www.mhlw.go.jp/web/t_doc?dataId=78303300&dataType=0&pageNo=1" target="_blank" rel="noopener noreferrer">「地域保健対策の推進に関する基本的な指針」</a>は，少し長いが，コロナ禍で一読の価値がある．同指針の第六の二にビル管理法が出てくる．      
+      <!-- <p>&emsp;</p>
+      <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-16.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-14.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

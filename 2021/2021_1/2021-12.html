@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-12</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2021年</p>
+      <p><span class="bold">問題12</span>&emsp;建築物衛生法に基づく事業の登録の登録基準に関する次の記述のうち，<span class="bold">誤っている</span>ものはどれか．</p>
+      <p><span class="bold">（1）</span>必要な機械器具について定められている．
+      <p><span class="bold">（2）</span>監督者等の人的基準について定められている．
+      <p><span class="bold">（3）</span>事故発生時の補償対応について定められている．
+      <p><span class="bold">（4）</span>作業の方法について定められている．
+      <p><span class="bold">（5）</span>必要な設備について定められている．       
+    </div>
+
+    <div id="tab2">
+      <p>2021年</p>
+      <p class="bold">問題12&emsp;正解（3）</span>&emsp;頻出度AAA</span></p>
+      <p>登録事業について，「事故発生時の補償対応」など定められていない（<a href="2021-11.html#tab2" target="_blank" rel="noopener noreferrer">前問</a>解説参照）．      
+      <!-- <p>&emsp;</p>
+      <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-13.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-11.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
