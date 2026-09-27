@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-22</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2021年</p>
+      <p><span class="bold">問題22</span>&emsp;健康に影響を与える環境要因のうち，物理的要因として<span class="bold">最も不適当な</span>ものは次のうちどれか．</p>
+      <p><span class="bold">（1）</span>オゾン
+      <p><span class="bold">（2）</span>湿度
+      <p><span class="bold">（3）</span>気圧
+      <p><span class="bold">（4）</span>温度
+      <p><span class="bold">（5）</span>音             
+    </div>
+
+    <div id="tab2">
+      <p>2021年</p>
+      <p class="bold">問題22&emsp;正解（1）</span>&emsp;頻出度AAA</span></p>
+      <p>オゾンは化学的要因に分類される（<span class="bold">2021-22-1表</span>参照）．
+      <p class="cap">2021-22-1表&emsp;健康に影響を与える項境要因        
+      <table>
+          <tr>
+              <td nowrap>物理的要因</td>
+              <td>気候，温度，湿度，気流，気圧，熱，光，放射線，音，超音波，振動等</td>
+          </tr>
+          <tr>
+              <td>化学的要因</td>
+              <td>空気，酸素，二酸化炭素，窒素，一酸化炭素，<span class="underln">オゾン</span>，硫黄酸化物，粉じん，水，し尿，廃棄物等</td>
+          </tr>
+          <tr>
+              <td>生物的要因</td>
+              <td>植物，ウイルス，リケッチア，細菌，寄生虫，昆虫，ネズミ，その他の動物等</td>
+          </tr>
+          <tr>
+              <td>社会的要因</td>
+              <td>文化，産業，教育，医療，福祉，行政，経済，交通，情報，宗教等</td>
+          </tr>
+      </table>
+      <p>何故か，このオゾンが物理的要因としてよく出題される．
+      <!-- <p>&emsp;</p>
+      <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-23.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-21.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

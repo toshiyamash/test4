@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-27</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2021年</p>
+      <p><span class="bold">問題27</span>&emsp;ヒトの発がんの原因に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+      <p><span class="bold">（1）</span>発がんの要因として，食事が3 分の1 を占める．
+      <p><span class="bold">（2）</span>感染症が発がんの原因となることがある．
+      <p><span class="bold">（3）</span>ラドンのばく露は肺がんのリスクを上昇させる．
+      <p><span class="bold">（4）</span>DNA に最初に傷を付け，変異を起こさせる物質をプロモータという．
+      <p><span class="bold">（5）</span>ホルムアルデヒドには発がん性が認められる．             
+    </div>
+
+    <div id="tab2">
+      <p>2021年</p>
+      <p class="bold">問題27&emsp;正解（4）</span>&emsp;頻出度AAA</span></p>
+      <p>遺伝子DNAに傷をつけて変異を起こさせる物質はイニシエータ（initiator：創始者，発起人，起爆剤などの意）という．
+      <p>プロモータ（promoter：興行主，促進者）は細胞の増殖を促進したり，活性酸素を増大させてがん化を促進する物質など．
+      <p><span class="bold">-(1) </span>，<span class="bold">-(2) </span>ヒトの発がん要因（<span class="bold">2021-27-1図</span>）．
+      <p class="cap">2021-27-1図&emsp;ヒトの発がん要因
+      <div class="container">
+          <img src="../../images/image_2/ヒトの発がん要因.svg" alt="ヒトの発がん要因">
+      </div>
+        <p class="source">出典&nbsp;公益社団法人&nbsp;日本建築衛生管理教育センター<br>「新建築物の環境衛生管理第2版第1刷」中巻52頁&nbsp;図4-3-2(2)
+      <p><span class="bold">-(2) </span>ラドンはα線を放出して壊変する放射性の希ガスで，ウラニウム，ラジウムを含むすべての物質がラドンの発生源となる．呼吸によって体内に入ったラドンとその娘核が長期にわたりα線を放出し続け肺癌の原因となると言われている．多くの土壌石材，それらを含む建材が発生源である．人の自然放射線による被曝線量のうち約半分を占めている．コンクリートや花崗岩の建物内外の線量は室内のほうが大きい．ラドンガスは，極めて微量な物質であるため体積濃度や重量濃度で表すのは実用的ではない．ラドンガスにおいて問題となるのは放射能であるので，放射能濃度で表される．これは，単位時間単位体積当たりの崩壊数で放射能の量を表すものであり，1m<sup>3</sup>の空気中で1秒間に1回の崩壊があれば1Bq/m<sup>3</sup>と表す．わが国における放射能濃度の室内のレベルは，約15.5～20Bq/m<sup>3</sup>である．
+      <p><span class="bold">-(5) </span>ホルムアルデヒドは，国際がん研究機関（IARC）により上咽頭がんや白血病などのリスクを高めると評価され，アスベストなどと共に最高ランクの<a href="https://www.mhlw.go.jp/file/05-Shingikai-11201000-Roudoukijunkyoku-Soumuka/kikaku29_1_siryou2_bessi1.pdf#:~:text=Formaldehyde ホルムアルデヒド" target="_blank" rel="noopener noreferrer">グループ1</a>に指定されている．
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-28.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-26.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

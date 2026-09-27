@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-21</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2021年</p>
+      <p><span class="bold">問題21</span>&emsp;生体の恒常性（ホメオスタシス）等に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+      <p><span class="bold">（1）</span>外部環境の変化に対し内部環境を一定に保つ仕組みを恒常性という．
+      <p><span class="bold">（2）</span>恒常性は，主に，神経系，内分泌系，免疫系の機能によって維持されている．
+      <p><span class="bold">（3）</span>外部からの刺激は，受容器で受容されて中枢に伝達され，その後，効果器に興奮が伝えられて反応が起こる．
+      <p><span class="bold">（4）</span>生体に刺激が加えられると，生体内に変化が生じ，適応しようとする反応が非特異的に生じる．
+      <p><span class="bold">（5）</span>加齢とともに摂取エネルギー量は低下するが，エネルギーを予備力として蓄えておく能力は増加する．             
+    </div>
+
+    <div id="tab2">
+      <p>2021年</p>
+      <p class="bold">問題21&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+      <p>加齢とともに，エネルギーを予備力として蓄えておく能力，いわゆるスタミナも低下する．
+      <p>生体機能の恒常性（ホメオスタシス）とは，外部環境に変化が生じた場合であっても，自律神経系や内分泌系，免疫系等の働きによる負のフィードバック機能により身体機能や体液成分等の内部環境変動幅を一定の限られた範囲内にとどめておくことである．
+      <p>外部環境の変化は，まず生体の受容器でとらえられ，求心性神経系等により調節中枢に伝達される．調節中枢は，遠心性神経系等により，筋肉等の効果器に指令し，反応等を起こす．
+      <p>核心温，血液のpH値等が一定値の範囲に保たれるのは人体の恒常性の例である．生体に対してストレスをもたらす一定以上の強い刺激をストレッサという．有害なストレッサは，人体における神経系，内分泌系，免疫系等の変化を引き起こして，生体機能の恒常性を乱し，病気の発症や経過に影響を与える．高温などの物理的刺激や，有害物質などの化学的刺激，世間からの非難等の社会的，精神的な様々な要因がストレスとなりうる．
+      <p>ストレスによる影響は，遺伝，環境，加齢等の様々な要因によって左右され，個人差が大きい．高齢者ではストレスに対する耐性も劣っている場合が多い．
+      <!-- <p>&emsp;</p>
+      <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-22.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../2021_1/2021-20.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

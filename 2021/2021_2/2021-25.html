@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-25</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2021年</p>
+      <p><span class="bold">問題25</span>&emsp;温熱環境と体熱平衡に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+      <p><span class="bold">（1）</span>対流による熱放散は，流体の流れに伴う熱エネルギーの移動現象である．
+      <p><span class="bold">（2）</span>蒸発による熱放散は，水分が皮膚から気化するときに皮膚表面から潜熱を奪う現象である．
+      <p><span class="bold">（3）</span>高温環境下においては，人体の熱産生量は低下する．
+      <p><span class="bold">（4）</span>人体側の温熱環境要素は，代謝量と着衣量である．
+      <p><span class="bold">（5）</span>伝導による熱放散は，体と直接接触する物体との間の熱エネルギーの移動現象である．             
+    </div>
+
+    <div id="tab2">
+      <p>2021年</p>
+      <p class="bold">問題25&emsp;正解（3）</span>&emsp;頻出度AAA</span></p>
+      <p>低温の環境では，人体からの熱放散量が増加するので体熱平衡を維持するために熱産生量も増加するが，高温の環境でも，汗の分泌増加や血流量の増加で代謝量はわずかに上昇する（<a href="2021-24.html#tab2#:~:text=暑いときには" target="_blank" rel="noopener noreferrer">前問の解説<span class="bold">-(4)</a>参照）．
+      <p><span class="bold">-(4) </span>エネルギー代謝量，着衣量，空気温度，放射温度，気流，湿度の6つを人体の熱的快適感に影響する主要な温熱環境要素（温熱因子）という（<a href="2021-23.html#tab2" target="_blank" rel="noopener noreferrer">本年度-問題23解説</a>参照）．
+      <!-- <p>&emsp;</p>
+      <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-26.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-24.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
