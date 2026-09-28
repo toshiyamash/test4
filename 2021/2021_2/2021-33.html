@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-33</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2021年</p>
+      <p><span class="bold">問題33</span>&emsp;騒音に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+      <p><span class="bold">（1）</span>騒音性難聴は，4,000 Hz付近の聴力低下から始まる．
+      <p><span class="bold">（2）</span>老人性難聴の初期では，会話音域である周波数（2,000Hz）から聴力の低下がみられる．
+      <p><span class="bold">（3）</span>環境騒音によって自律神経系が刺激され，血圧の上昇などが観察される．
+      <p><span class="bold">（4）</span>長期間85 dB 以上の騒音にばく露されると，永久性の聴力低下となる危険性が高くなる．
+      <p><span class="bold">（5）</span>住民の騒音苦情の大半は，聴取妨害と心理的影響である．
+    </div>
+
+    <div id="tab2">
+      <p>2021年</p>
+      <p class="bold">問題33&emsp;正解（2）</span>&emsp;頻出度AAA</span></p>
+      <p>老人性難聴の特徴は，8,000Hz付近の高音域から始まることである．ちなみに，普通の会話の音域は1,000Hz～4,000Hzである．
+      <p>一般に聴力低下の度合いは，女性より男性の方が大きい．
+      <p><span class="bold">-(1) </span>4,000Hz付近の周波数から始まる初期の騒音性難聴の特徴をc<sup>5</sup>ディップの発生という（<a href="2021-32.html#tab2#:~:text=c5ディップの発生という" target="_blank" rel="noopener noreferrer">前問解説</a>参照）．
+      <p><span class="bold">-(3) </span>騒音により自律神経系が刺激され，末梢血管の収縮，血圧の上昇，胃の働きの抑制等が起きる．また，副腎ホルモンの分泌の増加，性ホルモン分泌の変化等が起きる．このため騒音レベル が高くなると，生理的・身体的な影響が出現する．
+      <p><span class="bold">-(4) </span>騒音による一時的な聴力低下をTTS（Temporal Threshold Shift：一過性<ruby>閾<rt>いき</rt></ruby>値上昇）といい，永久性難聴（永続性閾値変化）をPTS（Permanent Threshold Shift）という．
+      <p>TTSは，静穏な環境で回復するが，騒音が繰り返され，長期に及ぶとPTSに移行してしまうことが起こる．騒音による永久性難聴の程度や進行具合には，個人差が大きい．
+      <p>WHOの環境騒音ガイドラインでは，一般の環境騒音では，1日の曝露騒音として24時間等価騒音レベル（LAeq24h）<sup>※</sup>が70dB未満であれば，騒音による永久性の聴力障害はほとんど起こらないとされる．
+      <p>※ 24時間等価騒音レベル（LAeq24h） 24時間にわたって時間的に変動する騒音レベルをエネルギー的に等価な定常騒音レベルで表した量．
+      <p><span class="bold">-(5) </span>聴取妨害と「やかましい」，「迷惑だ」といった心理的影響が住民の騒音苦情の大半を占めており，騒音に関する基準は，この住民の心理的影響に関する反応を参考につくられている．<br>
+      &emsp;わが国では，環境基本法による「騒音に係る環境基準」， 「航空機騒音に係る環境基準」，「新幹線鉄道騒音に係る環境基準」ならびに騒音規制法，地方自治体の条例による基準がある．
+      <!-- <p>&emsp;</p> -->
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-34.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-32.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
