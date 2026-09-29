@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-37</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2021年</p>
+      <p><span class="bold">問題37</span>&emsp;電磁波に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+      <p><span class="bold">（1）</span>レーザー光線には可視光のレーザーの他，赤外線や紫外線のレーザーがある．
+      <p><span class="bold">（2）</span>溶接作業で発生する電気性眼炎は紫外線による．
+      <p><span class="bold">（3）</span>赤外線は白内障の原因となる．
+      <p><span class="bold">（4）</span>マイクロ波の主な用途の一つとして，家庭用電子レンジがある．
+      <p><span class="bold">（5）</span>可視光線の波長は赤外線より長い．
+    </div>
+
+    <div id="tab2">
+      <p>2021年</p>
+      <p class="bold">問題37&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+      <p>可視光線の波長は赤外線より短い．可視光線の波長は0.38μm～0.78μm，赤外線は0.78μm～0.1mmである．
+      <p>ついでに紫外線の波長は10nm～0.38μmである．波長は赤外線＞可視光＞紫外線であり，周波数（振動数）は紫外線＞可視光＞赤外線であるが，それぞれが真空中を伝播する速度は波長×周波数＝光速となって一定となる．
+      <p>赤外線，可視光，紫外線もその一部である電磁波は，波長の長短（周波数の高低）によってその性質が著しく変化するので，その利用の仕方も異なってくる（<span class="bold">2021-37-1表</span>参照）．                
+      <p class="cap">2021-37-1表&emsp;電磁波一覧
+      <table>
+          <tr>
+              <td rowspan="17" class="tdVertical textCenter">電磁波</td>
+              <td class="textCenter" colspan="3">電磁波の種類・名称</td>
+              <td>周波数</td>
+              <td>波長</td>
+              <td>用途・発生源</td>
+          </tr>
+          <tr>
+              <td colspan="2" rowspan="2">電離放射線</td>
+              <td>ガンマ（γ）線</td>
+              <td>3,000万THz～</td>
+              <td>0.0001nm～</td>
+              <td>科学観測機器</td>
+          </tr>
+          <tr>
+              <td>エックス（X）線</td>
+              <td>30,000～3,000万THz</td>
+              <td>0.001～10nm</td>
+              <td>医療機器（X線，CTスキャナ）</td>
+          </tr>
+          <tr>
+              <td class="tdVertical textCenter" rowspan="14">非電離放射線</td>
+              <td class="tdVertical textCenter" rowspan="3">光</td>
+              <td>紫外線</td>
+              <td>789～
+                  30,000THz
+                  </td>
+              <td>10nm～
+                  0.38μm
+                  </td>
+              <td>殺菌・レーザ</td>
+          </tr>
+          <tr>
+              <td>可視光</td>
+              <td>384～789THz</td>
+              <td>0.38～0.78μm</td>
+              <td>光学機器</td>
+          </tr>
+          <tr>
+              <td>赤外線</td>
+              <td>3,000G～
+                  384THz
+                  </td>
+              <td>0.78μm～
+                  0.1mm
+                  </td>
+              <td>工業用（加熱・乾燥）</td>
+          </tr>
+          <tr>
+              <td class="tdVertical textCenter" rowspan="11">電波</td>
+              <td>サブミリ波</td>
+              <td>300～
+                  3,000GH
+                  </td>
+              <td>0.1～1mm</td>
+              <td>光通信システム</td>
+          </tr>
+          <tr>
+              <td>ミリ波（EHF）</td>
+              <td>30～300GHz</td>
+              <td>1mm～1cm</td>
+              <td>レーダ</td>
+          </tr>
+          <tr>
+              <td>センチ波（SHF）</td>
+              <td>3～30GHz</td>
+              <td>1～10cm</td>
+              <td>衛星放送，
+                  マイクロウェーブ
+                  </td>
+          </tr>
+          <tr>
+              <td>極超短波（UHF）</td>
+              <td>300～
+                  3,000MHz
+                  </td>
+              <td>10cm～1m</td>
+              <td>テレビ，電子レンジ，
+                  携帯電話
+                  </td>
+          </tr>
+          <tr>
+              <td>超短波（VHF）</td>
+              <td>30～300MHz</td>
+              <td>1～10m</td>
+              <td>テレビ，FM放送，
+                  業務無線
+                  </td>
+          </tr>
+          <tr>
+              <td>短波（HF）</td>
+              <td>3～30MHz</td>
+              <td>10～100m</td>
+              <td>短波放送，国際放送，アマチュア無線</td>
+          </tr>
+          <tr>
+              <td>中波（MF）</td>
+              <td>300～3,000kHz</td>
+              <td>100～1,000m</td>
+              <td>ラジオ放送</td>
+          </tr>
+          <tr>
+              <td>長波（LF）</td>
+              <td>30～300kHz</td>
+              <td>1～10km</td>
+              <td>日本標準時送信</td>
+          </tr>
+          <tr>
+              <td>超長波（VLF）</td>
+              <td>3～30kHz</td>
+              <td>10～100km</td>
+              <td>電磁調理器</td>
+          </tr>
+          <tr>
+              <td>（ULF）</td>
+              <td>300～3,000Hz</td>
+              <td>100～10<sup>3</sup>km</td>
+              <td class="textCenter">－</td>
+          </tr>
+          <tr>
+              <td>極超長波（ELF）</td>
+              <td>3～300Hz</td>
+              <td>10<sup>3</sup>～10<sup>5</sup>km</td>
+              <td>家電製品&emsp;高圧送電線</td>
+          </tr>
+      </table>
+      <p class="textCenter">※ ミリ波～極超短波を通称マイクロ波，ミリ波～超長波をラジオ周波という．
+      <p><span class="bold">-(1) </span>レーザー（LASER）は，Light Amplification by Stimulated Emission of Radiation の頭文字をとったもの．位相のそろった単一波長で，指向性，集束性の優れた光線の意．紫外線から可視光，赤外線の広い波長領域にわたってレーザーが開発されている．レーザーは総エネルギーが小さくとも微小な面積にエネルギーを集中するため作用は強烈である．熱作用によって眼では網膜焼却，網膜浮腫，壊死，皮膚では火傷，熱凝固，壊死，炭化などを起こす．
+      <p><span class="bold">-(2) </span>電気性眼炎を起こす紫外線は，UV-Bである（<span class="bold">2021-37-2表</span>参照）．                
+      <p class="cap">2021-37-2表&emsp;紫外線（UV-A，UV-B，UV-C）
+      <table>
+          <tr>
+              <td nowrap>UV-A　<br>
+                  315～400nm
+                  </td>
+              <td>UV-Aはメラニンを黒化させ皮膚の色を黒くする日焼け（サンタン）を起こす（皮膚へのメラニンの沈着ともいう）．
+                  白人に多い皮膚の癌，悪性黒色腫の原因の1つとされる．
+                  </td>
+          </tr>
+          <tr>
+              <td>UV-B　<br>
+                  280～320nm
+                  </td>
+              <td>
+              <p>1）皮膚に強い紅斑や水泡を作る日焼け（サンバーン）の原因となる．紅斑を作る紫外線の最小量を最小紅斑量（MED）という．真夏の海岸で20分の直射日光に相当する．健康のためには毎日1/7MED程度の紫外線を浴びる必要がある．
+              <p>2）UV-Bは眼の表層に吸収されて角膜炎の原因となる（雪のゲレンデなどで起きる雪眼，アーク溶接の紫外線による電気性眼炎）．<br>遅発性の症状として，白内障を生ずる．
+              <p>3）280～320nmの紫外線を健康線（ドルノ線</span>）といい，皮膚でビタミンDを生成したり（不足するとクル病の原因），鉱物質の代謝を促進する．
+              </td>
+          </tr>
+          <tr>
+              <td>UV-C　<br>
+                  200～280nm
+                  </td>
+              <td>地表約10km上空のオゾン層に吸収されて地上には到達しない．紫外線の殺菌作用は200～320nmの波長で，特に260nmは最強波長である．これは核酸の吸光ピークに一致するため，バクテリア細胞内のDNAが障害されると考えられる．紫外線殺菌灯は253.7nmを用いている．</td>
+          </tr>
+      </table>
+      <p><span class="bold">-(3) </span>赤外線は波長が可視光より長く，マイクロ波より短い電磁波で，熱線とも呼ばれる．可視光に近い波長の短い赤外線を近赤外線，マイクロ波に近い波長の長い赤外線を遠赤外線と呼ぶ．
+      <p>赤外線は紫外線より皮膚透過性が大きく，その影響は身体内部まで及ぶ．皮膚の表皮直下の乳頭層の血管を拡張し血流を盛んにする一方，血液は加温され，全身を暖め代謝を高める．遠赤外線は皮膚透過性が最も大きく深部で熱となって体内の代謝を高める．又，頭蓋骨を透過して脳を加温し熱中症（熱射病）の原因になる．
+      <p>赤外線への曝露が問題となる業務には，炉前作業，硝子加工作業，冶金・鋳物注油作業，赤外線乾燥作業，溶接作業等がある．
+      <p>赤外線の慢性曝露による硝子工白内障<sup>※</sup>では潜伏期間10～15年で発症する．
+      <p>※ 白内障　蛋白質の変性によって眼の中の水晶体が濁る病気．
+      <p><span class="bold">-(4) </span>電子レンジの利用するマイクロ波は，周波数2,450±50MHzのUHF（極超短波）と「国際電気通信連合（ITU）憲章」に基づく「無線通信規則（Radio Regulations: RR）」に決められている．
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-38.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-36.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-36</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2021年</p>
+      <p><span class="bold">問題36</span>&emsp;情報機器作業に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+      <p><span class="bold">（1）</span>作業者の健康に関する調査で，最も多い自覚症状は眼の症状である．
+      <p><span class="bold">（2）</span>ディスプレイのグレア防止には，直接照明を用いる．
+      <p><span class="bold">（3）</span>書類上及びキーボード上における照度は300lx以上が推奨される．
+      <p><span class="bold">（4）</span>ディスプレイ画面上における照度は500lx以下が推奨される．
+      <p><span class="bold">（5）</span>ディスプレイ画面の明るさ，書類及びキーボード面における明るさと，周囲の明るさとの差は，なるべく小さくする．             
+    </div>
+
+    <div id="tab2">
+      <p>2021年</p>
+      <p class="bold">問題36&emsp;正解（2）</span>&emsp;頻出度AAA</span></p>
+      <p>ディスプレイのグレア防止には，光源が直接映り込まないように間接照明を用いる．
+      <p>厚生労働省の通知，<a href="https://www.mhlw.go.jp/content/000539604.pdf#:~:text=間接照明等のグレア防止用照明器具を用いること。" target="_blank" rel="noopener noreferrer">「情報機器作業における労働衛生管理のためのガイドライン」</a>にも，『間接照明等のグレア防止用照明器具を用いること．』とある．
+      <p>一般にグレアを防ぐために，近い視野内での輝度比は1：3程度，広い視野内の輝度比は1：10程度が推奨されている．
+      <p><span class="bold">-(4) </span>改正された上記ガイドラインでは，「ディスプレイ画面上の照度500lx以下」の記述は削除されている．
+      <!-- <p>&emsp;</p>
+      <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-37.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-35.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
