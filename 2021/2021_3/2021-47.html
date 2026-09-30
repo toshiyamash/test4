@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-47</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題47</span>&emsp;結露に関する次の文章の<span class="whiteFrame">　　　</span>内に入る語句の組合せとして，<span class="bold">最も適当な</span>ものはどれか．</p>
+        <p>暖房時の壁体の内部や表面での結露を防止するには，壁体内において，水蒸気圧の<span class="whiteFrame">　ア　</span>側に<span class="whiteFrame">　イ　</span>の低い<span class="whiteFrame">　ウ　</span>を設けることが有効である．
+        <p><span style="margin-left: 3rem;">ア</span><span style="margin-left: 4.5rem;">イ</span><span style="margin-left: 6.5rem;">ウ</span></p>
+        <p><span class="bold">（1）</span>高い<span class="connectLine">　　　</span>熱伝導率<span class="connectLine">　　　　</span>断熱材
+        <p><span class="bold">（2）</span>高い<span class="connectLine">　　　</span>湿気伝導率<span class="connectLine">　　　</span>防湿層
+        <p><span class="bold">（3）</span>低い<span class="connectLine">　　　</span>湿気伝導率<span class="connectLine">　　　</span>防湿層
+        <p><span class="bold">（4）</span>低い<span class="connectLine">　　　</span>熱伝導抵抗<span class="connectLine">　　　</span>断熱材
+        <p><span class="bold">（5）</span>低い<span class="connectLine">　　　</span>湿気伝導率<span class="connectLine">　　　</span>断熱材          
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題47&emsp;正解（2）</span>&emsp;頻出度AAA</span></p>
+        <p>断熱材を挟んで，水蒸気分圧の高い側に湿気伝導率の低い層（防湿層）を入れるのが内部結露防止対策の基本である．
+        <p>物体の表面に結露を生じさせないためには，物体の表面温度をそれに接する空気の露点温度より高く保つ必要がある．そのためには断熱材を使って物体の温度を高く保つか，空気の絶対湿度を下げて露点をできるだけ低く保つことが必要である．
+        <p>内部結露については，冬季の場合，暖房によって屋内が高温多湿なので，室外に向かって熱流が流れると同時に，水蒸気も水蒸気圧の差によって屋内から屋外に向かって湿流が生じる．壁の部材の温度は内→外に向かって温度が低下し，壁内部の空気の露点温度と交わる点から結露が始まる．これを防ぐには，断熱材の室内側に防湿層を設けて，断熱材の外側の低温部に湿流が回って内部結露するのを防げばよい（<span class="bold">2021-47-1図</span>参照）．
+        <p>夏の場合は，冷房によって屋外側に防湿層が要ることになる．
+        <p class="cap">2021-47-1図&emsp;内部結露防止のための防湿層の位置
+        <div class="container">
+            <img src="../../images/image_3/内部結露防止のための防湿層の位置.svg" alt="内部結露防止のための防湿層の位置">
+        </div>
+        <!-- <p>&emsp;</p> -->
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-48.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-46.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

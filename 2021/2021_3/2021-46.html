@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-46</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題46</span>&emsp;下に示す湿り空気線図に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <div class="container">
+            <img src="../../images/image_3/2021-46問題添付図1.svg" alt="問題添付図">
+        </div>
+        <p><span class="bold">（1）</span>乾球温度14 ℃，相対湿度80 ％の空気を加熱コイルで25 ℃に温めると相対湿度は約40 ％となる．
+        <p><span class="bold">（2）</span>乾球温度10 ℃，相対湿度80 ％の空気は，乾球温度22 ℃，相対湿度30 ％の空気より絶対湿度が高い．
+        <p><span class="bold">（3）</span>乾球温度22 ℃，相対湿度60 ％の空気が表面温度15 ℃の窓ガラスに触れると結露する．
+        <p><span class="bold">（4）</span>乾球温度19 ℃の空気が含むことのできる最大の水蒸気量は，0.010 kg/kg（DA）より大きい．
+        <p><span class="bold">（5）</span>露点温度10 ℃の空気は，乾球温度29 ℃において約30 ％の相対湿度となる．
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題46&emsp;正解（3）</span>&emsp;頻出度AAA</span></p>
+        <p>乾球温度22℃，相対湿度60％の湿り空気の露点温度は約14℃なので，15℃の窓に触れても結露しない（<span class="bold">2021-46-1図</span>参照）．
+        　
+        <p class="cap">2021-46-1図&emsp;乾球温度22℃，相対湿度60％の湿り空気の露点温度
+        <div class="container">
+            <img src="../../images/image_3/2021-46-1乾球温度22℃，相対湿度60％の湿り空気の露点温度.svg" alt="乾球温度22℃，相対湿度60％の湿り空気の露点温度">
+        </div>
+        <p><span class="bold">-(1) </span>，<span class="bold">-(2) </span>，<span class="bold">-(4) </span>，<span class="bold">-(5) </span>の状態点の動きを<span class="bold">2021-46-2図</span>に示す．
+        <p class="cap">2021-46-2図&emsp;状態点の動き
+        <div class="textcenter">
+            <img src="../../images/image_3/2021-46-2状態点の動き.svg" alt="状態点の動き">
+        </div>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-47.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../2021_2/2021-45.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

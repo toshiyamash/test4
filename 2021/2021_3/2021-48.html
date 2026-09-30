@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-48</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題48</span>&emsp;建築材料表面（白色プラスター，アスファルト，新しい亜鉛鉄板，光ったアルミ<ruby>箔<rt>はく</rt></ruby>）の長波長放射率と日射吸収率の関係を下の図中に示している．<span class="bold">最も適当な</span>ものはどれか．</p>
+        <p>&emsp;</p>
+        <div class="container">
+            <img src="../../images/image_3/2021-48問題添付図1.svg" alt="問題添付図">
+        </div>
+        <p style="height: 0.1rem;"></p>
+        <p><span style="margin-left: 5rem;">A</span><span style="margin-left: 9.5rem;">B</span><span style="margin-left: 9rem;">C</span><span style="margin-left: 9rem;">D</span></p>
+        <p><span class="bold">（1）</span>白色プラスター<span class="connectLine">　　　</span>アスファルト<span class="connectLine">　　　　</span>光ったアルミ箔<span class="connectLine">　　　</span>新しい亜鉛鉄板
+        <p><span class="bold">（2）</span>光ったアルミ箔<span class="connectLine">　　　</span>新しい亜鉛鉄板<span class="connectLine">　　　</span>白色プラスター<span class="connectLine">　　　</span>アスファルト
+        <p><span class="bold">（3）</span>白色プラスター<span class="connectLine">　　　</span>アスファルト<span class="connectLine">　　　　</span>新しい亜鉛鉄板<span class="connectLine">　　　</span>光ったアルミ箔
+        <p><span class="bold">（4）</span>アスファルト<span class="connectLine">　　　　</span>白色プラスター<span class="connectLine">　　　</span>新しい亜鉛鉄板<span class="connectLine">　　　</span>光ったアルミ箔
+        <p><span class="bold">（5）</span>新しい亜鉛鉄板<span class="connectLine">　　　</span>光ったアルミ箔<span class="connectLine">　　　</span>白色プラスター<span class="connectLine">　　　</span>アスファルト         
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題48&emsp;正解（1）</span>&emsp;頻出度AAA</span></p>
+        <p>光ったアルミ箔は，長波長放射率0.1未満，日射吸収率0.1程度なのでCである．これで<span class="bold">-(1) </span>が答えなのが分かる．
+        <p>すべての物体はその表面温度と表面特性に応じた大きさと波長の電磁波を射出すると同時に他の物体からの電磁波を吸収している．物体の表面間を電磁波によって伝わる熱の移動を放射という．
+        <p>絶対温度&nbsp;\( T\)［K］の物体表面から射出される単位面積当たりの放射熱流&nbsp;\( q \)［W/m<sup>2</sup>］は次式の通り\( T\)［K］の4乗に比例する（シュテファン・ボルツマンの法則）．\( \sigma \)（シグマ）はシュテファン・ボルツマン定数という定数である．
+            \[ q=\epsilon \sigma T^4 \]           
+        <p>\( \epsilon \)（イプシロン）は放射率と呼ばれ物体表面の特性値であり，完全黒体という理想的な仮想物体で1.0，通常の物体では0.1～0.9の値をとる．
+        <p>常温物体からの放射は波長が10μm付近の赤外線が主体であり，長波長放射と呼ばれる．長波長放射・吸収では，放射エネルギーに関するキルヒホッフの法則により，同一温度の物体間では放射率と吸収率は等しくなるが，可視光の占める割合が多い太陽放射の吸収率は，吸収する物体表面の色が関係してくる．白っぽい物体は日射を反射してしまうからである（<span class="bold">2021-48-1表</span>参照）． 
+        <p class="cap">2021-48-1表&emsp;長波長放射率と日射吸収率                           
+        <table>
+            <tr>
+                <td class="textcenter">建材の例</td>
+                <td class="textcenter" width="30%">長波長放射率</td>
+                <td class="textcenter" width="30%">日射吸収率</td>
+            </tr>
+            <tr>
+                <td>白色プラスター</td>
+                <td class="textcenter">0.9</td>
+                <td class="textcenter">0.1</td>
+            </tr>
+            <tr>
+                <td>白色ペイント</td>
+                <td class="textcenter">0.9</td>
+                <td class="textcenter">0.2</td>
+            </tr>
+            <tr>
+                <td>アスファルト</td>
+                <td class="textcenter">0.9</td>
+                <td class="textcenter">0.9</td>
+            </tr>
+            <tr>
+                <td>黒色ペイント</td>
+                <td class="textcenter">0.9</td>
+                <td class="textcenter">0.9</td>
+            </tr>
+            <tr>
+                <td>光ったアルミ箔</td>
+                <td class="textcenter">0.1未満</td>
+                <td class="textcenter">0.1</td>
+            </tr>
+            <tr>
+                <td>新しい亜鉛鉄板</td>
+                <td class="textcenter">0.2</td>
+                <td class="textcenter">0.7</td>
+            </tr>
+            <tr>
+                <td>酸化した亜鉛鉄板</td>
+                <td class="textcenter">0.3</td>
+                <td class="textcenter">0.8</td>
+            </tr>
+            <tr>
+                <td>松板</td>
+                <td class="textcenter">0.6</td>
+                <td class="textcenter">0.9</td>
+            </tr>
+        </table>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-49.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-47.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

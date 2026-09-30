@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-49</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題49</span>&emsp;下の図は，厚さの異なるA，B，C 部材で構成された建築物外壁における定常状態の内部温度分布を示している．この図に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p>&emsp;</p>
+        <div class="container">
+            <img src="../../images/image_3/2021-49問題添付図1.svg" alt="問題添付図">
+        </div>
+        <p>&emsp;</p>
+        <p><span class="bold">（1）</span>A，B，C 部材のなかで，最も熱伝導率が大きい部材はB 部材である．
+        <p><span class="bold">（2）</span>熱伝達率は，屋外側の方が室内側より大きい．
+        <p><span class="bold">（3）</span>B 部材が主体構造体であるとすれば，この図は内断熱構造を示している．
+        <p><span class="bold">（4）</span>壁表面近傍で空気温度が急激に変化する部分を境界層という．
+        <p><span class="bold">（5）</span>A，B，C 部材のなかで，部材を流れる単位面積当たりの熱流量が最も大きいのはA 部材である．        
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題49&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+        <p>単位面積を通過する熱流量は，A，B，C部材いずれでも同じである．そうでないと，熱流量が変化する場所で，熱が突然湧いたり消え失せたりすることになる．
+        <p><span class="bold">-(1) </span>固体内の熱流量は局所的な温度勾配×熱伝導率なので，温度勾配は断熱材のような熱伝導率が小さい部材では大きくなり，熱伝導率が大きい部材では温度勾配は小さくならないと，熱流量が同じにならない（<span class="bold">2021-49-1図</span>参照）．                        
+        <p class="cap">2021-49-1図&emsp;熱伝導率と温度勾配
+        <div class="container">
+            <img src="../../images/image_3/熱伝導率と温度勾配.svg" alt="熱伝導率と温度勾配">
+        </div>
+        <p>問題の図ではB部材の熱伝導率が最も大きく，温度勾配の最も大きいC部材が断熱材となる．
+        <p><span class="bold">-(2) </span>壁表面の(総合)熱伝達率＝放射熱伝達率＋対流熱伝達率である．放射熱伝達率は屋内外で差はないが，対流熱伝達率では境界層＝空気の移動が妨げられる層（<span class="bold">2021-49-2図</span>）が断熱材の働きをするため，境界層が発達しやすい屋内側の対流熱伝達率が小さくなる(屋外では風などによって境界層ができにくい)．
+        <p class="cap">2021-49-2図&emsp;境界層
+        <div class="container">
+            <img src="../../images/image_3/境界層.svg" alt="境界層">
+        </div>
+        <p>問題に与えられている図も，確かに屋内側の境界層の温度勾配が大きく描いてある．
+        <p><span class="bold">-(3) </span>主体構造の屋内側に断熱材のC部材が配置されているので，内断熱構造である．
+        <p><span class="bold">-(4) </span>境界層は一種の断熱材と見ることができるので，上図（2021-49-1図）にあるように温度勾配は大きくなる．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-50.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-48.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

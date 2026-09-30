@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-50</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題50</span>&emsp;空気の流動に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>天井面に沿った冷房による吹出し噴流は，速度が小さいと途中で剥離して降下することがある．
+        <p><span class="bold">（2）</span>コールドドラフトは，冷たい壁付近などで生じる下降冷気流である．
+        <p><span class="bold">（3）</span>自由噴流の第3域では，中心軸速度が吹出し口からの距離に反比例して減衰する．
+        <p><span class="bold">（4）</span>吹出しの影響は遠方まで及ぶのに対し，吸込みの影響は吸込み口付近に限定される．
+        <p><span class="bold">（5）</span>通常の窓の流量係数は，約1.0である．
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題50&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+        <p>流量係数は，通常の窓で0.6～0.7程度となる（理想的なベルマウス（<span class="bold">2021-50-1図</span>）などの場合に≒1で，1を超えることはない）．
+        <p class="cap">2021-50-1図&emsp;ベルマウス
+        <div class="container">
+            <img src="../../images/image_3/ベルマウス.svg" alt="ベルマウス">
+        </div>
+        <p class="source">出典&emsp;モノタロウ（メーカー：古河電気工業）</span><br>
+            https://www.monotaro.com/g/04630739/#
+        <p>開口部前後の圧力差（換気力）を\(P\)［Pa］とすると，開口部を通過する風量\(Q\)［m<sup>3</sup>/s］は一般的に次式で求めることができる.
+          \[Q=\alpha A \sqrt{\frac{2}{\rho}\cdot P}\]
+        <div class="leftcenter">
+          ただし，<br>
+          \(\alpha\)：流量係数，<br>
+          \(A\)：開口面積［m<sup>2</sup>］，<br>
+          \(\rho\)：換気空気の密度［kg/m<sup>3</sup>］，<br>
+          \(P\)：換気力［Pa］．
+        </div>
+        <p>流量係数&nbsp;\(\alpha\)&nbsp;とは，オリフィスや弁などの実流量/理論流量の比のことで，流入口から流出口までの全ての抵抗を考慮した係数である．外部風に対する窓などの場合は，開口面積\(A\)［m<sup>2</sup>］に対して，\(\alpha A\)を相当開口面積という．
+        <p><span class="bold">-(3) </span>吹出し口からの自由噴流は，<span class="bold">2021-50-2図</span>に示すように周囲の空気を巻き込んで拡がりながら減速していく．
+        <p class="cap">2021-50-2&emsp;自由噴流　
+        <div class="container">
+            <img src="../../images/image_3/自由噴流.svg" alt="自由噴流">
+        </div>
+        <p>噴流の中心軸速度の減衰傾向により，吹出し口からの距離\(x\)に対して4つの領域に区分して表される（<span class="bold">2021-51-1表</span>）． 
+        <p class="cap">2021-51-1表&emsp;自由噴流の4領域                           
+        <table>
+            <tbody>
+                <tr>
+                    <td>第1域</td>
+                    <td>\(V_1 =V_0\)</td>
+                    <td>吹出し速度\(V_0\)が維持される領域</td>
+                </tr>
+                <tr>
+                    <td>第2域</td>
+                    <td>\(V_2 \propto \frac{1}{\sqrt{x}}\)</td>
+                    <td>距離の平方根に反比例</td>
+                </tr>
+                <tr>
+                    <td>第3域</td>
+                    <td>\(V_3 = \frac{1}{x}\)</td>
+                    <td>距離に反比例</td>
+                </tr>
+                <tr>
+                    <td>第4域</td>
+                    <td>\(V_4 \lt 0.25{\rm m/s}\)</td>
+                    <td>減速が進んで静穏気流と区別できなくなる領域</td>
+                </tr>
+            </tbody>
+        </table>        
+        <p>自由噴流は，吹き出した位置の近くに吹き出し方向と平行な天井や壁などがあると，到達距離が長くなる（その極端な場合がダクトである）．
+        <p>中心軸速度が一定速度まで低下する距離を到達距離と呼ぶ．ドラフト防止の観点から，到達距離や拡散半径を定義する風速として0.25m/sを用いることが多い
+        <p><span class="bold">-(4) </span>吸込み気流には吹出し気流のような指向性がなく，吸込み口全面から均一に吸い込む一様流となる．又，吸込み口に近い領域を除き，点状の吸込み（点源吸込み）とみなせるので，吸込み気流速度は吸込み口からの距離の2乗に反比例して急速に減衰．したがって吹出しに比べて吸込み気流の周囲への影響は吸込み口付近に限定される．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-51.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-49.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
