@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-51</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題51</span>&emsp;流体力学に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>直線ダクトの圧力損失は，長さに比例する．
+        <p><span class="bold">（2）</span>直線ダクトの圧力損失は，風速に比例する．
+        <p><span class="bold">（3）</span>直線の円形ダクトの圧力損失は，直径に反比例する．
+        <p><span class="bold">（4）</span>ダクトの形状変化に伴う圧力損失は，形状抵抗係数に比例する．
+        <p><span class="bold">（5）</span>開口部を通過する風量は，開口部前後の圧力差の平方根に比例する．        
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題51&emsp;正解（2）</span>&emsp;頻出度AAA</span></p>
+        <p>直線ダクトの圧力損失は，風速の2乗に比例する．
+        <p>ダクト内の流れでは，摩擦や流れの渦運動によって生じる損失等により，全圧は流れの下流方向に単調に低下する．この全圧低下を圧力損失と呼ぶ．
+        <p>直線の丸ダクトなどに生じる圧力損失\(\varDelta p\)［Pa］は，次式で表される．
+          \[\varDelta p=\lambda \frac{L}{D}\cdot \frac{1}{2}\rho v^2\]
+        <div class="leftcenter">
+            ただし，<br>
+            \(L\)：長さ［m］， <br>
+            \(D\)：流れの代表長さ（ダクトや配管の径など）［m］<br>
+            \(\rho\)：流体の密度［kg/m<sup>3</sup>］<br>
+            \(v\)：流速［m/s］， ．
+        </div>
+        <p>\(\lambda\)（ラムダ）は摩擦抵抗係数</span>と呼ばれ，ダクト表面の粗度のほか，ダクト内流体のレイノルズ数（\(R_e\)数）によって変化する．
+        <p>ダクトの形状変化に伴う圧力損失\(\varDelta p\)［Pa］は次式で表される．式中の&nbsp;\(\xi\)&nbsp;(クサイ)は形状抵抗係数と呼ばれ，さまざまな形状変化に対する経験値が知られている.
+          \[\varDelta p=\xi \frac{1}{2}\rho v^2\]
+        <p>いずれの圧力損失も流速の2乗に比例する（動圧&nbsp;\(\displaystyle \frac{1}{2}\rho v^2\)&nbsp;に比例するといってもよい）．
+        <p><span class="bold">-(5) </span>開口部前後の圧力差，すなわち換気力を\(P\) ［Pa］とすれば，換気量\(Q\)［m<sup>3</sup>/s］は次式で表される．
+          \[Q=\alpha A \sqrt{\frac{2}{\rho}\cdot P} \]
+        <div class="leftcenter">
+          ただし，<br>
+          \(\alpha\)：流量係数，<br>
+          \(A\)：開口面積［m<sup>2</sup>］，<br>
+          \(\rho\)：換気空気の密度［kg/m<sup>3</sup>］
+        </div>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-52.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-50.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

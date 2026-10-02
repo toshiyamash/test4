@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="109.28075mm"
+   height="78.76078mm"
+   viewBox="0 0 109.28075 78.760781"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="バイパスファクタ.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.69665277"
+     inkscape:cx="86.843837"
+     inkscape:cy="488.04801"
+     inkscape:window-width="1920"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer20"
+     inkscape:snap-global="false"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="false"
+     inkscape:snap-others="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-smooth-nodes="false"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-bbox="false"
+     inkscape:snap-center="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1019"
+       originx="1065.1913"
+       originy="-46.235794"
+       spacingy="1"
+       spacingx="1"
+       units="mm"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="-2630.7644"
+       y="2380.0117"
+       width="9.1359482"
+       height="15.161786"
+       id="rect117169" />
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-4"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-8"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-6"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-9"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-69"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer20"
+     inkscape:label="A1"
+     style="display:inline"
+     transform="translate(1065.1913,-46.235792)">
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.413417;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -990.28365,49.0592 c 0,0 -9.64794,32.025814 -31.41445,51.77658 -10.3468,9.38865 -23.6975,15.01032 -39.8057,18.07324"
+       id="path11240"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.413417;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1061.432,122.09834 99.42675,0.35651 V 49.127754 l -28.17547,-0.03338"
+       id="path11242"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.413417;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1061.5038,118.90902 0.072,3.18932"
+       id="path11246" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.9412px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.369487"
+       x="-439.38354"
+       y="-890.45441"
+       id="text82556"
+       transform="rotate(-67.531409)"><tspan
+         sodipodi:role="line"
+         id="tspan82554"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.9412px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.369487"
+         x="-439.38354"
+         y="-890.45441">飽和線</tspan></text>
+    <path
+       style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
+       d="m -1013.7449,46.235792 h 6.3646"
+       id="path1" />
+    <path
+       style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
+       d="m -1012.6842,124.99657 h 4.7735"
+       id="path2" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer21"
+     inkscape:label="A2"
+     style="display:inline"
+     transform="translate(1065.1913,-46.235792)">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.418946;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -990.42204,93.344482 -23.13986,7.846998"
+       id="path89952"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="fill:#000000;stroke:#000000;stroke-width:0.418946;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="circle90034"
+       cx="-990.422"
+       cy="93.344475"
+       r="0.86326969" />
+    <circle
+       style="fill:#000000;stroke:#000000;stroke-width:0.418946;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="circle90036"
+       cx="-1013.935"
+       cy="101.31805"
+       r="0.86326969" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.418946;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:1.25684, 1.25684;stroke-dashoffset:0"
+       d="m -1013.9351,101.31805 -14.7702,5.00868"
+       id="path122303" />
+    <circle
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.418946;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="circle90038"
+       cx="-1028.7052"
+       cy="106.32674"
+       r="0.86326969" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path124562"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="-5453.8228"
+       sodipodi:cy="-960.20874"
+       sodipodi:r1="4.9052362"
+       sodipodi:r2="2.4526181"
+       sodipodi:arg1="-1.0471976"
+       sodipodi:arg2="0"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -5451.3701,-964.4568 0,8.49612 -7.3579,-4.24806 z"
+       transform="matrix(0.23539221,-0.07824024,0.07824024,0.23539221,355.47667,-102.96791)"
+       inkscape:transform-center-x="0.12238651"
+       inkscape:transform-center-y="-0.19185732" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer22"
+     inkscape:label="A3"
+     style="display:inline"
+     transform="translate(1065.1913,-46.235792)">
+    <text
+       xml:space="preserve"
+       style="font-size:4.43385px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.369487"
+       x="-1052.7568"
+       y="78.754776"
+       id="text93136"><tspan
+         sodipodi:role="line"
+         id="tspan93134"
+         style="stroke-width:0.369487"
+         x="-1052.7568"
+         y="78.754776">A 冷水コイル入口</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.43385px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.369487"
+       x="-1053.1335"
+       y="84.77594"
+       id="text93842"><tspan
+         sodipodi:role="line"
+         id="tspan93840"
+         style="stroke-width:0.369487"
+         x="-1053.1335"
+         y="84.77594">B 冷水コイル出口</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.43385px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.369487"
+       x="-1052.9495"
+       y="91.028687"
+       id="text94572"><tspan
+         sodipodi:role="line"
+         id="tspan94570"
+         style="stroke-width:0.369487"
+         x="-1052.9495"
+         y="91.028687">C 装置露点温度</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.43385px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.369487"
+       x="-992.13458"
+       y="-216.16011"
+       id="text99646"
+       transform="rotate(-18.295213)"><tspan
+         sodipodi:role="line"
+         id="tspan99644"
+         style="stroke-width:0.369487"
+         x="-992.13458"
+         y="-216.16011">冷却除湿</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.43385px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.369487"
+       x="-991.98523"
+       y="91.549751"
+       id="text101226"><tspan
+         sodipodi:role="line"
+         id="tspan101224"
+         style="stroke-width:0.369487"
+         x="-991.98523"
+         y="91.549751">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.43385px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.369487"
+       x="-1015.6069"
+       y="99.018265"
+       id="text102990"><tspan
+         sodipodi:role="line"
+         id="tspan102988"
+         style="stroke-width:0.369487"
+         x="-1015.6069"
+         y="99.018265">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.43385px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.369487"
+       x="-1030.6018"
+       y="103.76574"
+       id="text103726"><tspan
+         sodipodi:role="line"
+         id="tspan103724"
+         style="stroke-width:0.369487"
+         x="-1030.6018"
+         y="103.76574">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.9412px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.369487"
+       x="-1030.5984"
+       y="113.19283"
+       id="text105182"><tspan
+         sodipodi:role="line"
+         id="tspan105180"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.9412px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.369487"
+         x="-1030.5984"
+         y="113.19283">バイパスファクタ＝BC/AC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.9412px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.369487"
+       x="-1037.2648"
+       y="118.32735"
+       id="text107078"><tspan
+         sodipodi:role="line"
+         id="tspan107076"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.9412px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.369487"
+         x="-1037.2648"
+         y="118.32735">（コンタクトファクタ＝AB/AC）</tspan></text>
+    <path
+       style="fill:#000000;stroke:#ffff00;stroke-width:0.00139649;stroke-dasharray:none"
+       d="m -1065.1906,73.965017 0.3749,20.251737"
+       id="path11747" />
+    <path
+       style="fill:#000000;stroke:#ffff00;stroke-width:0.00139649;stroke-dasharray:none"
+       d="M -955.91125,79.137824 V 97.514402"
+       id="path11782" />
+  </g>
+</svg>

@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="201.9061mm"
-   height="82.239792mm"
-   viewBox="0 0 201.9061 82.239793"
+   width="100.97352mm"
+   height="87.165176mm"
+   viewBox="0 0 100.97352 87.165174"
    version="1.1"
    id="svg5"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
-   sodipodi:docname="空気線図・吹出し空気の状態点は顕熱比SHFの勾配に沿って移動.svg"
+   sodipodi:docname="空気線図・吹出し空気の状態点は顕熱比SHFの勾配に沿って移動・冷房時.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +24,8 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="0.98521578"
-     inkscape:cx="373.01473"
-     inkscape:cy="377.58226"
+     inkscape:cx="351.6996"
+     inkscape:cy="408.03244"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -49,7 +49,7 @@
        type="xygrid"
        id="grid1019"
        originx="1063.8413"
-       originy="-282.71729"
+       originy="-296.79688"
        spacingy="1"
        spacingx="1"
        units="mm" />
@@ -110,186 +110,194 @@
      id="layer20"
      inkscape:label="A1"
      style="display:inline"
-     transform="translate(1063.8414,-282.7173)">
+     transform="translate(1063.8414,-296.79686)">
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.378725;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -996.92699,285.58296 c 0,0 -8.83811,29.33831 -28.77811,47.43167 -9.4787,8.60077 -21.7091,13.75069 -36.4653,16.55657"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.405688;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -992.16286,301.30492 c 0,0 -9.46744,31.4271 -30.82704,50.80865 -10.1535,9.21311 -23.2547,14.72969 -39.0615,17.73534"
        id="path10742"
        sodipodi:nodetypes="csc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.378725;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -1062.1048,352.4929 91.08329,0.32659 v -67.17372 l -25.81123,-0.0306"
+       style="fill:none;stroke:#000000;stroke-width:0.405688;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1061.9811,372.97863 97.56808,0.34984 v -71.95628 l -27.64886,-0.0328"
        id="path10744"
        sodipodi:nodetypes="cccc" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.378725;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -1062.1704,345.36774 58.6289,-59.75355"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.405688;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1062.0514,365.34618 62.80305,-64.00781"
        id="path10746" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.172801;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -1018.4564,293.36463 c 0,0 -6.4764,-7.50731 -18.5248,-7.49717 -6.6,0.006 -12.7176,2.43242 -18.5152,8.59366 -2.99,3.17745 -6.1156,8.74392 -6.2737,17.42678 -0.1141,6.23217 1.9833,12.13059 7.4001,18.1747"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.185104;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1015.2252,309.64062 c 0,0 -6.9374,-8.04181 -19.8436,-8.03095 -7.0699,0.007 -13.6232,2.6056 -19.8334,9.20551 -3.2029,3.40367 -6.551,9.36645 -6.7205,18.6675 -0.1216,6.67589 2.1245,12.99425 7.927,19.46869"
        id="path10748"
        sodipodi:nodetypes="csssc" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.172801;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -1021.6817,296.67705 c -1.226,-1.47462 -14.9183,-12.92243 -28.8162,-0.44338 -9.2711,8.32474 -8.7528,23.14861 0.4864,31.6933"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.185104;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1018.6801,313.18888 c -1.3132,-1.57962 -15.9803,-13.84248 -30.8678,-0.47495 -9.9311,8.91743 -9.376,24.79671 0.521,33.94975"
        id="path10750"
        sodipodi:nodetypes="csc" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.172801;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -1057.2301,311.7521 c -0.073,4.97084 2.5045,11.9703 7.2081,16.15702"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.185104;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1056.7594,329.33721 c -0.078,5.32475 2.6828,12.82255 7.7213,17.30735"
        id="path10794"
        sodipodi:nodetypes="cc" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.378725;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -1053.1011,311.68016 c 0.2082,6.04269 2.0862,9.46691 5.8702,12.99179"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.405688;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1052.3364,329.26016 c 0.2229,6.4729 2.2347,10.14092 6.2881,13.91676"
        id="path10796"
        sodipodi:nodetypes="cc" />
     <circle
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.169561;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.181633;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="circle10818"
-       cx="-1036.4332"
-       cy="311.74493"
-       r="1.0447041" />
+       cx="-1034.4818"
+       cy="329.3295"
+       r="1.1190836" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.172801;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -1036.4332,310.70022 v 2.0894"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.185104;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1034.4819,328.21044 v 2.23816"
        id="path10820" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.172801;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -1037.4778,311.74492 h 2.0893"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.185104;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1035.6008,329.32953 h 2.238"
        id="path10822" />
     <path
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.378725;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -1062.1704,349.5712 0.066,2.9217"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.405688;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1062.0514,369.84891 0.071,3.12972"
        id="path10824" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.20197px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-       x="-658.90289"
-       y="-807.25427"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.42995px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
+       x="-672.60712"
+       y="-796.4978"
        id="text82560"
        transform="rotate(-67.531409)"><tspan
          sodipodi:role="line"
          id="tspan82558"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.20197px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-658.90289"
-         y="-807.25427">飽和線</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.42995px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
+         x="-672.60712"
+         y="-796.4978">飽和線</tspan></text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.378725;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -890.31074,285.58296 c 0,0 -8.83817,29.33831 -28.77815,47.43167 -9.47858,8.60077 -21.709,13.75069 -36.46527,16.55657"
+       d="m -890.04219,385.48493 c 0,0 -8.83817,29.33831 -28.77815,47.43167 -9.47858,8.60077 -21.709,13.75069 -36.46527,16.55657"
        id="path9704"
        sodipodi:nodetypes="csc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.378725;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -955.48856,352.4929 91.0833,0.32659 v -67.17372 l -25.81123,-0.0306"
+       d="m -955.22001,452.39487 91.0833,0.32659 v -67.17372 l -25.81123,-0.0306"
        id="path9706"
        sodipodi:nodetypes="cccc" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.378725;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -955.55416,345.36774 58.62886,-59.75355"
+       d="m -955.28561,445.26971 58.62886,-59.75355"
        id="path9708" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.172801;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -911.84016,293.36463 c 0,0 -6.47632,-7.50731 -18.52483,-7.49717 -6.60003,0.006 -12.71758,2.43242 -18.51524,8.59366 -2.98993,3.17745 -6.11547,8.74392 -6.27367,17.42678 -0.1141,6.23217 1.98334,12.13059 7.40019,18.1747"
+       d="m -911.57161,393.2666 c 0,0 -6.47632,-7.50731 -18.52483,-7.49717 -6.60003,0.006 -12.71758,2.43242 -18.51524,8.59366 -2.98993,3.17745 -6.11547,8.74392 -6.27367,17.42678 -0.1141,6.23217 1.98334,12.13059 7.40019,18.1747"
        id="path9710"
        sodipodi:nodetypes="csssc" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.172801;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -915.06542,296.67705 c -1.2261,-1.47462 -14.91836,-12.92243 -28.81627,-0.44338 -9.2711,8.32474 -8.75271,23.14861 0.48637,31.6933"
+       d="m -914.79687,396.57902 c -1.2261,-1.47462 -14.91836,-12.92243 -28.81627,-0.44338 -9.2711,8.32474 -8.75271,23.14861 0.48637,31.6933"
        id="path9712"
        sodipodi:nodetypes="csc" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.172801;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -950.61384,311.7521 c -0.0726,4.97084 2.50446,11.9703 7.20815,16.15702"
+       d="m -950.34529,411.65407 c -0.0726,4.97084 2.50446,11.9703 7.20815,16.15702"
        id="path9714"
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.378725;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -946.48482,311.68016 c 0.20812,6.04269 2.08617,9.46691 5.87015,12.99179"
+       d="m -946.21627,411.58213 c 0.20812,6.04269 2.08617,9.46691 5.87015,12.99179"
        id="path9716"
        sodipodi:nodetypes="cc" />
     <circle
        style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.169561;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
        id="circle9718"
-       cx="-929.81683"
-       cy="311.74493"
+       cx="-929.54828"
+       cy="411.64691"
        r="1.0447041" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.172801;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -929.8169,310.70022 v 2.0894"
+       d="m -929.54835,410.60219 v 2.0894"
        id="path9720" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.172801;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -930.8616,311.74492 h 2.0894"
+       d="m -930.59305,411.64689 h 2.0894"
        id="path9722" />
     <path
        style="fill:#ffffff;stroke:#000000;stroke-width:0.378725;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -955.55416,349.5712 0.0661,2.9217"
+       d="m -955.28561,449.47317 0.0661,2.9217"
        id="path9724" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.20197px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-       x="-618.15662"
-       y="-708.73132"
+       x="-710.37231"
+       y="-670.30292"
        id="text9728"
        transform="rotate(-67.531409)"><tspan
          sodipodi:role="line"
          id="tspan9726"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.20197px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-618.15662"
-         y="-708.73132">飽和線</tspan></text>
+         x="-710.37231"
+         y="-670.30292">飽和線</tspan></text>
     <path
        style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
-       d="m -1063.8414,313.98811 v 7.38682"
+       d="m -1063.8414,331.73243 v 7.91274"
        id="path1" />
     <path
        style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
-       d="m -973.22987,282.7173 h 6.40189"
-       id="path2" />
-    <path
-       style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
-       d="m -861.93531,316.69662 v 6.4019"
+       d="m -861.66676,416.59859 v 6.4019"
        id="path3" />
     <path
        style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
-       d="m -961.16475,364.95709 h 7.14057"
+       d="m -960.8962,464.85906 h 7.14057"
        id="path4" />
+    <path
+       style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
+       d="m -962.86788,335.92051 v 6.32882"
+       id="path5" />
+    <path
+       style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
+       d="m -1011.1971,296.79686 h 6.6165"
+       id="path6" />
+    <path
+       style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
+       d="m -1010.9094,383.96204 h 6.3288"
+       id="path7" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer21"
      inkscape:label="A2"
      style="display:inline"
-     transform="translate(1063.8414,-282.7173)">
+     transform="translate(1063.8414,-296.79686)">
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.259328;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.777984, 0.777984;stroke-dashoffset:0"
-       d="m -997.02851,331.61247 h 26.007"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.277792;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.83337, 0.83337;stroke-dashoffset:0"
+       d="m -992.27164,350.61158 h 27.85862"
        id="path128947" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.259328;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.777986, 0.777986;stroke-dashoffset:0"
-       d="m -1017.0259,334.4078 h 45.90792"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.277792;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.833378, 0.833378;stroke-dashoffset:0"
+       d="m -1013.6928,353.60592 h 49.17643"
        id="path128949" />
     <path
-       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.388992;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m -1017.0259,334.4078 18.26774,-2.55356"
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.416686;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -1013.6928,353.60592 19.56841,-2.73535"
        id="path126913"
        sodipodi:nodetypes="cc" />
     <circle
-       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.388992;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.416686;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        id="circle126995"
-       cx="-1017.0258"
-       cy="334.40778"
-       r="0.80154604" />
+       cx="-1013.6926"
+       cy="353.6059"
+       r="0.85861355" />
     <circle
-       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.388992;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.416686;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        id="circle126997"
-       cx="-997.0285"
-       cy="331.61246"
-       r="0.80154604" />
+       cx="-992.27167"
+       cy="350.61154"
+       r="0.85861355" />
     <path
-       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.388992;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m -1052.5042,313.98621 14.9987,-2.09139"
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.416686;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -1051.697,331.73038 16.0666,-2.24029"
        id="path126999"
        sodipodi:nodetypes="cc" />
     <path
@@ -307,38 +315,38 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m -5568.9143,-123.63874 -4.855,0 2.4275,-4.20449 z"
-       transform="matrix(-0.27688271,0.20256482,0.20256482,0.27688271,-2516.6268,1495.0755)"
-       inkscape:transform-center-x="-0.19414676"
-       inkscape:transform-center-y="0.051929776" />
+       transform="matrix(-0.29659588,0.21698679,0.21698679,0.29659588,-2620.0605,1596.9095)"
+       inkscape:transform-center-x="-0.2079787"
+       inkscape:transform-center-y="0.055652784" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.129664;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m -1045.7317,313.01281 37.7368,20.10483"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.138896;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -1044.4423,330.68768 40.4236,21.53624"
        id="path128832" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.259328;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.777984, 0.777984;stroke-dashoffset:0"
-       d="m -890.41227,331.61247 h 26.00701"
+       d="m -890.14372,431.51444 h 26.00701"
        id="path9730" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.259328;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.777986, 0.777986;stroke-dashoffset:0"
-       d="m -878.72178,325.52825 h 14.04595"
+       d="m -878.45323,425.43022 h 14.04595"
        id="path9732"
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.388992;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m -888.62037,330.58399 8.74761,-5.03561"
+       d="m -888.35182,430.48596 8.74761,-5.03561"
        id="path9734"
        sodipodi:nodetypes="cc" />
     <circle
        style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.388992;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        id="circle9736"
-       cx="-879.81146"
-       cy="325.48792"
+       cx="-879.54291"
+       cy="425.38989"
        r="0.80154604" />
     <circle
        style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.388992;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        id="circle9738"
-       cx="-890.41229"
-       cy="331.61246"
+       cx="-890.14374"
+       cy="431.51443"
        r="0.80154604" />
     <path
        sodipodi:type="star"
@@ -355,17 +363,17 @@
        inkscape:rounded="0"
        inkscape:randomized="0"
        d="m -5568.9143,-123.63874 -4.855,0 2.4275,-4.20449 z"
-       transform="matrix(-0.34306276,0.00211769,0.00211769,0.34306276,-2799.3418,385.11185)"
+       transform="matrix(-0.34306276,0.00211769,0.00211769,0.34306276,-2799.0732,485.01382)"
        inkscape:transform-center-x="-0.0027996276"
        inkscape:transform-center-y="-0.23774399" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:0.129664;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m -936.03766,315.90598 50.67705,11.64018"
+       d="m -935.76911,415.80795 50.67705,11.64018"
        id="path9744"
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.388992;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m -944.40579,320.00922 14.34928,-8.05189"
+       d="m -944.13724,419.91119 14.34928,-8.05189"
        id="path13139"
        sodipodi:nodetypes="cc" />
   </g>
@@ -374,315 +382,315 @@
      id="layer22"
      inkscape:label="A3"
      style="display:inline"
-     transform="translate(1063.8414,-282.7173)">
+     transform="translate(1063.8414,-296.79686)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.0914405"
-       x="-1081.9226"
-       y="181.36177"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.93997px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.0979507"
+       x="-1083.2155"
+       y="198.97549"
        id="text10790"
        transform="rotate(-7.0355272)"><tspan
          sodipodi:role="line"
          id="tspan10788"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.0457204px;stroke-width:0.0914405"
-         x="-1081.9226"
-         y="181.36177">顕熱比 <tspan
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.0914405"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.93997px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.0489755px;stroke-width:0.0979507"
+         x="-1083.2155"
+         y="198.97549">顕熱比 <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.93997px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.0979507"
    id="tspan136435">SHF</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:italic;font-size:2.74456px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.343069"
-       x="-1050.1061"
-       y="302.25504"
+       style="font-style:italic;font-size:2.93997px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.367494"
+       x="-1049.1282"
+       y="319.164"
        id="text142377"><tspan
          sodipodi:role="line"
          id="tspan142375"
-         style="stroke-width:0.343069"
-         x="-1050.1061"
-         y="302.25504">SHF<tspan
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
+         style="stroke-width:0.367494"
+         x="-1049.1282"
+         y="319.164">SHF<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.93997px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
    id="tspan148101">＝</tspan></tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-       x="-1038.0648"
-       y="300.0787"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.93997px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
+       x="-1036.2296"
+       y="316.83273"
        id="text143165"><tspan
          sodipodi:role="line"
          id="tspan143163"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-1038.0648"
-         y="300.0787">顕熱</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.93997px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
+         x="-1036.2296"
+         y="316.83273">顕熱</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-       x="-1041.4041"
-       y="304.25327"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.93997px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
+       x="-1039.8066"
+       y="321.3045"
        id="text144305"><tspan
          sodipodi:role="line"
          id="tspan144303"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-1041.4041"
-         y="304.25327">顕熱+潜熱</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.93997px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
+         x="-1039.8066"
+         y="321.3045">顕熱+潜熱</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.259328;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m -1041.3935,301.30701 h 13.3317"
+       style="fill:none;stroke:#000000;stroke-width:0.277792;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -1039.7952,318.14847 h 14.2808"
        id="path144720" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.6594px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.274456px;stroke-width:0.343069"
-       x="-1012.8556"
-       y="321.52451"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.91994px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.293997px;stroke-width:0.367494"
+       x="-1009.2256"
+       y="339.80539"
        id="text156233"><tspan
          sodipodi:role="line"
          id="tspan156231"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.6594px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-1012.8556"
-         y="321.52451">室内空気の状態点</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.91994px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
+         x="-1009.2256"
+         y="339.80539">室内空気の状態点</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.6594px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.274456px;stroke-width:0.343069"
-       x="-1034.4568"
-       y="343.66022"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.91994px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.293997px;stroke-width:0.367494"
+       x="-1032.3646"
+       y="363.51709"
        id="text164469"><tspan
          sodipodi:role="line"
          id="tspan164467"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.6594px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-1034.4568"
-         y="343.66022">吹出し空気の状態点</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.91994px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
+         x="-1032.3646"
+         y="363.51709">吹出し空気の状態点</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.33921px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.274456px;stroke-width:0.343069"
-       x="-1047.0093"
-       y="349.04474"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.57695px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.293997px;stroke-width:0.367494"
+       x="-1045.8109"
+       y="369.28494"
        id="text167421"><tspan
          sodipodi:role="line"
          id="tspan167419"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.33921px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-1047.0093"
-         y="349.04474">室の顕熱比<tspan
-   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.33921px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.57695px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
+         x="-1045.8109"
+         y="369.28494">室の顕熱比<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.57695px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
    id="tspan187465">SHF</tspan>の勾配に沿って移動</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.129664;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m -993.58724,322.89294 -2.88888,7.60227"
+       style="fill:none;stroke:#000000;stroke-width:0.138896;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -988.58542,341.27125 -3.09449,8.14353"
        id="path170375" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.129664;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m -1014.5695,339.61795 -2.1287,-4.40933"
+       style="fill:none;stroke:#000000;stroke-width:0.138896;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -1011.0615,359.18703 -2.2802,-4.72327"
        id="path170377" />
     <text
        xml:space="preserve"
-       style="font-size:1.34113px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';letter-spacing:-0.0914405px;display:inline;stroke-width:0.0914405"
-       x="-1084.097"
-       y="197.56442"
+       style="font-size:1.43662px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';letter-spacing:-0.0979507px;display:inline;stroke-width:0.0979507"
+       x="-1085.4886"
+       y="215.31625"
        id="text10762"
        transform="rotate(-6.2676043)"><tspan
          sodipodi:role="line"
          id="tspan10760"
-         style="stroke-width:0.0914405"
-         x="-1084.097"
-         y="197.56442">0.8</tspan></text>
+         style="stroke-width:0.0979507"
+         x="-1085.4886"
+         y="215.31625">0.8</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.8297px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.343069"
-       x="-1056.7517"
-       y="312.36777"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.95997px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.367494"
+       x="-1056.2468"
+       y="329.99673"
        id="text172265"><tspan
          sodipodi:role="line"
          id="tspan172263"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.8297px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-1056.7517"
-         y="312.36777">1.0</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.95997px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
+         x="-1056.2468"
+         y="329.99673">1.0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:1.34113px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';display:inline;stroke-width:0.343069"
-       x="-958.84875"
-       y="-537.34656"
+       style="font-size:1.43662px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';display:inline;stroke-width:0.367494"
+       x="-971.70819"
+       y="-523.75671"
        id="text177018"
        transform="rotate(-46.582222)"><tspan
          sodipodi:role="line"
          id="tspan177016"
-         style="stroke-width:0.343069"
-         x="-958.84875"
-         y="-537.34656">0.3</tspan></text>
+         style="stroke-width:0.367494"
+         x="-971.70819"
+         y="-523.75671">0.3</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:1.34113px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';display:inline;stroke-width:0.343069"
-       x="-1077.7809"
-       y="-228.82716"
+       style="font-size:1.43662px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';display:inline;stroke-width:0.367494"
+       x="-1085.9637"
+       y="-212.5798"
        id="text180350"
        transform="rotate(-28.875546)"><tspan
          sodipodi:role="line"
          id="tspan180348"
-         style="stroke-width:0.343069"
-         x="-1077.7809"
-         y="-228.82716">0.5</tspan></text>
+         style="stroke-width:0.367494"
+         x="-1085.9637"
+         y="-212.5798">0.5</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.57426px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-       x="-1019.957"
-       y="360.32809"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.89993px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
+       x="-1016.8325"
+       y="381.37164"
        id="text3822"><tspan
          sodipodi:role="line"
          id="tspan3820"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.57426px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-1019.957"
-         y="360.32809">冷房時</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.89993px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.367494"
+         x="-1016.8325"
+         y="381.37164">冷房時</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.0914405"
-       x="-976.10913"
-       y="194.42064"
+       x="-988.07904"
+       y="293.60327"
        id="text9750"
        transform="rotate(-7.0355272)"><tspan
          sodipodi:role="line"
          id="tspan9748"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.0457204px;stroke-width:0.0914405"
-         x="-976.10913"
-         y="194.42064">顕熱比 <tspan
+         x="-988.07904"
+         y="293.60327">顕熱比 <tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.0914405"
    id="tspan9746">SHF</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-size:2.74456px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.343069"
-       x="-943.48987"
-       y="302.25504"
+       x="-943.22131"
+       y="402.15701"
        id="text9756"><tspan
          sodipodi:role="line"
          id="tspan9754"
          style="stroke-width:0.343069"
-         x="-943.48987"
-         y="302.25504">SHF<tspan
+         x="-943.22131"
+         y="402.15701">SHF<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
    id="tspan9752">＝</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-       x="-931.44861"
-       y="300.0787"
+       x="-931.18005"
+       y="399.98068"
        id="text9760"><tspan
          sodipodi:role="line"
          id="tspan9758"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-931.44861"
-         y="300.0787">顕熱</tspan></text>
+         x="-931.18005"
+         y="399.98068">顕熱</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-       x="-934.7879"
-       y="304.25327"
+       x="-934.51935"
+       y="404.15524"
        id="text9764"><tspan
          sodipodi:role="line"
          id="tspan9762"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.74456px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-934.7879"
-         y="304.25327">顕熱+潜熱</tspan></text>
+         x="-934.51935"
+         y="404.15524">顕熱+潜熱</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.259328;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m -934.7772,301.30701 h 13.33167"
+       d="m -934.50865,401.20898 h 13.33167"
        id="path9766" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.6594px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.274456px;stroke-width:0.343069"
-       x="-918.48468"
-       y="341.17664"
+       x="-918.21613"
+       y="441.07861"
        id="text9770"><tspan
          sodipodi:role="line"
          id="tspan9768"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.6594px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-918.48468"
-         y="341.17664">室内空気の状態点</tspan></text>
+         x="-918.21613"
+         y="441.07861">室内空気の状態点</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.6594px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.274456px;stroke-width:0.343069"
-       x="-899.02557"
-       y="317.80505"
+       x="-898.75702"
+       y="417.70703"
        id="text9774"><tspan
          sodipodi:role="line"
          id="tspan9772"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.6594px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-899.02557"
-         y="317.80505">吹出し空気の状態点</tspan></text>
+         x="-898.75702"
+         y="417.70703">吹出し空気の状態点</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.33921px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.274456px;stroke-width:0.343069"
-       x="-940.39307"
-       y="349.04474"
+       x="-940.12451"
+       y="448.94672"
        id="text9780"><tspan
          sodipodi:role="line"
          id="tspan9778"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.33921px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-940.39307"
-         y="349.04474">室の顕熱比<tspan
+         x="-940.12451"
+         y="448.94672">室の顕熱比<tspan
    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.33921px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
    id="tspan9776">SHF</tspan>の勾配に沿って移動</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.129664;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m -891.75898,332.55596 -5.76172,5.07771"
+       d="m -891.49043,432.45793 -5.76172,5.07771"
        id="path9782"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.129664;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m -880.82602,323.49282 -2.1287,-4.40933"
+       d="m -880.55747,423.39479 -2.1287,-4.40933"
        id="path9784" />
     <text
        xml:space="preserve"
        style="font-size:1.34113px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';letter-spacing:-0.0914405px;display:inline;stroke-width:0.0914405"
-       x="-978.11804"
-       y="209.20395"
+       x="-988.75763"
+       y="308.53812"
        id="text9788"
        transform="rotate(-6.2676043)"><tspan
          sodipodi:role="line"
          id="tspan9786"
          style="stroke-width:0.0914405"
-         x="-978.11804"
-         y="209.20395">0.8</tspan></text>
+         x="-988.75763"
+         y="308.53812">0.8</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.8297px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.343069"
-       x="-950.13544"
-       y="312.36777"
+       x="-949.86688"
+       y="412.26974"
        id="text9792"><tspan
          sodipodi:role="line"
          id="tspan9790"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.8297px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-950.13544"
-         y="312.36777">1.0</tspan></text>
+         x="-949.86688"
+         y="412.26974">1.0</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:1.34113px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';display:inline;stroke-width:0.343069"
-       x="-885.56995"
-       y="-459.9046"
+       x="-957.95032"
+       y="-391.04562"
        id="text9796"
        transform="rotate(-46.582222)"><tspan
          sodipodi:role="line"
          id="tspan9794"
          style="stroke-width:0.343069"
-         x="-885.56995"
-         y="-459.9046">0.3</tspan></text>
+         x="-957.95032"
+         y="-391.04562">0.3</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:1.34113px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';display:inline;stroke-width:0.343069"
-       x="-984.41998"
-       y="-177.34125"
+       x="-1032.4283"
+       y="-89.730331"
        id="text9800"
        transform="rotate(-28.875546)"><tspan
          sodipodi:role="line"
          id="tspan9798"
          style="stroke-width:0.343069"
-         x="-984.41998"
-         y="-177.34125">0.5</tspan></text>
+         x="-1032.4283"
+         y="-89.730331">0.5</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.57426px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-       x="-913.34076"
-       y="360.32809"
+       x="-913.0722"
+       y="460.23007"
        id="text9804"><tspan
          sodipodi:role="line"
          id="tspan9802"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.57426px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.343069"
-         x="-913.34076"
-         y="360.32809">暖房時</tspan></text>
+         x="-913.0722"
+         y="460.23007">暖房時</tspan></text>
   </g>
 </svg>

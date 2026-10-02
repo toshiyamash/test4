@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-62</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題62</span>&emsp;空気調和における湿り空気線図上での操作に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>暖房時に水噴霧加湿を用いる場合，温水コイル出口の温度は設計給気温度より高くする必要がある．
+        <p><span class="bold">（2）</span>冷房時の室内熱負荷における顕熱比SHF=0.8の場合，空調機からの吹出し空気の絶対湿度は室内空気より低くする必要がある．
+        <p><span class="bold">（3）</span>温水コイル通過後の空気は単純加熱となり，通過前後で絶対湿度は変化しない．
+        <p><span class="bold">（4）</span>還気と外気の混合状態は，湿り空気線図上において還気と外気の状態点を結んだ直線上に求められる．
+        <p><span class="bold">（5）</span>冷水コイルによる冷却除湿では，コイル出口における空気の相対湿度は100 ％となる．     
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題62&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+        <p>空気の一部は冷水コイルに触れることなく通り過ぎる（バイパスファクタという）ために，コイルを通過する全空気が，相対湿度が100％となる装置露点温度まで冷却されることはない（<span class="bold">2021-62-1図</span>参照）．
+        <p class="cap">2021-62-1図&emsp;バイパスファクタ
+        <div class="container">
+            <img src="../../images/image_3/バイパスファクタ.svg" alt="バイパスファクタ">
+        </div>
+        <p><span class="bold">-(1) </span>加湿時の状態点の移動（<span class="bold">2021-62-2図</span>）を見ると，水噴霧加湿（水加湿）では乾球温度は水の蒸発潜熱によって降下することがわかる．それを見込んで温水コイル出口の温度は設計給気温度より高くする必要がある．
+        <p class="cap">2021-62-2図&emsp;加湿時の状態点の動き
+        <div class="container">
+            <img src="../../images/image_3/空気線図・加湿時の状態点の動き.svg" alt="加湿時の状態点の動き">
+        </div>
+        <p><span class="bold">-(2) </span>吹出し口から吹き出された空調空気の状態点は，その室の頭熱比の勾配に沿って移動する（<span class="bold">2021-62-3図</span>，<span class="bold">2021-62-4図</span>参照）．顕熱比は，定義（顕熱比＝顕熱/(顕熱＋潜熱)）から最大1.0で水平（＝絶対湿度一定）であり，それ未満では，右肩上がりである．したがって吹出し空気の状態点が右に向かって移動する冷房時には，吹出し空気の絶対湿度≦室内空気の絶対湿度となる（吹出し空気の状態点は左に向かって移動する暖房時は，吹出し空気の絶対湿度≧室内空気の絶対湿度となる）．
+        <div class="container">
+          <div class="item"><p class="cap">2021-62-3図&emsp;吹出し空気の状態点は顕熱比SHFの勾配に沿って移動する（冷房時）</div>
+          <div class="item"><p class="cap">2021-62-4図&emsp;吹出し空気の状態点は顕熱比SHFの勾配に沿って移動する（暖房時）</div>
+        </div>
+        <div class="container">
+            <div class="item"><img src="../../images/image_3/空気線図・吹出し空気の状態点は顕熱比SHFの勾配に沿って移動・冷房時.svg" alt="吹出し空気の状態点は顕熱比SHFの勾配に沿って移動・冷房時"></div>        
+            <div class="item"><img src="../../images/image_3/空気線図・吹出し空気の状態点は顕熱比SHFの勾配に沿って移動・暖房時.svg" alt="吹出し空気の状態点は顕熱比SHFの勾配に沿って移動・暖房時"></div>
+        </div>
+        <p><span class="bold">-(3) </span>顕熱の移動しか起こらない温水コイルでは，潜熱の変化を伴わない単純加熱となる．すなわち顕熱比＝1で状態点は水平に左に移動する．その時切っていく相対湿度線はどんどん小さい値になっていく（<span class="bold">2021-62-5図</span>参照）．
+        <p class="cap">2021-62-5図&emsp;単純加熱
+        <div class="container">
+            <img src="../../images/image_3/空気線図・単純加熱2.svg" alt="単純加熱">
+        </div>
+        <p><span class="bold">-(4) </span>A，B二つの状態点の空気（今回は還気と外気）の混合では，混合の結果の状態点CはABを結んだ線分をA，Bの空気の量の逆比に内分する（<span class="bold">2021-62-6図</span>参照）．
+        <p class="cap">2021-62-6図&emsp;二つの空気の混合
+        <div class="container">
+            <img src="../../images/image_3/空気線図・二つの空気の混合.svg" alt="二つの空気の混合">
+        </div>
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-63.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-61.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

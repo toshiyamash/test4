@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="103.86128mm"
+   height="86.205742mm"
+   viewBox="0 0 103.86128 86.20574"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="空気線図・吹出し空気の状態点は顕熱比SHFの勾配に沿って移動・暖房時.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="0.98521578"
+     inkscape:cx="360.83466"
+     inkscape:cy="294.35176"
+     inkscape:window-width="1920"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer20"
+     inkscape:snap-global="false"
+     inkscape:object-paths="true"
+     inkscape:object-nodes="false"
+     inkscape:snap-others="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-to-guides="false"
+     inkscape:snap-smooth-nodes="false"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-bbox="false"
+     inkscape:snap-center="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1019"
+       originx="1066.2583"
+       originy="-391.32777"
+       spacingy="1"
+       spacingx="1"
+       units="mm" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <rect
+       x="-2630.7644"
+       y="2380.0117"
+       width="9.1359482"
+       height="15.161786"
+       id="rect117169" />
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-4"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-8"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-6"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-9"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-69"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer20"
+     inkscape:label="A1"
+     style="display:inline"
+     transform="translate(1066.2584,-391.32776)">
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.409329;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -993.06552,394.30094 c 0,0 -9.55238,31.70909 -31.10358,51.26454 -10.2446,9.29578 -23.4633,14.86185 -39.412,17.89447"
+       id="path9704"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.409329;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1063.5102,466.61775 98.44354,0.35298 v -72.6019 l -27.89699,-0.0331"
+       id="path9706"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.409329;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1063.5811,458.91682 63.3666,-64.58212"
+       id="path9708" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.186765;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1016.3347,402.71144 c 0,0 -6.9996,-8.11397 -20.0217,-8.10301 -7.1335,0.006 -13.7453,2.62898 -20.0115,9.2881 -3.2315,3.43421 -6.6096,9.4505 -6.7806,18.83501 -0.1233,6.73578 2.1436,13.11084 7.9981,19.64336"
+       id="path9710"
+       sodipodi:nodetypes="csssc" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.186765;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1019.8206,406.29153 c -1.3252,-1.59378 -16.1238,-13.96667 -31.1448,-0.47921 -10.0203,8.99744 -9.46,25.0192 0.5256,34.25437"
+       id="path9712"
+       sodipodi:nodetypes="csc" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.186765;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1058.2416,422.58476 c -0.079,5.37253 2.7069,12.9376 7.7907,17.46264"
+       id="path9714"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.409329;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1053.779,422.50701 c 0.2251,6.53099 2.2548,10.23191 6.3446,14.04163"
+       id="path9716"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.183263;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="circle9718"
+       cx="-1035.764"
+       cy="422.57703"
+       r="1.1291246" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.186765;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1035.764,421.44788 v 2.25824"
+       id="path9720" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.186765;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1036.8932,422.577 h 2.2583"
+       id="path9722" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.409329;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -1063.5811,463.45995 0.071,3.1578"
+       id="path9724" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.46072px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+       x="-759.02319"
+       y="-761.74432"
+       id="text9728"
+       transform="rotate(-67.531409)"><tspan
+         sodipodi:role="line"
+         id="tspan9726"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.46072px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+         x="-759.02319"
+         y="-761.74432">飽和線</tspan></text>
+    <path
+       style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
+       d="m -962.39712,427.92884 v 6.91922"
+       id="path3" />
+    <path
+       style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
+       d="m -1066.2584,423.2558 v 6.38562"
+       id="path7" />
+    <path
+       style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
+       d="m -1020.3981,391.32776 h 6.6758"
+       id="path8" />
+    <path
+       style="opacity:0.662429;fill:#e5e5e5;fill-opacity:0.662745;stroke:#000000;stroke-width:0"
+       d="m -1013.432,477.5335 h 5.8052"
+       id="path9" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer21"
+     inkscape:label="A2"
+     style="display:inline"
+     transform="translate(1066.2584,-391.32776)">
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.280284;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.840851, 0.840851;stroke-dashoffset:0"
+       d="m -993.17525,444.05001 h 28.10859"
+       id="path9730" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.280284;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:0.840854, 0.840854;stroke-dashoffset:0"
+       d="m -980.54007,437.47414 h 15.18097"
+       id="path9732"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.420426;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -991.23855,442.93842 9.45449,-5.44253"
+       id="path9734"
+       sodipodi:nodetypes="cc" />
+    <circle
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.420426;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="circle9736"
+       cx="-981.71777"
+       cy="437.43054"
+       r="0.86631745" />
+    <circle
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.420426;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="circle9738"
+       cx="-993.17523"
+       cy="444.05002"
+       r="0.86631745" />
+    <path
+       sodipodi:type="star"
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:1.13386;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path9742"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="-5571.3418"
+       sodipodi:cy="-125.04024"
+       sodipodi:r1="2.8029921"
+       sodipodi:r2="1.4014961"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -5568.9143,-123.63874 -4.855,0 2.4275,-4.20449 z"
+       transform="matrix(-0.370785,0.00228882,0.00228882,0.370785,-3056.3617,501.87257)"
+       inkscape:transform-center-x="-0.0029753754"
+       inkscape:transform-center-y="-0.25697744" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.140142;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -1042.4875,427.07431 54.77213,12.5808"
+       id="path9744"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.420426;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -1051.5318,431.50912 15.5087,-8.70254"
+       id="path13139"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer22"
+     inkscape:label="A3"
+     style="display:inline"
+     transform="translate(1066.2584,-391.32776)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.96634px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.0988296"
+       x="-1096.0548"
+       y="291.3533"
+       id="text9750"
+       transform="rotate(-7.0355272)"><tspan
+         sodipodi:role="line"
+         id="tspan9748"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.96634px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.049415px;stroke-width:0.0988296"
+         x="-1096.0548"
+         y="291.3533">顕熱比 <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.96634px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.0988296"
+   id="tspan9746">SHF</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-size:2.96634px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';stroke-width:0.370792"
+       x="-1050.542"
+       y="412.32025"
+       id="text9756"><tspan
+         sodipodi:role="line"
+         id="tspan9754"
+         style="stroke-width:0.370792"
+         x="-1050.542"
+         y="412.32025">SHF<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.96634px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+   id="tspan9752">＝</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.96634px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+       x="-1037.5277"
+       y="409.96808"
+       id="text9760"><tspan
+         sodipodi:role="line"
+         id="tspan9758"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.96634px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+         x="-1037.5277"
+         y="409.96808">顕熱</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.96634px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+       x="-1041.1367"
+       y="414.47998"
+       id="text9764"><tspan
+         sodipodi:role="line"
+         id="tspan9762"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.96634px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+         x="-1041.1367"
+         y="414.47998">顕熱+潜熱</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.280284;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -1041.1252,411.29562 h 14.4089"
+       id="path9766" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.95511px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.296634px;stroke-width:0.370792"
+       x="-1023.5161"
+       y="454.38705"
+       id="text9770"><tspan
+         sodipodi:role="line"
+         id="tspan9768"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.95511px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+         x="-1023.5161"
+         y="454.38705">室内空気の状態点</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.95511px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.296634px;stroke-width:0.370792"
+       x="-1002.4846"
+       y="429.12686"
+       id="text9774"><tspan
+         sodipodi:role="line"
+         id="tspan9772"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.95511px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+         x="-1002.4846"
+         y="429.12686">吹出し空気の状態点</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60905px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.296634px;stroke-width:0.370792"
+       x="-1047.1949"
+       y="462.89096"
+       id="text9780"><tspan
+         sodipodi:role="line"
+         id="tspan9778"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60905px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+         x="-1047.1949"
+         y="462.89096">室の顕熱比<tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.60905px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+   id="tspan9776">SHF</tspan>の勾配に沿って移動</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.140142;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -994.63078,445.06974 -6.22732,5.48803"
+       id="path9782"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.140142;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m -982.81435,435.27423 -2.30072,-4.76564"
+       id="path9784" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.4495px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';letter-spacing:-0.0988296px;display:inline;stroke-width:0.0988296"
+       x="-1097.1337"
+       y="307.87436"
+       id="text9788"
+       transform="rotate(-6.2676043)"><tspan
+         sodipodi:role="line"
+         id="tspan9786"
+         style="stroke-width:0.0988296"
+         x="-1097.1337"
+         y="307.87436">0.8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.97755px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;stroke-width:0.370792"
+       x="-1057.7245"
+       y="423.25018"
+       id="text9792"><tspan
+         sodipodi:role="line"
+         id="tspan9790"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.97755px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+         x="-1057.7245"
+         y="423.25018">1.0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.4495px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';display:inline;stroke-width:0.370792"
+       x="-1040.5135"
+       y="-460.58627"
+       id="text9796"
+       transform="rotate(-46.582222)"><tspan
+         sodipodi:role="line"
+         id="tspan9794"
+         style="stroke-width:0.370792"
+         x="-1040.5135"
+         y="-460.58627">0.3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.4495px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';display:inline;stroke-width:0.370792"
+       x="-1132.3055"
+       y="-131.55756"
+       id="text9800"
+       transform="rotate(-28.875546)"><tspan
+         sodipodi:role="line"
+         id="tspan9798"
+         style="stroke-width:0.370792"
+         x="-1132.3055"
+         y="-131.55756">0.5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9439px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+       x="-1017.9565"
+       y="475.08609"
+       id="text9804"><tspan
+         sodipodi:role="line"
+         id="tspan9802"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9439px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.370792"
+         x="-1017.9565"
+         y="475.08609">暖房時</tspan></text>
+  </g>
+</svg>

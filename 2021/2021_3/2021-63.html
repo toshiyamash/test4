@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-63</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題63</span>&emsp;冷水コイルによる空気冷却に関する次の文章の<span class="whiteFrame">　　　</span>内に入るものの組合せとして，<span class="bold">最も適当な</span>ものはどれか．</span></p>
+        <p>湿り空気線図上で，冷水コイル入口空気の状態点をA，コイル出口空気の状態点をB とし，乾球温度がA 点と等しく，かつ絶対湿度がB 点と等しい状態点をC とする．
+        A 点，B 点，C 点の比エンタルピーをそれぞれhA，hB，hC とし，冷水コイルを通過する空気の質量流量をG ［kg/h］ とすると，冷水コイルによる除去熱量の潜熱分は<span class="whiteFrame">　ア　</span>，顕熱分は<span class="whiteFrame">　イ　</span>で表される．
+        <div class="container">
+            <img src="../../images/image_3/2021-63問題添付図1.svg" alt="">
+        </div>
+        <p class="utblmrgn"><span style="margin-left: 4.5rem;">ア</span><span style="margin-left: 10rem;">イ</span>
+        <p><span class="bold">（1）</span>G(h<sub>A</sub>－ h<sub>B</sub>)<span class="connectLine">　　　</span>G(h<sub>A</sub> － h<sub>C</sub>)
+        <p><span class="bold">（2）</span>G(h<sub>A</sub>－ h<sub>C</sub>)<span class="connectLine">　　　</span>G(h<sub>A</sub> － h<sub>B</sub>)
+        <p><span class="bold">（3）</span>G(h<sub>A</sub>－ h<sub>C</sub>)<span class="connectLine">　　　</span>G(h<sub>C</sub> － h<sub>B</sub>)
+        <p><span class="bold">（4）</span>G(h<sub>C</sub>－ h<sub>B</sub>)<span class="connectLine">　　　</span>G(h<sub>A</sub> － h<sub>B</sub>)
+        <p><span class="bold">（5）</span>G(h<sub>C</sub>－ h<sub>B</sub>)<span class="connectLine">　　　</span>G(h<sub>A</sub> － h<sub>C</sub>)     
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題63&emsp;正解（3）</span>&emsp;頻出度AAA</span></p>
+        <p>湿り空気線図上で状態点の移動量を垂直，水平に分解すると，垂直の変化に対応する比エンタルピーは潜熱分，水平分は顕熱量の変化に対応する（<span class="bold">2021-63-1図</span>参照）．
+        <p>空気線図で得られる変化量は単位空気当たりなので，熱量全体の変化は空気量Gを掛けてやればよい．
+        <p class="cap">2021-63-1図&emsp;潜熱と顕熱の変化量
+        <div class="container">
+            <img src="../../images/image_3/潜熱と顕熱の変化量.svg" alt="潜熱と顕熱の変化量">
+        </div>
+        <!-- <p>&emsp;</p> -->
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-64.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-62.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

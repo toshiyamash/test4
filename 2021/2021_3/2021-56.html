@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-56</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題56</span>&emsp;換気に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</p>
+        <p><span class="bold">（1）</span>換気の目的の一つには，汚染物質の室内からの除去がある．
+        <p><span class="bold">（2）</span>ハイブリッド換気は，自然換気と機械換気を併用する換気方式である．
+        <p><span class="bold">（3）</span>第1種換気は，機械給気と機械排気による換気をいう．
+        <p><span class="bold">（4）</span>局所換気は，汚染物質が発生する場所を局部的に換気する方法をいう．
+        <p><span class="bold">（5）</span>第3種換気は，機械給気と自然排気口による換気をいう．
+    </div>
+
+    <div id="tab2">
+        <p class="bold">問題56&emsp;正解（5）</span>&emsp;頻出度AAA</span></p>
+        <p>第3種機械換気は，自然吸気口と機械排気の組み合わせである（<span class="bold">2021-56-1表</span>参照）．
+        <p class="cap">2022-56-1表&emsp;機械換気                          
+        <table>
+            <tr>
+                <td class="textcenter">名称</td>
+                <td class="textcenter">給気</td>
+                <td class="textcenter">排気</td>
+                <td class="textcenter">室圧</td>
+                <td class="textcenter" nowrap>目的・特徴</td>
+                <td class="textcenter">適用</td>
+            </tr>
+            <tr>
+                <td nowrap>第1種機械換気</td>
+                <td nowrap>ファン</td>
+                <td nowrap>ファン</td>
+                <td>正圧又は負圧</td>
+                <td>確実な換気量の確保</td>
+                <td>大規模換気・空調装置事務室，ボイラ室，建物内のごみ処理室</td>
+            </tr>
+            <tr>
+                <td>第2種機械換気</td>
+                <td>ファン</td>
+                <td>排気口</td>
+                <td>正圧</td>
+                <td>汚染空気の流入阻止</td>
+                <td>小規模空調装置，クリーンルーム，手術室</td>
+            </tr>
+            <tr>
+                <td>第3種機械換気</td>
+                <td>給気口</td>
+                <td>ファン</td>
+                <td>負圧</td>
+                <td>汚染空気の流出阻止</td>
+                <td>汚染室（駐車場，工場・作業場，塗装室，ちゅう房）感染症室，トイレ，浴室・シャワールーム，別棟のごみ処理室</td>
+            </tr>
+        </table>            
+        <p><span class="bold">-(2) </span>ハイブリッド換気は，機械換気の安定性と自然換気の省エネ性を兼ね備えようとするものである．
+        <p><span class="bold">-(4) </span>局所排気（排気フード）は，室内の汚染発生源が局部的に限定されている場合には汚染物質の排除がほぼ完全に行える上，希釈換気より換気量を少なくできるので省エネ的である． ちゅう房排気にはダクトの汚染防止とダクト内火災を防止する観点から調理用グリースフィルタを設置したフードを用いる．<br>
+        局所排気を用いると，室内圧は大気圧に対し負圧になる．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-57.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-55.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
