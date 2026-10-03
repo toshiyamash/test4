@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-68</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題68</span>&emsp;熱源方式に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>ヒートポンプ方式は，1 台で温熱源と冷熱源を兼ねることができる．
+        <p><span class="bold">（2）</span>蓄熱システムにおける顕熱利用蓄熱体として，氷，無機水和塩類が用いられる．
+        <p><span class="bold">（3）</span>ヒートポンプ方式は，地下水や工場排熱等の未利用エネルギーも活用することができる．
+        <p><span class="bold">（4）</span>太陽熱を利用した空調熱源システムは，安定的なエネルギー供給が難しい．
+        <p><span class="bold">（5）</span>吸収式冷凍機＋蒸気ボイラ方式は，空調以外に高圧蒸気を使用する用途の建物で用いられることが多い．    
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題68&emsp;正解（2）</span>&emsp;頻出度AAA</span></p>
+        <p>氷，無機水和塩類は「潜熱利用」蓄熱体である．
+        <p>潜熱利用の蓄熱では，固体&nbsp;⇄&nbsp;液体の相変化に伴う潜熱（溶解熱・凝固熱）を蓄熱に利用する．
+        <p>無機水和塩類には塩化カルシウム，硫酸ナトリウムが利用されている（いずれも温熱の蓄熱）．
+        <p>一方，顕熱利用の蓄熱の代表は水の蓄熱槽であるが，他に躯体蓄熱システムなどがある．
+        <p>熱源方式については，<a href="../../2023/2023_3/2023-67.html#tab2#:~:text=熱源方式　" target="_blank" rel="noopener noreferrer">2023年問題67解説</a>参照．
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-69.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-67.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

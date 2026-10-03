@@ -3,11 +3,11 @@
 
 <svg
    width="73.063171mm"
-   height="48.468128mm"
-   viewBox="0 0 73.063171 48.468128"
+   height="50.884609mm"
+   viewBox="0 0 73.063171 50.884609"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    sodipodi:docname="特性曲線と抵抗曲線.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,9 +25,9 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:snap-global="false"
-     inkscape:zoom="1.0809568"
-     inkscape:cx="191.49702"
-     inkscape:cy="224.80085"
+     inkscape:zoom="1.5287038"
+     inkscape:cx="188.3949"
+     inkscape:cy="223.71895"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -43,7 +43,7 @@
        type="xygrid"
        id="grid873"
        originx="-65.108437"
-       originy="-77.475002"
+       originy="-76.436537"
        spacingy="1"
        spacingx="1"
        units="mm" />
@@ -78,7 +78,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(-65.108442,-77.475)">
+     transform="translate(-65.108442,-76.436539)">
     <image
        y="75.633667"
        x="53.454098"
@@ -109,7 +109,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-65.108442,-77.475)">
+     transform="translate(-65.108442,-76.436539)">
     <path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 77.451923,77.625 v 43.26923 h 51.749997"
@@ -229,7 +229,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-65.108442,-77.475)">
+     transform="translate(-65.108442,-76.436539)">
     <g
        id="g1691"
        transform="translate(0.55815122,-0.33130619)">
@@ -315,14 +315,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-       x="104.625"
-       y="116.22115"
+       x="124.20642"
+       y="97.618805"
        id="text11940"><tspan
          sodipodi:role="line"
          id="tspan11938"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="104.625"
-         y="116.22115">運転点</tspan></text>
+         x="124.20642"
+         y="97.618805">運転点</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
@@ -365,8 +365,9 @@
        id="path17802" />
     <path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 110.68269,111.63462 111.375,97.701922"
-       id="path17804" />
+       d="m 112.8856,97.438092 10.23825,-1.082393"
+       id="path17804"
+       sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
@@ -553,14 +554,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-       x="82.384613"
-       y="133.6154"
+       x="82.557693"
+       y="137.94232"
        id="text2473"><tspan
          sodipodi:role="line"
          id="tspan2471"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
-         x="82.384613"
-         y="133.6154">送風機特性曲線図</tspan></text>
+         x="82.557693"
+         y="137.94232">送風機特性曲線図</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
@@ -708,5 +709,20 @@
        style="fill:#ffffcd;stroke:#ffff00;stroke-width:0;stroke-dasharray:none"
        d="M 138.17161,95.710196 V 107.94858"
        id="path983" />
+    <rect
+       style="opacity:0.662429;fill:none;fill-opacity:0.662745;stroke:#000000;stroke-width:0.2;stroke-dasharray:none"
+       id="rect1"
+       width="12.727921"
+       height="5.1401219"
+       x="123.24078"
+       y="93.629669" />
+    <path
+       style="opacity:0.662429;fill:none;fill-opacity:0.662745;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 101.10844,76.436539 h 4.32692"
+       id="path1" />
+    <path
+       style="opacity:0.662429;fill:none;fill-opacity:0.662745;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 100.06998,127.32115 h 6.57692"
+       id="path2" />
   </g>
 </svg>

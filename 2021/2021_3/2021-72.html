@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-72</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題72</span>&emsp;防火ダンパに関する次の記述の内に入る値の組合せとして，<span class="bold">最も適当な</span>ものはどれか．</span></p>
+        <p>温度ヒューズ型の溶解温度は，一般換気用<span class="whiteFrame">　ア　</span>，<ruby>厨<rt>ちゅう</rt></ruby>房排気用<span class="whiteFrame">　イ　</span>，排煙用<span class="whiteFrame">　ウ　</span>である．
+        <p><span style="margin-left: 3.5rem;">ア</span><span style="margin-left: 4.5rem;">イ</span><span style="margin-left: 5rem;">ウ</span></p>
+        <p><span class="bold">（1）</span> 60℃<span class="connectLine">　　　</span>120 ℃<span class="connectLine">　　　</span>280 ℃
+        <p><span class="bold">（2）</span> 60℃<span class="connectLine">　　　</span>130 ℃<span class="connectLine">　　　</span>270 ℃
+        <p><span class="bold">（3）</span>72 ℃<span class="connectLine">　　　</span>120 ℃<span class="connectLine">　　　</span>270 ℃
+        <p><span class="bold">（4）</span>72 ℃<span class="connectLine">　　　</span>120 ℃<span class="connectLine">　　　</span>280 ℃
+        <p><span class="bold">（5）</span>72 ℃<span class="connectLine">　　　</span>130 ℃<span class="connectLine">　　　</span>270 ℃
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題72&emsp;正解（4）</span>&emsp;頻出度AAA</span></p>
+        <p>温度ヒューズの溶解温度（<span class="bold">2021-72-1表</span>）． 
+        <p class="cap">2021-72-1表&emsp;温度ヒューズの溶解温度                           
+        <table>
+            <tbody>
+                <tr>
+                    <td>一般換気用</td>
+                    <td>72℃</td>
+                </tr>
+                <tr>
+                    <td>ちゅう房排気用</td>
+                    <td>120℃</td>
+                </tr>
+                <tr>
+                    <td>排煙用</td>
+                    <td>280℃</td>
+                </tr>
+            </tbody>
+        </table>        
+        <p>温度ヒューズの例は<span class="bold">2021-72-1図</span>参照．
+        <p class="cap">2021-72-1図&emsp;防火ダンパと温度ヒューズ
+        <div class="container">
+            <img src="../../images/image_3/防火ダンパと温度ヒューズ.svg" alt="防火ダンパと温度ヒューズ">
+        </div>
+        <p class="source">出典&emsp;アイエム株式会社<br>https://www.imcompany.com/products/06/im-fd.html を基に作成
+        <!-- <p>&emsp;</p>
+        <p>&emsp;</p> -->
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-73.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-71.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
