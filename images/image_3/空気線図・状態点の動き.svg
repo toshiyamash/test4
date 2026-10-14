@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="120.12203mm"
-   height="87.154907mm"
-   viewBox="0 0 120.12203 87.154905"
+   width="149.13441mm"
+   height="108.20493mm"
+   viewBox="0 0 149.13441 108.20493"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
-   sodipodi:docname="状態点の動き.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="空気線図・状態点の動き.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="2.1619136"
-     inkscape:cx="252.55403"
-     inkscape:cy="140.61617"
+     inkscape:zoom="1.0809568"
+     inkscape:cx="141.54127"
+     inkscape:cy="261.8051"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -38,8 +38,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid99522"
-       originx="332.43444"
-       originy="-235.47703"
+       originx="332.43446"
+       originy="-235.47704"
        spacingy="1"
        spacingx="1"
        units="mm" />
@@ -58,10 +58,10 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:inline"
-     transform="translate(332.43441,-235.47704)">
+     transform="translate(332.43442,-235.47704)">
     <g
        id="g3042"
-       transform="matrix(0.40638549,0,0,0.40638549,241.43411,47.424092)"
+       transform="matrix(0.50453745,0,0,0.50453745,380.03728,2.0047424)"
        style="display:inline">
       <path
          style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
@@ -6846,178 +6846,174 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(332.43441,-235.47704)"
+     transform="translate(332.43442,-235.47704)"
      style="display:inline" />
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
      style="display:inline"
-     transform="translate(332.43441,-235.47704)">
+     transform="translate(332.43442,-235.47704)">
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
        id="text180098"
        style="font-size:8px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';white-space:pre;shape-inside:url(#rect180100);display:inline" />
     <circle
-       style="display:inline;fill:#0000ff;stroke:#0000ff;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:#0000ff;stroke:#0000ff;stroke-width:0.248305;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        id="circle8"
-       cx="-270.61938"
-       cy="294.89124"
-       r="0.83336139" />
+       cx="-255.68956"
+       cy="309.24121"
+       r="1.0346384" />
     <circle
-       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.248305;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        id="circle9"
-       cx="-252.84309"
-       cy="294.95242"
-       r="0.83336139" />
+       cx="-233.61986"
+       cy="309.31717"
+       r="1.0346384" />
     <circle
-       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.248305;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        id="circle10"
-       cx="-285.642"
-       cy="294.95242"
-       r="0.83336139" />
+       cx="-274.34048"
+       cy="309.31717"
+       r="1.0346384" />
     <path
-       style="display:inline;opacity:0.96;fill:#ffffcd;fill-opacity:0.960784;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -268.73506,294.92045 h 13.5"
+       style="display:inline;opacity:0.96;fill:#ffffcd;fill-opacity:0.960784;stroke:#000000;stroke-width:0.620762;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -253.35012,309.27748 h 16.76058"
        id="path10" />
     <path
-       style="display:inline;opacity:0.96;fill:none;fill-opacity:0.960784;stroke:#000000;stroke-width:0.499999;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -257.16054,293.81709 2.40144,1.125 -2.37981,1.17506"
+       style="display:inline;opacity:0.96;fill:none;fill-opacity:0.960784;stroke:#000000;stroke-width:0.620761;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -238.98007,307.90763 2.98144,1.39671 -2.95459,1.45887"
        id="path11"
        sodipodi:nodetypes="ccc" />
     <circle
-       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.248305;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        id="circle11"
-       cx="-270.58878"
-       cy="306.60245"
-       r="0.83336139" />
+       cx="-255.65155"
+       cy="323.78094"
+       r="1.0346384" />
     <path
-       style="display:inline;opacity:0.96;fill:none;fill-opacity:0.960784;stroke:#000000;stroke-width:0.499999;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -270.66531,296.67441 v 8.10793"
+       style="display:inline;opacity:0.96;fill:none;fill-opacity:0.960784;stroke:#000000;stroke-width:0.620761;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -255.74657,311.45506 v 10.06619"
        id="path12"
        sodipodi:nodetypes="cc" />
     <path
-       style="display:inline;opacity:0.96;fill:none;fill-opacity:0.960784;stroke:#000000;stroke-width:0.499999;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -269.49585,302.29128 -1.125,2.40144 -1.17506,-2.37981"
+       style="display:inline;opacity:0.96;fill:none;fill-opacity:0.960784;stroke:#000000;stroke-width:0.620761;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -254.29466,318.42854 -1.39672,2.98145 -1.45886,-2.9546"
        id="path13"
        sodipodi:nodetypes="ccc" />
     <path
-       style="display:inline;opacity:0.96;fill:#ffffcd;fill-opacity:0.960784;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -272.23405,294.92045 h -11.11351"
+       style="display:inline;opacity:0.96;fill:#ffffcd;fill-opacity:0.960784;stroke:#000000;stroke-width:0.620762;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -257.6942,309.27748 h -13.79769"
        id="path14"
        sodipodi:nodetypes="cc" />
     <path
-       style="display:inline;opacity:0.96;fill:none;fill-opacity:0.960784;stroke:#000000;stroke-width:0.499999;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -281.42208,293.81709 -2.40144,1.125 2.37981,1.17506"
+       style="display:inline;opacity:0.96;fill:none;fill-opacity:0.960784;stroke:#000000;stroke-width:0.620761;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -269.10136,307.90763 -2.98145,1.39671 2.95459,1.45887"
        id="path15"
        sodipodi:nodetypes="ccc" />
     <circle
-       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:0.248305;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        id="circle15"
-       cx="-270.58878"
-       cy="-283.41122"
-       r="0.83336139"
+       cx="-255.65155"
+       cy="-294.98849"
+       r="1.0346384"
        transform="scale(1,-1)" />
     <path
-       style="display:inline;opacity:0.96;fill:none;fill-opacity:0.960784;stroke:#000000;stroke-width:0.499999;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -270.66531,293.33928 v -8.10793"
+       style="display:inline;opacity:0.96;fill:none;fill-opacity:0.960784;stroke:#000000;stroke-width:0.620761;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M -255.74657,307.31441 V 297.24822"
        id="path16"
        sodipodi:nodetypes="cc" />
     <path
-       style="display:inline;opacity:0.96;fill:none;fill-opacity:0.960784;stroke:#000000;stroke-width:0.499999;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m -269.49585,287.72241 -1.125,-2.40144 -1.17506,2.37981"
+       style="display:inline;opacity:0.96;fill:none;fill-opacity:0.960784;stroke:#000000;stroke-width:0.620761;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m -254.29466,300.34093 -1.39672,-2.98144 -1.45886,2.95459"
        id="path17"
        sodipodi:nodetypes="ccc" />
     <rect
-       style="fill:#ffffff;stroke-width:0.899999"
+       style="fill:#ffffff;stroke-width:1.11737"
        id="rect1"
-       width="8.1346149"
-       height="4"
-       x="-274.78635"
-       y="277.85565"
-       rx="1"
-       ry="1" />
+       width="10.099321"
+       height="4.9660969"
+       x="-260.86295"
+       y="288.09113"
+       rx="1.2415242"
+       ry="1.2415242" />
     <rect
-       style="fill:#ffffff;stroke-width:0.899999"
+       style="fill:#ffffff;stroke-width:1.11737"
        id="rect2"
-       width="8.1346149"
-       height="4"
-       x="-274.78635"
-       y="308.23065"
-       rx="1"
-       ry="1" />
+       width="10.099321"
+       height="4.9660969"
+       x="-260.86295"
+       y="325.80243"
+       rx="1.2415242"
+       ry="1.2415242" />
     <rect
-       style="fill:#ffffff;stroke-width:0.899999"
+       style="fill:#ffffff;stroke-width:1.11737"
        id="rect3"
-       width="8.1346149"
-       height="4"
-       x="-257.65173"
-       y="287.46143"
-       rx="1"
-       ry="1" />
+       width="10.099321"
+       height="4.9660969"
+       x="-239.5899"
+       y="300.01691"
+       rx="1.2415242"
+       ry="1.2415242" />
     <rect
-       style="fill:#ffffff;stroke-width:0.899999"
+       style="fill:#ffffff;stroke-width:1.11737"
        id="rect4"
-       width="8.1346149"
-       height="4"
-       x="-292.78635"
-       y="287.46143"
-       rx="1"
-       ry="1" />
+       width="10.099321"
+       height="4.9660969"
+       x="-283.21039"
+       y="300.01691"
+       rx="1.2415242"
+       ry="1.2415242" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Layer 4"
-     transform="translate(0.9653808,-93.054081)">
+     transform="translate(0.96538884,-93.054084)">
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';word-spacing:0px;display:inline;stroke-width:0.264583"
-       x="-257.62802"
-       y="290.6236"
-       id="text18"
-       transform="translate(331.46902,-142.42296)"><tspan
+       style="font-size:3.94184px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';word-spacing:0px;display:inline;stroke-width:0.328486"
+       x="91.908554"
+       y="161.51987"
+       id="text18"><tspan
          sodipodi:role="line"
          id="tspan18"
-         style="stroke-width:0.264583"
-         x="-257.62802"
-         y="290.6236"> 加熱</tspan></text>
+         style="stroke-width:0.328486"
+         x="91.908554"
+         y="161.51987"> 加熱</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';word-spacing:0px;display:inline;stroke-width:0.264583"
-       x="-292.84915"
-       y="290.53705"
-       id="text19"
-       transform="translate(331.46902,-142.42296)"><tspan
+       style="font-size:3.94184px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';word-spacing:0px;display:inline;stroke-width:0.328486"
+       x="48.180668"
+       y="161.41241"
+       id="text19"><tspan
          sodipodi:role="line"
          id="tspan19"
-         style="stroke-width:0.264583"
-         x="-292.84915"
-         y="290.53705"> 冷却</tspan></text>
+         style="stroke-width:0.328486"
+         x="48.180668"
+         y="161.41241"> 冷却</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';word-spacing:0px;display:inline;stroke-width:0.264583"
-       x="-273.99637"
-       y="311.53482"
-       id="text20"
-       transform="translate(331.46902,-142.42296)"><tspan
+       style="font-size:3.94184px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';word-spacing:0px;display:inline;stroke-width:0.328486"
+       x="71.586853"
+       y="187.48166"
+       id="text20"><tspan
          sodipodi:role="line"
          id="tspan20"
-         style="stroke-width:0.264583"
-         x="-273.99637"
-         y="311.53482">減湿</tspan></text>
+         style="stroke-width:0.328486"
+         x="71.586853"
+         y="187.48166">減湿</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';word-spacing:0px;display:inline;stroke-width:0.264583"
-       x="-274.69006"
-       y="280.99112"
-       id="text22"
-       transform="translate(331.46902,-142.42296)"><tspan
+       style="font-size:3.94184px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';word-spacing:0px;display:inline;stroke-width:0.328486"
+       x="70.725616"
+       y="149.56091"
+       id="text22"><tspan
          sodipodi:role="line"
          id="tspan22"
-         style="stroke-width:0.264583"
-         x="-274.69006"
-         y="280.99112"> 加湿</tspan></text>
+         style="stroke-width:0.328486"
+         x="70.725616"
+         y="149.56091"> 加湿</tspan></text>
   </g>
 </svg>
