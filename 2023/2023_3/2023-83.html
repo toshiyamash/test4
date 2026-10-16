@@ -80,13 +80,13 @@
         </div>
         <p>レベル表示により，最小と最大値で10<sup>12</sup>～10<sup>2</sup>と14桁もの開きがあったものが0～140dBと3桁で表現できることになる．
         <p>実際に音の強さを測定する場合は，エネルギーを直接測定することが難しいので，音圧\(p\)［Pa］を測定する．
-        <p>音の強さは，空気の密度を\(\rho\)：［kg/m<sup>3</sup>］，音速を\(c\)：とすると，次式で表される．
+        <p>音の強さは，空気の密度を\(\rho\)：［kg/m<sup>3</sup>］，音速を\(c\)：［m/s］とすると，次式で表される．
           \[I=\frac{p^2}{\rho c}\]              
         <p>すなわち，音の強さは，音圧の2乗に比例するので，音圧レベルを次のように定義すると，同じ音に対して強さのレベルと音圧レベルが一致することになる．
         <div class="textcenter">
           \begin{align}
-          L_p & = 10\log_{10} \left (\frac{p}{p_0} \right) \notag\\[5pt]
-          &=2 \times \log_{10} \frac{p}{p_0} \notag\\[5pt]
+          L_p & = 10\log_{10} \left (\frac{p}{p_0} \right) ^2 \notag\\[5pt]
+          &=2 \times 10 \log_{10} \frac{p}{p_0} \notag\\[5pt]
           &=20\log_{10} \frac{p}{p_0} \notag
           \end{align}
         </div>
