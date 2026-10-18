@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="154.72855mm"
-   height="48.860699mm"
-   viewBox="0 0 154.72854 48.860699"
+   width="154.22371mm"
+   height="45.68742mm"
+   viewBox="0 0 154.2237 45.68742"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    sodipodi:docname="ガス設備の保守管理.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.0482005"
-     inkscape:cx="304.33109"
-     inkscape:cy="274.75659"
+     inkscape:cx="302.42306"
+     inkscape:cy="265.21644"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -39,8 +39,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid32769"
-       originx="-31.626954"
-       originy="-55.695095"
+       originx="-32.131786"
+       originy="-58.176513"
        spacingy="1"
        spacingx="1"
        units="mm"
@@ -62,7 +62,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(-31.62695,-55.695092)">
+     transform="translate(-32.131783,-58.176509)">
     <image
        y="51.89225"
        x="47.052864"
@@ -77,7 +77,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-31.62695,-55.695092)">
+     transform="translate(-32.131783,-58.176509)">
     <path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.254214;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 69.460305,96.428863 v -33.27399 h 4.688609"
@@ -107,7 +107,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-31.62695,-55.695092)">
+     transform="translate(-32.131783,-58.176509)">
     <g
        id="g2"
        transform="matrix(0.84738172,0,0,0.84738172,16.046574,11.468276)">
@@ -214,7 +214,7 @@
          style="stroke-width:0.224203"
          x="119.21655"
          y="62.512741"
-         id="tspan24967">ガス栓までのガス配管</tspan><tspan
+         id="tspan24967">ガス配管（ガス栓まで）</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.224203"
          x="119.21655"
@@ -263,14 +263,22 @@
          id="tspan1144"
          style="stroke-width:0.264583"
          x="71.686348"
-         y="124.94628">新建築物の環境衛生管理　H31.3.31第1版第1刷 上187 図3-5-3-(12)</tspan></text>
-    <path
-       style="fill:#000000;stroke-width:0"
-       d="m 31.62695,73.537615 0.757248,10.242598"
-       id="path1" />
+         y="124.94628">出典　公益社団法人 日本建築衛生管理教育センター「新建築物の環境衛生管理第2版第1刷」上巻201頁 図3-5-3(12)</tspan></text>
     <path
        style="fill:#000000;stroke-width:0"
        d="m 186.31009,73.117579 0.0454,12.975796"
        id="path2" />
+    <path
+       style="fill:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 32.131783,73.869096 V 85.480264"
+       id="path1" />
+    <path
+       style="fill:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 104.8278,58.176509 h 9.84425"
+       id="path3" />
+    <path
+       style="fill:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 105.33263,103.86393 h 11.86359"
+       id="path4" />
   </g>
 </svg>
