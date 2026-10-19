@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="152.9481mm"
-   height="108.78599mm"
-   viewBox="0 0 152.9481 108.78599"
+   width="150.69278mm"
+   height="109.80127mm"
+   viewBox="0 0 150.69277 109.80127"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="2022-114-2貯水槽の構造.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="貯水槽の構造.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,20 +25,25 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.0482005"
-     inkscape:cx="338.19866"
-     inkscape:cy="269.50951"
+     inkscape:cx="347.26181"
+     inkscape:cy="265.21644"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
-     inkscape:snap-global="false">
+     inkscape:current-layer="layer3"
+     inkscape:snap-global="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid861"
-       originx="-32.761703"
-       originy="-51.710816" />
+       originx="-30.237537"
+       originy="-52.972899"
+       spacingy="1"
+       spacingx="1"
+       units="mm" />
   </sodipodi:namedview>
   <defs
      id="defs2">
@@ -56,7 +61,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(-32.761705,-51.710815)">
+     transform="translate(-30.237538,-52.972899)">
     <image
        y="49.356445"
        x="13.015502"
@@ -71,7 +76,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-32.761705,-51.710815)">
+     transform="translate(-30.237538,-52.972899)">
     <path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 62.469952,89.956729 v 37.303491 l 22.39994,1.07091 v 4.28365 h 7.585636 v -4.28365 l 21.596752,-0.80319 V 89.867488 L 88.439603,87.814903 Z"
@@ -501,7 +506,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Layer 4"
-     transform="translate(-32.761705,-51.710815)">
+     transform="translate(-30.237538,-52.972899)">
     <path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 53.277944,68.806189 h 6.06851"
@@ -963,7 +968,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-32.761705,-51.710815)">
+     transform="translate(-30.237538,-52.972899)">
     <g
        id="g20446"
        transform="translate(-0.89242788,0.89242788)">
@@ -1154,7 +1159,7 @@
          id="tspan54159"
          style="stroke-width:0.264583"
          x="132.79326"
-         y="106.19891">フロー管の断面積以上とする　　　</tspan></text>
+         y="106.19891">フロー管の断面積以上とする　</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:3.52777px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
@@ -1301,10 +1306,6 @@
          style="stroke-width:0.264583"
          x="91.92981"
          y="109.88401">フロー管下端</tspan></text>
-    <path
-       style="fill:#e6e6e6;stroke:#ffffff;stroke-width:0.1;stroke-linecap:square"
-       d="m 77.105766,51.760815 h 18.91947"
-       id="path1504" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
@@ -1353,5 +1354,21 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="83.423721"
          y="155.74112">オーバーフロー管とは接続しない</tspan></text>
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 30.237538,97.145824 v 9.591836"
+       id="path1" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 97.632801,162.77417 h 8.834589"
+       id="path2" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="M 180.93032,99.165158 V 109.26183"
+       id="path3" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 96.875551,52.972899 h 9.086999"
+       id="path4" />
   </g>
 </svg>

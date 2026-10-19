@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="146.34581mm"
-   height="41.397156mm"
-   viewBox="0 0 146.34581 41.397156"
+   width="150.28485mm"
+   height="44.264431mm"
+   viewBox="0 0 150.28485 44.264431"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="2022-131-6破封の原因.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="破封の原因.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,21 +24,26 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="0.7411897"
-     inkscape:cx="59.36402"
-     inkscape:cy="107.25999"
+     inkscape:zoom="1.4823794"
+     inkscape:cx="191.58388"
+     inkscape:cy="126.14854"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer4"
-     inkscape:snap-global="false">
+     inkscape:snap-global="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid861"
-       originx="-28.229202"
-       originy="-113.20271" />
+       originx="-25.90889"
+       originy="-111.41785"
+       spacingy="1"
+       spacingx="1"
+       units="mm" />
   </sodipodi:namedview>
   <defs
      id="defs2">
@@ -56,7 +61,7 @@
      id="layer1"
      style="display:none"
      sodipodi:insensitive="true"
-     transform="translate(-28.229203,-113.20271)">
+     transform="translate(-25.908891,-111.41785)">
     <image
        y="110.75796"
        x="23.131214"
@@ -71,7 +76,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Layer 4"
-     transform="translate(-28.229203,-113.20271)">
+     transform="translate(-25.908891,-111.41785)">
     <path
        style="opacity:1;fill:#808080;fill-opacity:0.929412;stroke:none;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 39.48744,135.09027 1.546053,-0.0315 c 0,0 0.3944,-0.14195 0.836131,-0.45751 0.567938,-0.36284 0.457505,-0.75725 0.473282,-1.2463 0.01577,-0.48906 0.06311,-1.972 0.06311,-1.972 0,0 0.457506,-1.4514 2.113991,-1.35675 1.861574,0.0158 2.019333,1.7827 2.019333,1.7827 l -0.01577,8.66104 -0.67837,-0.63104 v -0.26819 l -0.709921,-0.48906 -0.04732,-6.94145 c 0,0 -0.04733,-0.64683 -0.694147,-0.6626 -0.520608,-0.0158 -0.788802,0.29975 -0.725696,0.63105 0.0631,0.3313 -0.07889,2.31907 -0.07889,2.31907 0,0 -0.552161,1.4514 -2.177095,1.56183 -1.62493,0.11043 -2.082437,-0.8519 -2.082437,-0.8519 z"
@@ -154,12 +159,28 @@
          style="stroke-width:0.264583"
          x="34.983173"
          y="187.76682">高崎市　排水設備設計施工指針</tspan></text>
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 98.195545,111.41785 h 6.425485"
+       id="path1" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 25.908891,130.87278 v 5.17608"
+       id="path2" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 102.65768,155.68228 h 9.10277"
+       id="path3" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 176.19374,127.66004 v 5.53305"
+       id="path4" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-28.229203,-113.20271)">
+     transform="translate(-25.908891,-111.41785)">
     <g
        id="g45328"
        transform="translate(-8.6565505,2.0972055)">
@@ -380,7 +401,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-28.229203,-113.20271)">
+     transform="translate(-25.908891,-111.41785)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
