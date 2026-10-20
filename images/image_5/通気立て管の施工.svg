@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="155.96178mm"
-   height="119.84293mm"
-   viewBox="0 0 155.96178 119.84294"
+   width="160.30577mm"
+   height="124.1357mm"
+   viewBox="0 0 160.30577 124.1357"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    sodipodi:docname="通気立て管の施工.svg"
    xml:space="preserve"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="0.91437237"
-     inkscape:cx="126.86298"
-     inkscape:cy="324.81296"
+     inkscape:cx="135.61215"
+     inkscape:cy="332.46849"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -42,8 +42,8 @@
      inkscape:deskcolor="#d1d1d1"><inkscape:grid
        type="xygrid"
        id="grid861"
-       originx="-9.6442394"
-       originy="-51.58194"
+       originx="-7.3293547"
+       originy="-49.556416"
        spacingy="1"
        spacingx="1"
        units="mm"
@@ -88,7 +88,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      style="display:none"
-     transform="translate(-9.6442369,-51.581939)"
+     transform="translate(-7.3293522,-49.556415)"
      sodipodi:insensitive="true"><image
        y="48.885647"
        x="55.780865"
@@ -156,7 +156,7 @@
      id="layer2"
      inkscape:label="Layer 2"
      style="opacity:1"
-     transform="translate(-9.6442369,-51.581939)"><path
+     transform="translate(-7.3293522,-49.556415)"><path
        style="opacity:1;fill:none;fill-opacity:0.929412;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-opacity:1"
        d="m 85.405348,85.762318 v 26.783992 m 0,1.98778 v 42.087 c 0,0 -0.803185,3.65896 4.19441,3.65896 h 37.456792"
        id="path896"
@@ -1275,11 +1275,23 @@
          id="tspan17"
          style="stroke:none;stroke-width:0.2"
          x="81.461937"
-         y="171.0735">1.5〜2m以内</tspan></text></g><g
+         y="171.0735">1.5〜2m以内</tspan></text><path
+       style="fill:#000000;stroke-width:0"
+       d="m 83.431188,49.556415 h 8.680818"
+       id="path1" /><path
+       style="fill:#000000;stroke-width:0"
+       d="m 7.3293522,92.960504 v 7.523376"
+       id="path18" /><path
+       style="fill:#000000;stroke-width:0"
+       d="m 86.324793,173.69211 h 6.944654"
+       id="path19" /><path
+       style="fill:#000000;stroke-width:0"
+       d="m 167.63512,104.24557 v 8.97017"
+       id="path20" /></g><g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-9.6442369,-51.581939)"><text
+     transform="translate(-7.3293522,-49.556415)"><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
        x="59.839691"

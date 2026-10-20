@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="193.33113mm"
-   height="82.97657mm"
-   viewBox="0 0 193.33113 82.976569"
+   width="186.03113mm"
+   height="88.093437mm"
+   viewBox="0 0 186.03113 88.093436"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="2022-128-2通気方式.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="通気方式.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -16,7 +16,7 @@
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
      id="namedview7"
-     pagecolor="#ffffcc"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageshadow="2"
@@ -24,21 +24,26 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="5.9295174"
-     inkscape:cx="97.815717"
-     inkscape:cy="208.53299"
+     inkscape:zoom="1.0482005"
+     inkscape:cx="352.03189"
+     inkscape:cy="220.37769"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer3"
-     inkscape:snap-global="false">
+     inkscape:snap-global="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid879"
-       originx="-9.8451825"
-       originy="-67.849181" />
+       originx="-7.0685983"
+       originy="-65.072601"
+       spacingy="1"
+       spacingx="1"
+       units="mm" />
   </sodipodi:namedview>
   <defs
      id="defs2">
@@ -97,7 +102,7 @@
      id="layer1"
      style="display:none"
      sodipodi:insensitive="true"
-     transform="translate(-9.8451922,-67.849185)">
+     transform="translate(-7.0686082,-65.072601)">
     <image
        y="70.153458"
        x="8.187398"
@@ -194,7 +199,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-9.8451922,-67.849185)">
+     transform="translate(-7.0686082,-65.072601)">
     <g
        id="g2699"
        transform="rotate(-90,-106.38695,63.527056)">
@@ -2149,7 +2154,7 @@
      id="layer3"
      inkscape:label="Layer 3"
      style="display:inline"
-     transform="translate(-9.8451922,-67.849185)">
+     transform="translate(-7.0686082,-65.072601)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
@@ -2303,7 +2308,7 @@
          id="tspan30675"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="148.14304"
-         y="150.39168">特殊継手排水システム　　　　</tspan></text>
+         y="150.39168">特殊継手排水システム　</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:4.5861px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
@@ -3350,12 +3355,12 @@
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="-148.42104"
-         y="195.37555"
+         y="195.59654"
          id="tspan4872">これと類似の器具が8 個以上接続される</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="-148.42104"
-         y="201.43857"
+         y="201.88058"
          id="tspan4874">排水横枝管には，逃し通気管を設ける．</tspan></text>
     <text
        xml:space="preserve"
@@ -3509,5 +3514,21 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="158.26622"
          y="70.762352">破線：通気管</tspan></text>
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 110.81188,65.072601 h 11.10634"
+       id="path1" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 7.0686082,99.401276 v 7.572504"
+       id="path2" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 193.09973,97.381942 v 9.086998"
+       id="path3" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 101.47246,153.16604 h 7.82492"
+       id="path4" />
   </g>
 </svg>

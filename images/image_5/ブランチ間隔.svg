@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="135.34294mm"
-   height="74.546211mm"
-   viewBox="0 0 135.34294 74.546211"
+   width="135.04295mm"
+   height="78.754013mm"
+   viewBox="0 0 135.04295 78.754013"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    sodipodi:docname="ブランチ間隔.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,8 +25,8 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.0482005"
-     inkscape:cx="319.59534"
-     inkscape:cy="287.1588"
+     inkscape:cx="318.64133"
+     inkscape:cy="294.79093"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -39,8 +39,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid9781"
-       originx="-32.912223"
-       originy="-22.306927"
+       originx="-33.062224"
+       originy="-20.287593"
        spacingy="1"
        spacingx="1"
        units="mm" />
@@ -61,7 +61,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(-32.912222,-22.306925)">
+     transform="translate(-33.062222,-20.287591)">
     <image
        y="15.126329"
        x="54.03619"
@@ -76,7 +76,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-32.912222,-22.306925)">
+     transform="translate(-33.062222,-20.287591)">
     <path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 91.741584,26.237379 v 59.614183 c 0,0 -0.35697,3.569711 3.123499,3.569711 3.480469,0 11.333837,0 11.333837,0"
@@ -442,7 +442,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-32.912222,-22.306925)">
+     transform="translate(-33.062222,-20.287591)">
     <text
        xml:space="preserve"
        style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
@@ -567,12 +567,12 @@
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="57.046181"
-         y="85.234123"
+         y="85.438126"
          id="tspan14727">1ブランチ間隔に</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="57.046181"
-         y="90.83078"
+         y="91.238785"
          id="tspan14729">満たない</tspan></text>
     <text
        xml:space="preserve"
@@ -616,5 +616,13 @@
        style="fill:none;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
        d="M 168.10517,49.315515 V 65.217766"
        id="path942" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 98.035736,20.287591 h 9.339414"
+       id="path1" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="M 96.268817,99.041607 H 110.90899"
+       id="path2" />
   </g>
 </svg>

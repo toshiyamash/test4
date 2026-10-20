@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="132.21394mm"
-   height="75.730606mm"
-   viewBox="0 0 132.21394 75.730606"
+   width="132.01395mm"
+   height="79.247597mm"
+   viewBox="0 0 132.01394 79.247597"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    sodipodi:docname="フロートスイッチ.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="0.74118968"
-     inkscape:cx="91.744396"
-     inkscape:cy="168.64779"
+     inkscape:zoom="1.4823794"
+     inkscape:cx="233.40854"
+     inkscape:cy="182.8142"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -40,8 +40,8 @@
     <inkscape:grid
        type="xygrid"
        id="grid861"
-       originx="-33.898982"
-       originy="-84.704006"
+       originx="-33.998983"
+       originy="-82.919146"
        spacingy="1"
        spacingx="1"
        units="mm" />
@@ -62,7 +62,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(-33.898984,-84.704012)">
+     transform="translate(-33.998984,-82.919156)">
     <image
        y="79.064339"
        x="54.843857"
@@ -78,7 +78,7 @@
      id="layer2"
      inkscape:label="Layer 2"
      style="display:inline"
-     transform="translate(-33.898984,-84.704012)">
+     transform="translate(-33.998984,-82.919156)">
     <g
        id="g2172">
       <path
@@ -251,7 +251,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-33.898984,-84.704012)">
+     transform="translate(-33.998984,-82.919156)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
@@ -390,5 +390,13 @@
        style="fill:none;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
        d="m 166.01293,108.43118 v 17.92159"
        id="path914" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="M 93.156194,82.919156 H 100.4741"
+       id="path1" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 92.620738,162.16675 h 5.176081"
+       id="path2" />
   </g>
 </svg>
