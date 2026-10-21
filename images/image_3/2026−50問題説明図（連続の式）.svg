@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="1.0809568"
-     inkscape:cx="451.45192"
-     inkscape:cy="247.00341"
+     inkscape:zoom="1.5287038"
+     inkscape:cx="152.41671"
+     inkscape:cy="185.12416"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -230,10 +230,6 @@
        d="m 151.09615,58.846155 h 5.01923"
        id="path44309" />
     <path
-       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
-       d="m 83.076922,98.999999 h 5.884616"
-       id="path44711" />
-    <path
        style="fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0"
        d="m 42.318647,75.260984 -0.11223,6.608023"
        id="path1" />
@@ -241,10 +237,6 @@
        style="fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-dashoffset:0"
        d="m 169.24083,73.195555 -0.33196,9.000676"
        id="path2" />
-    <path
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-       d="m 100.18669,101.71539 h 6.40384"
-       id="path3" />
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
@@ -284,75 +276,179 @@
          y="69.837532">U<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan6-2">B</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-       x="85.851501"
-       y="99.936455"
-       id="text7"><tspan
-         sodipodi:role="line"
-         id="tspan7"
-         style="stroke-width:0"
+    <g
+       id="g1"
+       transform="translate(-27.169217)">
+      <path
+         style="opacity:1;fill:none;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 83.076922,98.999999 h 5.884616"
+         id="path44711" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+         d="m 100.18669,101.71539 h 6.40384"
+         id="path3" />
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
          x="85.851501"
-         y="99.936455">断面積</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-       x="97.274574"
-       y="99.568138"
-       id="text8"><tspan
-         sodipodi:role="line"
-         id="tspan8"
-         style="stroke-width:0"
+         y="99.936455"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="stroke-width:0"
+           x="85.851501"
+           y="99.936455">断面積</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
          x="97.274574"
-         y="99.568138">S<tspan
+         y="99.568138"
+         id="text8"><tspan
+           sodipodi:role="line"
+           id="tspan8"
+           style="stroke-width:0"
+           x="97.274574"
+           y="99.568138">S<tspan
    style="font-size:65%;baseline-shift:sub"
    id="tspan9">A</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+         x="103.64312"
+         y="99.957619"
+         id="text10"><tspan
+           sodipodi:role="line"
+           id="tspan10"
+           style="stroke-width:0"
+           x="103.64312"
+           y="99.957619">＝</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+         x="108.49252"
+         y="99.936455"
+         id="text11"><tspan
+           sodipodi:role="line"
+           id="tspan11"
+           style="stroke-width:0"
+           x="108.49252"
+           y="99.936455">断面積</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+         x="119.91559"
+         y="99.568138"
+         id="text13"><tspan
+           sodipodi:role="line"
+           id="tspan13"
+           style="stroke-width:0"
+           x="119.91559"
+           y="99.568138">S<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan12">B</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+         x="124.32599"
+         y="99.920914"
+         id="text14"><tspan
+           sodipodi:role="line"
+           id="tspan14"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0"
+           x="124.32599"
+           y="99.920914">✕2</tspan></text>
+    </g>
+    <g
+       id="g6"
+       transform="matrix(0.82812452,0,0,0.76658783,15.711507,22.650414)">
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:0.6;stroke-dasharray:none"
+         d="m 107.06986,98.98806 h 5.53038"
+         id="path4"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.600001;stroke-dasharray:none"
+         d="m 111.09103,98.004808 1.60096,0.951921 -1.60096,1.016827"
+         id="path6"
+         sodipodi:nodetypes="ccc" />
+    </g>
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 109.0223,98.999999 h 5.88462"
+       id="path7" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       d="m 126.13207,101.71539 h 6.40384"
+       id="path8" />
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-       x="103.64312"
-       y="99.957619"
-       id="text10"><tspan
+       x="111.79688"
+       y="99.936455"
+       id="text15"><tspan
          sodipodi:role="line"
-         id="tspan10"
+         id="tspan15"
          style="stroke-width:0"
-         x="103.64312"
+         x="111.79688"
+         y="99.936455">流速</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="119.9156"
+       y="99.568138"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="stroke-width:0"
+         x="119.9156"
+         y="99.568138">U<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan16">B</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
+       x="125.91698"
+       y="99.957619"
+       id="text18"><tspan
+         sodipodi:role="line"
+         id="tspan18"
+         style="stroke-width:0"
+         x="125.91698"
          y="99.957619">＝</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-       x="108.49252"
+       x="131.01115"
        y="99.936455"
-       id="text11"><tspan
+       id="text19"><tspan
          sodipodi:role="line"
-         id="tspan11"
+         id="tspan19"
          style="stroke-width:0"
-         x="108.49252"
-         y="99.936455">断面積</tspan></text>
+         x="131.01115"
+         y="99.936455">流速</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-       x="119.91559"
+       x="139.37462"
        y="99.568138"
-       id="text13"><tspan
+       id="text21"><tspan
          sodipodi:role="line"
-         id="tspan13"
+         id="tspan21"
          style="stroke-width:0"
-         x="119.91559"
-         y="99.568138">S<tspan
+         x="139.37462"
+         y="99.568138">U<tspan
    style="font-size:65%;baseline-shift:sub"
-   id="tspan12">B</tspan></tspan></text>
+   id="tspan20">A</tspan></tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-       x="124.32599"
+       x="143.78502"
        y="99.920914"
-       id="text14"><tspan
+       id="text22"><tspan
          sodipodi:role="line"
-         id="tspan14"
+         id="tspan22"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0"
-         x="124.32599"
+         x="143.78502"
          y="99.920914">✕2</tspan></text>
   </g>
 </svg>
