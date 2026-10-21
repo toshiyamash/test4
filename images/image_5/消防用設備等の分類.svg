@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="187.96703mm"
-   height="166.05763mm"
-   viewBox="0 0 187.96703 166.05763"
+   width="182.05528mm"
+   height="171.34615mm"
+   viewBox="0 0 182.05529 171.34614"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="2019-102-2.消防用設備等の分類.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="消防用設備等の分類.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,26 +24,31 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="0.52410025"
-     inkscape:cx="330.08952"
-     inkscape:cy="228.00981"
+     inkscape:zoom="0.74118968"
+     inkscape:cx="329.20048"
+     inkscape:cy="279.28074"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer3"
      inkscape:snap-global="true"
      inkscape:object-paths="true"
      inkscape:object-nodes="false"
      inkscape:snap-others="false"
      inkscape:snap-grids="false"
-     inkscape:snap-to-guides="false">
+     inkscape:snap-to-guides="false"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid912"
-       originx="-13.950361"
-       originy="-41.615624" />
+       originx="-12.165505"
+       originy="-39.473797"
+       spacingy="1"
+       spacingx="1"
+       units="mm" />
   </sodipodi:namedview>
   <defs
      id="defs2">
@@ -61,7 +66,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(-13.950361,-41.615624)">
+     transform="translate(-12.165505,-39.473797)">
     <image
        y="41.47171"
        x="11.507268"
@@ -76,7 +81,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-13.950361,-41.615624)">
+     transform="translate(-12.165505,-39.473797)">
     <rect
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect936"
@@ -242,7 +247,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(-13.950361,-41.615624)">
+     transform="translate(-12.165505,-39.473797)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
@@ -257,52 +262,52 @@
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="101.02283"
-         y="50.465611"
+         y="50.652615"
          id="tspan6623">　　水バケツ，水槽，乾燥砂等</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="101.02283"
-         y="55.595886"
+         y="55.969891"
          id="tspan6625">2．屋内消火栓設備</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="101.02283"
-         y="60.726158"
+         y="61.287167"
          id="tspan6627">3．スプリンクラー設備</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="101.02283"
-         y="65.85643"
+         y="66.604446"
          id="tspan6629">4．水噴霧消火設備</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="101.02283"
-         y="70.98671"
+         y="71.921722"
          id="tspan6631">5．泡消火設備</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="101.02283"
-         y="76.116982"
+         y="77.238998"
          id="tspan6633">6．不活性ガス消火設備</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="101.02283"
-         y="81.247253"
+         y="82.556274"
          id="tspan6635">7．ハロゲン化物消火設備</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="101.02283"
-         y="86.377525"
+         y="87.87355"
          id="tspan6637">8．粉末消火設備</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="101.02283"
-         y="91.507805"
+         y="93.190826"
          id="tspan6639">9．屋外消火栓設備</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88056px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
          x="101.02283"
-         y="96.638077"
+         y="98.508102"
          id="tspan6641">10．動力消防ポンプ設備</tspan></text>
     <text
        xml:space="preserve"
@@ -318,38 +323,38 @@
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.02283"
-         y="111.15071"
+         y="111.33772"
          id="tspan9803">1の2．ガス漏れ火災警報設備</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.02283"
-         y="116.28098"
+         y="116.65499"
          id="tspan9805">2．漏電火災警報器</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.02283"
-         y="121.41126"
+         y="121.97227"
          id="tspan9807">3．消防機関へ通報する火災報知設備</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.02283"
-         y="126.54153"
+         y="127.28954"
          id="tspan9809">4．非常警報器具</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.02283"
-         y="131.67181"
-         id="tspan9811">　（警鐘 ，携帯用拡声器，手動式サイレンその他）</tspan><tspan
+         y="132.60683"
+         id="tspan9813">　（警鐘 ，携帯用拡声器，手動式サイレンその他）</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.02283"
-         y="136.80208"
-         id="tspan9813">5．非常警報設備</tspan><tspan
+         y="137.9241"
+         id="tspan4">5．非常警報設備</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.02283"
-         y="141.93236"
-         id="tspan9815">　（非常ベル，自動式サイレン，放送設備）　　　　　　　</tspan></text>
+         y="143.24138"
+         id="tspan9815">　（非常ベル，自動式サイレン，放送設備）　　　　</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
@@ -364,17 +369,17 @@
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.37981"
-         y="156.48604"
+         y="156.67303"
          id="tspan23181">　　すべり台，避難はしご， 救助袋 ，緩降機，</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.37981"
-         y="161.6163"
+         y="161.99031"
          id="tspan23183">　　避難橋，避難ロープその他の避難器具</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.37981"
-         y="166.74658"
+         y="167.30759"
          id="tspan23185">2．誘導灯 及び誘導標識</tspan></text>
     <text
        xml:space="preserve"
@@ -401,22 +406,22 @@
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.47153"
-         y="191.91864"
+         y="192.10564"
          id="tspan42846">2．連結散水設備</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.47153"
-         y="197.0489"
+         y="197.42291"
          id="tspan42848">3．連結送水管</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.47153"
-         y="202.17918"
+         y="202.74019"
          id="tspan42850">4．非常コンセント設備</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0.264583"
          x="101.47153"
-         y="207.30945"
+         y="208.05746"
          id="tspan42852">5．無線通信補助設備</tspan></text>
     <g
        id="g59264"
@@ -565,5 +570,21 @@
          style="stroke-width:0.264583"
          x="70.550476"
          y="71.560143">消火設備</tspan></text>
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="M 93.911899,39.473797 H 109.61863"
+       id="path1" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 12.165505,115.50865 v 9.63822"
+       id="path2" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="M 95.339781,210.81995 H 107.11983"
+       id="path3" />
+    <path
+       style="fill:#000000;stroke-width:0"
+       d="m 194.22079,116.2226 v 10.70913"
+       id="path4" />
   </g>
 </svg>
