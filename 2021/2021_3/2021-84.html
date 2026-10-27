@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-84</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題84</span>&emsp;音に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>人間の可聴範囲は，音圧レベルでおよそ0～130dBの範囲である．
+        <p><span class="bold">（2）</span>対象音と暗騒音のレベル差が15dBより大きい場合は，暗騒音による影響の除去が必要である．
+        <p><span class="bold">（3）</span>空気中の音速は，気温の上昇と共に増加する．
+        <p><span class="bold">（4）</span>低周波数域の騒音に対する人の感度は低い．
+        <p><span class="bold">（5）</span>時間によって変動する騒音は，等価騒音レベルによって評価される．
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題84&emsp;正解（2）</span>&emsp;頻出度AAA</span></p>
+        <p>対象音が暗騒音より10dB以上大きい場合には，測定値は対象音と判断してよい．10dBに満たない場合は暗騒音の除去などの対応が必要となる．
+        <p>ある騒音・振動環境下で，対象とする特定の音以外の音・振動をを暗騒音・暗振動という．
+        <p>対象騒音・振動が暗騒音・暗振動より10dB以上大きい場合には測定値は対象騒音であると判断できる．10dBに満たない場合は暗騒音の除去などの対応が必要となる．暗騒音・暗振動によるマスキングを防ぐために，なるべく暗騒音・暗振動が小さい時期，時間帯に対象騒音・振動を測定することが望ましい．
+        <p><span class="bold">-(1) </span>人間の可聴範囲は<span class="bold">2021-84-1表</span>参照．周波数の方が頻出．
+        <p class="cap">2021-84-1表&emsp;ヒトの可聴範囲                          
+        <table>
+            <tbody>
+                <tr>
+                    <td>周波数では</td>
+                    <td>20Hz～20,000Hz（20kHz）の約10オクターブ<sup>※</sup></td>
+                </tr>
+                <tr>
+                    <td>音圧レベルでは</td>
+                    <td>0～130dB</td>
+                </tr>
+            </tbody>
+        </table>    
+        <p>※&nbsp;1オクターブとは2音の周波数が2倍になる間隔をいう（500Hzの1オクターブ周波数の高い音は1,000Hz）.
+        <p>人が音として聴こえない約20Hz以下の音を超低周波空気振動といい，超低周波空気振動と，周波数約100Hz までの低い周波数の可聴音を合わせて低周波音という．逆に，約20kHz以上の周波数の音を超音波という．
+        <p><span class="bold">-(3) </span>音速度\(c\)［m/s］は，1気圧下では，
+        気温を\(t\)［℃］として，
+        \[c \simeq 331.5+0.6t\]
+        と表される．0℃で331.5m/s，20℃で343.5m/sである．すなわち，温度の上昇とともに音速は速くなる．この音速の公式は空気の弾性的性質から導くことができる．
+        <p><span class="bold">-(4) </span>等ラウドネス曲線（<span class="bold">2021-84-1図</span>）によれば，人間の聴覚は低周波数域で鈍くなる．
+        <p class="cap">2021-84-1図&emsp;等ラウドネス曲線
+        <div class="container">
+        <img src="../../images/image_2/等ラウドネス曲線.svg" alt="等ラウドネス曲線">
+        </div>
+        <p><span class="bold">-(5) </span>等価騒音レベル（LAeq）
+        <p>自動車騒音など時間的に変動する騒音をエネルギー的に等価な定常騒音で表した量．環境基本法の騒音に関する環境基準にも用いられている（住宅地・夜間LAeq45dB以下，等）．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-85.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-83.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

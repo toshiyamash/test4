@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-85</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題85</span>&emsp;音に関する用語とその説明として，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>広帯域騒音<span class="connectLine">　　　　</span>広い周波数領域の成分を含む騒音
+        <p><span class="bold">（2）</span>吸音率<span class="connectLine">　　　　　　</span>入射音響エネルギーに対する吸収エネルギーの割合
+        <p><span class="bold">（3）</span>純音<span class="connectLine">　　　　　　　</span> 一つの周波数からなる音波のこと
+        <p><span class="bold">（4）</span>拡散音場<span class="connectLine">　　　　　</span>空間に音のエネルギーが一様に分布し，音があらゆる方向に伝搬している状態のこと
+        <p><span class="bold">（5）</span>パワーレベル<span class="connectLine">　　　</span>音源の音響出力をデシベル尺度で表記したもの
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+      <p class="bold">問題85&emsp;正解（2）</span>&emsp;頻出度AAA</span></p>
+      <p>吸音率は，入射音響エネルギーに対する，透過エネルギー＋吸収エネルギーの割合である（<span class="bold">2021-85-1図</span>参照）．
+      <p class="cap">2021-85-1図&emsp;壁における音の反射，吸音，透過
+      <div class="container">
+          <img src="../../images/image_3/壁における音の反射，吸音，透過.svg" alt="壁における音の反射，吸音，透過">
+      </div>
+      <p>上図で，壁の面積を\(s\)［m<sup>2</sup>］，反射率を\(r\)，吸音率を\(a\)，透過率を\(\tau\)，壁の遮音性能を表す透過損失値を\(TL\)［dB］,透過吸音面積を\(A\)［m<sup>2</sup>］とすると，
+        \begin{align}
+            r&=\frac{I_r}{I_i} \notag\\[5pt]
+            a&=1-r=\frac{I_i-I_r}{I_i}=\frac{I_t+I_a}{I_i} \notag\\[5pt]
+            \tau &=\frac{I_t}{I_i}  \notag\\[5pt]
+            TL&=10\log_{10}I_i-10\log_{10}I_t  \notag\\[5pt]
+            &=10\log_{10}\frac{I_i}{I_t}=10\log_{10}\frac{1}{\tau}{\rm ［dB］} \notag\\[5pt]
+            A&=a\times s{\rm ［m^2]} \notag
+        \end{align}
+      <p>ちなみに，解放された窓の吸音率は1である．
+      <p><span class="bold">-(1)</span>「広帯域騒音」の他に，「暗騒音」：ある騒音環境下で，対象とする特定の音以外の音，がよく出題される．
+      <p><span class="bold">-(5) </span>パワーレベル，デシベル尺度
+      <p>ある基準値との比の対数をとって量を表示することをレベル表示（デシベル尺度）という．
+        <p>考察の対象とする量が数十桁にわたり，そのままでは扱いにくい場合にレベル表示が用いられる．これを音に用いて，音響工学では音のパワーレベルを次のように定義している．
+          \[L_i=10\log_{10}\frac{I}{I_0}\]            
+        <div class="leftcenter">
+            ただし，<br>
+            \(L_i\)：音の強さのレベル［dB］，<br> 
+            \(I\)：音の強さ［W/m<sup>2</sup>］，<br>
+            \(I_0\)：基準の音の強さ（10<sup>-12</sup>W/m<sup>2</sup>）．  
+        </div><br>
+        <p>ヒトの可聴範囲（10-12W/m<sup>2</sup>～最大102W/m<sup>2</sup>）をレベル表示すると，
+          \begin{align}
+          L_i{\rm （最小）} & = 10\log_{10} \frac{I}{I_0} \notag\\[5pt]
+          &=10\log_{10} \frac{10^{-12}}{10^{-12}} \notag\\[5pt]
+          &=10\log_{10}1=0\ {\rm dB} \notag
+          \end{align}
+          \begin{align}
+          L_i{\rm （最大）} & = 10\log_{10} \frac{I}{I_0} \notag\\[5pt]
+          &=10\log_{10} \frac{10^2}{10^{-12}} \notag\\[5pt]
+          &=10\log_{10}10^{14}=140\ {\rm dB} \notag
+          \end{align}
+        <p>レベル表示により，最小と最大値で10<sup>12</sup>～10<sup>2</sup>と14桁もの開きがあったものが0～140dBと3桁で表現できることになる．
+        <p>実際に音の強さを測定する場合は，エネルギーを直接測定することが難しいので，音圧\(p\)［Pa］を測定する．
+        <p>音の強さは，空気の密度を\(\rho\)：［kg/m<sup>3</sup>］，音速を\(c\)：［m/s］とすると，次式で表される．
+          \[I=\frac{p^2}{\rho c}\]              
+        <p>すなわち，音の強さは，音圧の2乗に比例するので，音圧レベルを次のように定義すると，同じ音に対して強さのレベルと音圧レベルが一致することになる．
+          \begin{align}
+          L_p & = 10\log_{10} \left (\frac{p}{p_0} \right) ^2 \notag\\[5pt]
+          &=2 \times 10 \log_{10} \frac{p}{p_0} \notag\\[5pt]
+          &=20\log_{10} \frac{p}{p_0} \notag
+          \end{align}
+        <div class="leftcenter">
+          ただし，\(L_p\)：音圧レベル［dB］，<br>
+          \(p\)：音圧［Pa］，<br>
+          \(p_0\)：基準の音圧（2×10<sup>-5</sup>Pa=基準の音の強さ10<sup>-12</sup>W/m<sup>2</sup>に相当）．
+        </div>
+        <p>例えば2Paの音圧レベルは，
+          \begin{align}
+          &20\log_{10} \frac{2}{2 \times 10^{-5}} \notag\\[5pt]
+          &=20 \times \log_{10}10^5 \notag\\[5pt]
+          &=20\times 5 =100\ {\rm dB} \notag
+          \end{align}
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-86.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-84.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

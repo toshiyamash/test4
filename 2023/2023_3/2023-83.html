@@ -64,41 +64,38 @@
             \(I_0\)：基準の音の強さ（10<sup>-12</sup>W/m<sup>2</sup>）．  
         </div>
         <p>上記の可聴範囲（10<sup>-12</sup>W/m<sup>2</sup>～最大10<sup>2</sup>W/m<sup>2</sup>）をレベル表示すると，
-        <div class="textcenter">
           \begin{align}
           L_i{\rm （最小）} & = 10\log_{10} \frac{I}{I_0} \notag\\[5pt]
           &=10\log_{10} \frac{10^{-12}}{10^{-12}} \notag\\[5pt]
           &=10\log_{10}1=0\ {\rm dB} \notag
           \end{align}
-        </div><br>
-        <div class="textcenter">
           \begin{align}
           L_i{\rm （最大）} & = 10\log_{10} \frac{I}{I_0} \notag\\[5pt]
           &=10\log_{10} \frac{10^2}{10^{-12}} \notag\\[5pt]
           &=10\log_{10}10^{14}=140\ {\rm dB} \notag
           \end{align}
-        </div>
         <p>レベル表示により，最小と最大値で10<sup>12</sup>～10<sup>2</sup>と14桁もの開きがあったものが0～140dBと3桁で表現できることになる．
         <p>実際に音の強さを測定する場合は，エネルギーを直接測定することが難しいので，音圧\(p\)［Pa］を測定する．
         <p>音の強さは，空気の密度を\(\rho\)：［kg/m<sup>3</sup>］，音速を\(c\)：［m/s］とすると，次式で表される．
           \[I=\frac{p^2}{\rho c}\]              
         <p>すなわち，音の強さは，音圧の2乗に比例するので，音圧レベルを次のように定義すると，同じ音に対して強さのレベルと音圧レベルが一致することになる．
-        <div class="textcenter">
           \begin{align}
           L_p & = 10\log_{10} \left (\frac{p}{p_0} \right) ^2 \notag\\[5pt]
           &=2 \times 10 \log_{10} \frac{p}{p_0} \notag\\[5pt]
           &=20\log_{10} \frac{p}{p_0} \notag
           \end{align}
+        <div class="leftcenter">
+            ただし，<br>
+            \(L_p\)：音圧レベル［dB］，<br> 
+            \(p\)：音圧［Pa］，<br>
+          \(p_0\)：基準の音圧（2×10<sup>-5</sup>Pa=基準の音の強さ10<sup>-12</sup>W/m<sup>2</sup>に相当）．
         </div>
-        <p>ただし，\(L_p\)：音圧レベル［dB］，\(p\)：音圧［Pa］，\(p_0\)：基準の音圧（2×10<sup>-5</sup>Pa=基準の音の強さ10<sup>-12</sup>W/m<sup>2</sup>に相当）．
         <p>例えば2Paの音圧レベルは，
-        <div class="textcenter">
           \begin{align}
-          &20\log_{10} \frac{2}{2 \times 10^{-5}} \notag\\[5pt]
+          &20\log_{10} \left(\frac{2}{2 \times 10^{-5}} \right) \notag\\[5pt]
           &=20 \times \log_{10}10^5 \notag\\[5pt]
           &=20\times 5 =100\ {\rm dB} \notag
           \end{align}
-        </div>
         <p>さらに，この音圧レベルを，人の聴覚の周波数特性をあらわした等ラウドネス曲線（<span class="bold">2023-83-1図</span>）によって補正した音圧レベルをA特性音圧レベルといい，単なる音圧レベルと区別するために，単位に［dB(A)］を用いる．騒音計のA特性音圧レンジで計測した騒音レベル［dB(A)］は騒音の評価の基本となる．
         <div class="cap">2023-83-1図&emsp;等ラウドネス曲線　</span></div>
         <div class="container">
@@ -106,7 +103,7 @@
         </div>
         <p><span class="bold">-(3) </span>等価騒音レベル（LAeq）：一定時間にわたって時間的に変動する騒音レベルをエネルギー的に等価な定常騒音レベルで表した量．24時間等価騒音レベルなら，LAeq24h＝55dBなどと記述する．<br>環境基本法の<a href="https://www.env.go.jp/kijun/oto1-1.html#:~:text=騒音の評価手法は、等価騒音レベルによるものとし" target="_blank" rel="noopener noreferrer">騒音に関する環境基準</a>にも用いられている（住宅地・夜間LAeq45dB以下，等）．
         <p><span class="bold">-(5)</span>遮音は，壁などで音を遮断して，透過する音のエネルギーを小さくすることはである．その実体は「吸収」と「反射」である（<span class="bold">2023-83-2図</span>参照）．
-        <div class="cap">2023-83-2図&emsp;音の反射，吸収，透過</span></div>
+        <p class="cap">2023-83-2図&emsp;音の反射，吸収，透過
         <div class="container">
             <img src="../../images/image_3/音の反射，吸収，透過.svg" alt="音の反射，吸収，透過">
         </div>

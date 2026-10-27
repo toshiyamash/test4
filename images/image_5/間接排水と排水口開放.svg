@@ -3,11 +3,11 @@
 
 <svg
    width="265.54239mm"
-   height="97.338371mm"
-   viewBox="0 0 265.54238 97.33837"
+   height="101.73678mm"
+   viewBox="0 0 265.54238 101.73678"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    sodipodi:docname="間接排水と排水口開放.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,9 +24,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="0.52410025"
-     inkscape:cx="201.29737"
-     inkscape:cy="335.81362"
+     inkscape:zoom="0.74118968"
+     inkscape:cx="310.31193"
+     inkscape:cy="384.51696"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
@@ -43,7 +43,7 @@
        type="xygrid"
        id="grid887"
        originx="-146.4749"
-       originy="27.94459"
+       originy="29.372475"
        spacingy="1"
        spacingx="1"
        units="mm" />
@@ -78,7 +78,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(-146.47491,27.944589)">
+     transform="translate(-146.47491,29.372474)">
     <image
        y="28.218328"
        x="-8.3403912"
@@ -111,7 +111,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Layer 4"
-     transform="translate(-146.47491,27.944589)">
+     transform="translate(-146.47491,29.372474)">
     <path
        style="fill:#e6e6e6;fill-opacity:0.929412;stroke:none;stroke-width:0.1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 296.82151,192.4967 h 13.56493 v 6.20237 h 3.70355 c 0,0 1.69561,-0.2231 1.651,-1.56175 -0.0446,-1.33864 -0.13385,-3.39122 -0.13385,-3.39122 0,0 0.0446,-1.38327 0.31234,-1.33864 0.26773,0.0446 4.46215,0.0446 4.46215,0.0446 0,0 -1.38327,0.71394 -1.51715,2.54342 -0.13385,1.82947 0.0446,4.19441 0.0446,4.19441 0,0 -0.66931,2.76652 -3.61434,2.76652 -2.94499,0 -4.90833,-0.0892 -4.90833,-0.0892 0,0 -0.8032,2.81115 -2.94503,2.76653 -2.14183,-0.0446 -7.85336,0 -7.85336,0 0,0 -2.98963,-0.6247 -2.90039,-3.43585 0.0892,-2.81115 0.13385,-8.70117 0.13385,-8.70117 z"
@@ -121,7 +121,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(-146.47491,27.944589)">
+     transform="translate(-146.47491,29.372474)">
     <path
        id="rect21651"
        style="fill:#000000;fill-opacity:0.929412;stroke:#000000;stroke-width:0.2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
@@ -820,7 +820,7 @@
      id="layer3"
      inkscape:label="Layer 3"
      style="display:inline"
-     transform="translate(-146.47491,27.944589)">
+     transform="translate(-146.47491,29.372474)">
     <text
        xml:space="preserve"
        style="font-size:3.88056px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
@@ -1204,5 +1204,13 @@
        style="fill:none;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
        d="M 412.01729,9.6655021 V 31.878172"
        id="path1063" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="M 276.76938,72.364304 H 288.9064"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 279.26818,-29.372474 h 8.92427"
+       id="path2" />
   </g>
 </svg>
