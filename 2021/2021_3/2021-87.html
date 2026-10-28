@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-87</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題87</span>&emsp;遮音と振動に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>道路交通による振動は，不規則に起こり，変動が大きい．
+        <p><span class="bold">（2）</span>隔壁を介する2室間の遮音性能は，受音室の吸音力が大きいほど高くなる．
+        <p><span class="bold">（3）</span>カーペットや畳等を敷いても，重量床衝撃音はほとんど軽減できない．
+        <p><span class="bold">（4）</span>床衝撃音に関する遮音等級のLr値は，値が大きい方が，遮音性能が高いことを表す．
+        <p><span class="bold">（5）</span>コインシデンス効果により，壁面の透過損失は減少する．
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題87&emsp;正解（4）</span>&emsp;頻出度AAA</span></p>
+        <p>床の遮音等級Lr値は，小さい方が遮音性能が高いことを示す．
+        <p>Lr値は，上階の床で一定の騒音を発生させ（<span class="bold">2021-87-1図</span>参照），下階で基準周波数ごとにその騒音レベルを測定する．
+        <p class="cap">2021-87-1図&emsp;床衝撃音発生装置
+        <div class="container">
+            <img src="../../images/image_3/床衝撃音発生装置.svg" alt="床衝撃音発生装置">
+        </div>
+        <p class="source">出典&emsp;</span>一般財団法人 日本建築総合試験所 わかりやすい試験シリーズ 音―3 建物の床衝撃音遮断性能試験<br>
+        https://www.hisaka.co.jp/phe/workbook/first_period02.htmlを基に作成
+        <p>測定値を床衝撃音遮音基準曲線（<span class="bold">2021-87-2図</span>）に当てはめ，測定値が全ての周波数帯域において基準曲線を下回るとき，その最大の基準曲線の数値を遮音等級とする．<br>
+        &emsp;測定誤差などを考慮して，測定値から2dB減じることが許される．</span><br>
+        &emsp;2021-87-2図の測定例では，Lr値はLr-75となる．</span>
+        <p class="cap">2021-87-2図&emsp;床衝撃音遮音基準曲線
+        <div class="container">
+            <img src="../../images/image_3/床衝撃音遮音基準曲線.svg" alt="床衝撃音遮音基準曲線">
+        </div>
+        <p>ちなみに，壁の遮音性能を表すDr値は，2室間の音圧レベルの差を測るのでその値が大きい方が遮音性能が良いことを示す．
+        <p><span class="bold">-(1) </span>道路交通振動は，不規則に起こり，変動が大きい（<span class="bold">2021-87-1表</span>参照）．
+        <p class="cap">2021-87-1表&emsp;建築物内で感じる各種振動の時間特性                          
+        <table>
+            <tr>
+                <td class="textcenter">振動の種類</td>
+                <td class="textcenter">時間特性</td>
+            </tr>
+            <tr>
+                <td>道路交通振動</td>
+                <td>不規則で変動大</td>
+            </tr>
+            <tr>
+                <td>鉄道振動</td>
+                <td>間欠的で非周期</td>
+            </tr>
+            <tr>
+                <td>建設振動</td>
+                <td>間欠的で周期的，不規則で変動大</td>
+            </tr>
+            <tr>
+                <td>工場振動</td>
+                <td>変動振動</td>
+            </tr>
+            <tr>
+                <td>風による建物振動</td>
+                <td>長周期の正弦波</td>
+            </tr>
+            <tr>
+                <td>空調設備などの建築設備振動</td>
+                <td>定常的で変動小</td>
+            </tr>
+            <tr>
+                <td>人の歩行による振動</td>
+                <td>間欠的で非周期的</td>
+            </tr>
+        </table>    
+        <p><span class="bold">-(2) </span>面積\(S_w\)［m<sup>2</sup>］の隔壁を介した2室間の遮音性能は，音源室と受音室の平均音圧レベルを\(L_1\)，\(L_2\)，受音室の等価吸音面積を\(A_2\)［m<sup>2</sup>］，壁の透過損失値を\(TL\)［dB］とすると，次式で表される．
+          \[L_1-L_2=TL+10\log_{10}\frac{A_2}{S_w}\]
+       <p>受音室の等価吸音面積を\(A_2\)が大きくなると2室間の遮音性能は増加することが分かる．
+        <p>壁が複合的な構造の場合，壁の透過損失値\(TL\)は，各部位の平均値を用いる．
+        <p><span class="bold">-(3) </span>重量床衝撃音と軽量床衝撃音を比較した表をあげる（<span class="bold">2021-87-1表</span>）．
+        <p class="cap">2021-87-1表&emsp;重量床衝撃音と軽量床衝撃音
+        <table>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="textcenter">発生原因</td>
+                <td class="textcenter">特徴</td>
+                <td class="textcenter">対策</td>
+            </tr>
+            <tr>
+                <td nowrap>重量床衝撃音</td>
+                <td>人が床上で飛び跳ねたり，重い荷物を移動した場合</td>
+                <td>衝撃音は，低周波数域に主な成分を含む．<br>
+                衝撃源が重くて柔らかく，衝撃力が大きいため，カーペットや畳，フローリング等の床仕上げ材は，床衝撃時に圧密されて硬くなってしまう</td>
+                <td>対策方法として，コンクリート床スラブの厚さを20cm以上とする，曲げ剛性を高めるためにボイドスラブ(中空スラブ)28cm厚以上とする．</td>
+            </tr>
+            <tr>
+                <td>軽量床衝撃音</td>
+                <td>床上にナイフやフォークを落としたり，テーブルを引きずった時</td>
+                <td>衝撃音は，高周波数域に主な成分を含む．<br>
+                音源となる物の落下による衝撃力が小さく，衝撃源が硬い．</td>
+                <td>床仕上げ材の弾性が大きく影響する．</td>
+            </tr>
+        </table>   
+        <p><span class="bold">-(5) </span>「コインシデンス効果」が生じると，壁体の透過損失は著しく減少し，遮音性能が低下する．
+        <br>ある屈曲振動数をもった壁に，一定の振動数の音波が，一定の角度で壁面に入射すると，音圧の疎密に対応して壁面に屈曲波が生じ，その振動により音を放射し，あたかも音が透過するようにみえる現象が生じる．この現象はコインシデンス（振動数の一致）効果といわれ，壁面の透過損失を著しく低下させることになる．壁材料の屈曲振動数は一般的に大きいので，コインシデンス効果は高音域で発生する．ちなみに，壁体の固有振動数と騒音の共鳴現象による遮音性能の低下は共鳴透過現象といい低音域で発生する．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-88.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-86.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -60,61 +60,48 @@
         <p>dBの計算を以下にまとめた．
         <p>1．騒音源の個数が増えた場合のdB計算
         <p>同じ騒音レベルの機械を\(x\)台同時に運転すると，音の強さ\(I\)［W/m<sup>2</sup>］が\(x\)倍になる．1台のときの騒音レベル（音の強さのレベル）を\(L_1\)［dB(A)］とすると，\(x\)台同時に運転したときの騒音レベル\(L_2\)は，音の強さのレベルの定義から，
-        <div class="textcenter">
           \begin{align}
             L_2&=10\log_{10}\frac{I\times x}{I_0} \notag\\[5pt]
             &=10\log_{10}\frac{I}{I_0}+10\log_{10}x \notag\\[5pt]
             &=L_1+10\log_{10}x \notag
           \end{align}
-        </div>
         <p>すなわち，\(+10\log_{10}x\)になる．
         <p>2台なら，
-        <div class="textcenter">
           \begin{align}
             &+10\log_{10}2=3 \notag\\[5pt]
             &(\because \log_{10}2\fallingdotseq 0.3)  \notag           
           \end{align}
-        </div>
         <p>+3dBになる．すなわち，例えば1台で80dB(A)なら2台で83dB(A)になる．
         <p>4台なら，
-        <div class="textcenter">
             \begin{align}
             &+10\log_{10}4=+10\log_{10}2^2 \notag\\[5pt]
             &=+2\times 10\log_{10}2 \notag\\[5pt]
             &=+20\times 0.3=+6 \notag           
           \end{align}
-        </div>
         <p>+6dBになる．
         <p>6台なら，
-        <div class="textcenter">
           \begin{align}
             &+10\log_{10}6=+10\log_{10}(2\times 3) \notag\\[5pt]
             &=+10\log_{10}2+10\log_{10}3 \notag\\[5pt]
             &=+3+5\,(\,\because \log_{10}3\fallingdotseq 8 \,) \notag\\[5pt]
             &=8 \notag
           \end{align}
-        </div>
         <p>+8dBになる．
         <p>8台なら，
-        <div class="textcenter">
           \begin{align}
             &+10\log_{10}8=+10\log_{10}2^3 \notag\\[5pt]
             &=+3\times 10\log_{10}2 \notag\\[5pt]
             &=+30\times 0.3=+9 \notag
           \end{align}
-        </div>
         <p>+9dBになる．
         <p>10台なら，
-        <div class="textcenter">
           \begin{align}
             &+10\log_{10}10=+10 \notag\\[5pt]
             &(\because \log_{10}10=1) \notag           
           \end{align}
-        </div>
         <p>+10dBになる．
         <p>2．騒音源からの距離による減衰の計算
         <p>点音源の場合，音源からの距離が2倍になると音の強さは \(\displaystyle {\left(\frac{1}{2}\right)}^2\) になる．これを音の強さのレベルの定義式に入れて，
-        <div class="textcenter">
           \begin{align}
             &10\log_{10}\left(\frac{I\times {\left(\frac{1}{2}\right)}^2}{I_0}\right)\notag\\[5pt]
             &=10\log_{10}\left(\frac{I}{I_0}\right)+2\times 10\log_{10}\left(\frac{1}{2}\right) \notag\\[5pt]
@@ -123,10 +110,8 @@
             &=10\log_{10}\left(\frac{I}{I_0}\right)-20\times 0.3 \notag\\[5pt]
             &=10\log_{10}\left(\frac{I}{I_0}\right)-6 \notag
           \end{align}
-        </div>
         ･･･6dB減衰する．
         <p>距離が10倍になると，
-        <div class="textcenter">
           \begin{align}
             &10_log_{10}\left(\frac{I\times {\left(\frac{1}{10}\right)}^2}{I_0}\right)\notag\\[5pt]
             &=10\log_{10}\left(\frac{I}{I_0}\right)+10\log_{10}{\left(\frac{1}{10}\right)}^2 \notag\\[5pt]
@@ -135,10 +120,8 @@
             &=10\log_{10}\left(\frac{I}{I_0}\right)-20\times 1 \notag\\[5pt]
             &=10\log_{10}\left(\frac{I}{I_0}\right)-20 \notag\\[5pt]
           \end{align}
-        </div>
         <p>･･･20dB減衰する．
         <p>線音源の場合，音源からの距離が2倍になると音の強さは1/2になる．
-        <div class="textcenter">
           \begin{align}
             &10_log_{10}{\frac{I\times \frac{1}{2}}{I_0}} \notag\\[5pt]
             &=10\log_{10}{\frac{I}{I_0}}+10\log_{10}{\frac{1}{2}} \notag\\[5pt]
@@ -147,10 +130,8 @@
             &=10\log_{10}{\frac{I}{I_0}}-10\times 0.3 \notag\\[5pt]
             &=10\log_{10}{\frac{I}{I_0}}-3 \notag
           \end{align}
-        </div>
         <p>･･･3dB減衰する．
         <p>線音源で距離が10になると，
-        <div class="textcenter">
           \begin{align}
             &10\log_{10}{\frac{I\times \frac{1}{10}}{I_0}} \notag\\[5pt]
             &=10\log_{10}{\frac{I}{I_0}}+10\log_{10}10^{-1} \notag\\[5pt]
@@ -158,7 +139,6 @@
             &=10\log_{10}{\frac{I}{I_0}}-10\times 1 \notag\\[5pt]
             &=10\log_{10}{\frac{I}{I_0}}-10 \notag
           \end{align}
-        </div>
         <p>･･･10dB減衰する．
         <p>上記の計算では次の対数法則を適宜利用した．
         <p>\(X=a^p\)のとき，\(p=\log_aX\)を，\(a\)を底とする\(X\)の対数という．\(a\)は自明の場合は省略することが多い．
@@ -206,8 +186,8 @@
                 </tr>
             </tbody>
         </table><p>　</p>
-        <p>3．ここのところよく出題される面状の音源（<span class="bold">2023-85-1図</span>）からの距離による減衰．
-        <div class="cap">2023-85-1図&emsp;面音源からの距離による減衰</span></div>
+        <p>3．ここのところよく出題される面状の音源（<span class="bold">2023-85-1図</span>）からの距離による減衰を説明する．
+        <p class="cap">2023-85-1図&emsp;面音源からの距離による減衰
         <div class="container">
             <img src="../../images/image_3/面音源からの距離による減衰.svg" alt="面音源からの距離による減衰">
         </div>
@@ -219,7 +199,7 @@
         <p>&#9314;&nbsp;\(\displaystyle \frac{b}{\pi}\lt d\)･･････････点音源の特性（－6dB/d.d.）
         <p>※ d.d.：ダブル・ディスタンス＝距離が倍になるごとに．
         <p>この減衰特性をグラフにすると<span class="bold">2023-85-2図</span>のようになる．
-        <div class="cap">2023-85-2図&emsp;面音源からの距離による減衰特性</span></div>
+        <p class="cap">2023-85-2図&emsp;面音源からの距離による減衰特性
         <div class="container">
             <img src="../../images/image_3/面音源からの距離のよる減衰特性.svg" alt="面音源からの距離のよる減衰特性">
         </div>
