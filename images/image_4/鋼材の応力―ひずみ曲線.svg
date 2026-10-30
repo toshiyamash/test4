@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="219.34529mm"
-   height="81.380661mm"
-   viewBox="0 0 219.34529 81.380661"
+   width="167.60469mm"
+   height="85.316849mm"
+   viewBox="0 0 167.60469 85.316849"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="2022-96-1鋼材の応力―ひずみ曲線.svg"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="鋼材の応力―ひずみ曲線.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,13 +24,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="0.52410025"
-     inkscape:cx="-68.689149"
-     inkscape:cy="115.43593"
+     inkscape:zoom="1.0482005"
+     inkscape:cx="320.54936"
+     inkscape:cy="249.95218"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer3"
      inkscape:snap-global="false"
@@ -41,12 +41,17 @@
      inkscape:snap-to-guides="false"
      inkscape:snap-intersection-paths="true"
      inkscape:object-nodes="true"
-     inkscape:snap-object-midpoints="true">
+     inkscape:snap-object-midpoints="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid872"
-       originx="9.6042404"
-       originy="-143.59315" />
+       originx="-14.877763"
+       originy="-141.57382"
+       spacingy="1"
+       spacingx="1"
+       units="mm" />
   </sodipodi:namedview>
   <defs
      id="defs2">
@@ -71,7 +76,7 @@
      id="layer1"
      sodipodi:insensitive="true"
      style="display:none"
-     transform="translate(9.6042403,-143.59315)">
+     transform="translate(-14.877764,-141.57382)">
     <image
        y="29.141941"
        x="54.22366"
@@ -96,7 +101,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     transform="translate(9.6042403,-143.59315)">
+     transform="translate(-14.877764,-141.57382)">
     <path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 40.516225,150.9988 v 68.35997 H 180.98437"
@@ -176,7 +181,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     transform="translate(9.6042403,-143.59315)">
+     transform="translate(-14.877764,-141.57382)">
     <text
        xml:space="preserve"
        style="font-size:4.9389px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';stroke-width:0.264583"
@@ -451,12 +456,20 @@
          x="70.458862"
          y="243.38588">鋼材SS400の引張応力度・ひずみ曲線</tspan></text>
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.499999"
-       d="m -9.3542408,172.11624 v 12.116"
+       style="fill:none;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
+       d="m 14.877764,171.86382 v 12.116"
        id="path931" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:0.499999"
-       d="m 209.49105,170.34932 v 14.13534"
+       style="fill:none;stroke:#ffffff;stroke-width:0;stroke-dasharray:none"
+       d="m 182.48246,169.84449 v 14.13534"
        id="path933" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 97.672865,226.89067 h 8.329755"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="M 95.401115,141.57382 H 104.2357"
+       id="path2" />
   </g>
 </svg>
