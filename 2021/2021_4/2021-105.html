@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-105</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題105</span>&emsp;空調技術に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>事務所建築におけるパーソナル空調では，冷房用に天井，床，デスク等の吹出しが採用されている．
+        <p><span class="bold">（2）</span>ナイトパージとは，夜間の外気を取り入れることで，空調機の冷房負荷を削減するものである．
+        <p><span class="bold">（3）</span>自然換気を併用するハイブリッド空調とは，穏やかな気候時の外気を積極的に室内に導入して冷房に利用するものである．
+        <p><span class="bold">（4）</span>タスク・アンビエント空調とは，タスク域の温熱条件を緩和することで省エネルギー性の向上を図るものである．
+        <p><span class="bold">（5）</span>細霧空調とは，ミストの蒸発潜熱で周りの空気温度が下がる現象を利用した空調システムである．
+   </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題105&emsp;正解（4）&emsp;頻出度AA</span></p>
+        <p>タスク・アンビエント<sup>※</sup>空調（<span class="bold">2021-105-1図</span>参照）で，温熱条件を緩和するのは，アンビエント域である．
+        <p>※ タスク（task）：作業，仕事．アンビエント（ambient）：周囲，環境
+        <p class="cap">2021-105-1図&emsp;タスク・アンビエント空調
+        <div class="textcenter">
+            <img src="../../images/image_4/タスク・アンビエント空調.svg" alt="タスク・アンビエント空調">
+        </div>
+        <p><span class="bold">-(2) </span>ナイトパージ（英：night purge 夜間換気）
+        <p><span class="bold">-(5) </span>細霧空調は，昔からある「打ち水」と同じ原理で，水滴が蒸発するときに周囲の熱を奪う．10µm（ミクロン）〜30µm前後の非常に細かい霧（ドライフォグなど）を発生させ，粒子が小さいため，人や物が濡れにくく，空気中で素早く蒸発する．<br>
+        初期投資，運転・メンテナンスとも比較的ローコストで済む．<br>
+        農業ビニールハウスの高温抑制，家畜（牛舎や豚舎）の暑熱対策，ビルや店舗のテラス，イベント会場，工場などの暑さ対策（ヒートアイランド対策）として普及している．<br>
+        高温多湿な気候や，空気がすでに高湿度になると水が蒸発しにくくなり，冷却効果が低下する．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='../2021_5/2021-106.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-104.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

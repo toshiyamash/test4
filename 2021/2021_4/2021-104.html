@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-104</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題104</span>&emsp;建築基準法の用語に関する次の記述のうち，<span class="bold">誤っている</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>建築とは，建築物を新築し，増築し，改築し，又は移転することである．
+        <p><span class="bold">（2）</span>移転とは，既存の建築物を別の敷地へ移動することである．
+        <p><span class="bold">（3）</span>増築とは，既存の建築物の床面積を増加させることである．
+        <p><span class="bold">（4）</span>改築とは，既存の建築物の全部あるいは一部を除去して，構造，規模，用途が著しく異ならない建物をつくることである．
+        <p><span class="bold">（5）</span>新築とは，建築物の存しない土地の部分に建築物をつくることである．
+   </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題104&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p>移転とは，あくまで同一敷地内で建築物を移動することである．別敷地へ移す場合は，移転先の敷地に対して新築又は増築となる（<span class="bold">2021-104-1表</span>参照）．
+        <p class="cap">2021-104-1表&emsp;新築・増築・改築・移転        
+        <table>
+            <tbody>
+                <tr>
+                    <td class="textcenter">新築　</td>
+                    <td>建築物が無かった敷地に，例えば畑や分譲された土地に，建築物を建てること．</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">増築　</td>
+                    <td>建物の床面積を大きくすること．</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">改築　</td>
+                    <td>建築物の建替え（ただし，建物の用途が変わらない，あるいは規模・構造が大きく変わらない場合のみ．用途，規模・構造が変わる場合は新築）</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">移転　</td>
+                    <td>同じ敷地内での｢曳き家｣をいう（敷地が変わってしまう｢曳き家｣は｢新築｣）．</td>
+                </tr>
+            </tbody>
+        </table>        
+        <br>新築，増築，改築，移転の定義は法律では特にされていない．「逐条解説建築基準法」（政府刊行物）などの解説書による．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-105.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-103.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

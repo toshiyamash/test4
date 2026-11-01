@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-103</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題103</span>&emsp;建築基準法及びその施行令の用語に関する次の記述のうち，<span class="bold">誤っている</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>延床面積とは，地階，屋階（屋根裏部屋）を含む各階の床面積の合計である．
+        <p><span class="bold">（2）</span>直通階段とは，建築物の避難階以外の階の居室から，避難階又は地上に直通する階段のことをいう．
+        <p><span class="bold">（3）</span>延焼のおそれのある部分とは，可燃性の材料が使われている建築物の外壁部分である．
+        <p><span class="bold">（4）</span>耐火性能とは，通常の火災が終了するまでの間，建築物の倒壊・延焼を防止するために必要な性能のことである．
+        <p><span class="bold">（5）</span>居室とは，居住，執務等の目的のために継続的に使用する室のことで，廊下，階段は該当しない．
+   </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題103&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>延焼のおそれのある部分（建築基準法第2条6）
+        <p>隣地境界線，道路中心線又は同一敷地内の2以上の建築物（延べ面積の合計が500m<sup>2</sup>以内の建築物は，1の建築物とみなす．）相互の外壁間の中心線（ロにおいて「隣地境界線等」という．）から，1階にあっては3m以下，2階以上にあっては5m以下の距離にある建築物の部分をいう．ただし，次のイ又はロのいずれかに該当する部分を除く（<span class="bold">2021-103-1図</span>参照）．
+        <p>イ　防火上有効な公園，広場，川その他の空地又は水面，耐火構造の壁その他これらに類するものに面する部分
+        <p>ロ　建築物の外壁面と隣地境界線等との角度に応じて，当該建築物の周囲において発生する通常の火災時における火熱により燃焼するおそれのないものとして国土交通大臣が定める部分
+        <p>延焼のおそれのある部分では，外壁は防火構造とし，開口部については，防火措置（防火設備など）を行うことが求められる．
+        <p class="cap">2021-103-1図&emsp;延焼のおそれのある部分
+        <div class="container">
+            <img src="../../images/image_4/延焼のおそれのある部分.svg" alt="延焼のおそれのある部分">
+        </div>
+        <p><span class="bold">-(1) </span>屋根裏部屋を意味する屋階は「おっかい」と読む．
+        <p><span class="bold">-(4) </span>因みに，「防火性能」とは，『建築物の周囲において発生する通常の火災による延焼を抑制するために当該外壁又は軒裏に必要とされる性能をいう．』．
+        <p><span class="bold">-(5) </span>居室ではないもの：玄関，廊下，階段（階段室を含む），便所，洗面所，納戸，押入れ，倉庫，駐車場等，一時的な使用に供するもの．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-104.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-102.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

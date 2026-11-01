@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-97</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題97</span>&emsp;建築材料と部材の性質に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>スランプ試験によるスランプ値が大きいほど，コンクリートの流動性が高いと評価できる．
+        <p><span class="bold">（2）</span>CLTは，挽ひき板を繊維方向が直交するように積層した板材である．
+        <p><span class="bold">（3）</span>AE剤は，モルタルやコンクリートの中に多数の微小な空気泡を均一に分布させるために用いる．
+        <p><span class="bold">（4）</span>鋼材の引張試験において，破断したときのひずみ度を伸びという．
+        <p><span class="bold">（5）</span>木材の強度は，幹の半径方向（放射軸），年輪の接線方向，繊維方向（幹軸）の順に大きくなる．
+    </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題97&emsp;正解（5）&emsp;頻出度AA</span></p>
+        <p>木材の強度は，繊維方向＞半径方向＞接線方向である．
+        <p>木材の繊維方向などは<span class="bold">2021-97-1図</span>参照．
+        <p class="cap">2021-97-1図&emsp;樹木の断面と名称
+        <div class="container">
+            <img src="../../images/image_4/樹木の断面と名称.svg" alt="樹木の断面と名称">
+        </div>
+        <p class="source">出典&emsp;株式会社スペースウッド</span><br>
+        https://www.hisaka.co.jp/phe/workbook/first_period02.html
+        <p><span class="bold">-(1) </span>スランプ試験（<span class="bold">2021-97-2図</span>）．
+        <p class="cap">2021-97-2図&emsp;コンクリートのスランプ試験
+        <div class="container">
+            <img src="../../images/image_4/スランプ試験.svg" alt="コンクリートのスランプ試験">
+        </div>
+        <p class="source">出典&emsp;ヒダ株式会社</span><br>
+            http://www.hida-group.co.jp/c_2/p_47.html を基に作成
+        <p>工事では，コンクリートの製品ごとに定められたスランプ規格値±現場で行うスランプ試験許容範囲のコンクリートを使用する．
+        <p><span class="bold">-(2) </span>CLTなど集成材，合板の種類は<span class="bold">2021-97-3図</span>参照．
+        <p class="cap">2021-97-3図&emsp;集成材，合板などの種類
+        <div class="container">
+            <img src="../../images/image_4/集成材，合板などの種類.svg" alt="集成材，合板などの種類">
+        </div>
+        <p class="source">出典&emsp;藤寿産業株式会社</span><br>
+            https://toju.co.jp/feature02 を基に作成
+        <p><span class="bold">-(3) </span>AE剤によって導入された微細な空気泡は，エントレインドエア（entrained air）と呼ばれ，この空気泡は，フレッシュコンクリート中ではボールベアリングのように働き，ワーカビリティを向上させる．又，冬期内部水分が凍結した際の逃げ場となって，耐凍結融解性を著しく増大させる．
+        <p><span class="bold">-(4) </span>伸び（破断伸び）は，破断後の永久伸びを試料の元の長さ（原評点距離）に対して百分率で表した値と定義され，材料の延性や粘り強さを示す指標の一つである．一般的なSS400の鋼材で17〜23％．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-98.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-96.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
