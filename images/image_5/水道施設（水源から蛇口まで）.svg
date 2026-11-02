@@ -7,7 +7,7 @@
    viewBox="0 0 163.47447 67.110573"
    version="1.1"
    id="svg5"
-   inkscape:version="1.4.3 (fcd0343856, 2026-01-01)"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    sodipodi:docname="水道施設（水源から蛇口まで）.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,15 +24,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="true"
-     inkscape:zoom="0.74118967"
-     inkscape:cx="315.70866"
-     inkscape:cy="188.88553"
+     inkscape:zoom="1.0482005"
+     inkscape:cx="187.94115"
+     inkscape:cy="171.72287"
      inkscape:window-width="1920"
      inkscape:window-height="973"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      inkscape:snap-global="false"
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1">
@@ -97,8 +97,8 @@
        d="M 18.680423,117.04959 H 29.578722"
        id="path1241" />
     <path
-       style="opacity:1;fill:#e6e6e6;stroke:none;stroke-width:0.0803419;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 19.110618,117.26469 10.324703,0.0717 0.0717,7.16994 c 0,0 -8.388822,0.35849 -10.396403,-7.24163 z"
+       style="opacity:0.153401;fill:#000000;stroke:none;stroke-width:0.0803419;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 19.065997,117.22007 10.324703,0.0717 0.0717,7.16994 c 0,0 -8.388822,0.35849 -10.396403,-7.24163 z"
        id="path1276" />
     <rect
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.401709;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
@@ -157,13 +157,14 @@
        x="77.043678"
        y="125.7252" />
     <path
-       style="opacity:1;fill:#e6e6e6;stroke:#000000;stroke-width:0.401709;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 139.56549,114.10991 9.03413,-7.02653 9.03411,7.02653 z"
+       style="opacity:1;fill:none;fill-opacity:0.152941;stroke:#000000;stroke-width:0.401709;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 139.43928,113.7944 9.03413,-7.02653 9.03411,7.02653 z"
        id="path1698" />
     <path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.401709;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 143.00707,114.10991 v 10.32471 h 11.32849 v -10.61151"
-       id="path1700" />
+       d="m 143.00707,114.10991 v 10.32471 h 11.32849 l 0,-10.16978"
+       id="path1700"
+       sodipodi:nodetypes="cccc" />
     <path
        style="opacity:1;fill:none;stroke:#000000;stroke-width:0.241026;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 145.85712,117.74049 v 2.8645 h 0.86188 v -0.73514 h 1.90122 v 1.49562 h 1.31817 v -1.49562 c 0,0 0.0474,-1.36399 -0.7875,-1.36399 h -0.65742 v -1.27236 h 0.76048 v -0.65909 h -0.83653 v -0.35489 h -0.65909 v 0.38024 h -0.88723 v 0.63374 h 0.86189 v 0.58304 c 0,0 -0.0254,0.29152 -0.29152,0.29152 H 146.719 v -0.36757 z"
@@ -377,6 +378,10 @@
        inkscape:transform-center-y="-8.5288613e-06"
        d="m 134.96038,153.37864 -0.1992,-0.453 0.1992,-0.45299 -0.43151,0.2265 -0.4315,0.22649 0.4315,0.2265 z"
        sodipodi:nodetypes="ccccccc" />
+    <path
+       style="opacity:0.157194;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.269835"
+       d="m 144.36106,110.31301 c 2.5335,-1.97234 4.2155,-3.16681 4.34647,-3.08664 0.30825,0.18871 7.48158,5.76519 7.7929,6.05814 0.22225,0.20913 -0.97546,0.24592 -8.00542,0.24592 h -8.26678 z"
+       id="path10" />
   </g>
   <g
      inkscape:groupmode="layer"

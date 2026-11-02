@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-109</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題109</span>&emsp;水道施設等に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p>（1）市又は特別区の専用水道及び簡易専用水道は，当該市長又は特別区長が指導監督を行う．
+        <p>（2）地表水は，伏流水と比較して，水量及び水質の変化が大きい．
+        <p>（3）深層地下水は，地表からの汚染を受けにくく，水質は安定しているが，管の腐食を生ずることがある．
+        <p>（4）導水施設とは，浄水施設で処理された水を配水施設まで送る施設のことである．
+        <p>（5）水道法で規定する給水装置とは，需要者に水を供給するために，水道事業者の施設した配水管から分岐して設けられた給水管及びこれに直結する給水用具のことである．
+   </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題109&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>導水施設とは，取水施設と浄水施設を結ぶ施設のことである（<span class="bold">2021-109-1図</span>参照）．
+        <p class="cap">2021-109-1図&emsp;水道施設（水源から蛇口まで）
+        <div class="container">
+            <img src="../../images/image_5/水道施設（水源から蛇口まで）.svg" alt="水道施設（水源から蛇口まで）">
+        </div>
+        <p>取水施設～配水施設の施設基準が水道法第5条ならびに水道施設設計指針に規定されている．
+        <p><span class="bold">-(1) </span>水道事業はその規模により，監督権限が国，都道府県知事に分かれているが，専用水道及び簡易専用水道に係る権限は全て市に移譲され，さらに保健所設置特別区については当該保健所設置区長が監督権限等を有する．
+        <p><span class="bold">-(2) </span>，<span class="bold">-(3) </span>水道の原水については下記のとおり．
+        <p>1．地表水（河川表流水，湖沼水，ダム貯留水は伏流水に比較して，水量及び水質の変化が激しい．
+        <p>2．伏流水は，河川，湖沼の底，あるいは堤防の内外で砂，砂利層に含まれる水をいう．伏流水の水質は，地表水の影響は受けるが，地下水に近い．
+        <p>3．地下水は深層地下水と浅層地下水とに分けられる．深層地下水とは第1不透水層（粘土層や岩盤等，水を浸透させない層で地表に最も近いもの）の下に存在する地下水，浅層地下水は上部にある地下水をいう．深層地下水の方が浅層地下水よりも地表からの汚染を受けにくく，水質が安定しているが，深層地下水は，鉄，マンガン，遊離炭酸を含むことが多く，赤水，黒水による障害，管の腐食等の問題を生ずることがある．
+        <p><span class="bold">-(5)</span>特定建築物内で，「給水装置」のみを設けて飲料水を供給する場合は，水質基準に関する省令にかかわる水質検査は実施しなくて良い（ビル管理法施行令第二条二）．貯水槽を設けるとそれ以降の水質維持の責任は特定建築物所有者等になるので水質検査を実施する必要が出てくる．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-110.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-108.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
