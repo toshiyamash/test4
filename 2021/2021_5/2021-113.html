@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-113</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題113</span>&emsp;給水設備における現象とその原因の組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>ウォータハンマ<span class="connectLine">　　　　　</span>シングルレバー水栓による急閉
+        <p><span class="bold">（2）</span>貯水槽水面の波立ち<span class="connectLine">　　　</span><ruby>迂<rt>う</rt></ruby>回壁の設置
+        <p><span class="bold">（3）</span>クリープ劣化<span class="connectLine">　　　　　　</span>長時間継続する応力
+        <p><span class="bold">（4）</span>青水<span class="connectLine">　　　　　　　　　　</span>銅イオンの浸出
+        <p><span class="bold">（5）</span>孔食<span class="connectLine">　　　　　　　　　　</span>ステンレス鋼管内の異物の付着
+   </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題113&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p>迂回壁は死水防止のために設ける（<span class="bold">2021-113-1図</span>参照）．
+        <p class="cap">2021-113-1図&emsp;貯水槽の迂回壁
+        <div class="container">
+            <img src="../../images/image_5/貯水槽の迂回壁.svg" alt="貯水槽の迂回壁">
+        </div>
+        <p>流入管からの流入水による波立ちには，透明な防波板の設置等を講じる．
+        <p>波立ち防止に流入管を水没させると出題されるが，これも誤りである（流入管も規定の吐水口空間を確保する）．
+        <p><span class="bold">-(1) </span>ウォータハンマは，弁，水栓を急閉した際に起きやすい．シングルレバー水栓（<span class="bold">2021-113-2図</span>）は急閉しやすいので，ウォータハンマ低減機構付きの製品を利用する．
+        <p class="cap">2021-113-2図&emsp;シングルレバー水栓
+        <div class="container">
+            <img src="../../images/image_5/シングルレバー水栓.svg" alt="シングルレバー水栓">
+        </div>
+        <p class="source">出典&emsp;</span>SANEI株式会社<br>
+            https://www.sanei.ltd/products/k87610jv-s-13/
+        <p><span class="bold">-(3) </span>クリープ（creep：徐々に進む）劣化は特に高温環境下で起きやすい．
+        <p><span class="bold">-(4) </span>給水の青色障害（<span class="bold">2021-113-1表</span>参照）．
+        <p class="cap">2021-113-1表&emsp;給水の着色障害                          
+        <table>
+            <tbody>
+                <tr>
+                    <td class="textcenter">着色</td>
+                    <td class="textcenter">原因物質</td>
+                </tr>
+                <tr>
+                    <td>黒い水</td>
+                    <td>マンガン</td>
+                </tr>
+                <tr>
+                    <td>青い水</td>
+                    <td>銅イオンとせっけんの脂肪酸の化合物による．</td>
+                </tr>
+                <tr>
+                    <td>赤い水</td>
+                    <td>亜鉛めっき鋼管が用いられている給水配管系で，亜鉛層の防食効果が失われ，素地の鉄が腐食し錆を伴って赤味を帯びるようになったものである．朝一番の水や，事務所ビルでは休日の翌朝に発生することが多い．</td>
+                </tr>
+                <tr>
+                    <td>白濁</td>
+                    <td>亜鉛の溶出，空気の気泡，地下水中のカルシウム</td>
+                </tr>
+                <tr>
+                    <td nowrap>ガラス容器の光る浮遊物</td>
+                    <td>水中のマグネシウムとケイ酸の反応（フレークス現象）</td>
+                </tr>
+            </tbody>
+        </table>        
+        <p><span class="bold">-(5) </span>ステンレスは含有するクロム等の不働態膜で防食されているが，異物の付着で継続的にこの不働態膜が侵されると孔食が発生する．もらい錆などという．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-114.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-112.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

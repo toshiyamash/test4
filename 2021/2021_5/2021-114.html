@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-114</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題114</span>&emsp;給水設備の配管に関する次の記述のうち，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>給水管と排水管が平行して埋設される場合には，給水管は排水管の上方に埋設する．
+        <p><span class="bold">（2）</span>止水弁は，主管からの分岐，各系統の起点，機器との接続部等に設置する．
+        <p><span class="bold">（3）</span>ポンプに弁及び配管を取り付ける場合には，その荷重が直接ポンプにかからないように支持する．
+        <p><span class="bold">（4）</span>建物の揺れ，配管の振動等による変位を吸収するため，貯水槽と配管との接続には伸縮継手を使用する．
+        <p><span class="bold">（5）</span>機器との接続配管は，機器の交換の際に容易に機器が外せるフランジ接合などとする．
+   </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題114&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>振動等による変位を吸収するには，フレキシブルジョイント（<ruby>可撓<rt>かとう</rt></ruby>継手）（<span class="bold">2021-114-1図</span>）を用いる．
+        <p class="cap">2021-114-1図&emsp;フレキシブルジョイントの例
+        <div class="container">
+            <img src="../../images/image_5/フレキシブルジョイントの例.svg" alt="フレキシブルジョイントの例">
+        </div>
+        <p class="source">出典&emsp;株式会社TOZEN</span><br>
+            https://www.tozen.co.jp/product/lsconnector-g-kouatu/
+        <p>伸縮継手は熱による配管の伸縮を吸収するために用いる（<span class="bold">2021-114-2図</span>，<span class="bold">2021-114-3図</span>参照）．
+        <p class="cap">2021-114-2図&emsp;スリーブ型伸縮管継手
+        <div class="container">
+            <img src="../../images/image_5/スリーブ型伸縮管継手.svg" alt="スリーブ型伸縮管継手">
+        </div>
+        <p class="source">出典（写真）&emsp;タイヨージョイント株式会社</span><br>
+            http://www.taiyojoint.co.jp/category/free/
+        <p class="cap">2021-114-3図&emsp;ベローズ型伸縮管継手
+        <div class="container">
+            <img src="../../images/image_5/ベローズ型伸縮管継手.svg" alt="ベローズ型伸縮管継手">
+        </div>
+        <p class="source">出典（写真）&emsp;株式会社 ベン</span><br>
+            https://www.venn.co.jp/products/expansion_joint/jb-18
+        <p><span class="bold">-(1) </span>両配管の平行間隔は500mm以上とし，交差する場合にも，給水管を上方に埋設する．又，上水管，雑用水管，給湯管等が平行して配管される場合は配列を途中で変えてはならない．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-115.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-113.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

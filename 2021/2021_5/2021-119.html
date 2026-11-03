@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-119</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題119</span>&emsp;給湯設備における水の性質に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>4℃以上の水は，温度が高くなると密度は小さくなる．
+        <p><span class="bold">（2）</span>配管内の水中における気体の溶解度は，水温の上昇により増加する．
+        <p><span class="bold">（3）</span>給湯設備で扱う範囲の水は，ほとんど非圧縮性である．
+        <p><span class="bold">（4）</span>水中に溶存している空気は，配管内の圧力が高いと分離されにくい．
+        <p><span class="bold">（5）</span>水温が高いほど，金属腐食速度が速くなる．
+   </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題119&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p>配管内の水中における気体の溶解度［mg/L，mol/L］は，水温の上昇により減少する．
+        <p>空気などの気体が水などの液体に溶けるとき，気体の質量や物質量はその分圧に比例する(ヘンリーの法則)．
+        <p>溶ける気体の分圧\(p\)と体積\(V\)の積は，ボイルの法則により一定である．
+        <p>溶ける気体の物質量\(n\)は，ボイル・シャルルの法則，\(PV=nRT\)から，\(n=(PV)/(RT)\)となって，温度\(T\)に反比例する傾向がある(\(R\)は気体定数)．すなわち，配管内の水中における気体の溶解度は，水温の上昇により減少する．
+        <p><span class="bold">-(1) </span>水は3.984℃で最大密度999.97495kg/m<sup>3</sup>を示す．それよりも温度が下がっても，上がっても密度は小さくなる．
+        <p><span class="bold">-(3) </span>完全な非圧縮性の物体は現実には存在しないが，マッハ数（物体中の移動速度/音速の比）が，マッハ1/3以下なら非圧縮性，1/3以上なら圧縮性と定義されている．したがってマッハ2で飛ぶジェット機に対して空気は圧縮性，20m/sで進む原子力潜水艦にとって水は非圧縮性である（水中の音速はおよそ1,500m/s）．
+        <p><span class="bold">-(4) </span>自動空気抜き弁は，ヘンリーの法則により空気が分離されやすい，配管系統の，位置的に一番高い場所に取り付ける．
+        <p><span class="bold">-(5) </span>一般的には，腐食速度は水中の溶存酸素の供給量につれて大きくなる．約80℃までは酸素の拡散が速くなるので腐食は増大するが，それより高くなると酸素の溶解度が減るために腐食速度は低下する．また，溶存酸素が多すぎると金属表面に不動態被膜が成長しやすくなって，腐食速度の低下を招く．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-120.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-118.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
