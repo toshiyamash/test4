@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-121</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題121</span>&emsp;循環配管の管長が100mの給湯設備で給湯循環流量を10L/minとした場合，循環配管からの単位長さ当たりの熱損失の値として，<span class="bold">最も近い</span>ものは次のうちどれか．</span></p>
+        <p>ただし，加熱装置における給湯温度と返湯温度の差を5℃とする．算定式は次式を使う．
+          \[Q=0.0143\times H_L\div \varDelta t\]
+        <p>ここで，\(Q\)：循環流量［L/min］
+        <p>\(H_L\)：循環配管からの熱損失［W］
+        <p>\(\varDelta t\)：加熱装置における給湯温度と返湯温度との差［℃］
+        <p><span class="bold">（1）</span>0.5 W/m
+        <p><span class="bold">（2）</span>7.0 W/m
+        <p><span class="bold">（3）</span>35 W/m
+        <p><span class="bold">（4）</span>140 W/m
+        <p><span class="bold">（5）</span>3,500 W/m
+   </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題121&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>与えられた式を変形して，
+            \begin{align}
+                H_L&=(Q\times \varDelta t)/0.0143 \notag\\[5pt]
+                &=(10\times 5)/0.0143=3~497~{\rm W} \notag
+            \end{align}
+        <p>単位長さ当たりの熱損失は100mで割って，34.97W/m．
+        <p>※ 式中の0.0143は，60秒÷4,185.5J /(kg･℃)である．
+        <p>給湯配管が長い中央式給湯方式では，返湯管及び給湯循環ポンプを設けて湯を強制循環させ，末端の給湯栓でも，栓を開けると直ぐに熱い揚が出るようにする．この循環量は，この問題にあるようにわずかで良いので，循環ポンプは小さな容量のもので十分であり，このような小さい容量のポンプを給湯管に設けると，給湯ピーク時にポンプの羽根車を強制的に回転させて故障につながるので，循環ポンプは必ず返湯管に設ける．
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-122.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-120.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

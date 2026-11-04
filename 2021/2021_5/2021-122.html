@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-122</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題122</span>&emsp;給湯設備に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．</span></p>
+        <p><span class="bold">（1）</span>貫流ボイラは，煙道を備えている．
+        <p><span class="bold">（2）</span>貯蔵式湯沸器は，減圧弁を備えている．
+        <p><span class="bold">（3）</span>真空式温水発生機は，減圧蒸気室を備えている．
+        <p><span class="bold">（4）</span>太陽熱利用温水器には，集熱器と貯湯槽が一体で構成されているものがある．
+        <p><span class="bold">（5）</span>潜熱回収型給湯器は，排気ガスの潜熱を回収し，給水の予熱として利用する．
+   </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題122&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p>減圧弁は，高層ビルの中低層階などで給水圧力を調整するために給水配管側に設ける場合はあるが，貯湯部が開放型の貯蔵式湯沸器（<span class="bold">2021-122-1図</span>）が，減圧弁を備えることはない．
+        <p class="cap">2021-122-1図&emsp;貯蔵式湯沸器
+        <div class="container">
+            <img src="../../images/image_5/貯蔵式湯沸器.svg" alt="貯蔵式湯沸器">
+        </div>
+        <p class="source">出典&emsp;㈱日本イトミック</span><br>
+            https://www.itomic.co.jp/category/c_ew/ewr_series/https://www.itomic.co.jp/category/c_ew/ewr_series/
+        <p><span class="bold">-(1) </span>貫流ボイラは，煙管は備えていないが，煙道は必要．
+        <p><span class="bold">-(3) </span>真空式温水発生機（<span class="bold">2021-122-2図</span>）は減圧蒸気室で蒸気の潜熱を熱交換に利用している．
+        <p class="cap">2021-122-2図&emsp;真空式温水発生機
+        <div class="container">
+            <img src="../../images/image_5/真空式温水発生機.svg" alt="真空式温水発生機">
+        </div>
+        <p class="source">出典（写真）&emsp;株式会社前田鉄工所 ( MAEDA IRONWORKS CO.,LTD. )</span><br>
+            https://www.maedatekkou.co.jp/product/rkvmfv を基に作成
+        <p>&emsp;</p>
+        <p><span class="bold">-(4) </span>太陽熱利用温水器（<span class="bold">2021-122-3図</span>）．
+        <p class="cap">2021-122-3図&emsp;太陽熱利用温水器
+        <div class="container">
+            <img src="../../images/image_5/太陽熱利用温水器.svg" alt="太陽熱利用温水器">
+        </div>
+        <p class="source">出典&emsp;株式会社 長府製作所</span><br>
+            https://www.chofu.co.jp/products/solar/water_heaters/ecowaiter02.php
+        <p><span class="bold">-(5) </span>潜熱回収型給湯器（<span class="bold">2021-122-4図</span>）では，排気の潜熱を給水の予熱に利用して回収している．
+        <p>発生するドレンは酸性になるので，炭酸カルシウムが詰められたドレン中和器で中和してから排水する
+        <p class="cap">2021-122-4図&emsp;潜熱回収型給湯器
+        <div class="container">
+            <img src="../../images/image_5/潜熱回収型給湯器.svg" alt="潜熱回収型給湯器">
+        </div>
+        <p class="source">出典&emsp;リンナイ株式会社</span><br>
+            https://rinnai.jp/products/waterheater/gas/what/ecoj/ を基に作成
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-123.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-121.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
