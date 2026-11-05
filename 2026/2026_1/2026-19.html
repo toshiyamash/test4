@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2026-19</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題19</span>&emsp;次の法律のうち，受動喫煙防止を<span class="bold">規定している</span>ものはどれか．
+      <p><span class="bold">(1)</span>労働安全衛生法
+      <p><span class="bold">(2)</span>有害物質を含有する家庭用品の規制に関する法律
+      <p><span class="bold">(3)</span>悪臭防止法
+      <p><span class="bold">(4)</span>環境基本法
+      <p><span class="bold">(5)</span>旅館業法
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題19&emsp;正解（1）&emsp;頻出度AA</span></p>
+      <p>労働安全衛生法&emsp;第68条の2（受動喫煙の防止）
+      <p>事業者は，室内又はこれに準ずる環境における労働者の受動喫煙<a href="https://laws.e-gov.go.jp/law/414AC0000000103#:~:text=三　受動喫煙" target="_blank" rel="noopener noreferrer">健康増進法（平成十四年法律第百三号）第二十八条第三号</a>に規定する受動喫煙をいう．第七十一条第一項において同じ．）を防止するため，当該事業者及び事業場の実情に応じ適切な措置を講ずるよう努めるものとする．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-20.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-18.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

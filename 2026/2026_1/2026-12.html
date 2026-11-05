@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2026-12</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題12</span>&emsp;建築物衛生法に基づく事業の登録に必要な人的基準のうち，従事者の研修修了を<span class="bold">必要としない</span>登録事業は次のうちどれか．
+      <p><span class="bold">(1)</span>建築物清掃業
+      <p><span class="bold">(2)</span>建築物空気環境測定業
+      <p><span class="bold">(3)</span>建築物飲料水貯水槽清掃業
+      <p><span class="bold">(4)</span>建築物排水管清掃業
+      <p><span class="bold">(5)</span>建築物ねずみ昆虫等防除業
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題12&emsp;正解（2）&emsp;頻出度AAA</span></p>
+      <p>空気環境測定業は従事者の研修修了を必要としない．
+      <p>登録8業種のうち，従事者の研修修了を必要としないのは，空気環境測定業と建築物飲料水水質検査業である（<a href="2026-11.html#tab2#:~:text=登録業の人的要件　" target="_blank" rel="noopener noreferrer">前問解説</a>参照）．
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-13.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-11.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

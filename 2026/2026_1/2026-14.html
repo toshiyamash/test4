@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2026-14</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題14</span>&emsp;下水道法に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>下水道の整備を図り，もって都市の健全な発達及び公衆衛生の向上に寄与し，あわせて公共用水域の水質の保全に資することを目的とする．
+      <p><span class="bold">(2)</span>公共下水道の設置，改築，修繕，維持その他の管理は，原則として市町村が行う．
+      <p><span class="bold">(3)</span>終末処理場とは，下水を最終的に処理して河川等に放流するために下水道の施設として設けられる処理施設及びこれを補完する施設をいう．
+      <p><span class="bold">(4)</span>国土交通大臣は，環境基本法に基づく水質環境基準に達せしめるため，公共の水域又は海域ごとに，下水道の整備に関する総合的な基本計画を定めなければならない．
+      <p><span class="bold">(5)</span>環境大臣は，緊急の必要があると認めるときは，公共下水道管理者に対し，終末処理場の維持管理に関して必要な指示をすることができる．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題14&emsp;正解（4）&emsp;頻出度AAA</span></p>
+      <p>下水道の整備に関する総合的な基本計画を定めなければならないのは，都道府県である（下水道法第2条の2）．
+      <p>-(5)終末処理場の維持管理については環境省の所管なので，緊急の指示を出すのは環境大臣であるが，終末処理場の維持管理以外は国土交通省の所管なので，指示を出すのも国土交通大臣となる（下水道法第37条）．
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-15.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-13.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

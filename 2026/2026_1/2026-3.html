@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2026-3</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題3</span>&emsp;次の建築物のうち，建築物における衛生的環境の確保に関する法律 (以下「建築物衛生法」という．) に基づく特定建築物に<span class="bold">該当しない</span>ものはどれか．
+      <p><span class="bold">(1)</span> 延べ面積が 4,000m<sup>2</sup>の自動車教習所
+      <p><span class="bold">(2)</span> 延べ面積が 5,000m<sup>2</sup>の社員研修所は次のうちどれか．
+      <p><span class="bold">(3)</span> 延べ面積が 7,000m<sup>2</sup>の高等専門学校
+      <p><span class="bold">(4)</span> 延べ面積が 2,000m<sup>2</sup>のボウリング場 と 1,500m<sup>2</sup>のパチンコ店との複合施設
+      <p><span class="bold">(5)</span> 延べ面積が 1,500m<sup>2</sup> の公民館と2,500m<sup>2</sup>の事務所との複合施設
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題3&emsp;正解（3）&emsp;頻出度AAA</span></p>
+      <p>延べ面積が7,000m<sup>2</sup>では，この高等専門学校は特定建築物には該当しない．
+      <p>特定建築物の面積の要件は，
+      <p>1．特定用途の合計の延べ面積が3,000m<sup>2</sup>以上（だだし，学校教育法第1条に規定する学校等（幼稚園，小学校，中学校，高等学校，中等教育学校（いわゆる中高一貫校），特別支援学校，大学，高等専門学校，幼保連携型認定こども園）は8,000m<sup>2</sup>以上）．
+      <p>2．特定用途に「付随する部分」（トイレ，廊下，階段，機械室などの共用部），「付属する部分」（百貨店の倉庫，新聞社の事務所に付属する印刷工場，映画館のロビーなど）の面積は特定用途の面積に合算する．
+      <p>3．同一敷地内に数棟の建築物がある場合には合算せず1棟ごとに計算して，1棟ごとに特定建築物かどうか判断する．
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-4.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-2.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

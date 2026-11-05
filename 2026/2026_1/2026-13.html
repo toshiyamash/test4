@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2026-13</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題13</span>&emsp;学校保健安全法に関する次の記述のうち，<span class="bold">誤っている</span>ものはどれか．
+      <p><span class="bold">(1)</span>文部科学大臣は，学校における換気，採光，照明，保温，清潔保持その他環境衛生に係る事項について，学校環境衛生基準を定めるものとする．
+      <p><span class="bold">(2)</span>学校の設置者は，学校環境衛生基準に照らしてその設置する学校の適切な環境の維持に努めなければならない．
+      <p><span class="bold">(3)</span>学校には，学校保健技師を置くことができる．
+      <p><span class="bold">(4)</span>学校には，学校医を置くものとする．
+      <p><span class="bold">(5)</span>大学以外の学校には，学校歯科医及び学校薬剤師を置くものとする．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題13&emsp;正解（3）&emsp;頻出度AA</span></p>
+      <p>学校保健技師を置くことができるのは下記の通り，教育委員会である．
+      <p>学校保健安全法第22条（学校保健技師）
+      <p>都道府県の教育委員会の事務局に，学校保健技師を置くことができる．
+      <p>２&emsp;学校保健技師は，学校における保健管理に関する専門的事項について学識経験がある者でなければならない．
+      <p>３&emsp;学校保健技師は，上司の命を受け，学校における保健管理に関し，専門的技術的指導及び技術に従事する．
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-14.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-12.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

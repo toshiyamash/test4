@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2026-16</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題16</span>&emsp;廃棄物の処理及び清掃に関する法律（以下「廃棄物処理法」という．）の第1条に規定する目的に関する次の条文の<span class="whiteFrame">　　　</span>に入る語句の組合せとして，<span class="bold">正しい</span>ものはどれか．
+      <p>この法律は，廃棄物の排出を抑制し，及び廃棄物の適正な分別，保管，収集，運搬，再生，<span class="whiteFrame">　ア　</span>等の処理をし，並びに<span class="whiteFrame">　イ　</span>することにより，<span class="whiteFrame">　ウ　</span>及び公衆衛生の向上を図ることを目的とする．
+        <p><span style="margin-left: 3.5rem;">ア</span><span style="margin-left: 4.5rem;">イ</span><span style="margin-left: 4.5rem;">ウ</span></p>
+      <p><span class="bold">(1)</span>焼却<span class="connectLine">　　　</span>生活環境を清潔に<span class="connectLine">　　　</span>生活環境の保全
+      <p><span class="bold">(2)</span>焼却<span class="connectLine">　　　</span>資源を有効に活用<span class="connectLine">　　　</span>生活環境の保全
+      <p><span class="bold">(3)</span>焼却<span class="connectLine">　　　</span>生活環境を清潔に<span class="connectLine">　　　</span>経済の発展
+      <p><span class="bold">(4)</span>処分<span class="connectLine">　　　</span>生活環境を清潔に<span class="connectLine">　　　</span>生活環境の保全
+      <p><span class="bold">(5)</span>処分<span class="connectLine">　　　</span>資源を有効に活用<span class="connectLine">　　　</span>経済の発展
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題16&emsp;正解（4）&emsp;頻出度AAA</span></p>
+      <p>廃棄物の処理及び清掃に関する法律第一条（目的）
+      <p>この法律は，廃棄物の排出を抑制し，及び廃棄物の適正な分別，保管，収集，運搬，再生，<span class="underln">処分</span>等の処理をし，並びに<span class="underln">生活環境を清潔に</span>することにより，<span class="underln">生活環境の保全</span>及び公衆衛生の向上を図ることを目的とする．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-17.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-15.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

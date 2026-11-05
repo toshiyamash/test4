@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2026-15</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題15</span>&emsp;興行場法に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>興行場は，映画，演劇，スポーツ，音楽，演芸又は観せ物を，公衆に見せ，又は聞かせる施設をいう．
+      <p><span class="bold">(2)</span>業として興行場を経営しようとする者は，興行場法に基づき都道府県知事（保健所を設置する市又は特別区にあっては，市長又は区長）に届け出て，衛生上必要な措置の確認を受けなければならない．
+      <p><span class="bold">(3)</span>興行場の維持管理は，都道府県の条例で定める換気，照明，防湿，清潔等の衛生基準に従わなければならない．
+      <p><span class="bold">(4)</span>興行場において，入場者は，場内を著しく不潔にし，その他公衆衛生に害を及ぼすおそれのある行為をしてはならない．
+      <p><span class="bold">(5)</span>都道府県知事（保健所を設置する市又は特別区にあっては，市長又は区長）は，必要があると認めるときは，環境衛生監視員に，興行場に立ち入り，検査させることができる．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題15&emsp;正解（2）&emsp;頻出度AAA</span></p>
+      <p>興行場法は届出制ではなくて，許可制である．
+      <p>これらの法律は生活衛生関係営業法令といわれ，営業に許可のいるものと事前に届け出なければならないものに大別される．
+      <p>許可制の法律：興行場法，旅館業法，興行場法等<br>
+      届け出制の法律：理容師法，美容師法，クリーニング業法
+      <p>いずれも監督権限は都道府県知事（保健所を設置する市又は特別区にあっては，市長又は区長）にある．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-16.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-14.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

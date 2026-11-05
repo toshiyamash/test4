@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2026-6</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題6</span>&emsp;建築物衛生法に関する次の記述のうち，<span class="bold">誤っている</span>ものはどれか．
+      <p><span class="bold">(1)</span> 特定建築物の所有者等は，その建築物の維持管理を監督させるために建築物環境衛生管理技術者を選任しなければならない．
+      <p><span class="bold">(2)</span> 建築物環境衛生管理基準は，環境衛生に関する最低許容限度の状態を維持するのに必要な措置について定めている．
+      <p><span class="bold">(3)</span> 建築物における衛生的な環境の確保を図り，公衆衛生の向上及び増進に資することを目的にしている．
+      <p><span class="bold">(4)</span> 維持管理権原者に，建築物環境衛生管理基準の遵守を義務付けている．
+      <p><span class="bold">(5)</span> 特定建築物以外で多数の者が使用し，又は利用する建築物については，建築物環境衛生管理基準に従って当該建築物の維持管理をするように努めなければならない．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題6&emsp;正解（2）&emsp;頻出度AAA</span></p>
+      <p>ビル管理法が定める建築物環境衛生管理基準は，最低許容限度を定めているのではない．
+      <p>最低基準を定める建築基準法や労働安全衛生法などと違って，ビル管理法の基準は，特定建築物の所有者等による自主的な衛生管理により，高い優良なレベルに建築物の環境を誘導しようとするもので，実現可能な望ましい基準である．したがって，基準に適合しなかったからと言って，それだけで直ちに行政指導や罰則が適用されることはない．例えば，受水槽の清掃を法令通り実施しなかったとしても，それだけで罰則を受けることはないが，それに対して都道府県知事等の改善命令が出て，それでも改善されなければ始めて罰則の対象となる．
+      <p><span class="bold">-(5)</span>は正しい（ビル管理法第4条第3項）．ただし，努力義務であって，立入検査や罰則を受けることはない．
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-7.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-5.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
