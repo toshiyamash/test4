@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-24</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題24</span>&emsp;湿度・加湿に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>高湿度では，インフルエ ンザウイルスの生存率が高まる．
+      <p><span class="bold">(2)</span>高湿度では，結露しカビやダニが発生する．
+      <p><span class="bold">(3)</span>低湿度では，静電気が発生しやすくなる．
+      <p><span class="bold">(4)</span>高湿度，低湿度ともに建築物・建具等の狂いが生 じる．
+      <p><span class="bold">(5)</span>噴霧式の加湿器では，水に混入した真菌が，加湿の過程でエアロゾルとして放出されることがある．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題24&emsp;正解（1）&emsp;頻出度AAA</span></p>
+      <p>インフルエ ンザウイルスの生存率が高まるのは，低湿度の場合である．インフルエンザウイルスは「エンベロープ」という脂質やタンパク質でできた膜に包まれており，この膜は水分（湿気）が多い環境では不安定になりやすく，壊れてしまう性質があり，膜が壊れるとウイルスは感染力を失う．
+          
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-25.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-23.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

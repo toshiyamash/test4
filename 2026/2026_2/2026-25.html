@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-25</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題25</span>&emsp;高齢者における温湿度環境に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>一般に若年者に比べて暖かい温度を好むとされている．
+      <p><span class="bold">(2)</span>湿度に対する感受性は，若年者に比べて低い傾向にある．
+      <p><span class="bold">(3)</span>冬季における深部体温は，若年者に比べて高い傾向にある．
+      <p><span class="bold">(4)</span>冬季には温度計など客観的な基準で室温をコントロールし，できるだけ着衣量を増やさずに過ごせるようにする．
+      <p><span class="bold">(5)</span>寒冷環境に曝ばく露された際の血圧の変動が，若年者に比べて顕著である．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題25&emsp;正解（3）&emsp;頻出度AAA</span></p>
+      <p>寒冷時の高齢者の深部体温は若年者に比べ低く，低体温症になりやすい．
+      <p>高齢者は身体活動が少なく，また代謝量も少ないため，若年者より暖かい室温を好むとされているのにもかかわらず居住する室温が低いことが多い．原因は，皮膚の冷点，痛点が減少しているために寒さを感じにくくなっていることが一因であると考えられる．
+      <p>-(4)厚着は活動性をさらに鈍らせ，いざ動こうとする際に転倒などの危険性を増加させる．こたつや反射式のストーブによる”採熱”ではなくて，部屋全体を暖房して活動性を維持することが安全・健康につながる．
+          
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-26.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-24.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

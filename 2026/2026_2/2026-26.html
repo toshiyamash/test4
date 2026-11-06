@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-26</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題26</span>&emsp;ラドンに関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>日本国内における屋内ラドン濃度の変動に季節性はなく，季節を通してほとんど一定の水準にある．
+      <p><span class="bold">(2)</span>我が国の屋内調査によると，場所によってはWHOの参考レベルの100Bq/m3を超過する家屋もみられる．
+      <p><span class="bold">(3)</span>屋内外において空気中のラドン濃度を比較した場合，一般に，屋内よりも屋外の方が低濃度である．
+      <p><span class="bold">(4)</span>ラドンは地表面から大気中へ拡散し，自然界から人類が被る放射線被曝の最大の原因物質である．
+      <p><span class="bold">(5)</span>国外では，一般的な家屋の屋内ラドン濃度のレベルでも，ラドン曝露は有意に肺がんのリスクを上昇させることが示されている．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題26&emsp;正解（1）&emsp;頻出度AAA</span></p>
+      <p>我が国の屋内ラドン濃度は，春夏期よりも秋冬期のほうが高いことが報告されている．これは換気扇などによる換気の多少が影響していると思われる．
+      <p>住宅構造等による濃度は，プレハブ＜木造・ツーバイフォー＜鉄筋コンクリート・ブロック造，戸建て＜集合住宅，建築時期では古いほうが高い．
+      <p>ラドン（原子番号86，元素記号Rn）はα線を放出して壊変する放射性の希ガスで，ウラニウム，ラジウムを含むすべての物質がラドンの発生源となる．呼吸によって体内に入ったラドンとその娘核が長期にわたりα線を放出し続け肺癌の原因となると言われている．多くの土壌石材，それらを含む建材が発生源である．<br>
+      人の自然放射線による被曝線量のうち約半分を占めている．コンクリートや花崗岩の建物内外の線量は室内のほうが大きい．<br>
+      ラドンガスは，極めて微量な物質であるため体積濃度や重量濃度で表すのは実用的ではない．ラドンガスにおいて問題となるのは放射能であるので，放射能濃度で表される．これは，単位時間単位体積当たりの崩壊数で放射能の量を表すものであり，1m<sup>3</sup>の気中で1秒間に1回の崩壊があれば1Bq/m<sup>3</sup>と表す．<br>
+      わが国における放射能濃度の室内のレベルは，約15.5〜20Bq/m<sup>3</sup>である．
+          
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-27.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-25.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

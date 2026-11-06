@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-30</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題30</span>&emsp;空気汚染物質とその健康障害との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+      <p><span class="bold">(1)</span>たばこ煙<span class="connectLine">　　　　　　　　　</span>慢性閉塞性肺疾患
+      <p><span class="bold">(2)</span>レジオネラ属菌<span class="connectLine">　　　　　　</span>ボンティアック熱
+      <p><span class="bold">(3)</span>ハウスダスト<span class="connectLine">　　　　　　　</span>アレルギー性疾患
+      <p><span class="bold">(4)</span>花粉<span class="connectLine">　　　　　　　　　　　</span>アスペルギルス症
+      <p><span class="bold">(5)</span>パラジクロロベンゼン<span class="connectLine">　　　</span>シックハウス症候群
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題30&emsp;正解（4）&emsp;頻出度AAA</span></p>
+      <p>アスペルギルス症は，ペニシリウム，アルテルナリア，フザリウム，クラドスポリウムなどとともに一般環境中にありふれたカビアレルゲンであるアスペルギルスによるアレルギー症である．
+      <p>-(1)慢性閉塞性肺疾患は，肺気腫と慢性気管支炎の2疾患を指す．肺気腫は気管支の末端の気腔が破壊され，排気が困難となり肺が過膨張になった状態である．慢性気管支炎は，2年間以上の間継続して3カ月以上，毎日<ruby>痰<rt>たん</rt></ruby>を伴う咳が出る場合を言う．<br>
+      慢性閉塞性肺疾患は別名COPD（Chronic Obstructive Pulmonary Disease），たばこ病などとも言われ，喫煙は慢性閉塞性肺疾患の主な発生原因であり，原因の80〜90%を占める．
+      <p>-(2)レジオネラ症の主な病型としては，重症のレジオネラ肺炎と軽症のポンティアック熱が知られている．<br>
+      レジオネラ肺炎は，全身倦怠感，頭痛，食欲不振，筋肉痛などの症状に始まり，咳や38℃以上の高熱，寒気，胸痛，呼吸困難，まれに心筋炎，意識レベルの低下，幻覚，手足が震えるなどの中枢神経系の症状や，下痢をともなうこともある．適切な治療がなされなかった場合には急速に症状が進行し，致命傷になることもある．<br>
+      これに対して，ポンティアック熱は発熱，悪寒，筋肉痛などの症状がみられるが，一過性で，自然に治癒することが多い．ポンティアック熱は，1968年に起こった米国ミシガン州Pontiacにおける集団感染事例にちなんで命名された．
+      <p>-(3)気管支喘息などアレルギー性疾患の原因となるアレルゲンは，室内に存在するハウスダストである．空気中に浮遊しているハウスダストのうちアレルゲンの主要なものはヒョウヒダニ類のダニアレルゲンである．
+      <p>-(5) パラジクロロベ ンゼンは，厚生労働省によりシックハウス症候群への対策として<a href="https://www.mhlw.go.jp/web/t_doc?dataId=00tc3866&dataType=1&pageNo=1" target="_blank" rel="noopener noreferrer">VOC濃度室内暫定目標値</a>が定められているうちの一つである（0.04ppm）．
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-31.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-29.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+  <title>2026-22</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題22</span>&emsp;エネルギー代謝に関する次の記述のうち，最も不適当なものはどれか．
+      <p><span class="bold">(1)</span>基礎代謝とは，早朝覚醒後の空腹時仰臥がの姿勢におけるエネルギー代謝のことである．
+      <p><span class="bold">(2)</span>睡眠時代謝量は，安静時代謝量より高い．
+      <p><span class="bold">(3)</span>日本人の基礎代謝は，夏の方が冬よりも低い．
+      <p><span class="bold">(4)</span>熱産生は，主に摂取した食物の代謝による化学的エネルギーに由来する．
+      <p><span class="bold">(5)</span>体温は，熱産生と熱放散のバランスにより一定に保たれている．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題22&emsp;正解（2）&emsp;頻出度AAA</span></p>
+      <p>安静時代謝量は基礎代謝のおよそ20％増しで，睡眠時代謝量は基礎代謝のおよそ95％である．すなわち，睡眠時代謝量＜基礎代謝量＜安静時代謝量である．
+      <p>基礎代謝量とは，目覚めている状態で生命を維持する（心臓，呼吸，腎臓の働き，体温や筋緊張の維持など）ために必要な最小限のエネルギー消費量のことをいう．30歳男子の日本人で，1,450kcal/日，女子で1,167kcal/日程度である．<br>
+      基礎代謝は早朝覚醒後の空腹時で仰臥位（あお向けの姿勢）におけるエネルギー代謝量に等しい．
+      日本人の基礎代謝は冬の方が体温維持のため夏より高い．変動幅は10％程度である．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-23.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-21.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
