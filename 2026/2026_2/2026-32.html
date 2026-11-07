@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-32</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題32</span>&emsp;一酸化炭素に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>常温，常圧で無色，無臭の可燃性ガスである．
+      <p><span class="bold">(2)</span>急性中毒では，酸素欠乏に敏感な中枢神経系が影響を受け，初期症状として頭痛，吐き気等を引き起こす．
+      <p><span class="bold">(3)</span>建築物衛生法の管理基準値以下であっても，通常より高い濃度が検出された際には，事故の未然防止を図る．
+      <p><span class="bold">(4)</span>ヘモグロビンとの親和性は酸素と比較して非常に高い．
+      <p><span class="bold">(5)</span>化石燃料の燃焼等の影響により，気象庁の観測点における大気中の一酸化炭素濃度は近年上昇傾向にある．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題32&emsp;正解（5）&emsp;頻出度AAA</span></p>
+      <p>自動車の排ガス規制などにより気象庁の観測点（綾里，南鳥島及び与那国島（綾里及び与那国島は2024年3月末で観測終了））における大気中の一酸化炭素濃度は近年漸減傾向にある．
+      <p>一酸化炭素は，有機化合物の不完全燃焼で発生する，常温では無味・無臭・無色の可燃性ガスで，極めて有毒な窒息性の気体である．赤血球ヘモグロビンとの親和力は酸素の200倍以上で，一酸化炭素ヘモグロビン（CO−Hb）となって，体内への酸素の供給を阻害する．CO−Hbの血中濃度5％までは無症状であるが，それを超えると頭痛，吐き気等を引き起こす．
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-33.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-31.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

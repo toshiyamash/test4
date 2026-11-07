@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-33</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題33</span>&emsp;耳・聴力・音に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>耳は大別して外耳，中耳，内耳に分けられる．
+      <p><span class="bold">(2)</span>同じ音でも，聞く人によっては快適な音になったり，不快な音になったりする．
+      <p><span class="bold">(3)</span>ヒトが聞き取ることができる周波数帯は，約20H<sub>Z</sub>から20,000H<sub>Z</sub>である．
+      <p><span class="bold">(4)</span>聴力レベルがマイナスの値であれば，基準値からの聴力の低下を意味する．
+      <p><span class="bold">(5)</span>聴力低下のスクリーニングとして，1,000HZと4,000HZの聴力レベ ルが測定される．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題33&emsp;正解（4）&emsp;頻出度AAA</span></p>
+      <p>聴力レベルの値がマイナスとは，小さな音でも聞こえるということで，基準値よりも良いことを意味する．
+      <p>聴力検査では，オージオメータ（<span class="bold">2026-33-1 図</span>参照）を用いてオージオグラムを作成する．各周波数ごとに，被験者に音圧レベルの大きい音から始めて，次第に小さい音を聞かせ，聞こえなくなる直前の音圧レベルを聴力レベル［dB］とする．標準の聴力が0dBで，聴力レベルがプラスでは標準の聴力より劣り，マイナスであれば聴力がよいことを意味する．
+      <p class="cap">2026-33-1図&emsp;オージオメーター　
+      <div class="container">
+          <img src="../../images/image_2/オージオメーター.svg" alt="オージオメーター">
+      </div>
+      <p class="source">出典&nbsp;リオン株式会社<br>
+          https://www.rion.co.jp/news/html/news_070901_1.html
+      <p><span class="bold">-(1) </span>外耳，中耳，内耳<span class="bold">2026-33-2図</span>参照．
+      <div class="cap">2026-33-2図&emsp;耳の構造</span></div>
+      <div class="container">
+          <img src="../../images/image_2/耳の構造.svg" alt="耳の構造">
+      </div>
+      <p class="source">出典&emsp;たなか耳鼻咽喉科</span><br>
+          http://www.tanaka-ent.or.jp/mimi-kozo.html&nbsp;を基に作成
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-34.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-32.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

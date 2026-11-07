@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-40</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題40</span>&emsp;飲用水汚染事故の発生原因として，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+      <p><span class="bold">(1)</span>ノロウイルス
+      <p><span class="bold">(2)</span>カンピロバクター・ジェジュニ
+      <p><span class="bold">(3)</span>アセトアルデヒド
+      <p><span class="bold">(4)</span>ヒ素
+      <p><span class="bold">(5)</span>亜硝酸態窒素
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題40&emsp;正解（3）&emsp;頻出度AA</span></p>
+      <p>アセトアルデヒドによる飲用水汚染事故は報告されていないが，化学材料として大量に使われているので工場からの漏洩などに依る事故の可能性はある．
+      <p><span class="bold">-(1)</span>飲料水や受水槽の汚染によって引き起こされたノロウイルスの事例として，2024年末に札幌市で発生したビル受水槽の汚染事故や，過去に井戸水などを介して発生した集団食中毒などが知られている．
+      <p><span class="bold">-(2)</span>カンピロバクター・ジェジュニ：ニワトリやウシなどの家畜・家禽の腸管に生息するらせん状のグラム陰性菌で，ごく少量の菌（100〜数百個程度）で食中毒を引き起こす．比較的頻繁に飲料水汚染事故が起きている．
+      <p><span class="bold">-(4)</span>ヒ素：茨城県神栖市・有機ヒ素汚染事故（2003年）．生活用水の井戸水から，環境基準の450倍を超えるヒ素や有機ヒ素化合物（ジフェニルアルシン酸）が検出され，住民に健康被害が発生した．旧日本軍が製造・遺棄した化学兵器（あか剤の原料）が地下水に混入したことによるものと判明している．
+      <p><span class="bold">-(5)</span>亜硝酸態窒素：群馬大学医学部附属病院で2021年10月に発生した，冷暖房用配管の防食剤の混入による飲料水（上水系統）の亜硝酸態窒素汚染事故が代表的．経年劣化によりチャッキバルブ（逆止弁）が開放状態となり，亜硝酸塩が含まれていた空調用温水（防食剤）が上水系統に逆流・混入した．ミルクに使った水から基準値の1万2250倍の亜硝酸態窒素が検出された．調乳用の水として使用した乳児10人に顔が青白くなるなどの酸素欠乏症状（メトヘモグロビン血症） が現れた．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-41.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-39.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

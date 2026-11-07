@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-31</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題31</span>&emsp;喫煙・受動喫煙に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>特定施設の禁煙エリア内に喫煙者を発見した場合，管理権原者は喫煙の中止を求めるよう努めなければならない．
+      <p><span class="bold">(2)</span>管理権原者は，業務上必要な場合であっても，20歳未満の者を喫煙専用室内に立ち入らせてはならない．
+      <p><span class="bold">(3)</span>喫煙専用室の出入口においては，室外から室内に流入する気流を0.1メートル毎秒以上確保する．
+      <p><span class="bold">(4)</span>たばこ煙に含まれるニコチンはアルカロイドの一種で，毛細血管を収縮させ血圧を上昇させる薬理作用を有する．
+      <p><span class="bold">(5)</span>受動喫煙は，小児端息の発症と重症化に関するリスク因子である．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題31&emsp;正解（3）&emsp;頻出度AAA</span></p>
+      <p>気流は0.2メートル毎秒以上確保する．
+      <p>喫煙専用室の技術的基準を定める健康増進法施行規則は次の通り．
+      <p>第十六条　法第三十三条第一項の厚生労働省令で定める技術的基準は，次のとおりとする．<br>
+      一&emsp;出入口において，室外から室内に流入する空気の気流が，0.2メートル毎秒以上であること．<br>
+      二&emsp;たばこの煙（蒸気を含む．以下この条及び第十八条において同じ．）が室内から室外に流出しないよう，壁，天井等によって区画されていること．<br>
+      三&emsp;たばこの煙が屋外又は外部の場所に排気されていること．
+      <p><span class="bold">-(4) </span>体内に入ったニコチン（C<sub>10</sub>H<sub>14</sub>N<sub>2</sub>）は，ニコチン性アセチルコリン受容体に結合し，神経を刺激してアドレナリンなどの分泌を促し，交感神経を優位にする．毛細血管や末梢血管を収縮させ、血流量の低下や血圧・心拍数の上昇を引き起こし，脳の報酬系（ドパミン神経）に作用して快感をもたらし，強い依存性を引き起こす．
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-32.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-30.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

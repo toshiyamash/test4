@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-35</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題35</span>&emsp;振動に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>乗り物酔いや動揺病は，周波数が1HZ未満で振幅が大きい場合に起こりやすい．
+      <p><span class="bold">(2)</span>局所振動で最も問題 となるのは，4,000H<sub>Z</sub>付近の振動である．
+      <p><span class="bold">(3)</span>バスやトラックなどの車両の比較的強い垂直振動により，腰痛が生じやすい．
+      <p><span class="bold">(4)</span>局所振動による手腕系振動障害には，白ろう病として知られているレイノー現象を主とする障害がある．
+      <p><span class="bold">(5)</span>長期間の強度の局所振動<ruby>曝<rt>ばく</rt></ruby>露により障害が進行すると，骨や関節に影響が及ぶ．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題35&emsp;正解（2）&emsp;頻出度AAA</span></p>
+      <p>人間の受ける振動は，「全身振動」と「局所振動」に分けられる．環境要因として問題になる振動（環境振動）は，全身振動で1〜90Hz，局所振動で8〜1,000Hzである．
+      <p>全身振動の知覚は主に内耳の前庭器官と三半規管が加速度の変位を感知することによる．
+      <p>全身振動は，鉛直振動と水平振動に分けて測定・評価され，人は鉛直振動のほうを水平振動より敏感に感じる．
+      <p>全身振動で受ける感覚は，周波数によっても異なり，身体の姿勢，振動継続時間によっても異なる．全身振動では低周波数域に対してヒトの感覚は鋭く，周波数の増加とともに感覚が鈍くなってくる．鉛直振動では 4〜8Hz の振動に最も感じやすい．水平振動では1〜2Hzである．
+      <p>周波数1Hz以下の乗り物などの揺れに対しては，一般に，鉛直方向よりも水平方向の方が敏感である．乗り物酔い（動揺病）は，周波数が1Hz未満で振幅が大きい場合に起こる．
+      <p>局所振動の知覚は，皮膚，内臓，関節等，人の全身に散らばる知覚神経末端受容器（パッチニ小体等）によりなされる．
+      <p>局所振動で健康影響が問題となる振動数は 8〜1,000Hzである（エンジンチェーンソーではエンジンの基本回転数6,000rpmに相当する100Hzに対策が必要とする報告がある）．
+      <p>寒冷下では，皮膚の血流は体温維持のために元々減少し，酸素や栄養素の供給が滞っている．そこに局所振動が加わって，毛細血管や<ruby>末梢<rt>まっしょう</rt></ruby>神経が傷むことがレイノー現象や感覚運動神経障害などの健康障害を引き起こし，長期間振動作業による末梢神経障害が進行すると，手指の伸展に支障がみられることがある．
+      <p>シベリアなどの寒冷地でチェーンソーを扱う労働者に見られるレイノー現象(白ろう病)は，寒冷と振動によるそう末梢血行障害である．指に境界鮮明な蒼白化状態が発生する場合がある（<span class="bold">2026-35-1 図</span>参照）．
+      <p class="cap">2026-35-1図&emsp;白ろう病による指の蒼白化
+      <div class="container">
+          <img src="../../images/image_2/白ろう病・指の蒼白化.svg" alt="白ろう病による指の蒼白化">
+      </div>
+      <p class="source">出典 独立行政法人労働者健康安全機構
+      <br>https://www.research.johas.go.jp/sindou/03.html
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-36.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-34.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
