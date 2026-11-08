@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-44</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題44</span>&emsp;水道水中に含まれるフミン質やアミン類が消毒用塩素と反応して生成される物質として，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+      <p><span class="bold">(1)</span>ホルムアルデヒド
+      <p><span class="bold">(2)</span>トリクロロエチレン
+      <p><span class="bold">(3)</span>塩化シアン
+      <p><span class="bold">(4)</span>クロロホルム
+      <p><span class="bold">(5)</span>ジクロロ酢酸
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題44&emsp;正解（2）&emsp;頻出度AAA</span></p>
+      <p>水道水などの塩素消毒によってトリクロロエチレンが生成されることはない．
+      <p>原水の植物由来の有機物であるフミン質が消毒用塩素と反応して生成されるのはトリハロメタン（主にクロロホルム，ブロモジクロロメタン，ジブロモクロロメタン，ブロモホルム）である．
+      <p>アミン類（アンモニアや有機窒素化合物）が溶け込んだ原水を塩素消毒すると，モノクロラミン，ジクロラミンなどの結合残留塩素が生成されるとともに，特定のアミン類（ヘキサメチレンテトラミン，トリメチルアミン）が塩素消毒されると，ホルムアルデヒドが高濃度に生成されることがある．
+      <p><span class="bold">-(3)</span>塩化シアンは，水中に含まれるシアン化物イオンやアンモニウムイオン，有機物などが残留塩素と反応することによって生成される副生成物である．
+      <p><span class="bold">-(5)</span>ジクロロ酢酸は，水道中の有機物と塩素が反応して生成される消毒副生成物（ハロ酢酸の一種）である．
+      <p><span class="bold">-(1)</span>〜<span class="bold">-(5)</span>いづれも「<a href="https://laws.e-gov.go.jp/law/415M60000100101/#:~:text=塩化シアン" target="_blank" rel="noopener noreferrer">水道水の水質基準の省令</a>」で基準値が定められている．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-45.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-43.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

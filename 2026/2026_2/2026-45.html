@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-45</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題45</span>&emsp;10%溶液として市販されている次亜塩素酸ナトリウムを水で希釈して50mg/Lの濃度の溶液を80L作る場合，必要となる10%溶液の量として，<span class="bold">最も近い</span>ものは次のうちどれか．
+      <p><span class="bold">(1)</span>0.4mL
+      <p><span class="bold">(2)</span>1.6mL
+      <p><span class="bold">(3)</span>&nbsp;&nbsp;&nbsp;4mL
+      <p><span class="bold">(4)</span>&nbsp;&nbsp;16mL
+      <p><span class="bold">(5)</span>&nbsp;&nbsp;40mL
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題45&emsp;正解（5）&emsp;頻出度AAA</span></p>
+      <p>50mg/Lの溶液80Lに含まれる正味の次亜塩素酸ナトリウムは，50✕80＝4,000mg．4,000mgは4mLとみなしてよいので，10％溶液全体の量は，4mLを濃度10％で割って，4÷0.1＝40mL
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='../2026_3/2026-46.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-44.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

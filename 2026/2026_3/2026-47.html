@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.9 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-47</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題47</span>&emsp;熱移動の関連用語とその影響要因との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+      <p><span class="bold">(1)</span>日射吸収率<span class="connectLine">　　　　　</span>材料の色
+      <p><span class="bold">(2)</span>対流熱伝達率<span class="connectLine">　　　　</span>境界層外部風速
+      <p><span class="bold">(3)</span>中空層の熱抵抗<span class="connectLine">　　　</span>熱流の方向
+      <p><span class="bold">(4)</span>放射熱伝達率<span class="connectLine">　　　　</span>材料表面の放射率
+      <p><span class="bold">(5)</span>熱伝導率<span class="connectLine">　　　　　　</span>固体壁の厚さ
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題47&emsp;正解（5）&emsp;頻出度AAA</span></p>
+      <p>個体壁の厚さは熱伝導率に影響しない．
+      <p>固体内は伝導によって熱は伝わり，固体内を流れる熱流\( q \)［W/m<sup>2</sup>］は，次式の通り局所的な温度勾配&nbsp;\( \displaystyle \frac{d \theta}{dx} \)&nbsp;[℃/m]に熱伝導率\( \lambda \)［W/(m･K)］を乗じて求められる．負号（－）は，温度が低下する向きに熱が流れることを示している．
+        \[ q=\lambda \frac{d \theta}{dx} \]           
+      <p>個体（厚さ\( \delta \)［m］）が均質で定常状態のとき，個体内部の温度勾配は直線となり，その場合の熱流\( q \)は次式で表される．
+        \[q=- \lambda \frac{\theta_1 - \theta_2}{\delta}\]
+      <p><span class="bold">-(1)</span>，<span class="bold">-(4) </span>すべての物体はその表面温度と表面特性に応じた大きさと波長の電磁波を射出すると同時に他の物体からの電磁波を吸収している．物体の表面間を電磁波によって伝わる熱の移動を「放射」という．
+      <p>常温物体からの放射は波長が10μm付近の赤外線が主体であり，長波長放射と呼ばれる．長波長放射・吸収では，放射エネルギーに関するキルヒホッフの法則により，同一温度の物体間では放射率と吸収率は等しくなるが，可視光の占める割合が多い太陽の日射吸収率は，吸収する物体表面の色が関係してくる．白っぽい物体は日射を反射してしまうからである（<span class="bold">2026-47-1表</span>参照）．
+      <p class="cap">2026-47-1表&emsp;長波長放射率と日射吸収率
+      <table>
+          <tr>
+              <td class="textcenter">建材の例</td>
+              <td class="textcenter" width="30%">長波長放射率</td>
+              <td class="textcenter" width="30%">日射吸収率</td>
+          </tr>
+          <tr>
+              <td>白色プラスター</td>
+              <td class="textcenter">0.9</td>
+              <td class="textcenter">0.1</td>
+          </tr>
+          <tr>
+              <td>白色ペイント</td>
+              <td class="textcenter">0.9</td>
+              <td class="textcenter">0.2</td>
+          </tr>
+          <tr>
+              <td>アスファルト</td>
+              <td class="textcenter">0.9</td>
+              <td class="textcenter">0.9</td>
+          </tr>
+          <tr>
+              <td>黒色ペイント</td>
+              <td class="textcenter">0.9</td>
+              <td class="textcenter">0.9</td>
+          </tr>
+          <tr>
+              <td>光ったアルミ箔</td>
+              <td class="textcenter">0.1未満</td>
+              <td class="textcenter">0.1</td>
+          </tr>
+          <tr>
+              <td>新しい亜鉛鉄板</td>
+              <td class="textcenter">0.2</td>
+              <td class="textcenter">0.7</td>
+          </tr>
+          <tr>
+              <td>酸化した亜鉛鉄板</td>
+              <td class="textcenter">0.3</td>
+              <td class="textcenter">0.8</td>
+          </tr>
+          <tr>
+              <td>松板</td>
+              <td class="textcenter">0.6</td>
+              <td class="textcenter">0.9</td>
+          </tr>
+      </table>
+      <p>絶対温度&nbsp;\( T\)［K］の物体表面から射出される単位面積当たりの放射熱流&nbsp;\( q \)［W/m<sup>2</sup>］は次式の通り\( T\)［K］の4乗に比例する（シュテファン・ボルツマンの法則）．\( \sigma \)（シグマ）はシュテファン・ボルツマン定数という定数である．
+          \[ q=\epsilon \sigma T^4 \]           
+      <p>\( \epsilon \)（イプシロン）は放射率と呼ばれ物体表面の特性値であり，完全黒体という理想的な仮想物体で1.0，通常の物体では0.1～0.9の値をとる．
+      <p>2つの壁&nbsp;j（放射率＝\(\epsilon_j\)，表面絶対温度\(T_j\)）とk（放射率＝\(\epsilon_k\)，表面絶対温度\(T_k\)）の間の放射による熱流量はそれぞれの放射量と吸収量の差分となって，次式で表される．
+        \[ q=\epsilon_j \epsilon_k \sigma (T_j^4-T_k^4) \]  
+      <p>熱放射の近似的な取扱いでは，絶対温度の代わりに摂氏温度を用い，上式を簡略化した次の放射熱伝達式が用いられる．
+          \[ q=\alpha_r(\theta_r-\theta_a) \]           
+      <div class="leftcenter">
+        ただし，<br>
+        \(\alpha_r\)：放射熱伝達率［W/(m<sup>2</sup>･K)］，<br>
+        \(\theta_r\)：壁表面温度［℃］，<br>
+        \(\theta_a\)：空気温度［℃］．
+      </div>        
+      <br>室内の放射率が0.9程度で，常温とすれば&nbsp;\( \alpha_r \)=4.5W/(m<sup>2</sup>･K)程度となる．
+      <p><span class="bold">-(2)</span>壁表面とそれに接する空気間の対流による伝達熱流&nbsp;\(q_c\)［W/m<sup>2</sup>］は壁と空気の温度差に比例し，その比例係数を「対流熱伝達率」という．すなわち，
+          \[q_c=\alpha_c(\theta_s-\theta_a)\]  
+      <div class="leftcenter">
+        ただし，<br>
+        \(\alpha_c\)：対流熱伝達率［W/(m<sup>2</sup>･K)］，<br>
+        \(\theta_s\)：壁表面温度［℃］，<br>
+        \(\theta_a\)：空気温度［℃］．
+      </div>        
+      <p>自然対流において，壁付近では抵抗によって空気の動きが制限され，その空気が一種の保温材のような働きをするために熱の移動が妨げられる．これを境界層という（<span class="bold">2026-47-1図</span>）．
+      <p class="cap">2026-47-1図&emsp;境界層の温度勾配
+      <div class="container">
+          <img src="../../images/image_3/境界層の温度勾配.svg" alt="境界層の温度勾配">
+      </div>
+      <br>一般に気流の影響が大きい屋外側では境界層ができにくく，屋外側の対流熱伝達率は大きくなる．又送風機などによる強制対流でも境界層ができにくく，自然対流に比べ対流熱伝達率の値は大きくなる．
+      <p><span class="bold">-(3)</span>二重ガラスや壁内の空気層などの中空層の熱抵抗&nbsp;\( r_B \)&nbsp;[m<sup>2</sup>･K/W]は，熱の伝導・放射・対流が絡んで，中空層の厚さ，密閉度，熱流の方向の影響を受ける．一定の厚さまで熱抵抗は増加するがそれ以上ではほぼ一定となる．住宅建築の業界団体では，空気層の熱流方向の厚さ\( d \)が1cm未満の場合は&nbsp;\( r_B \)&nbsp;＝0.09×\( d \)，\( d \)が1cm以上の場合は一定値＝0.09を用いて計算するとしている．
+
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-48.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-46.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

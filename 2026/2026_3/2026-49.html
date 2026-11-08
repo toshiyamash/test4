@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-49</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題49</span>&emsp;流体の層流や乱流を特徴づけるレイノルズ数（\(Re\)）を表す式について，式の<span class="whiteFrame">　　　</span>内に入る語句の組合せとして，正しいものは次のうちどれか．
+        \[Re=\frac{{\rm ア}\times {\rm イ}}{{\rm ウ}}\]
+      <p><span style="margin-left: 1.5rem;">ア</span><span style="margin-left: 7.5rem;">イ</span><span style="margin-left: 7rem;">ウ</span></p>
+      <p><span class="bold">(1)</span>速度<span class="connectLine">　　　　　　</span>代表長さ<span class="connectLine">　　　　</span>動粘性係数
+      <p><span class="bold">(2)</span>速度<span class="connectLine">　　　　　　</span>動粘性係数<span class="connectLine">　　　</span>代表長さ
+      <p><span class="bold">(3)</span>動粘性係数<span class="connectLine">　　　</span>代表長さ<span class="connectLine">　　　　</span>密度
+      <p><span class="bold">(4)</span>密度<span class="connectLine">　　　　　　</span>動粘性係数<span class="connectLine">　　　</span>代表長さ
+      <p><span class="bold">(5)</span>密度<span class="connectLine">　　　　　　</span>代表長さ<span class="connectLine">　　　　</span>速度
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題49&emsp;正解（1）&emsp;頻出度AAA</span></p>
+      <p>粘性流体の流れを特徴づけるレイノルズ数（\(Re\)）を表す式は次の通り．
+        \[Re=\frac{v\times D}{\nu}\]
+      <div class="leftcenter">
+          ただし，<br>
+          \(v\)：流体の速度（平均速度）［m/s］，<br> 
+          \(D\)：代表的長さ，例えば配管の径等［m］，<br>
+          \(\nu\)：（ニュー）動粘性係数<sup>※</sup>［m<sup>2</sup>/s］．  
+      </div>
+      <p>※&nbsp;動粘性係数とは，流体の粘性係数（粘度）をその流体の密度で割った値であり，粘性の影響による運動量の拡散しやすさを表す物性値．
+      <p>\(Re\)は，流体に働く慣性力と粘性力の比(慣性力/粘性力)を示す無次元数で，これが小さい流れでは乱流の原因となる慣性力を粘性力が上回っていて，乱れは減衰してしまう．\(Re\)が大きい流れは，乱れを継続させる力である慣性力が減衰させる粘性力に勝るので，乱れが持続する．\(Re\)が2,000程度以下では層流，4,000程度以上では乱流となる．
+      <p>模型による風洞実験では，\(Re\)を用いて，実物に対する気流状況を再現することができる（レイノルズの相似則）．
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-50.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-48.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
