@@ -3,8 +3,8 @@
 
 <svg
    width="127.03442mm"
-   height="51.470898mm"
-   viewBox="0 0 127.03441 51.470898"
+   height="54.865383mm"
+   viewBox="0 0 127.03441 54.865383"
    version="1.1"
    id="svg5"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
@@ -25,7 +25,7 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="1.5287038"
-     inkscape:cx="174.98485"
+     inkscape:cx="174.65777"
      inkscape:cy="219.1399"
      inkscape:window-width="1920"
      inkscape:window-height="973"
@@ -278,7 +278,7 @@
    id="tspan6-2">B</tspan></tspan></text>
     <g
        id="g1"
-       transform="matrix(1.0104927,0,0,1.6277535,3.5744312,-62.096607)">
+       transform="matrix(1.0104927,0,0,1.6277535,2.8821236,-60.365838)">
       <path
          style="fill:none;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
          d="m 55.907705,102.46154 h 5.884616"
@@ -450,5 +450,16 @@
            x="131.32349"
            y="103.20937">2✕</tspan></text>
     </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.3;stroke-dasharray:none"
+       id="rect1"
+       width="99.173073"
+       height="13.153845"
+       x="58.994881"
+       y="99.173073" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0;stroke-dasharray:none"
+       d="m 103.30257,113.71154 h 9.6923"
+       id="path5" />
   </g>
 </svg>

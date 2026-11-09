@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-54</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題54</span>&emsp;二酸化炭素に関する次の文章の<span class="whiteFrame">　　　</span>内の語句のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p>建築物衛生法の二酸化炭素の管理基準値は，<span class="whiteFrame">（1）1,000ppm以下　</span>とされている．これは<span class="whiteFrame">（2）換気量　</span>の指標として定められた値である．二酸化炭素の発生源は，<span class="whiteFrame">（3）ヒトの活動（呼吸）　</span>や<span class="whiteFrame">（4）内装材料　</span>である．大気中の二酸化炭素濃度は年々上昇傾向にあり，管理基準値を超過しないためには<span class="whiteFrame">（5）より多くの外気　</span>が必要となる．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題54&emsp;正解（4）&emsp;頻出度AAA</span></p>
+      <p><p><span class="bold">-(4) </span>は「燃焼器具（喫煙，自動車排気を含む）」が適当である（「内装材料」はホルムアルデヒドなどVOCsの発生原因となる）．
+      <p>ビル管理法の二酸化炭素の環境衛生管理基準値「1,000ppm以下」を保つための，1人当たりの換気量［m<sup>3</sup>/h］を求めてみよう．
+      <p>人が呼吸で発生する二酸化炭素の量を0.020m<sup>3</sup>/(人･h)（事務作業），外気の二酸化炭素の濃度を350ppmと仮定すると，
+        \[Q=\frac{M}{C-C_o}\times 10^6 =\frac{0.020}{1000-350}\times 10^6 =30.77~{\rm m^3/(人･h)}\]
+      <p>これから，およそ30m<sup>3</sup>/(人･h)の換気量を確保すればビル管理法の二酸化炭素の基準値1,000ppmを保つことができるとしてきたが，近年では二酸化炭素の濃度は450ppmに迫っているので，
+        \[Q=\frac{M}{C-C_o}\times 10^6 =\frac{0.020}{1000-450}\times 10^6 =36.36{\rm ［m^3/(人･h)}\]
+      <p>となって，より多くの換気量が必要となる．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-55.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-53.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

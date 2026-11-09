@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-55</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題55</span>&emsp;室内空気汚染物質とその発生源との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+      <p><span class="bold">(1)</span>一酸化炭素<span class="connectLine">　　　　　　</span>自動車排気
+      <p><span class="bold">(2)</span>アセトアルデヒド<span class="connectLine">　　　</span>コンクリート
+      <p><span class="bold">(3)</span>窒素酸化物<span class="connectLine">　　　　　　</span>燃焼器具
+      <p><span class="bold">(4)</span>ラドン<span class="connectLine">　　　　　　　　</span>石材
+      <p><span class="bold">(5)</span>アンモニア<span class="connectLine">　　　　　　</span>紙巻たばこ
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題55&emsp;正解（2）&emsp;頻出度AAA</span></p>
+      <p>コンクリートには，アセトアルデヒドが発生するような成分は含まれていない．
+      <p>アセトアルデヒド（CH<sub>3</sub>CHO）は塗料の溶剤や接着剤の原料として用いられる．アルコールが分解されて発生する代謝物で二日酔いの原因物質でもある．たばこ煙にも含まれる．発がん性があり，厚生労働省がVOCsの一つとして室内暫定目標値を出している（0.03ppm）．
+      <p><span class="bold">-(4) </span>ラドンはα線を放出して壊変する放射性の希ガスで，ウラニウム，ラジウムを含むすべての物質がラドンの発生源となる．呼吸によって体内に入ったラドンとその娘核が長期にわたりα線を放出し続け肺癌の原因となると言われている．多くの土壌石材，それらを含む建材が発生源である．人の自然放射線による被曝線量のうち約半分を占めている．コンクリートや花崗岩の建物内外の線量は室内のほうが大きい．
+      <p>ラドンガスは，極めて微量な物質であるため体積濃度や重量濃度で表すのは実用的ではない．ラドンガスにおいて問題となるのは放射能であるので，放射能濃度で表される．これは，単位時間単位体積当たりの崩壊数で放射能の量を表すものであり，1m<sup>3</sup>の空気中で1秒間に1回の崩壊があれば1Bq/m<sup>3</sup>と表す．わが国における放射能濃度の室内のレベルは，約15.5〜20Bq/m<sup>3</sup>である．
+      <p><span class="bold">-(5) </span>アンモニアはたばこの主流煙にも副流煙にもふくまれるが，副流煙のほうが主流煙の46倍多く含まれるという調査結果がある．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-56.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-54.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

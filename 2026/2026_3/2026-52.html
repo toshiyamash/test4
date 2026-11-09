@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-52</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題52</span>&emsp;空気の流動に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>自由噴流の中心軸速度が一定速度まで低下する距離を，到達距離と呼ぶ．
+      <p><span class="bold">(2)</span>自由噴流の吹出口付近では，中心軸速度が距離に反比例して減衰する．
+      <p><span class="bold">(3)</span>噴流は，吹出口から離れるに従って，エントレインメント（巻き込み）のために，次第に風量が増えていく性質を持っている．
+      <p><span class="bold">(4)</span>吸込み気流の吸込み速度は，吸込み中心からの距離の2乗におおむね反比例する．
+      <p><span class="bold">(5)</span>吸込み近傍の気流は，流体力学の基礎式を非粘性で渦なしのポテンシャル流れに簡略化したもので近似できる．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題52&emsp;正解（2）&emsp;頻出度AAA</span></p>
+      <p>自由噴流の吹出口付近では，中心軸速度が減衰せず維持される．
+      <p>吹出し口からの自由噴流は，<span class="bold">2026-52-1図</span>に示すように周囲の空気を巻き込んで風量を増やしながら減速していく．
+      <p class="cap">52-1図&emsp;自由噴流
+      <div class="container">
+            <img src="../../images/image_3/自由噴流.svg" alt="自由噴流">
+      </div>
+      <p>噴流の中心軸速度の減衰傾向により，吹出し口からの距離に対して4つの領域に区分して表される（<span class="bold">2026-52-1表</span>）．
+      <p class="cap">2026-52-1表 自由噴流の4領域      
+      <table>
+          <tbody>
+              <tr>
+                  <td>第1域</td>
+                  <td>\(V_1 =V_0\)</td>
+                  <td>吹出し速度\(V_0\)が維持される領域</td>
+              </tr>
+              <tr>
+                  <td>第2域</td>
+                  <td>\(\displaystyle V_2 \propto \frac{1}{\sqrt{x}}\)</td>
+                  <td>距離の平方根に反比例</td>
+              </tr>
+              <tr>
+                  <td>第3域</td>
+                  <td>\(\displaystyle V_3 = \frac{1}{x}\)</td>
+                  <td>距離に反比例</td>
+              </tr>
+              <tr>
+                  <td>第4域</td>
+                  <td>\(V_4 \lt 0.25{\rm m/s}\)</td>
+                  <td>減速が進んで静穏気流と区別できなくなる領域</td>
+              </tr>
+          </tbody>
+      </table>        
+      <p>自由噴流は，吹き出した位置の近くに吹き出し方向と平行な天井や壁などがあると，到達距離が長くなる（その極端な場合がダクトである）．
+      <p>中心軸速度が一定速度まで低下する距離を到達距離と呼ぶ．ドラフト防止の観点から，到達距離や拡散半径を定義する風速として0.25m/sを用いることが多い．
+      <p><span class="bold">-(4) </span>吸込み気流には吹出し気流のような指向性がなく，吸込み口全面から均一に吸い込む一様流となる．又，吸込み口に近い領域を除き，点状の吸込み（点源吸込み）とみなせるので，吸込み気流速度は吸込み口からの距離の2乗に反比例して急速に減衰．したがって吹出しに比べて吸込み気流の周囲への影響は吸込み口付近に限定される．
+      <p><span class="bold">-(5) </span>吸込み近傍の気流<span class="bold">2026-52-2図</span>参照．
+      <p class="cap">2026-52-2図&emsp;吸込み近傍の気流
+      <div class="container">
+            <img src="../../images/image_3/吸込み近傍の気流.svg" alt="吸込み近傍の気流">
+      </div>
+      <p class="source">出典&nbsp;公益社団法人&nbsp;日本建築衛生管理教育センター<br>「新建築物の環境衛生管理第2版第1刷」中巻144頁&nbsp;図5-1-3(11)
+      <p>「ポテンシャル流れ」とは，「非圧縮性・非粘性で，渦がない（回転しない）理想的な流体の流れ」という物理現象・流体力学のモデルである（重力場や電磁場でいう「場」ようなものである）．
+      <p>流体力学の基礎式とは「連続の式」と「ナビエ・ストークス方程式」であるが，後者をポテンシャル流れに適用すると1つのシンプルな方程式（ラプラス方程式\(\nabla^2 \phi=0\)）に簡略化される．
+      <p>壁面から離れた主流の圧力分布や速度分布をポテンシャル流れ（ラプラス方程式）で求めることができる．
+      <p>その結果を外力（圧力勾配）としてナビエ・ストークス方程式（境界層方程式）に代入し，壁面摩擦や剥離を計算する．
+      <p>航空機の設計や局所排気装置（工場などのフード設計）に応用される．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-53.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-51.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
