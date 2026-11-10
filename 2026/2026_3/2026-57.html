@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-57</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題57</span>&emsp;微生物とアレルゲンに関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>学校保健安全法の学校環境衛生基準には，ダニ又はダニアレルゲンの基準が含まれている．
+      <p><span class="bold">(2)</span>自然換気を行う室内では，浮遊微生物濃度は外気の影響を受けやすい．
+      <p><span class="bold">(3)</span>ウイルスは，空調用ダクト内で増殖しやすい．
+      <p><span class="bold">(4)</span>真菌胞子の大部分は，1μm以上の大きさをもつ．
+      <p><span class="bold">(5)</span>コナヒョウヒダニの虫体は，アレルゲンになる．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題57&emsp;正解（3）&emsp;頻出度AAA</span></p>
+      <p>ウイルスは生きた細胞の中でしか増殖できない．
+      <p>ウイルスはDNAやRNAのような遺伝子とそれを囲むタンパク質・脂質の殻しか持っておらず，自分の力では増殖できない．すなわち設計図＝遺伝子はあるが，それをもとに組み立てる設備，材料を持っていないので，他の生きた細胞に入り込んで設計図を用いて自分を複製させる．
+      <p><span class="bold">-(1) </span>学校環境衛生基準のダニ又はダニアレルゲンの基準は，100匹/m<sup>2</sup>以下又はこれと同等のアレルゲン量以下であること．
+      <p><span class="bold">-(4) </span>真菌は1〜10μm程度の細胞核をもつ真核生物．キノコ，カビ，酵母（単細胞生物）など．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-58.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-56.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

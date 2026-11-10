@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-56</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題56</span>&emsp;エアロゾル粒子の一般的な粒径として，<span class="bold">最も小さい</span>ものは次のうちどれか．
+      <p><span class="bold">(1)</span>噴霧液滴
+      <p><span class="bold">(2)</span>硫酸ミスト
+      <p><span class="bold">(3)</span>セメントダスト
+      <p><span class="bold">(4)</span>フライアッシュ
+      <p><span class="bold">(5)</span>ウイルス
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題56&emsp;正解（5）&emsp;頻出度AAA</span></p>
+      <p>ウイルスが圧倒的に小さい（<span class="bold">2026-56-1表</span>参照）．
+      <p class="cap">2026-56-1表&emsp;代表的なエアロゾル等の粒径
+      <table>
+          <tr>
+              <td class="textcenter">エアロゾルの種類</td>
+              <td class="textcenter">粒径［μm］</td>
+              <td class="divider"></td>
+              <td class="textcenter">エアロゾルの種類</td>
+              <td class="textcenter">粒径［μm］</td>
+          </tr>
+          <tr>
+              <td>ウイルス</td>
+              <td class="textcenter">0.003～0.05</td>
+              <td class="divider"></td>
+              <td>ダニアレルゲン</td>
+              <td class="textcenter">1～15</td>
+          </tr>
+          <tr>
+              <td>たばこ煙</td>
+              <td class="textcenter">0.01～1</td>
+              <td class="divider"></td>
+              <td>噴霧液滴</td>
+              <td class="textcenter">1～20</td>
+          </tr>
+          <tr>
+              <td>海塩粒子</td>
+              <td class="textcenter">0.03～0.5</td>
+              <td class="divider"></td>
+              <td>胞子</td>
+              <td class="textcenter">10～40</td>
+          </tr>
+          <tr>
+              <td>バクテリア（細菌）</td>
+              <td class="textcenter">0.3～30</td>
+              <td class="divider"></td>
+              <td>住宅内堆積じん（机上）</td>
+              <td class="textcenter">1～150</td>
+          </tr>
+          <tr>
+              <td>硫酸ミスト</td>
+              <td class="textcenter">1～100</td>
+              <td class="divider"></td>
+              <td>フライアッシュ</td>
+              <td class="textcenter">1～200</td>
+          </tr>
+          <tr>                    
+              <td>セメントダスト</td>
+              <td class="textcenter">3～100</td>
+              <td class="divider"></td>
+              <td>霧雨</td>
+              <td class="textcenter">200～500</td>
+          </tr>
+          <tr>                    
+              <td>花粉</td>
+              <td class="textcenter">10～100</td>
+              <td class="divider"></td>
+              <td>海岸砂</td>
+              <td class="textcenter">100～2,000</td>
+          </tr>
+      </table>
+      <p>エアロゾル（aerosol）の正確な意味は，微小な液体または固体の粒子が分散した気体のことである． 
+      <p><span class="bold">-(4) </span>「フライアッシュ」は，石炭火力発電所の排煙から，電気集じん機で捕集される，シリカ，アルミナが主成分のガラス質の球状の細かい微粒子である．コンクリートの強度・流動性向上のためにセメントの混合材として用いられる．      
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-57.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-55.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
