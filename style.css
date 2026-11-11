@@ -112,6 +112,12 @@
       margin-bottom: 0.75rem; 
   }
 
+/* テーブルセル内のテキストを上から配置   */
+  .varlineTop{
+      vertical-align: top; 
+  }
+  
+
   img {
     max-width: 90%;         /* 親より大きくならないように */
     height: auto;

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-63</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題63</span>&emsp;湿り空気線図上の変化に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>顕熱比(SHF)は，その熱負荷状態における顕熱負荷を全熱負荷に対する比で表したものである．
+      <p><span class="bold">(2)</span>顕熱比(SHF)は，室内への吹出空気の状態点の決定に用いられる．
+      <p><span class="bold">(3)</span>熱水分比は，加湿による水蒸気分圧の変化を絶対湿度の変化に対する比で表したものである．
+      <p><span class="bold">(4)</span>熱水分比は，加湿後の状態変化の方向を求めるために用いられる．
+      <p><span class="bold">(5)</span>バイパスファクタは，冷温水コイルの伝熱面に接触することなく通過する風量を，全通過風量に対する比で表したものである．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題63&emsp;正解（3）&emsp;頻出度AAA</span></p>
+      <p>熱水分比&nbsp;\(u\)&nbsp;は，その名のとおり，加湿による熱量の変化の絶対湿度の変化に対する比である．すなわち，
+        \[u=\frac{\varDelta h}{\varDelta x}=\frac{i_w \varDelta x}{\varDelta x}=i_w\]
+      <div class="leftcenter">
+          ただし，<br>
+          \(\varDelta h\)：熱量の変化［kJ］，<br> 
+          \(\varDelta x\)：絶対湿度の変化［kg］， <br>
+          \(i_w\)：加湿に用いた水，水蒸気の比エンタルピー［kJ/kg(DA)］<br>（つまり，熱水分比＝加湿に使用した水分の比エンタルピーである）．  
+      </div>
+      <p>湿り空気線図上で，加湿をしたときの状態点の移動方向（勾配）は「熱水分比」\(u\)［kJ/kg］で決まる．湿り空気線図の左上の熱水分比スケールで求めることができる（<span class="bold">2026-63-1図</span>参照）．
+      <p class="cap">2026-63-1図&emsp;加湿時の状態点の動き
+      <div class="container">
+          <img src="../../images/image_3/空気線図・加湿時の状態点の動き.svg" alt="加湿時の状態点の動き">
+      </div>
+      <p>上図で，&#9312;は水加湿を示している．常温の水の比エンタルピー約42kJ/kgは\(u=0\)とみなしてよいので，ほぼ比エンタルピー一定の線に沿って状態点は移動する（その時温度は低下することが分かる）．&#9314;は蒸気加湿を示す．100℃の蒸気の比エンタルピーは約2,600kJ/kgなので，状態点はほぼ垂直(わずかに右傾斜)に上に移動する（温度はわずかに上昇する）．&#9313;は温水加湿</span>を示し，パン型加湿器のように電熱器を空調機内にもつ加湿器では空気温度はさらに上昇する（&#9315;，垂直より右に傾く）．
+      <p>水噴霧加湿（水加湿）では，上記のように乾球温度は水の蒸発潜熱によって降下するので，空気線図を使って温水コイル出口の温度を上げて，必要な吹出し温度が得られるように調整する．    
+      <p><span class="bold">-(1) </span>，<span class="bold">-(2) </span>吹出し口から吹き出された空調空気の状態点は，その室の顕熱比の勾配に沿って移動する（<span class="bold">2026-63-2図</span>参照）．
+      <p>顕熱比は，定義（顕熱比＝顕熱/(顕熱＋潜熱)）から最大1.0で，湿り空気線図上では水平（＝絶対湿度一定）であり，それ未満では，右肩上がりである．したがって吹出し空気の状態点が右に向かって移動する冷房時には，吹出し空気の絶対湿度≦室内空気の絶対湿度となる（吹出し空気の状態点は左に向かって移動する暖房時は，吹出し空気の絶対湿度≧室内空気の絶対湿度となる）．
+      <p class="cap">2026-63-2図&emsp;吹出し空気の状態点は顕熱比SHFの勾配に沿って移動する．
+      <div class="container">
+          <img src="../../images/image_3/空気線図・吹出し空気の状態点は顕熱比SHFの勾配に沿って移動.svg" alt="吹出し空気の状態点は顕熱比SHFの勾配に沿って移動">
+      </div>
+      <p><span class="bold">-(5) </span>湿り空気線図上に表したバイパスファクタ（<span class="bold">2026-63-3図</span>参照）．
+      <p>空気の一部は冷水コイルに触れることなく通り過ぎるバイパスファクタのために，コイルを通過する全空気が，相対湿度が100％となる装置露点温度まで冷却されることはない．
+      <div class="cap">2026-63-3図&emsp;バイパスファクタ</span></div>
+      <div class="container">
+          <img src="../../images/image_3/空気線図・バイパスファクタ.svg" alt="バイパスファクタ">
+      </div>
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-64.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-62.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
