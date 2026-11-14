@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-78</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題78</span>&emsp;火気使用室における換気に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>排気の目的には，燃焼ガス，臭気，水蒸気などの室内空気汚染物質のみならず，熱の排除も含まれている．
+      <p><span class="bold">(2)</span>燃焼に必要な酸素供給量は，燃料種別と単位時間当たりの燃料消費量によって算定される．
+      <p><span class="bold">(3)</span>排気筒の有効断面積や要求排気量は，排気装置の種別ごとに法的に規定されている．
+      <p><span class="bold">(4)</span>排気筒や煙突を他の換気設備のダクトに接続する場合は，逆流防止ダンパが必要である．
+      <p><span class="bold">(5)</span>排気筒や煙突を排気シャフトに開放する場合は，居室への逆流防止措置を講じる必要がある．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題78&emsp;正解（4）&emsp;頻出度AA</span></p>
+      <p>火を使用する設備又は器具を設けた室の排気筒又は煙突は，他の換気設備の排気筒，風道その他これらに類するものに連結しないこと（国土交通省告示「<a href="https://www.mlit.go.jp/notice/noticedata/pdf/201703/00006606.pdf#:~:text=三 火を使用する設備又は器具" target="_blank" rel="noopener noreferrer">換気設備の構造方法を定める件</a>」）．
+      <p><span class="bold">-(2)</span>燃焼に必要な酸素供給量は，各燃料の燃焼反応式が基本となる．例えば，都市ガス（13A）の主成分のメタンなら，
+        \[CH_4+2O_2\to CO_2+2H_2O\] 
+      <p>であるから，メタンの体積の2倍の体積の酸素を必要とする．<br>
+      燃料中の成分によって調整すると，都市ガスはガス体積の約2.25倍，LPガス（プロパン）は5倍，灯油では，灯油1lあたり1.91Nm<sup>3</sup>の酸素が必要となる．<br>
+      必要酸素量を大気の酸素濃度21％で除せば空気量に換算することができる．気体燃料 \(1\text{Nm}^3\)，液体・固体燃料 \(1\text{kg}\) を完全燃焼させる空気量を理論空気量という．
+      <p><span class="bold">-(3)</span>燃焼に必要な酸素供給量，理論空気量は，<span class="bold">-(2)</span>のとおりであるが，換気設備が排除するのは燃焼に伴う排気ガスなので，「換気設備の構造方法を定める件」では，「理論排ガス量」に希釈倍数（安全係数）を掛けて，排気筒の有効断面積や要求排気量を定めている（理論排ガス量とは，理論空気量で燃料が完全燃焼したときの排ガス量．理論排ガス量 ＝ 理論空気量 ＋ α（燃料の成分から発生するガス）」．いずれの燃料でも理論排ガス量は理論空気量の約1.1倍になる）．
+      <p><span class="bold">-(5)</span>排気筒や煙突を排気シャフトに開放する場合の居室への逆流防止措置「換気設備の構造方法を定める件」第4の一．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-79.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-77.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
