@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-85</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題85</span>&emsp;騒音レベル70dBと77dBの騒音を合成した場合の騒音レベルとして，<span class="bold">最も近い</span>ものは次のうちどれか．<br>
+      ただし，log102=0.3010，log103=0.4771，log105=0.6990とする．
+      <p><span class="bold">(1)</span>&nbsp;74dB
+      <p><span class="bold">(2)</span>&nbsp;78dB
+      <p><span class="bold">(3)</span>&nbsp;79dB
+      <p><span class="bold">(4)</span>&nbsp;80dB
+      <p><span class="bold">(5)</span>147dB
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題85&emsp;正解（2）&emsp;頻出度AA</span></p>
+      <p>2つの騒音レベル\(L_1\) と\(L_2\) を合成した騒音レベル\(L\)  は，以下の式で表される．
+        \[L=10\log_{10} \left( 10^{\frac{L_1}{10}}+10^{\frac{L_2}{10}} \right)\]
+      <p>\(L_1\)，\(L_2\)に与えられた数値を代入して，
+        \begin{align}
+            L=10\log_{10} \left( 10^{\frac{L_1}{10}}+10^{\frac{L_2}{10}} \right)&=10\log_{10}(10^7+10^{7.7}) \notag\\[5pt]
+            &=10\log_{10}(10^7\times (1+10^{0.7})) \notag
+        \end{align}
+      <p>問題で与えられた\(\log_{10}=0.6990\simeq 0.7\)から，\(10^{0.7}\simeq 5\)と置き換えて，
+        \begin{align}
+            L&\simeq 10\log_{10}(10^7\times(1+5)) \notag\\[5pt]
+            &= 10\log_{10}(10^7\times 6) \notag\\[5pt]
+            &= 10\log10^7+10\log_{10}6 \notag\\[5pt]
+            &= 10(7+\log_{10}(2\times 3)) \notag\\[5pt]
+            &= 10(7+\log_{10}2+\log_{10}3) \notag\\[5pt]
+            &= 10(7+0.3010+0.4771) \notag\\[5pt]
+            &= 10\times 7.7781=77.781~{\rm dB} \notag
+        \end{align}
+      <p>最も近い選択肢は<span class="bold">-(2)</span> 78dB となる．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-86.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-84.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

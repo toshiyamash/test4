@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-83</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題83</span>&emsp;音と振動に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>人間の可聴範囲は，音圧レベルでおよそ0〜130dBの範囲である．
+      <p><span class="bold">(2)</span>測定対象音が暗騒音より10dB以上大きい場合には，測定値は対象騒音であると判断できる．
+      <p><span class="bold">(3)</span>対象振動が正弦波の場合・振動加速度の実効値は，最大振幅\(1/\sqrt{2}\)で求められる．
+      <p><span class="bold">(4)</span>周波数1Hz以下の乗り物などの揺れに対しては，一般に，鉛直方向の方が水平方向よりも敏感である．
+      <p><span class="bold">(5)</span>鉛直方向に5Hzの振動は，環境振動で対象とする周波数範囲に含まれる．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題83&emsp;正解（4）&emsp;頻出度AAA</span></p>
+      <p>周波数1Hz以下の乗り物などの揺れに対して人間は，鉛直方向よりも水平方向の方が敏感である．乗り物酔い（動揺病）は，周波数が1Hz未満で振幅が大きい場合に起こる（<a href="../2026_2/2026-35.html#tab2#:~:text=周波数1Hz以下の乗り物などの揺れ" target="_blank" rel="noopener noreferrer">問題35解説</a>参照）．
+      <p><span class="bold">-(2)</span>ある騒音・振動環境下で，対象とする特定の音以外の音・振動を暗騒音・暗振動という．暗騒音・暗振動によるマスキングを防ぐために，なるべく暗騒音・暗振動が小さい時期，時間帯に対象騒音・振動を測定することが望ましい．対象騒音・振動が暗騒音・暗振動より10dB以上大きい場合には測定値は対象騒音であると判断できる．10dBに満たない場合は暗騒音の除去などの対応が必要となる．
+      <p><span class="bold">-(3) </span>振幅の最大値を\(a_0\)とすれば，正弦波の瞬時値は\(a_0\sin\omega t\)と表される．\(\omega\)は角速度である（\(\omega=2\pi f=\displaystyle \frac{2\pi}{T}\)，\(f\)：周波数，\(T\)：周期）．
+      <p>実効値の定義は，瞬時値の2乗を1周期\(T\)にわたって平均したものの平方根であるから，振幅の実効値\(a_{rms}\)は，
+        \begin{align}
+          a_{rms}&=\sqrt{\frac{{a_0}^2}{T}\int_0^T{\sin^2\omega t\,dt}} \notag\\[5pt]
+          &=\sqrt{\frac{{a_0}^2}{T}\int_0^T{\frac{1-\cos2\omega t}{2}\,dt}} \notag\\[5pt]
+          &=\sqrt{\frac{{a_0}^2}{2T}\left[t-\frac{1}{2\omega}\sin2\omega t \right]_0^T} \notag\\[5pt]
+          &=\sqrt{\frac{{a_0}^2}{2T}\left[T-\frac{1}{2\omega}\sin2\omega T-0+\frac{1}{2\omega}\sin(2\omega \cdot 0) \right]} \notag\\[5pt]
+          &=\sqrt{\frac{{a_0}^2}{2T}\left[T-\frac{1}{2\omega}\sin(2\cdot \frac{2\pi}{T}\cdot T) \right]} \notag\\[5pt]
+          &=\sqrt{\frac{{a_0}^2}{2T}\left[T-\frac{1}{2\omega}\sin4\pi \right]} \notag\\[5pt]
+          &=\sqrt{\frac{{a_0}^2}{2T}(T-0)} \notag\\[5pt]
+          &=\sqrt{\frac{{a_0}^2}{2T}T} \notag\\[5pt]
+          &=\sqrt{\frac{{a_0}^2}{2}} \notag\\[5pt]
+          &=\frac{a_0}{\sqrt{2}} \notag\
+        \end{align}
+      <p><span class="bold">-(5)</span>鉛直方向に5Hzの振動は，全身振動の環境振動に含まれる．<br>人間の受ける振動は，「全身振動」と「局所振動」</span>に分けられる．環境要因として問題になる振動（環境振動</span>）は，全身振動で1～90Hz，局所振動で8～1,000Hzである．<br>
+      全身振動では低周波数域に対してヒトの感覚は鋭く，周波数の増加とともに感覚が鈍くなってくる．鉛直振動では4～8Hzの振動に最も感じやすい．水平振動では1～2Hzである．<br>
+      局所振動で健康影響が問題となる振動数は 8～1,000Hzで，エンジンチェーンソーではエンジンの基本回転数6,000rpmに相当する100Hzに対策が必要とする報告がある．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-84.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-82.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

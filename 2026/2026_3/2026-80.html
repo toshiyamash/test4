@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-80</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題80</span>&emsp;環境要素などの測定に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>温度の測定には，毛髪等の伸縮を利用する方法がある．
+      <p><span class="bold">(2)</span>相対湿度の測定には，電気抵抗を利用する方法がある．
+      <p><span class="bold">(3)</span>風速の測定には，発熱体の冷却による不平衡電流・電圧と気流との関係を利用する方法がある．
+      <p><span class="bold">(4)</span>熱放射の測定には，グローブ温度計 を利用する方法がある．
+      <p><span class="bold">(5)</span>ダクト内の風量の測定には，オリフィスを利用する方法がある．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題80&emsp;正解（1）&emsp;頻出度AA</span></p>
+      <p>毛髪等の伸縮を利用するのは，湿度の測定である（<span class="bold">2026-80-1図</span>参照）．温度では毛髪は目立って伸縮しない．
+      <p class="cap">2026-80-1&emsp;自記温湿度記録計
+      <div class="container">
+          <img src="../../images/image_3/自記温湿度記録計.svg" alt="dpd法">
+      </div>
+      <p class="source">出典&nbsp;株式会社佐藤計量器製作所<br>https://www.sksato.co.jp/7210-00 
+      <p><span class="bold">-(2)</span>電気湿度計は，塩化リチウム等の吸湿性塩の電気抵抗変化を利用したもの，薄膜ポリマーフィルムの誘電体の誘電率が相対湿度で変化することを利用したもの等がある．遠隔測定，連続測定に適するが，センサー部の経年変化があるのでアスマン計などによる定期的な較正を必要とする．
+      <p><span class="bold">-(3)</span>熱線式風速計は，電流で加熱された熱線（白金線，タングステン線等），サーミスタ，トランジスタから気流に奪われる熱量が周囲風速に関係する原理を利用して気流速度を測定する．<br>
+      熱線を一定電圧で加熱すると，風速に応じて熱線に不平衡電流が生じることを利用した定電圧式と，風速の変化による熱線の温度変化に応じて瞬時に入力電流が変化し熱線の温度を一定に保つ定温度式等がある．<br>
+      製品によっては，エレメント(センサ部)の幾何学的形状によって指向特性があり，あらかじめ風向を知らないと正確な測定ができない．
+      <p><span class="bold">-(4)</span>グローブ温度計は<a href="../2026_2/2026-23.html#tab2#:~:text=グローブ温度計（" target="_blank" rel="noopener noreferrer">問題23解説</a>参照．
+      <p><span class="bold">-(5)</span>流体が流れている管路にオリフィス（穴の空いた板）などを入れて流れを絞ると，その前後に差圧が発生する（<span class="bold">2026-80-2図</span>参照）．
+      <p class="cap">2026-80-2図&emsp;オリフィスによる差圧
+      <div class="container">
+          <img src="../../images/image_3/オリフィスによる差圧.svg" alt="オリフィスによる差圧">
+      </div>
+      <p>この差圧は，ベルヌーイの定理により，流量\(Q\)［m<sup>3</sup>/s］と次式の関係がある．
+        \[Q=60\alpha A\sqrt{\frac{2}{\rho}}\varDelta P\]
+      <div class="leftcenter">
+          ただし，<br>
+          \(\alpha\)：流量係数，<br> 
+          \(A\)：開口面積［m<sup>2</sup>］，<br>
+          \(\rho\)：流体の密度［kg/m<sup>3</sup>］，<br>
+          \(\varDelta P\)：差圧［Pa］．  
+      </div>
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-81.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-79.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

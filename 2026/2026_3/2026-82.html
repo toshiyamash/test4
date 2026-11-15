@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-82</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題82</span>&emsp;音と振動に関する用語とその定義との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+      <p><span class="bold">(1)</span>音圧レベル<span class="connectLine">　　　　　</span>人間の最小可聴値の音圧を基準として定義された尺度
+      <p><span class="bold">(2)</span>パワーレベル<span class="connectLine">　　　　</span>音原の音響出力をデシベル尺度で表記したもの
+      <p><span class="bold">(3)</span>騒音レベル<span class="connectLine">　　　　　</span>人間の聴覚の周波数特性で補正した，騒音の大きさを表す尺度
+      <p><span class="bold">(4)</span>等価騒音レベル<span class="connectLine">　　　</span>変動する騒音を等価で継続する定常騒音と見なした場合の騒音レベル
+      <p><span class="bold">(5)</span>時間率レベル<span class="connectLine">　　　　</span>あるレベル以下の振動に曝露される時間の，観測時間内に占める割合
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題82&emsp;正解（5）&emsp;頻出度AAA</span></p>
+      <p>「時間率レベル」は，あるレベル<span class="underln">以上</span>の振動に曝露される時間の，観測時間内に占める割合である．
+      <p>時間率レベルは，不規則かつ大幅に変動する振動の場合の表示方法で，振動規制法では，振動レベル計で，\(VL\)（振動レベル）を5秒間隔で100回程度測定し，全ての測定値を大きさの順に並べ替えて大きい方から 10％目の数値である80％レンジ上端値L<sub>10</sub>を用いる．100回のうち，10回が75dB以上であれば，L<sub>10</sub>は75dBとなる.<br>
+      工場や道路交通振動の規制基準は昼夜で異なり，夜間が5dB厳しくなっている．
+      <p><span class="bold">-(1)</span> ，<span class="bold">-(2)</span> ，<span class="bold">-(3)</span>音圧レベル，パワーレベル，騒音レベル
+      <p>音の物理的な強さは音の伝わる方向に対して垂直な単位面積を単位時間に通過する音のエネルギーなので，単位は［W（ワット）/m<sup>2</sup>］である．<br>
+      人間の耳の可聴範囲はエネルギー的には約10-12W/m<sup>2</sup>から最大10<sup>2</sup>W/m<sup>2</sup>であって，その範囲は14桁に及ぶ．<br>
+      ある基準値との比の対数をとって量を表示することをレベル表示（デシベル尺度）という．<br>
+      考察の対象とする量が数十桁にわたり，そのままでは扱いにくく，また科学的に数字の桁数での議論でよい場合にレベル表示が用いられる．これを音に用いて，音響工学では音のパワーレベルを次のように定義している．
+        \[L_i=10\log_{10}\frac{I}{I_0}\]
+      <div class="leftcenter">
+          ただし，<br>
+          \(L_i\)：音の強さのレベル［dB］，<br> 
+          \(I\)：音の強さ［W/m<sup>2</sup>］，<br>
+          \(I_0\)：基準の音の強さ（10<sup>-12</sup>W/m<sup>2</sup>）．
+      </div>
+      <p>上記の可聴範囲（10<sup>-12</sup>W/m<sup>2</sup>～最大10<sup>2</sup>W/m<sup>2</sup>）をレベル表示すると，
+        \begin{align}
+        L_i{\rm （最小）} & = 10\log_{10} \frac{I}{I_0} \notag\\[5pt]
+        &=10\log_{10} \frac{10^{-12}}{10^{-12}} \notag\\[5pt]
+        &=10\log_{10}1=0\ {\rm dB} \notag
+        \end{align}
+        \begin{align}
+        L_i{\rm （最大）} & = 10\log_{10} \frac{I}{I_0} \notag\\[5pt]
+        &=10\log_{10} \frac{10^2}{10^{-12}} \notag\\[5pt]
+        &=10\log_{10}10^{14}=140\ {\rm dB} \notag
+        \end{align}
+      <p>レベル表示により，最小と最大値で10<sup>12</sup>～10<sup>2</sup>と14桁もの開きがあったものが0～140dBと3桁で表現できることになる．
+      <p>実際に音の強さを測定する場合は，エネルギーを直接測定することが難しいので，音圧\(p\)［Pa］を測定する．
+      <p>音の強さは，空気の密度を\(\rho\)：［kg/m<sup>3</sup>］，音速を\(c\)：とすると，次式で表される．
+        \[I=\frac{p^2}{\rho c}\]              
+      <p>すなわち，音の強さは，音圧の2乗に比例するので，音圧レベルを次のように定義すると，同じ音に対して強さのレベルと音圧レベルが一致することになる．
+        \begin{align}
+        L_p & = 10\log_{10} \left (\frac{p}{p_0} \right) \notag\\[5pt]
+        &=2 \times \log_{10} \frac{p}{p_0} \notag\\[5pt]
+        &=20\log_{10} \frac{p}{p_0} \notag
+        \end{align}
+      <div class="leftcenter">
+          ただし，<br>
+          \(L_p\)：音圧レベル［dB］，<br> 
+          \(p\)：音圧［Pa］，<br>
+          \(p_0\)：基準の音圧<br>
+          （2×10<sup>-5</sup>Pa=基準の音の強さ10<sup>-12</sup>W/m<sup>2</sup>に相当）．
+      </div>
+      <p>例えば2Paの音圧レベルは，
+        \begin{align}
+        &20\log_{10} \frac{2}{2 \times 10^{-5}} \notag\\[5pt]
+        &=20 \times \log_{10}10^5 \notag\\[5pt]
+        &=20\times 5 =100\ {\rm dB} \notag
+        \end{align}
+      <p>さらに，この音圧レベルを，人の聴覚の周波数特性をあらわした等ラウドネス曲線（<span class="bold">2026-82-1図</span>）によって補正した音圧レベルをA特性音圧レベルといい，単なる音圧レベルと区別するために，単位に［dB(A)］を用いる．騒音計のA特性音圧レンジで計測した騒音レベル［dB(A)］は騒音の評価の基本となる．
+      <p class="cap">2026-82-1図&emsp;等ラウドネス曲線
+      <div class="container">
+          <img src="../../images/image_2/等ラウドネス曲線.svg" alt="等ラウドネス曲線">
+      </div>
+      <p><span class="bold">-(4)</span>等価騒音レベル（LAeq）：一定時間にわたって時間的に変動する騒音レベルをエネルギー的に等価な定常騒音レベルで表した量．24時間等価騒音レベルなら，LAeq24h＝55dBなどと記述する．<br>
+      環境基本法の騒音に関する環境基準にも用いられている（住宅地・夜間LAeq45dB以下，等）．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-83.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-81.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
