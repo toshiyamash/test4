@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-89</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題89</span>&emsp;昼光と照明に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>設計用全天空照度は，快晴の晴天の方が薄曇りよりも高い．
+      <p><span class="bold">(2)</span>間接昼光率は，室内反射率の影響を受ける．
+      <p><span class="bold">(3)</span>一般に直接昼光率と比べ，間接昼光率の値は小さくなる．
+      <p><span class="bold">(4)</span>作業領域周辺の急激な照度変化は，視覚的ストレスをもたらすことがある．
+      <p><span class="bold">(5)</span>片側窓の場合，室内の位置によって机上面照度の分布が不均一になる．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題89&emsp;正解（1）&emsp;頻出度AAA</span></p>
+      <p>設計用全天空照度は，快晴（10,000Lx）よりも散乱光の多い薄曇りの方が高い（50,000Lx）.
+      <p>昼光を照明に使う場合，直射日光は天候での変動が大きく，又眩しすぎるので適切に遮蔽し，天空光（<span class="bold">2026-89-1表</span>参照）を用いる．
+      <p class="cap">2026-89-1表&emsp;昼光（直射日光，天空光）
+      <table>
+          <tbody>
+              <tr>
+                  <td rowspan="2" nowrap>昼光</td>
+                  <td nowrap>直射日光</td>
+                  <td>太陽光が拡散されずに大気を透過して地表に到達する光</td>
+              </tr>
+              <tr>
+                  <td>天空光　</td>
+                  <td>太陽光が大気中のちりや雲（水，氷）等の微粒子によって拡散された光</td>
+              </tr>
+          </tbody>
+      </table>
+      <p>直射日光による照度を直射照度，天空光による照度を全天空照度といい，直射照度と天空光照度の和をグローバル照度（あるいは全天照度，昼光照度）という．        
+      <p>昼光（天空光）による照明を考える場合，昼光は季節，時刻，天候によって変動するので，昼光の量的な指標として用いられるのは照度ではなく，季節や天候に左右されない，室内の位置で決まる昼光率\(D\)である．
+          \[D=\frac{E}{E_s}\]            
+      <div class="leftcenter">
+          ただし，<br>
+          \(E\)：室内のある点の天空光による照度，<br> 
+          \(E_S\)：全天空照度．
+      </div>
+      <p>窓から入射した昼光による室内の照度は，直接照度（窓から入った天空光が直接照らす照度）と間接照度（天空光がいったん天井や壁に反射した光による照度）からなり，昼光率も直接昼光率と間接昼光率からなる．
+      <p>直接昼光率は，窓の光源としての立体角投射率，窓ガラスの透過率，透過率の維持率，窓ガラスの有効面積などに影響を受ける．
+      <p>間接昼光率は室内の壁，天井，床などの反射率の影響を受け，室内のどの位置でも一定と考えて計算されるが，一般に直接昼光率に比べると小さい．
+      <p>昼光率＝直接昼光率＋間接昼光率となり，ある点の昼光照度を求める場合には，その点の昼光率にそのときの天空光による全天空照度を乗じればよい．
+      <p>設計用の全天空照度が簡易的に曇天晴と晴天時に分けて示されている．
+      <br>設計用全天空照度は，快晴（10,000Lx）よりも散乱光の多い薄曇りの方が大きい（50,000Lx）.
+      <p><span class="bold">-(4) </span>人間の目は，周囲の明るさに合わせて瞳孔の大きさを変えたり，網膜の感度を調整している（明順応・暗順応）．作業面（手元や画面）が非常に明るく，その周辺が極端に暗い環境（またはその逆）では，視線を動かすたびに目が激しい順応を繰り返さなければならず，毛様体筋や網膜の負担となって，目の痛み，疲れ，頭痛，集中力の低下を招く．<br>
+      照度がもたらす輝度について，「<a href="https://www.mhlw.go.jp/content/000539604.pdf#:~:text=一般にグレアを防ぐために、近い視野内での輝度比は" target="_blank" rel="noopener noreferrer">情報機器作業における労働衛生管理のためのガイドライン</a>」によれば，近い視野内での輝度比は1：3程度，広い視野内の輝度比は1：10程度が推奨されている．
+      <p><span class="bold">-(5) </span>窓からの距離に対して，照度は反比例するように急激に落ち込む．そのため，部屋の手前と奥で大きな明るさの差が生じ，部屋全体の明るさの均一性を表す「<ruby>均斉<rt>きんせい</rt></ruby>度（最小照度 / 平均照度）」が低くなる． 一般事務室などの照度均斉度は0.7以上が推奨されている（JIS Z9110：2010）．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-90.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-88.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
