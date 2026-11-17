@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-92</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題92</span>&emsp;都市及び建築の熱環境に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>室温は，屋外の気温やその他の気候要素等の影響を受けて時々刻々と変化する．
+      <p><span class="bold">(2)</span>熱帯夜とは，夕方から翌朝までの最低気温が25℃以上の日をいう．
+      <p><span class="bold">(3)</span>温室効果とは，太陽光線が大気中の二酸化炭素などに吸収され，大気が温まることで地球上の気温が上昇することをいう．
+      <p><span class="bold">(4)</span>コンクリート建造物等の熱容量の大きな建造物は，日射熱を日中吸収し蓄熱する．
+      <p><span class="bold">(5)</span>緑地などの減少により土地の保水能力が低下すると，蒸発潜熱による冷却効果が小さくなる．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題92&emsp;正解（3）&emsp;頻出度AAA</span></p>
+      <p>温室効果とは，地表から放射される赤外線が，大気中の二酸化炭素などの温室効果ガスに吸収され，宇宙空間へ放射されるのを妨げられることによって気温が上昇する現象をいう．太陽光が直接大気中の二酸化炭素などに吸収されて温度上昇することではない．
+      <p><span class="bold">-(2)</span>気象庁の定義はつぎのとおり．
+      <br>•&ensp;夏日（なつび）: 最高気温 25℃以上
+      <br>•&ensp;真夏日（まなつび）: 最高気温 30℃以上
+      <br>•&ensp;猛暑日（もうしょび）: 最高気温 35℃以上
+      <br>•&ensp;酷暑日（こくしょび）: 最高気温 40℃以上（2026年導入）
+      <br>•&ensp;熱帯夜（ねったいや）: 夜間の最低気温 25℃以上
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-93.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-91.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

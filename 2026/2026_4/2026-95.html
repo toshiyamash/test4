@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-95</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題95</span>&emsp;建築材料とその性質に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>強化ガラスの強度は，通常の板ガラスの3〜5倍である．
+      <p><span class="bold">(2)</span>大理石は，雨水に曝さらされると風化する．
+      <p><span class="bold">(3)</span>多孔質系断熱材の熱伝導率は，一般に繊維質系断熱材よりも小さい．
+      <p><span class="bold">(4)</span>コンクリートの引張強度は，圧縮強度の10%程度である．
+      <p><span class="bold">(5)</span>鋼材の降伏強さは，一般に応力−ひずみ曲線の最大強さとして求められる．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題95&emsp;正解（5）&emsp;頻出度AAA</span></p>
+      <p>応力−ひずみ曲線の最大強さは，引張強さという（<span class="bold">2026-95-1図</span>参照）．
+      <p class="cap">2026-95-1図&emsp;鋼材の応力―ひずみ曲線
+      <div class="container">
+          <img src="../../images/image_4/鋼材400の引張応力度・ひずみ度曲線の例.svg" alt="鋼材400の引張応力度・ひずみ度曲線の例">
+      </div>
+      <p class="source">出典 公益財団法人日本建築衛生管理教育センター<br>「新建築物の環境衛生管理第2版第1刷」上巻132頁 図3-3-1(4)
+      <p>参考までに棒鋼の引張試験の動画を添付する．
+      <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DJcz4OoSDmk?rel=0&start=15&end=130&mute=1&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>        
+      <p>通常の構造設計では，想定される荷重により部材に作用する応力度が弾性域内（≒降伏強さ）に収まるよう設計する（塑性変形は許されない）が，大地震などにより想定を超える荷重が作用しても，鋼材は，応力度が引張強さに達するまで持ちこたえることができるため，建築物は塑性変形しても，内部の人間が避難できる可能性は高くなる（すなわち，鋼材は塑性変形することによって地震のエネルギーを吸収する）．
+      <p>\( \displaystyle \frac{{\rm 降伏強さ}}{{\rm 引張強さ}}\)を「降伏比」というが，降伏比は地震に対する余裕度を示す重要な指標である．降伏比が小さい鋼材を用いた建築物ほど，想定外の荷重が作用しても，完全に破壊するまでの余力がある建築物とみなすことができる．
+      <p>例えば汎用材としてよく使用される鉄鋼材料SS400の降伏点は245N/mm<sup>2</sup>，引っ張り強さは400N/mm<sup>2</sup>である．降伏比は，245÷400=60%である（降伏比の上限は80%以下と規定されている）．
+      <p>鉄筋コンクリート造は降伏比がほぼ1で，大地震に対してほとんどひずむことなく破壊される（これを<ruby>脆<rt>ぜい</rt></ruby>性破壊という．ガラスが割れるような破壊）．降伏比で余裕のある鉄骨造が地震に対して有利とされる最大の理由である．
+      <p><span class="bold">-(1) </span>強化ガラスは， 普通の板ガラスを約650℃〜700℃に加熱したあと，急激に冷やして表面に圧縮応力層をつくることで強度を高めている．万が一割れた場合でも，鋭い破片にならず，全体が粒状になるため，大怪我をするリスクが低い．一般的なフロートガラスより耐熱温度が高く，約200℃前後まで耐えらる（ただし直火には耐えられない）．強化処理をしたあとに，サイズ調整のためのカットや穴あけなどの加工はできない．
+      <p><span class="bold">-(3) </span>熱伝導率は，多孔質系断熱材（発泡プラスチック系など）で約0.02〜0.045W/(m･K)，繊維質系断熱材（グラスウール・ロックウールなど）で 約0.033〜0.07W/(m･K)である．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-96.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-94.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

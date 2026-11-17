@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-91</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題91</span>&emsp;東京において、建築物の晴天日における日射量に関する次の記述のうち、<span class="bold">最も不適当な</span>ものはどれか。
+      <p><span class="bold">(1)</span>夏至の日の日積算日射量は、南向き鉛直壁面よりも東向き鉛直壁面の方が多い。
+      <p><span class="bold">(2)</span>冬至の日の日積算日射量は、南向き鉛直壁面よりも水平面の方が多い。
+      <p><span class="bold">(3)</span>南向き鉛直壁面が受ける日積算日射量は、夏至の日よりも冬至の日の方が多い。
+      <p><span class="bold">(4)</span>西向き鉛直壁面が受ける日積算日射量は、年間を通して東向き鉛直壁面と同じである。
+      <p><span class="bold">(5)</span>夏至の日の正午における方位別日射量は、水平面が他の鉛直壁面に比べて最も多い。
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題91&emsp;正解（2）&emsp;頻出度AAA</span></p>
+      <p>東京の晴天日の冬至の日積算日射量は南壁面が最も多い．
+      <p><span class="bold">2026-91-1図</span>は東京の夏至，冬至の時間別，方位別の日射の強さ［W/m2］を表したものである（点線は水平面の日射を示す．E，W，S，Nなどはそれぞれ東，西，南，北などの方位を示す）．横軸と各方位の曲線が囲った面積がその方位の日積算日射量を示す．又，各方位の曲線の時間軸での開きがほぼその方位の日照時間となる．<br>
+      一方，夏至では水平面の日積算日射量が圧倒的に多いことが分かる．
+      <p class="cap">2026-91-1図&emsp;方位別垂直壁面と水平面の受ける日射の強さ（東京）
+      <div class="container">
+          <img src="../../images/image_4/方位別垂直壁面と水平面の受ける日射の強さ（東京）.svg" alt="方位別垂直壁面と水平面の受ける日射の強さ（東京）">
+      </div>
+      <p class="source">出典&nbsp;公益社団法人&nbsp;日本建築衛生管理教育センター<br>「新建築物の環境衛生管理第2版第1刷」上巻171頁&nbsp;表3-4-5(1)&nbsp;を基に作成
+      <p><span class="bold">-(1) </span>，<span class="bold">-(3) </span>，<span class="bold">-(4)</span><span class="bold">2026-91-2図</span>は東京の年間を通した方位別垂直壁面の日積算日射量を表したものである．
+      <p class="cap">2026-91-2図&emsp;方位別垂直壁面の日積算日射量（東京）
+      <div class="container">
+          <img src="../../images/image_4/方位別垂直壁面の日積算日射量（東京）.svg" alt="方位別垂直壁面の日積算日射量（東京）">
+      </div>
+      <p class="source">出典&nbsp;公益社団法人&nbsp;日本建築衛生管理教育センター<br>「新建築物の環境衛生管理第2版第1刷」上巻171頁&nbsp;表3-4-5(1)&nbsp;を基に作成
+      <p>例えば<span class="bold">-(1)</span>なら，夏至の南向き鉛直壁面はおよそ1.5kWh/m<sup>2</sup>･dに対して東向き壁面は3kWh/m<sup>2</sup>･dである．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-92.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../2026_3/2026-90.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
