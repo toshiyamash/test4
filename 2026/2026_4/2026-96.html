@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-96</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題96</span>&emsp;建築生産に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>型枠工事は，仮設工事に分類される．
+      <p><span class="bold">(2)</span>スケルトン・インフィル（SI）建築物では，構造躯体と設備は分離されている．
+      <p><span class="bold">(3)</span>工事契約に必要な書類は，工事請負契約約款，設計図書，工事見積書などである．
+      <p><span class="bold">(4)</span>工事監理は，設計者が建築主の委託を受けて代行する場合が多い．
+      <p><span class="bold">(5)</span>建築工事の工程は，仮設，地業，躯体，仕上げの各工事に大別される．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題96&emsp;正解（1）&emsp;頻出度AAA</span></p>
+      <p>型枠工事は，躯体工事の下に分類される（<span class="bold">2026-96-1表</span>参照）．
+      <p class="cap">2026-96-1表&emsp;建築工事の工程と分類
+      <table>
+          <tbody>
+              <tr>
+                  <td>仮設工事</td>
+                  <td>仮設工事<br>
+                  （仮設道路，工事用電力，工事用上下水道等）</td>
+              </tr>
+              <tr>
+                  <td>土工地業工事</td>
+                  <td>1）土工事<br>
+                      2）山止め工事<br> 
+                      3）地業及び基礎工事
+              </tr>
+              <tr>
+                  <td>躯体工事</td>
+                  <td>1）型枠工事<br>
+                      2）コンクリート工事<br>
+                      3）鉄筋工事<br>
+                      4）鉄骨工事<br>
+                      5）木工事</td>
+              </tr>
+              <tr>
+                  <td>仕上げ工事</td>
+                  <td>1）屋根工事<br>
+                      2）防水工事<br>
+                      3）タイル工事<br>
+                      4）左官工事<br>
+                      5）塗装工事<br>
+                      6）金属工事<br>
+                      7）建具工事<br>
+                      8）ガラス工事<br>
+                      9）内外装工事</td>
+              </tr>
+          </tbody>
+      </table>
+      <p>「型枠工事」とは，鉄筋コンクリート造（RC造）や木造の基礎などを造る際，液状のコンクリートを流し込んで固めるための「器（枠）」を現場で組み立てる工事．ベニヤ板や角材（サン木）などで，柱や梁，壁などの形を作る．高い精度を必要とする専門職（型枠大工）の仕事である．
+      <p><span class="bold">-(2) </span>スケルトン・インフィル（SI）建築では，一般的な建築物では一体化している「スケルトン（構造躯体）」と「インフィル（設備・内装）」を分けて建築し，耐久性の高い構造躯体を長期利用しながら，設備・内装は柔軟に更新・変更が可能とする．
+      <p><span class="bold">-(4) </span>「工事監理」は設計者がやると規定されているわけではないが，建築主の依頼で設計者がやることが多いが．<br>
+      建築士法の規定は次のとおり．『この法律で「工事監理」とは，その者の責任において，工事を設計図書と照合し，それが設計図書のとおりに実施されているかいないかを確認することをいう．』（第2条8）．<br>
+      規模，構造，用途で一級建築士，二級建築士，木造建築士が設計・工事監理できる建築物が規定されている（建築士でなくても設計・工事監理できる建築物もある）．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-97.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-95.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
