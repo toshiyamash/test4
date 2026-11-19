@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-102</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題102</span>&emsp;火災時の避難計画に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>特定一階段等防火対象物とは，2階以上の階に特定防火対象物の用途が存する防火対象物で，階段が1つしかないものである．
+      <p><span class="bold">(2)</span>避難計画の原則として，廊下の端部に階段を配置する等，2つ以上の避難経路を確保する二方向避難とし，行き止まりのある平面計画は行わない．
+      <p><span class="bold">(3)</span>扉は，一般的に避難経路幅に比べて扉幅が狭いため，火災発生時には，廊下や非常口に避難者が殺到し滞留が生じやすい．
+      <p><span class="bold">(4)</span>超高層ビルなど避難に長時間を要することが予想される建築物の場合，避難経路上に火災危険から守られた安全区画を段階的に設定する．
+      <p><span class="bold">(5)</span>避難器具は，廊下，階段，非常口等の避難施設が火災や煙等で使用できない場合に，逃げ遅れた人を避難させるための器具である．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題102&emsp;正解（1）&emsp;頻出度AAA</span></p>
+      <p>特定一階段等防火対象物とは，「地階または3階以上の階に特定の用途（飲食店や劇場，病院，宿泊施設など）が存在し，そこから避難階（1階など）に直通する屋内階段が1つしかない（または避難上1つの階段しか使えない）建物」のことである（消防法施行規則第23条第4項第7号）．
+      <p>特定一階段等防火対象物（通称：トクイチ）は，2001年の44人が亡くなった新宿歌舞伎町ビル火災を教訓に消防法が改正され，消防用設備の設置・点検などに厳格な規制が課されてる．
+      <p><span class="bold">-(2) </span>建築基準法では，迅速な避難のために，直通階段<sup>※</sup>・避難階段への歩行距離を制限しているが（内装が準耐火/不燃の事務所ビルで50m以下），直通階段・避難階段を複数設ける場合は，歩行距離の重複距離を制限して（歩行距離上限の1/2以下），2方向避難を確保しようとしている．<br>
+      ※&nbsp;直通階段：居室のある階から，避難階（地上に直接通じている階）または地上まで，途切れることなく連続してつながっている階段．原則としてすべての建物に設置が求められる．
+      <p><span class="bold">-(5) </span>消防法施行令第25条第2項第1号の適応表などに登場する避難器具は，以下の8種類である．
+      <br>避難はしご：窓やベランダから下ろして使うはしご．ハッチ型つり下げはしご，固定，立てかけなどがある．
+      <br>緩降機：着用したベルトとロープを用いて，自重により一定の速度で自動的に降下する器具．
+      <br>救助袋：布製の筒の中を滑り降りる器具．垂直式と斜降式がある．
+      <br>滑り台：固定式または可動式のすべり台．操作が不要で高齢者や幼児でも使用しやすい．
+      <br>避難用タラップ：固定された階段状の器具．はしごよりも安定して昇降できる．
+      <br>避難橋：隣接する建物や安全な場所に架け渡して避難するための橋．
+      <br>避難ロープ：窓などに固定して自力で伝い降りるためのロープ．
+      <br>すべり棒：階下に通じる丸棒を抱きかかえて滑り降りる器具．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-103.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-101.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

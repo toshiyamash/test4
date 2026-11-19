@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-103</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題103</span>&emsp;建築基準法に規定する主要構造部として，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+      <p><span class="bold">(1)</span>基礎
+      <p><span class="bold">(2)</span>柱
+      <p><span class="bold">(3)</span>床
+      <p><span class="bold">(4)</span>屋根
+      <p><span class="bold">(5)</span>階段
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題103&emsp;正解（1）&emsp;頻出度AAA</span></p>
+      <p>『主要構造部　壁，柱，床，はり，屋根又は階段をいい，建築物の構造上重要でない間仕切壁，間柱，付け柱，揚げ床，最下階の床，回り舞台の床，小ばり，ひさし，局部的な小階段，屋外階段その他これらに類する建築物の部分を除くものとする．』（建築基準法第2条第5項）．「基礎」は含まれていない．建築基準法施行令第1条第3項の「構造耐力上主要な部分」と混同しないこと．
+      <p>『構造耐力上主要な部分　基礎，基礎ぐい，壁，柱，小屋組，土台，斜材（筋かい，方づえ，火打材その他これらに類するものをいう．），床版，屋根版又は横架材（はり，けたその他これらに類するものをいう．）で，建築物の自重若しくは積載荷重，積雪荷重，風圧，土圧若しくは水圧又は地震その他の震動若しくは衝撃を支えるものをいう．』
+      <p>「主要構造部」は，防火・避難・衛生の観点から定められているが，「構造耐力上主要な部分」は，構造の強度の観点から定められている．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-104.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-102.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

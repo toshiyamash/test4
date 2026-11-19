@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-105</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題105</span>&emsp;建築物の管理に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>ファシリティマネージメント（FM）とは，企業，団体等が組織活動のために，施設とその環境を総合的に企画，管理，活用する経営活動と定義されている．
+      <p><span class="bold">(2)</span>二次エネルギーとは，一次エネルギーを変換や加工して得られるエネルギーのことである．
+      <p><span class="bold">(3)</span>SDGSとは，国連サミットで採択された国際目標で，2030年までに持続可能でよりよい社会を目指すものである．
+      <p><span class="bold">(4)</span>CASBEEとは，中央監視，エネルギー管理，ビル管理，施設管理を含んだ包括的な管理システムである．
+      <p><span class="bold">(5)</span>LEEDとは，再生可能なクリー ンエネルギーを促進する建築物の環境評価システムであり，アメリカで開発されたものである．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題105&emsp;正解（4）&emsp;頻出度AAA</span></p>
+      <p>CASBEE（キャスビー：Comprehensive Assessment System for Built Environmental Efficiency）日本発の「建築環境総合性能評価システム」．地球環境・周辺環境にいかに配慮しているか，ランニングコストに無駄がないか，利用者にとって快適か等の性能を客観的に評価する．評価対象は，エネルギー消費，資源循環，地域環境，室内環境の4分野である．認証数は3,000件余り．
+      <p>中央監視，エネルギー管理，ビル管理，施設管理を含んだ包括的な管理システムは，「BEMS（ベムス）：Building and Energy Management System」である．
+      <p><span class="bold">-(5) </span>LEED（リード）：Leadership in Energy and Environmental Designは，米国グリーンビルディング協会（USGBC）が開発した，建物や都市の環境性能を総合的に評価・認証する国際的なプログラムである．評価対象は，エネルギー効率，水資源の管理，利用材料，敷地利用，室内環境の質などで，認証段階は獲得点数に応じて4段階（サーティファイド/標準認証，シルバー，ゴールド，プラチナ）に分かれる．googleの本社ビルはプラチナ認証である．日本の認証取得事例は250件余り．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='../2026_5/2026-106.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-104.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

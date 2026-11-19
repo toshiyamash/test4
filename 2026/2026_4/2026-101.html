@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-101</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題101</span>&emsp;火災性状に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>フラッシュオーバは，不完全燃焼状態にある部屋にドアや窓が開いて酸素が急激に流入し，可燃性ガスが爆発的に再燃焼する現象である．
+      <p><span class="bold">(2)</span>火災時に階段等の竪穴区画に煙が入った場合，煙突効果によって上階へ急速な煙の伝播を招くおそれがある．
+      <p><span class="bold">(3)</span>減光係数は，煙中における単位通過距離当たりの光の減衰率を対数で表した光学的数値である．
+      <p><span class="bold">(4)</span>火災時に室内の上部に形成される高温度の煙層は，火勢の拡大を促進させる要因の1つである．
+      <p><span class="bold">(5)</span>プルームは，火源の上方に形成 される燃焼反応を伴わない熱気流のことである．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題101&emsp;正解（1）&emsp;頻出度AAA</span></p>
+      <p>フラッシュオーバー（Flashover）は，室内での火災において，燃焼によって発生した可燃性ガスが天井付近にたまり，輻射熱（放射熱）によって室内の可燃物が一斉に発火し，部屋全体が瞬時に火の海になる現象を指す．ドアや窓が開いて酸素が急激に流入し，可燃性 ガスが爆発的に再燃焼する現象は，前問にもあるとおり，バックドラフト（Backdraft）である．
+      <p>火災は出火，初期火災，フラッシュオーバ，火盛り期と成長する．またフラッシュオーバ前後で，燃焼が急激に拡大する時期のことを「火災成長期」と呼ぶ．<br>
+      防火計画はこれらの時系列に応じた対策としなければならない．<br>
+      火災はフラッシュオーバに至る前に消し止めることが重要である．また，内装材料の不燃化はフラッシュオーバを抑制しその現象までの時間を延ばすことができる．フラッシュオーバまでの時間が長い方が，避難上有利である．
+      <p><span class="bold">-(3) </span>減光係数\(C\)［m<sup>-1</sup>］は次式で求める．
+        \[C=\frac{1}{L}\log_{10}\left(\frac{I_0}{I}\right)\]
+      <div class="leftcenter">
+          ただし，<br>
+          \(I_0\)：煙がないときの光の強さ，<br> 
+          \(I\)：煙を透過した後の光の強さ，<br>
+          \(L\)：光が煙の中を通った距離（光路長）．
+      </div>
+      <p>減光係数は煙の濃度による光の減衰率の指標で，減衰係数0.1m<sup>-1</sup>で見通し距離は20～30m，1.0m<sup>-1</sup>で1～2mとなり，ほとんど前方は見えなくなる．<br>
+      建物火災では火で死ぬ人より煙で逃げ遅れて死ぬ人が多いと言われている．
+      <p><span class="bold">-(5) </span>火源の上方に形成される強い上昇気流を，プルーム（plumeもともとの意味は羽毛）と呼ぶ．プルームが天井に達すると流れは方向を変え，天井下を放射状に流れる天井流が形成され，天井流の先端が壁に到達した後は，部屋の上部に煙を含む高温の煙層が形成される．防災工学や建築の分野では，天井への熱の伝わり方や煙の広がり方を予測し，スプリンクラーや排煙設備の設計を行う上で非常に重要な現象として扱われる．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-102.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-100.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
