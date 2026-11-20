@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-109</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題109</span>&emsp;給水管理に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+      <p><span class="bold">(1)</span>水質検査の結果，病原生物などが水質基準を超えて水に含まれ，かつ人の健康を害するおそれがある場合は，直ちに給水停止措置をとる．
+      <p><span class="bold">(2)</span>残留塩素濃度の定期検査は，最もその濃度が低いと考えられる末端給水栓で行う．
+      <p><span class="bold">(3)</span>飲料水系統配管の維持管理について，管洗浄の終了後，給水を開始しようとするときは，水質検査等の措置を講ずる．
+      <p><span class="bold">(4)</span>給水設備の老朽化に伴って，水量・水圧が減少することがある．
+      <p><span class="bold">(5)</span>一般に水質の官能検査では，味覚による確認は衛生上の支障があるため，水の色，濁り，臭いを確認する．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題109&emsp;正解（5）&emsp;頻出度AA</span></p>
+      <p>「水質基準に関する省令の規定に基づき環境大臣が定める方法」（厚生労働省告示）に，「検水100mlを採り，40～50℃に加温した後，口に含んで塩素味以外の味を調べる．」と定められている．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-110.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-108.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

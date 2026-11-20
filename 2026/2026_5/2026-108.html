@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-108</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+      <p>2026年</p>
+      <p><span class="bold">問題108</span>&emsp;給水及び排水に関する用語の組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+      <p><span class="bold">(1)</span>ウォータハンマー−−水撃作用
+      <p><span class="bold">(2)</span>ゾーニング−−高層建築物の給水圧力調整
+      <p><span class="bold">(3)</span>バルキング−−活性汚泥が沈降しにくくなる現象
+      <p><span class="bold">(4)</span>ボールタップ−−受水槽の水位調節
+      <p><span class="bold">(5)</span>バイオフィルム−−合成樹脂管の熱的劣化皮膜
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題108&emsp;正解（5）&emsp;頻出度AAA</span></p>
+      <p>バイオフィルム（微生物膜，別名スライム）とは，配管内部表面等で水中に溶解している栄養塩類や有機物を餌に多種多様の浮遊細菌等が繁殖し，その代謝産物である多糖類で覆われたゼラチン状の薄膜をいう．管の閉塞，腐食などスライム障害を引き起こす．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-109.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-107.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
