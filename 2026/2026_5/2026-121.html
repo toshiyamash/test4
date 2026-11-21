@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-121</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題121</span>&emsp;給湯設備の省エネルギーに関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+        <p><span class="bold">(1)</span>器具ごとに定流量弁を設置する．
+        <p><span class="bold">(2)</span>部分負荷を考慮し，エネルギー利用効率の高い熱源機器を採用する．
+        <p><span class="bold">(3)</span>排水を熱源水として熱回収する場合，熱効率を向上させるため，直接熱交換する．
+        <p><span class="bold">(4)</span>配管経路を短縮する．
+        <p><span class="bold">(5)</span>温排熱が多量に生じる施設において，ヒートポンプにより排熱を回収する．
+    </div>
+    
+    <div id="tab2">
+        <p>2026年</p>
+        <p class="bold">問題121&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>効率は少し落ちるが汚染防止のために2次熱交換器を設けて間接熱交換とする（<span class="bold">2026-121-1図</span>参照）．
+        <div class="cap">2026-121-1図&emsp;間接熱交換による廃熱回収の方法</span></div>
+        <div class="container">
+            <img src="../../images/image_5/廃熱回収の方法.svg" alt="廃熱回収の方法">
+        </div>
+        <p class="source">出典（図）公益社団法人 日本建築衛生管理教育センター<br>「新建築物の環境衛生管理」（平成31年3月31日 第1版第1刷）中419 図6-4-1(6)
+        <p><span class="bold">-(1)</span>給湯水を均等に循環させるための定流量弁や玉形弁は，必ず返湯管に設ける．給湯水を循環ポンプで循環させる目的は，どこの蛇口をひねってもすぐお湯が出るように配管・湯の温度維持のためである．給湯管に定流量弁naなどを設けると，湯の使用ピーク時に給湯不足となる．
+
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-122.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-120.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

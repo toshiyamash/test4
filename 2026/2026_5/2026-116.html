@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-116</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題116</span>&emsp;配管材料とその接合方法との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+        <p><span class="bold">(1)</span>ステンレス鋼−−鋼管メカニカル形接合
+        <p><span class="bold">(2)</span>水道用硬質塩化ビニルライニング鋼管−−フランジ接合
+        <p><span class="bold">(3)</span>硬質ポリ塩化ビニル管−−融着接合
+        <p><span class="bold">(4)</span>銅管−−メカニカル形接合
+        <p><span class="bold">(5)</span>水道用硬質塩化ビニルライニング鋼管−−ねじ接合（管端防食継手の場合）
+    </div>
+    
+    <div id="tab2">
+        <p>2026年</p>
+        <p class="bold">問題116&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p>硬質ポリ塩化ビニル管の接続は接着剤接合である（<span class="bold">2026-116-1表</span>参照）．
+        <p>同じ合成樹脂管でも，ポリエチレン管，架橋ポリエチレン管，ポリブデン管などは，表面の疎水性が強く接着剤が効かないので，電気融着継手などを利用する．
+        <p class="cap">2026-116-1表　主な給水配管材
+        <table>
+            <tbody>
+                <tr>
+                    <td class="textcenter" colspan="2">配管種類</td>
+                    <td class="textcenter">接合方法</td>
+                    <td class="textcenter">腐食</td>
+                </tr>
+                <tr>
+                    <td class="tdVertical" rowspan="2">合成樹脂ライニング鋼管</td>
+                    <td>水道用硬質塩化ビニルライニング鋼管</td>
+                    <td rowspan="2">
+                        <p>自動切り上げ装置付きねじ切り機でねじを切り，管端防食継手で接合する．
+                        <p>大口径はフランジ接合となる．</td>
+                    <td rowspan="2">継手部の切断金属面が水に接触すると腐食を起こす．</td>
+                </tr>
+                <tr>
+                    <td>水道用ポリエチレン粉体ライニング鋼管</td>
+                </tr>
+                <tr>
+                    <td colspan="2">銅管</td>
+                    <td>差込みろう接合</td>
+                    <td>給水で腐食の例は少ない</td>
+                </tr>
+                <tr>
+                    <td colspan="2">ステンレス鋼管</td>
+                    <td><p>・メカニカル接合（テフロン製ガスケットを使用）
+                        <p>・TIG溶接接合<sup>※</sup></td>
+                    <td>孔食，すきま腐食，残留応力腐食，もらいさびによる腐食</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="tdVertical">合成樹脂管</td>
+                    <td nowrap>硬質ポリ塩化ビニル管</td>
+                    <td>接着材<sup>※</sup>接合</td>
+                    <td rowspan="2">耐食性があり，軽量で施工性がよいが，衝撃に弱い．<br>
+                        使用温度が高くなると許容使用圧力が低下する．</td>
+                </tr>
+                <tr>
+                    <td>ポリエチレン二層管<br>
+                        架橋ポリエチレン管<br>
+                        ポリブデン管</td>
+                    <td><p>・メカニカル接合
+                        <p>・電気融着継手</td>
+                </tr>
+            </tbody>
+        </table>        
+        <br>※TIG&nbsp;溶接とは，タングステンイナートガス溶接のことで，アルゴン等の不活性ガス（イナートガス）の雰囲気中でタングステン電極と溶接母材の間にアークを発生させて溶接する．精密な加工が可能である．
+        <br>※&nbsp;塩ビ管の接着剤は，塩化ビニル樹脂をメチルエチルケトンなどの溶剤に溶かし込んだものである．
+        <p>亜鉛めっき鋼管(以前の水道用亜鉛めっき鋼管)は赤水の原因となるので現在では給水管には用いられない．
+
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-117.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-115.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
