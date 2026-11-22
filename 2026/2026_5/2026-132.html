@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-132</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題132</span>&emsp;排水通気設備に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+        <p><span class="bold">(1)</span>伸頂通気方式において，排水横主管の水平曲がりは，排水立て管の底部より3m以内に設けてはならない．
+        <p><span class="bold">(2)</span>通気管の末端を，窓・換気口等の付近に設ける場合は，その上端から600mm以上立ち上げて大気に開放する．
+        <p><span class="bold">(3)</span>ループ通気管は，最上流の器具排水管が排水横枝管に接続される位置のすぐ下流から立ち上げて，通気立て管に接続する．
+        <p><span class="bold">(4)</span>管径65mmの排水横管の最小勾配は，1/100とする．
+        <p><span class="bold">(5)</span>特殊継手排水システムは，排水横枝管への接続器具数が比較的少ない集合住宅やホテルの客室系統に多く採用されている．
+    </div>
+    
+    <div id="tab2">
+        <p>2026年</p>
+        <p class="bold">問題132&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>管径65mmの排水横管の最小勾配は，1/50である（<span class="bold">2026-132-1表</span>参照）．
+        <p class="cap">2026-132-1表&emsp;排水横管の最小勾配
+        <table>
+            <tbody>
+                <tr>
+                    <td class="textcenter">管径［mm］</td>
+                    <td class="textcenter">最小勾配</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">65以下</td>
+                    <td class="textcenter">1/50</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">75，100</td>
+                    <td class="textcenter">1/100</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">125</td>
+                    <td class="textcenter">1/150</td>
+                </tr>
+                <tr>
+                    <td class="textcenter">150，200，250，300</td>
+                    <td class="textcenter">1/200</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>自然流下式の排水横引き管の勾配は，流速が最小0.6～最大1.5m/sとなるように設ける．
+        <br>勾配が緩いと流速が遅くなり，洗浄力が弱くなって固形物等が付着しやすくなる．逆に勾配をきつくし過ぎると，流速が速くなって流水深が浅くなり，固形物に対する搬送能力が弱まる．
+        <p><span class="bold">-(1) </span>，<span class="bold">-(2) </span>，<span class="bold">-(3) </span>，<span class="bold">-(5) </span>通気設備については<a href="2026-133.html#tab2" target="_blank" rel="noopener noreferrer">次問解説</a>参照．
+
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-133.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-131.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

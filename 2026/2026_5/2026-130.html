@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-130</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題130</span>&emsp;排水通気設備に関する用語とその説明との組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+        <p><span class="bold">(1)</span>雨水貯留施設<span class="connectLine">　　　　　　</span>雨水の流出抑制を目的とし，浸透舗装，浸透ます，浸透トレンチなどから構成される施設をいう．
+        <p><span class="bold">(2)</span>オフセット<span class="connectLine">　　　　　　　</span>排水立て管の配管経路を水平移動するため，エルボ又はベンド継手で構成されている移行部分をいう．
+        <p><span class="bold">(3)</span>ブランチ間隔<span class="connectLine">　　　　　　</span>排水立て管に接続している各階の排水横枝管又は排水横主管の間の垂直距離が，2.5mを超える排水立て管の区間をいう．
+        <p><span class="bold">(4)</span>雨水排水ます<span class="connectLine">　　　　　　</span>底部に150mm程度の泥だまりを有し，土砂を堆積させ，下水道へそれが流出するのを防ぐ排水ますをいう．
+        <p><span class="bold">(5)</span>トラップの封水強度<span class="connectLine">　　　</span>排水管内に正圧，又は負圧が生じたときのトラップの封水保持能力をいう．
+    </div>
+    
+    <div id="tab2">
+        <p>2026年</p>
+        <p class="bold">問題130&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>雨水の流出抑制を目的とし，浸透舗装，浸透ます，浸透トレンチなどから構成される施設は「雨水浸透施設」である（<span class="bold">2026-130-1図</span>参照）．
+        <p class="cap">2026-130-1図&emsp;雨水浸透施設
+        <div class="container">
+            <img src="../../images/image_5/雨水浸透施設.svg" alt="雨水浸透施設">
+        </div>
+        <p class="source">出典&emsp;株式会社　駿河設備</span><br>http://www.suruga-setsubi.co.jp/gesui1.html&nbsp;を基に作成
+        <p><span class="bold">-(2) </span>排水管等のオフセット<span class="bold">2026-130-2図</span>参照．
+        <p class="cap">2026-130-2図&emsp;オフセット
+        <div class="container">
+            <img src="../../images/image_5/オフセット.svg" alt="オフセット">
+        </div>
+        <p><span class="bold">-(3)</span>ブランチ間隔&emsp;ブランチとは横枝管のことで，「ブランチ間隔」≒「建物の階高」である（</span><span class="bold">2026-130-3図</span>参照）．
+        <p class="cap">2026-130-3図&emsp;ブランチ間隔
+        <div class="container">
+            <img src="../../images/image_5/ブランチ間隔.svg" alt="ブランチ間隔">
+        </div>
+        <p><span class="bold">-(4) </span>雨水排水ますは，雨水の敷地排水管の適所に，点検・清掃のために設ける．
+        <p class="cap">2026-130-4図&emsp;雨水ます
+        <div class="container">
+            <img src="../../images/image_5/雨水ます.svg" alt="雨水ます">
+        </div>
+        <p><span class="bold">-(5) </span>トラップの破封の原因（<a href="2026-107.html#tab2#:~:text=破封の原因とその対策" target="_blank" rel="noopener noreferrer">本年問題107解説</a>）参照．
+
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-131.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-129.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

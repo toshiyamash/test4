@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-129</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題129</span>&emsp;阻集器に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+        <p><span class="bold">(1)</span>ボトルトラップは，実験用排水などからの固形物を阻集する場合に用いる．
+        <p><span class="bold">(2)</span>トラップが直接組み込まれていない阻集器には，その出口側にトラップを設置する．
+        <p><span class="bold">(3)</span>阻集器を兼ねる排水トラップの深さは，50mm以上とする．
+        <p><span class="bold">(4)</span>砂阻集器に設ける泥だめの深さは，150mm以上とする．
+        <p><span class="bold">(5)</span>オイル阻集器は，ガソリン及び油分の流出阻止のために用いる．
+    </div>
+    
+    <div id="tab2">
+        <p>2026年</p>
+        <p class="bold">問題129&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>実験用排水などからの固形物を阻集する場合に用いるのは，ドラムトラップである．ボトルトラップは固形物を阻集する能力はない．洗面器・手洗器で用いられる．
+        <p><span class="bold">-(2)</span>トラップが直接組み込まれていない阻集器には，その出口側にトラップを設置する．入口側に設けたらすぐ詰まる．
+        <p><span class="bold">-(3)</span>阻集器を兼ねるトラップ以外のトラップの封水深は，50mm以上100mm以下である．阻集器は「50mm以上」で「以下」の規定はない．阻集器では100mm以上必要である（SHASE-206）．         
+        <p><span class="bold">-(4)</span>，<span class="bold">-(5)</span>各阻集器については<a href="2026-128.html#tab2#:~:text=阻集器一覧" target="_blank" rel="noopener noreferrer">前問解説</a>参照．
+        <p>トラップについて<br>
+        水受け容器などの排水トラップが破封すると排水管下流の下水ガスが室内に充満してとても居住できなくなる．又，衛生害虫も容易に侵入するようになる．
+        <p>トラップの破封防止が通気設備の重大な使命である．
+        <p>トラップはサイホントラップと非サイホントラップに分類される（<span class="bold">2026-129-1図</span>，<span class="bold">2026-129-2図</span>参照）．
+        <p class="cap">2026-129-1図&emsp;サイホントラップ　            
+        <div class="container">
+            <img src="../../images/image_5/サイホントラップ.svg" alt="サイホントラップ">
+        </div>
+        <p>Pトラップ，Sトラップ，Uトラップ等の管トラップはサイホントラップといわれ，水が流れる時，管の中が満水となるので自己サイホン作用により封水損失を起こしやすいが，小形で良好な自掃作用を有する．
+        <p class="cap">2026-129-2図&emsp;非サイホントラップ
+        <div class="container">
+            <img src="../../images/image_5/非サイホントラップ.svg" alt="非サイホントラップ">
+        </div>
+        <p>ドラムトラップ，わんトラップ，ボトルトラップ等は非サイホントラップといわれ，サイホン現象が起きにくく，封水強度が大きい．
+
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-130.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-128.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

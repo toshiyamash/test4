@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-127</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題127</span>&emsp;公共下水道に排出する排水が一定の基準値を超えた場合，下水道法第12条に規定する「除害施設」を設置して対応することが定められている水質項目として，<span class="bold">誤っている</span>ものは次のうちどれか．
+        <p><span class="bold">(1)</span>温度
+        <p><span class="bold">(2)</span>水素イオン濃度
+        <p><span class="bold">(3)</span>生物化学的酸素要求量
+        <p><span class="bold">(4)</span>窒素含有量
+        <p><span class="bold">(5)</span>大腸菌数
+    </div>
+    
+    <div id="tab2">
+        <p>2026年</p>
+        <p class="bold">問題127&emsp;正解（5）&emsp;頻出度AAA</span></p>
+        <p>「除害施設」は一般の排水設備が対象のもの（下水道法第12条）と，特定施設を設けた特定事業場に設けるもの（下水道法第12条の二）があるが，いずれの除害設備を設ける基準に「大腸菌数」はない．
+        <p>特定施設とは，水質汚濁防止法で定められた，身近なところでは，旅館のちゅう房や浴場，大きなレストランのちゅう房，処理対象人員が501人以上の規模の浄化槽など．
+        <p>一般の排水設備が対象の除害設備の排水の基準は<span class="bold">2026-127-1表</span>のとおり．
+        <p class="cap">2026-127-1表&emsp;一般の排水設備が対象の除害設備の排水の基準<br>（下水道法施行令第9条）
+        <table>
+            <tbody>
+                <tr>
+                    <td class="textcenter" colspan="2">項目</td>
+                    <td class="textcenter" colspan="2">規制値</td>
+                </tr>
+                <tr>
+                    <td colspan="2">温度</td>
+                    <td>45℃以上であるもの</td>
+                </tr>
+                <tr>
+                    <td colspan="2">水素イオン濃度</td>
+                    <td>水素指数5以下又は9以上であるもの</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">ノルマルヘキサン抽出物質含有量</td>
+                    <td>鉱油類含有量</td>
+                    <td>5mg/Lを超えるもの</td>
+                </tr>
+                <tr>
+                    <td>動植物油脂類含有量</td>
+                    <td>30mg/Lを超えるもの</td>
+                </tr>
+                <tr>
+                    <td colspan="2">沃素消費量</td>
+                    <td>220mg/L以上であるもの</td>
+                </tr>
+            </tbody>
+        </table>        
+        <p>※&nbsp;ノルマルヘキサン（C<sub>6</sub>H<sub>14</sub>）は有機溶媒の1種で油脂類をよく溶かす．
+        <br>※&nbsp;沃素消費量：水中に含まれる硫化物，鉄（II）塩，不安定な有機物質，不飽和化合物などの「還元性物質」によって消費されるヨウ素の量．水の「還元性の強さ」や，嫌気性分解で生じる硫化水素などの濃度を推定するために用いられる指標．
+        <p><span class="bold">-(4)</span>窒素含有量は，特定事業場の除害施設の排水の基準に定められている（下水道法施行令第9条の五）．
+
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-128.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-126.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
