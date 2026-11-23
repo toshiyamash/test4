@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-138</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題138</span>&emsp;浄化槽法に規定する浄化槽管理者の責務として，<span class="bold">誤っている</span>ものは次のうちどれか．
+        <p><span class="bold">(1)</span>設置届を提出すること
+        <p><span class="bold">(2)</span>浄化槽設備士を置くこと
+        <p><span class="bold">(3)</span>保守点検及び清掃を実施すること
+        <p><span class="bold">(4)</span>法定検査を受検すること
+        <p><span class="bold">(5)</span>廃止届を提出すること
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+        <p class="bold">問題138&emsp;正解（2）&emsp;頻出度AA</span></p>
+        <p>処理対象人員501人の浄化槽管理者が置かなければならないのは，（浄化槽）管理技術者である．
+        <br>浄化槽設備士は，浄化槽工事業者が，営業所ごとに置くことが義務づけられている．
+        <p>浄化槽法の定める浄化槽管理者（浄化槽の所有者，占有者その他の者で当該浄化槽の管理について権原を有する者）等の責務は次のとおり．
+        <br>1．浄化槽を設置・変更をしようとする者はその旨を都道府県知事（保健所を設置する市又は特別区にあっては，市長，区長）及び特定行政庁に届け出なければならない．
+        <br>2．新たに設置又は変更をされた浄化槽については，使用開始後3月を経過した日から5月間の間に指定検査機関の水質検査を受けなければならない．
+        <br>3．浄化槽管理者は，毎年1回（環境省令で定める場合にあっては，環境省令で定める回数），浄化槽の保守点検及び浄化槽の清掃をしなければならない．
+        <br>浄化槽の保守点検は，浄化槽の保守点検の技術上の基準に従って行わなければならない．
+        <br>浄化槽の清掃は，浄化槽の清掃の技術上の基準に従って行わなければならない．
+        <br>最初の保守点検は，浄化槽の使用開始の直前に行う．
+        <br>4．処理対象人員501人の浄化槽管理者は浄化槽の保守点検及び清掃に関する技術上の業務を担当させるために，有資格（2年以上の実務経験を持つ浄化槽管理士）の中から技術管理者を置かなければならない．
+        <br>5．浄化槽管理者は，浄化槽の保守点検を，保守点検業者若しくは浄化槽管理士に，浄化槽の清掃を浄化槽清掃業者に委託することができる．
+        <br>6．浄化槽管理者は，毎年1回（環境省令で定める浄化槽については，環境省令で定める回数），指定検査機関の行う水質に関する検査を受けなければならない．
+        <br>7．浄化槽管理者は，保守点検・清掃の記録を3年間保存しなければならない．
+        <br>8．浄化槽管理者は，浄化槽の使用を廃止したときは，都道府県知事に届け出なければならない．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-139.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-137.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
