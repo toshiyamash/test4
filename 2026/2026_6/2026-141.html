@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-141</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題141</span>&emsp;建築物における維持管理マニュアルについて（平成20年1月25日健衛発第0125001号）に示された，作業計画の項目として，<span class="bold">最も不適当な</span>ものは次のうちどれか．
+        <p><span class="bold">(1)</span>作業概要
+        <p><span class="bold">(2)</span>作業回数
+        <p><span class="bold">(3)</span>作業時間
+        <p><span class="bold">(4)</span>作業点検
+        <p><span class="bold">(5)</span>作業方法
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+        <p class="bold">問題141&emsp;正解（4）&emsp;頻出度AA</span></p>
+        <p>「建築物における維持管理マニュアル」には，下記のとおり「作業点検」はない．
+        <p>『作業計画&emsp;作業計画は，清掃従事者と清掃資機材を効果的に配置するために作成するものであり，対象となる作業について，いつ，誰が，どの場所を，どのような方法で行うかを示した作業の工程表である．その内容は，建築物の用途や建築資材，劣化状況を考慮した上で，対象作業（場所，作業概要，作業回数），時間（実施日，作業時間及び時間帯），清掃従事者（人数，氏名），作業方法が記載されている必要がある．』
+        <p>建築物における維持管理マニュアルは厚生労働省のサイト「<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000132645.html#:~:text=〇建築物における維持管理マニュアルについて（平成20年１月25日健衛発第0125001号）" target="_blank" rel="noopener noreferrer">建築物衛生のページ</a>」から全文を観ることができる．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-142.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../2026_5/2026-140.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

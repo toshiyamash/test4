@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-142</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題142</span>&emsp;ビルクリーニング仕様書に関する次の文章の<span class="whiteFrame">　　　</span>内に入る語句として，最も適当なものはどれか．
+        <p>ビルクリーニング仕様書は，基本管理方針や作業範囲，作業概要，作業時間等を記載した総括的なものと，作業内容を詳細に図表で表した<span class="whiteFrame">　　　</span>からなる．
+        <p><span class="bold">(1)</span>ビルクリーニング作業計画表
+        <p><span class="bold">(2)</span>ビルクリーニング品質管理表
+        <p><span class="bold">(3)</span>ビルクリーニング作業基準表
+        <p><span class="bold">(4)</span>ビルクリーニング作業予定表
+        <p><span class="bold">(5)</span>ビルクリーニング点検評価表
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+        <p class="bold">問題142&emsp;正解（3）&emsp;頻出度AAA</span></p>
+        <p><span class="bold">-(3) </span>の「ビルクリーニング作業基準表」が正しい（<span class="bold">2026-142-1図</span>参照）．
+        <p class="cap">2021-142-1図&emsp;ビルクリーニング作業基準表の例
+        <div class="container">
+            <img src="../../images/image_6/ビルクリーニング作業基準表の例.svg" alt="ビルクリーニング作業基準表の例">
+        </div>
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-143.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-141.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

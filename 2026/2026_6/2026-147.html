@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-147</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題147</span>&emsp;予防清掃に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+        <p><span class="bold">(1)</span>高気密化した現代の建築物では，ほこりの侵入路は窓や隙間ではなく，主に出入口を経由する．
+        <p><span class="bold">(2)</span>ほこり以外の汚れ物質は，人間の活動に伴って付着することが多い．
+        <p><span class="bold">(3)</span>建材が親水性か疎水性かによって，付着する汚れの種類は異なる．
+        <p><span class="bold">(4)</span>汚れは平滑緻ち密な表面には付着しにくいが，付着すると除去しにくい．
+        <p><span class="bold">(5)</span>多くのほこりが発生するところは，適切な頻度での除じん作業が重要である．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題147&emsp;正解（4）&emsp;頻出度AAA</span></p>
+      <p>汚れは平滑緻密な表面には付着しにくく，付着しても除去しやすい場合が多い．
+      <p>「ほこり」とは，建築物外から持ち込まれる土壌の粉末を主体とする粉状のものと，建物内で生じた各種の摩耗粉であり，その大部分は衣類等から生じた綿ぼこりいわれる繊維粉である．
+      <p>ほこりの状態には，床や備品等にほこりが「単にのっている状態」，アクリル板や家電製品等のように静電気を発生してほこりが「吸いついている状態」，カーペットパイル内の奥に「入り込んでいる状態」などが考えられる．
+      <p>密閉性の高い現代の建築物では，窓や隙間から侵入するほこりは少ない．侵入路として重要視されるのは入口などの開口部である．外部から侵入した土ぼこりに対しては，入口にある程度の長さ（人の歩く6～8歩分）の防じん用マット類を敷く方法は，簡易な割に予防清掃としての効果が高い．
+      <p>ほこりは，長期間放置すると，水分などを含んで変質し，付着面の材質によっては，内部まで浸透し，除去しにくくなる．
+      <p>ほこりの付着状態に最適な資機材および清掃方法を選択し，できるだけ迅速に除去作業を行う．
+      <p>「よごれ」は，建材が親水性か疎水性かによって，付着する汚れの状況が異なる．親水性の建材には水溶性物質が付着しやすく，疎水性の建材には油溶性物質が付着しやすい．
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-148.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-146.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
