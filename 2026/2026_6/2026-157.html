@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-157</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題157</span>&emsp;あるごみの三成分を調べたところ，水分が20%，灰分が10%であった．このごみの可燃分/不燃分の比の値として，<span class="bold">最も近い</span>ものは次のうちどれか．
+        <p><span class="bold">(1)</span>0.5
+        <p><span class="bold">(2)</span>2.0
+        <p><span class="bold">(3)</span>2.3
+        <p><span class="bold">(4)</span>3.5
+        <p><span class="bold">(5)</span>7.0
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題157&emsp;正解（5）&emsp;頻出度AAA</span></p>
+      <p>可燃分＝全体―(水分+灰分)であるから，このごみの可燃分は100％―(20％+10％)＝70％である．不燃分は一般的に灰分を指すので，可燃分/不燃分＝70％/10％＝7
+      <p>水分，灰分，可燃分の三成分の比率[%]から単位質量当たりの発熱量を求め，焼却施設の余熱利用などの算出に用いられる．灰分からは，焼却処理後の残渣量が算出できる．
+      <p>紙くずの代表値は，単位容積質量値が50～150kg/m<sup>3</sup>，水分10%，灰分5%，可燃分85%で，発熱量（水蒸気の凝縮熱を含まない低位発熱量）19,700kJ/kgである．厨芥は，700～850kg/m<sup>3</sup>，水分70%，灰分5%，可燃分25％で発熱量は5,900kJ/kgである．
+
+      <p>参考までにAI（G社）の解答を上げる（2026.11.25現在）．
+      <p>AIによる概要
+      <p>正解は (3) 2.3 です。
+      <p>ごみの三成分（水分・可燃分・灰分）の合計は100%になるため、それぞれの割合と比は以下のように計算できます。
+      <p>1. 可燃分の割合を求める
+        \(\text{可燃分}=100\%-(20\%+10\%)=70\%\)
+      <p>2. 不燃分の割合を求める
+      <p>不燃分は「水分」と「灰分」を合わせたものです。
+        \(\text{不燃分}=20\%+10\%=30\%\)
+      <p>3. 可燃分 / 不燃分の比を計算する
+        \(\displaystyle \frac{70\%}{30\%}=\frac{7}{3}\approx 2.33\)
+      <p>したがって、最も近い値は (3) 2.3 となります。
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-158.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-156.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

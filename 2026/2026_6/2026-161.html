@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-161</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題161</span>&emsp;廃棄物管理責任者に関する次の記述のうち，<span class="bold">最も不適当な</span>ものはどれか．
+        <p><span class="bold">(1)</span>廃棄物の担当部局と連絡調整を行う．
+        <p><span class="bold">(2)</span>テナント事業者に分別ルールや排出方法等の周知徹底を図る．
+        <p><span class="bold">(3)</span>建築物から排出される廃棄物の種類・量等を把握する．
+        <p><span class="bold">(4)</span>3Rの推進には関与で きない．
+        <p><span class="bold">(5)</span>選任に際し，法令による資格要件はない．
+    </div>
+    
+    <div id="tab2">
+      <p>2026年</p>
+      <p class="bold">問題161&emsp;正解（4）&emsp;頻出度AA</span></p>
+      <p>廃棄物管理責任者は，廃棄物の発生抑制，減量化，資源化（3R：Reduce, Reuse, Recycle）を推進する組織体制を整備する．
+      <p>『廃棄物管理責任者とは，所有者に代わってその建築物から発生する廃棄物の減量化，資源化，および適正処理を実質的に推進していく者であり，自治体によっては，事業用大規模建築物の所有者に対して，廃棄物管理責任者の選任を義務付けている．
+      <br>選任に当たっては，所有者自身を選任するか，あるいは所有者としての権限を委任できる者で，建築物全体の廃棄物について管理できる者を建築物ごとに1名ずつ選任する．
+      <br>なお，選任に際しては，条例等による資格要件はないが廃棄物管理責任者講習会の受講を義務付けている自治体もある．
+      <br>廃棄物管理責任者の主な役割を次に示す．
+      <br>①廃棄物処理法や自治体の一般廃棄物処理計画などの廃棄物関係法令に従って，当該建築物の分別ルールや排出方法，排出場所を定める．
+      <br>②従業員やテナント事業者に分別ルールや排出方法，排出場所等の周知徹底を図る．
+      <br>③その建築物から排出される廃棄物の種類や量等を把握し，所有者等と協議して減量化・資源化等，計画書を作成し，担当部署に提出する．
+      <br>④廃棄物の発生抑制，減量化，資源化を推進する組織体制を整備する．
+      <br>具体的には，社内に啓発担当者を配置する，テナント会議を開催し分別の協力を得る，清掃会社や収集運搬業者との調整を行う．
+      <br>⑤廃棄物の適正処理について，廃棄物担当部局と連絡調整を行う．』
+      <br>出典　公益社団法人 日本建築衛生管理教育センター「新建築物の環境衛生管理第2版第1刷」下巻126頁
+
+      <p>&emsp;</p>
+      <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-162.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-160.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
