@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-168</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題168</span>&emsp;次の殺虫剤の有効成分のうち，チャバネゴキブリに対し，明らかに<span class="bold">追い出し効果を示す</span>ものはどれか．
+        <p><span class="bold">(1)</span>ジクロルボス
+        <p><span class="bold">(2)</span>ペルメトリン
+        <p><span class="bold">(3)</span>オルトジクロロベンゼン
+        <p><span class="bold">(4)</span>プロボクスル
+        <p><span class="bold">(5)</span>ジフルベンズロン
+    </div>
+    
+    <div id="tab2">
+        <p>2026年</p>
+        <p class="bold">問題168&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p>追い出し効果（フラッシュ・アウト効果）をもつピレスロイドはペルメトリンである．
+        <p>フラッシュ・アウト（Flush・out）効果は，有機塩素剤，有機リン剤，カーバメイト剤には見られない，ピレスロイド剤にのみにみられる特性である．有機リン剤の残留処理との組み合わせで，ピレスロイド剤のULVやミストによる空間噴霧によるゴキブリ防除は，潜み場所よりゴキブリをフラッシュさせて，ゴキブリを能動的に有機リン剤の残留処理面に接触させることが可能となり，新しいゴキブリの防除法として活用されている．また，ピレスロイド含有のエアゾールが，飲食店などでゴキブリの生息有無を調査するツールとして活用されている．  
+                      
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-169.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-167.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

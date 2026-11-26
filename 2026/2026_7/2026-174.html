@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-174</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題174</span>&emsp;殺虫剤の抵抗性に関する次の記述のうち，<span class="bold">最も適当な</span>ものはどれか．
+        <p><span class="bold">(1)</span>有機リン剤とピレスロイド剤では作用機構が同じなので，交差抵抗性が発現しやすい．
+        <p><span class="bold">(2)</span>1匹の昆虫が薄い濃度の殺虫剤に何度も<ruby>曝<rt>ばく</rt></ruby>露されると，その個体は殺虫剤抵抗性となる．
+        <p><span class="bold">(3)</span>こまめに殺虫剤を処理することで，殺虫剤抵抗性は生じにくくなる．
+        <p><span class="bold">(4)</span>有効成分に対する抵抗性以外に，ベイト剤を忌避する個体が増加して駆除効果が減退することがある．
+        <p><span class="bold">(5)</span>限定的な空間で世代をくり返す害虫では，殺虫剤抵抗性が発達しにくい．
+    </div>
+    
+    <div id="tab2">
+        <p>2026年</p>
+        <p class="bold">問題174&emsp;正解（4）&emsp;頻出度AAA</span></p>
+        <p>『チャバネゴキブリでは，食毒剤の有効成分に対する抵抗以外に，毒餌に含まれるブドウ糖などを忌避する喫食抵抗性も知られている．』<br>
+        出典&nbsp;公益社団法人&nbsp;日本建築衛生管理教育センター「新建築物の環境衛生管理第2版第1刷」下巻244頁
+        <p>防除対象の害虫に同じ殺虫剤を長期間使用すると，殺虫効力が低下し，防除が困錐になる現象が生じる．これは，昆虫集団が世代を越えて殺虫剤に長期間曝さらされる中で，殺虫剤に強い遺伝形質を持つ集団が生き残り（淘汰とうたという），殺虫剤に抵抗性をもった集団が形成されることによる．薬剤抵抗性とは，同一個体がある薬剤に馴れて，徐々に感受性を低下させることではない．
+        <br>哺乳類のねずみでも節足動物の昆虫でも細菌のようなバクテリアでも，淘汰による薬剤抵抗性発達のメカニズムは同じである．
+        <p><span class="bold">-(1)</span>交差抵抗性とは，ある生物が1種類の薬剤に対して抵抗性（耐性）を獲得した結果，まだ使用していない作用機序や化学構造が似ている別の薬剤に対しても効きにくくなる現象である．有機 リン剤 とピレスロイ ド剤では作用機構が全く違うので交差抵抗性は発達しない．
+        <br>有機リン剤は，神経伝達物質であるアセチルコリンを分解する酵素アセチルコリンエステラーゼに結合してその働きを阻害し，その結果シナプス間隙にアセチルコリンが過剰に留まり，神経が異常に興奮し麻痺や死に至らせる．ピレスロイド剤は，神経軸索の電位依存性ナトリウムチャネルに作用して開放状態を長く保ち，正常な興奮伝達を阻害する．
+
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-175.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-173.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
