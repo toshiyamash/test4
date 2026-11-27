@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.1 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-178</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題178</span>&emsp;防虫・防<ruby>鼠<rt>そ</rt></ruby>構造や防除に用いる機器に関する次の記述のうち，最も適当なものはどれか．
+        <p><span class="bold">(1)</span>液化炭酸ガス製剤は，有機溶媒を使用しているので，噴射器を用いて処理すると溶剤臭がする．
+        <p><span class="bold">(2)</span>超音波防鼠機は，ネズミが嫌がる20kHz前後の超音波を発信する機器である．
+        <p><span class="bold">(3)</span>ベイトガンは，シリンジに充填された薬剤を飛湖性昆虫類に向けて発射するための器具である．
+        <p><span class="bold">(4)</span>粘着トラップを1週間使用して防除効果を評価する場合，捕獲総数を配置トラップ数で割った捕獲指数で評価することができる．
+        <p><span class="bold">(5)</span>光源に高圧水銀灯を用いた場合は，白熱電球を用いた場合よりも，昆虫に対する誘引性が低いことが知られている．
+    </div>
+    
+    <div id="tab2">
+        <p>2026年</p>
+        <p class="bold">問題178&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p>超音波防鼠機には，19kHzを中心に±2kHzの幅で自動的に変調し，ネズミの「慣れ」を防止する製品がある．
+        <p><span class="bold">-(1)</span>液化炭酸ガス製剤は，有機溶媒など使用していない．フェノトリンなどのピレスロイド剤を液化炭酸ガスとともにボンべに封入した炭酸ガス製剤は，専用の噴射装置を必要とするが，粒子径が細かく，ULV的な処理が行える．
+        <p><span class="bold">-(3)</span>ベイトガンは狭い場所にゴキブリの毒餌を注入・スポット処理する器具である（<span class="bold">2026-178-1図</span>参照）．
+        <p class="cap">2026-178-1図&emsp;ベイトガン
+        <div class="container">
+            <img src="../../images/image_7/ベイトガン.svg" alt="ベイトガン">
+        </div>
+        <p class="source">出典&nbsp;ノードソン<br>https://www.nordson.com/ja-jp 
+        <p><span class="bold">-(4)</span>捕獲指数（ゴキブリの場合はゴキブリ指数）
+          \[{\rm 捕獲指数}=\frac{{\rm 捕獲数}}{{\rm 配置トラップの数}\times {\rm 処理日数}}\]
+        <p><span class="bold">-(5) </span>光の色による誘引性は白熱電球を100とすると，捕虫用蛍光灯は1,300，高圧水銀灯は260，白色蛍光灯は113，高圧ナトリウム灯35，低圧ナトリウム灯4．
+
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-179.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-177.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

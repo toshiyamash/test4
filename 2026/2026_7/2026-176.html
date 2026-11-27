@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 0.95 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-176</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題176</span>&emsp;殺鼠剤の効果に関する次の記述のうち，<span class="bold">最も適当な</span>ものはどれか．
+        <p><span class="bold">(1)</span>クマリン系殺鼠剤はネズミに食べさせることで効果が現れる．
+        <p><span class="bold">(2)</span>粉剤の鼠穴内部への散粉処理は，殺鼠剤を経皮的に取り込ませることを狙った処理法である．
+        <p><span class="bold">(3)</span>ネズミの殺鼠剤抵抗性発達の原理は，昆虫とは異なる．
+        <p><span class="bold">(4)</span>急性殺鼠剤は1回摂取すると，数日後に致死する．
+        <p><span class="bold">(5)</span>効果を高めるためには，周辺に誘引性の強い他の餌を，そのまま置いておく．
+    </div>
+    
+    <div id="tab2">
+        <p>2026年</p>
+        <p class="bold">問題176&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>クマリン系殺鼠剤をふくむ殺鼠剤はすべて食毒である（<a href="2026-175.html#tab2#:~:text=殺鼠剤はすべて食毒" target="_blank" rel="noopener noreferrer">前問解説</a>参照）．
+        <p><span class="bold">-(3)</span>哺乳類のねずみでも節足動物の昆虫でも細菌のようなバクテリアでも，淘汰による薬剤抵抗性発達のメカニズムは同じである．
+        <p><span class="bold">-(5) </span>周辺に誘引性の強い他の餌があると，毒餌には口をつけなくなる可能性が高い．
+
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-177.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-175.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

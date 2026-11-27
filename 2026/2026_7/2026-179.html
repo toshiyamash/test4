@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.1 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-179</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題179</span>&emsp;建築物内における防除作業実施時の対応に関する次の記述のうち，<span class="bold">最も適当な</span>ものはどれか．
+        <p><span class="bold">(1)</span>室内の狭い場所で薬剤散布を行う場合は，N95マスクを使用する．
+        <p><span class="bold">(2)</span>特定建築物内で薬剤処理を行う場合，処理区域の入口に，処理前後とも3日間はその旨の掲示を行う．
+        <p><span class="bold">(3)</span>配電盤内のゴキブリを駆除する場合，乳剤の希釈液を直接散布するとよい．
+        <p><span class="bold">(4)</span>第2種酸素欠乏危険作業にかかる作業場にあっては，内部の一酸化炭素濃度を測定し，基準値以下であることを確認したのち作業を行う．
+        <p><span class="bold">(5)</span>薬剤の散布を行う際は，軍手を着用する．
+    </div>
+    
+    <div id="tab2">
+        <p>2026年</p>
+        <p class="bold">問題179&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p>薬剤を使用する場合は，事前に当該区域の管理者や利用者の了解を得て実施し，処理前後少なくとも 3 日間はその旨の掲示を行う．また，日常的に乳幼児がいる区域については，薬剤による処理を避ける．（<a href="https://www.mhlw.go.jp/bunya/kenkou/seikatsu-eisei09/pdf/03g.pdf#:~:text=（５）薬剤を使用する場合は" target="_blank" rel="noopener noreferrer">建築物における維持管理マニュアル</a>）
+        <p><span class="bold">-(1)</span>薬剤の空間噴霧や狭い場所での薬剤散布を行う場合は，活性炭付きの防毒マスクを着用する．防毒マスクは面体と対象ガスに応じた吸収缶から構成されている．
+        <br>N95マスクはアメリカ合衆国労働安全衛生研究所（NIOSH）のN95規格をクリアし，認可された微粒子対応マスクで，0.3μm（マイクロメートル）の微粒子を95%以上捕集する性能を有するが，気化したガスを吸収・遮断することはできない．
+        <p><span class="bold">-(3)</span>電気のショート，感電の危険があるので，分電盤内に乳剤を撒くことは厳禁である．電気主任技術者など，電気設備の管理責任者と相談の上，安全な場所にベイト剤，粘着トラップの設置，散布しても水分の残らない液化炭酸ガス製剤の使用を検討する．
+        <p><span class="bold">-(4)</span>酸素濃度が18%未満，硫化水素濃度が10ppmを超える状態は，酸欠防止規則の定める「酸素欠乏等」である．作業場所が同規則の「第二種酸素欠乏危険作業（酸素欠乏症+硫化水素中毒）」に該当する場合は，酸素欠乏危険作業主任者の選任，特別教育，作業環境測定，換気，保護具の使用等の規則が定められている．<br>
+        作業中も十分な換気，定期的な濃度検査を実施し，空気呼吸器，安全帯等を使用し，非常時の避難用具等も備えておく．
+        <p><span class="bold">-(5)</span>有機溶剤系の薬剤を取り扱う場合には，耐有機溶剤性のゴム手袋を用いる．
+
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2026-180.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2026-178.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.1 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2026-180</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2026年</p>
+        <p><span class="bold">問題180</span>&emsp;衛生害虫や殺虫剤に関する次の記述のうち，<span class="bold">最も適当な</span>ものはどれか．
+        <p><span class="bold">(1)</span>農薬は建築物衛生法に基づく特定建築物内でのゴキブリの防除に使用できる．
+        <p><span class="bold">(2)</span>昆虫などに対する不快感の程度は，第三者による客観的な判断が困難である．
+        <p><span class="bold">(3)</span>ツバメの建築物への営巣は，ヒトに対するヒゼンダニの寄生被害の原因となる．
+        <p><span class="bold">(4)</span>ニューサンスコントロールとは，感染症を媒介する衛生動物の防除を指す．
+        <p><span class="bold">(5)</span>昆虫成長制御剤（IGR剤）は，成虫に対する致死効力がある．
+    </div>
+    
+    <div id="tab2">
+        <p>2026年</p>
+        <p class="bold">問題180&emsp;正解（2）&emsp;頻出度AAA</span></p>
+        <p><span class="bold">-(2) </span>が正しい．昆虫などに対する不快感の程度は第三者による客観的な判断が困難であるが，深刻な場合は健康被害をもたらす．
+        <p><span class="bold">-(1)</span>建築物衛生法に基づく特定建築物内における，ねずみ・昆虫等の防除では，医薬品又は医薬部外品を使用する．農薬などは使ってはならない．
+        <p><span class="bold">-(3)</span>野鳥に寄生し，人からも吸血することがあるのはスズメサシダニ，トリサシダニ，ワクモなど．ヒゼンダニは人から人への直接感染で，疥癬症を引き起こす．
+        <p><span class="bold">-(4)</span>ニューサンスコントロールは，不快感を与える不快動物（ニューサンス nuisance：迷惑なもの）の防除をいう．感染症を媒介する媒介動物(vector：運ぶ者)の防除は，ベクターコントロールという．<br>
+        ニューサンスの中には，感染性はないがアレルギー性疾患や皮膚炎を引き起こす有害動物が含まれる．<br>
+        ベクターコントロール，ニューサンスコントロールを合わせて，ペストコントロールといい，ねずみ・昆虫防除業者をペストコントロールオペレーター（PCO）という．
+        <p><span class="bold">-(5)</span>昆虫成長制御剤は，幼虫を最終的に死に至らせるが速効的ではない．また，成虫に対しては致死的効力を持たない．
+          
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <!-- <button type="button" class="btn-outline" onclick="location.href='2026-180.html'">次問へ</button> -->
+      <button type="button" class="btn-outline" onclick="location.href='2026-179.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合、タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
