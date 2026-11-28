@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="../../style.css">
+
+    <script>
+    window.MathJax = {
+        chtml: {
+        scale: 1.0 /* 全体の数式を1.1倍（110%）にする */
+        }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <title>2021-126</title>
+
+</head>
+
+<body>
+  <div id="tabs">
+    <ul id="tabss">
+      <li><a href="#tab1">問題</a></li>
+      <li><a href="#tab2">解答</a></li>
+    </ul>
+
+    <div id="tab1">
+        <p>2021年</p>
+        <p><span class="bold">問題126</span>&emsp;雨水利用設備の単位装置と点検項目の組合せとして，<span class="bold">最も不適当な</span>ものは次のうちどれか．</span></p>
+        <p><span class="bold">（1）</span>スクリーン<span class="connectLine">　　　　　</span>ばっ気状況
+        <p><span class="bold">（2）</span>降雨水集水装置<span class="connectLine">　　　</span>屋根面の汚れ
+        <p><span class="bold">（3）</span>雨水貯留槽<span class="connectLine">　　　　　</span>沈殿物の有無
+        <p><span class="bold">（4）</span>ストレーナ<span class="connectLine">　　　　　</span>網の破損状態
+        <p><span class="bold">（5）</span>ろ過装置<span class="connectLine">　　　　　　</span>ろ層の閉塞状況
+   </div>
+
+    <div id="tab2">
+        <p>2021年</p>
+        <p class="bold">問題126&emsp;正解（1）&emsp;頻出度AAA</span></p>
+        <p>雨水利用設備で，ばっ気をする単位装置はない（<span class="bold">2021-126-1表</span>参照）．
+        <p class="cap">2021-126-1表&emsp;雨水利用設備単位装置の点検項目
+        <table>
+            <tbody>
+                <tr>
+                    <td class="textcenter">単位装置</td>
+                    <td class="textcenter">点検・保守内容</td>
+                </tr>
+                <tr>
+                    <td>集水装置</td>
+                    <td>屋根面の汚れの除去</td>
+                </tr>
+                <tr>
+                    <td>スクリーン</td>
+                    <td>固形物の除去</td>
+                </tr>
+                <tr>
+                    <td>沈砂槽</td>
+                    <td>槽内の汚れ，沈殿物，浮遊物の除去，蚊等の発生状況</td>
+                </tr>
+                <tr>
+                    <td>ストレーナー</td>
+                    <td>逆洗洗浄装置の点検</td>
+                </tr>
+                <tr>
+                    <td>ろ過装置</td>
+                    <td>ろ材の閉塞状況の点検</td>
+                </tr>
+            </tbody>
+        </table>        
+        <p>一般的に雨水処理では生物処理は行われず，ばっ気も流量調整槽も必要ない．<br>
+        又雨水は臭い，色もほとんどないので活性炭吸着装置も利用しない．
+        <p>雨水処理の標準的フローシートを<span class="bold">2021-126-1図</span>に示す．
+        <p class="cap">2021-126-1図&emsp;雨水処理施設の標準的フローシート
+        <div class="container">
+            <img src="../../images/image_5/雨水処理施設の標準的フローシート.svg" alt="雨水処理施設の標準的フローシート">
+        </div>
+        <p class="source">出典 公益財団法人日本建築衛生管理教育センター<br>新建築物の環境衛生管理第2版第1刷中巻454頁図6-5-2(5) 
+        <p>&#9312は，原水が比較的きれいな場合に適用．
+        <p>&#9313は，沈殿物が含まれる場合に適用．
+        <p>&#9314は，便所洗浄水以外まで用途拡大する倍に適用．適用事例が多い．
+        <p>雨水の集水場所は，建築物の屋根面や屋上とする場合が多い．雨水貯留槽に流入する立て管には，豪雨時の満水対策として，緊急停止弁などを設ける． 
+        <p>雨水利用では経済性も考慮して，次のような指標（<span class="bold">2021-126-1表</span>）を採用前に検討する．
+        <p class="cap">2021-126-1表&emsp;雨水利用率，上水代替率            
+        <table>
+            <tr>
+                <td>雨水利用率</td>
+                <td>雨水利用量/雨水集水量×100［%］</td>
+            </tr>
+            <tr>
+                <td>上水代替率</td>
+                <td>雨水利用量/使用水量<sup>※</sup>×100［%］</td>
+            </tr>
+        </table>
+        <p class="textcenter">※&nbsp;使用水量=雨水利用量+上水補給水量．
+        
+        <p>&emsp;</p>
+        <p>&emsp;</p>
+    </div>
+
+    <div id="buttons">
+      <button type="button" class="btn-outline" onclick="location.href='2021-127.html'">次問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='2021-125.html'">前問へ</button>
+      <button type="button" class="btn-outline" onclick="location.href='../../index.html'">ホームへ</button>
+      <a href="../../sakuin.html" target="_blank">
+      <button type="button" class="btn-outline">索　引</button>
+      </a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script>
+    $(function() {
+      // 1. タブを初期化
+      $("#tabs").tabs();
+
+      // 2. URLにテキストフラグメントが含まれている場合，タブ2を強制的に開く
+      if (window.location.hash.indexOf('tab2') !== -1) {
+        // タブ2（0から数えて2番目なので「1」を指定）を選択状態にする
+        $("#tabs").tabs("option", "active", 1);
+      }
+    });
+  </script>
+
+</body>
+</html>
